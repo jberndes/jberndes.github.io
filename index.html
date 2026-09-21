@@ -18,20 +18,22 @@
     /* =========================================================
        Färgpalett (hex-koder kan föras över till Adobe)
        Bakgrund  #FAFAF8  – ljus, nästan vit
-       Sidopanel #F1EEE9  – varm sten
+       Sidopanel #EEF1E8  – ljus salvia
        Text      #1D1D1F  – nästan svart
        Dämpad    #6E6E73  – sekundär text
        Linje     #E4E0D9  – tunna avdelare
-       Accent    #8A7560  – varm taupe
+       Grön      #899A72  – salvia, från Järvsö Retreat (dekor)
+       Grön mörk #5E6E4A  – samma ton, mörkare för text (klarar kontrastkrav)
        ========================================================= */
     :root {
       --bg: #fafaf8;
-      --panel: #f1eee9;
+      --panel: #eef1e8;
       --card: #ffffff;
       --text: #1d1d1f;
       --muted: #6e6e73;
-      --line: #e4e0d9;
-      --accent: #8a7560;
+      --line: #e1e4da;
+      --accent: #5e6e4a;
+      --gron: #899a72;
 
       /* Rubriker: New York på Mac/iPhone, Georgia som reserv. Brödtext: SF Pro. Inga externa typsnitt. */
       --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
@@ -71,7 +73,7 @@
       display: block;
       margin-bottom: 22px;
       /* Tunn ring så att den vita fotobakgrunden inte flyter ihop med panelen */
-      box-shadow: 0 0 0 1px var(--line), 0 8px 24px rgba(0,0,0,.08);
+      box-shadow: 0 0 0 3px var(--panel), 0 0 0 4px var(--gron), 0 8px 24px rgba(0,0,0,.08);
     }
 
     .namn {
@@ -85,7 +87,7 @@
     .roll { color: var(--muted); font-size: 0.95rem; margin-top: 8px; }
     .plats { color: var(--accent); font-size: 0.85rem; margin-top: 2px; letter-spacing: 0.02em; }
 
-    .avdelare { width: 48px; height: 1px; background: var(--line); border: 0; margin: 28px auto; }
+    .avdelare { width: 48px; height: 2px; background: var(--gron); border: 0; margin: 28px auto; }
 
     /* Sociala medier som diskret textlista */
     .sociala { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; font-size: 0.9rem; }
@@ -122,7 +124,11 @@
       padding-bottom: 12px;
       border-bottom: 1px solid var(--line);
       margin-bottom: 8px;
+      position: relative;
     }
+
+    /* Kort grön markering under varje rubrik */
+    h2::after { content: ""; position: absolute; left: 0; bottom: -1px; width: 32px; height: 2px; background: var(--gron); }
 
     /* Länklista i ren "företagsstil": rader med tunna linjer */
     .lista { list-style: none; }
@@ -162,10 +168,10 @@
     .taggar li {
       font-size: 0.88rem;
       padding: 6px 12px;
-      border: 1px solid var(--line);
+      border: 1px solid #cdd5c2;
       border-radius: 999px;
-      background: var(--card);
-      color: #3a3a3c;
+      background: #f4f6f0;
+      color: #3f4a31;
     }
     .verktyg { color: var(--muted); font-size: 0.88rem; margin-top: 14px; line-height: 1.7; }
     .verktyg strong { color: var(--text); font-weight: 500; }
@@ -175,13 +181,14 @@
     .projekt li {
       background: var(--card);
       border: 1px solid var(--line);
+      border-top: 3px solid var(--gron);
       border-radius: 12px;
       padding: 18px 20px;
     }
     .projekt h3 { font-size: 1rem; font-weight: 600; margin-bottom: 4px; }
     .projekt p { color: var(--muted); font-size: 0.92rem; line-height: 1.5; }
     .projekt .typ { display: block; margin-top: 10px; font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); }
-    @media (min-width: 600px) { .projekt { grid-template-columns: 1fr 1fr; } }
+    @media (min-width: 1100px) { .projekt { grid-template-columns: repeat(3, 1fr); } }
 
     /* ===== I rörelse: tre stillsamma siffror ===== */
     .siffror { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; padding-top: 16px; }
@@ -189,6 +196,22 @@
     .siffra .text { color: var(--muted); font-size: 0.85rem; }
     .kalla { color: var(--muted); font-size: 0.85rem; margin-top: 14px; }
     .kalla a { color: var(--accent); }
+
+    /* ===== Erfarenhet och uppdrag: årtal till vänster, text till höger ===== */
+    .cv { list-style: none; }
+    .cv li {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 4px 20px;
+      padding: 16px 2px;
+      border-bottom: 1px solid var(--line);
+    }
+    .cv .ar { color: var(--muted); font-size: 0.85rem; padding-top: 2px; font-variant-numeric: tabular-nums; }
+    .cv .roll-titel { font-weight: 500; }
+    .cv .org { color: var(--muted); font-size: 0.92rem; }
+    .cv .text { color: #3a3a3c; font-size: 0.92rem; margin-top: 4px; line-height: 1.5; }
+    .underrubrik-liten { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 26px 2px 0; }
+    @media (max-width: 480px) { .cv li { grid-template-columns: 1fr; } }
 
     footer {
       margin-top: 64px;
@@ -235,6 +258,8 @@
         <li><a href="https://www.facebook.com/jBerndes/" target="_blank" rel="noopener">Facebook</a></li>
         <li><a href="https://www.threads.com/@jberndes" target="_blank" rel="noopener">Threads</a></li>
         <li><a href="https://x.com/jBerndes" target="_blank" rel="noopener">X</a></li>
+        <li><a href="https://www.flickr.com/people/jberndes/" target="_blank" rel="noopener">Flickr</a></li>
+        <li><a href="https://500px.com/p/jberndes" target="_blank" rel="noopener">500px</a></li>
         <li><a href="https://jberndes.itch.io" target="_blank" rel="noopener">itch.io</a></li>
         <li><a href="https://www.strava.com/athletes/15635732" target="_blank" rel="noopener">Strava</a></li>
       </ul>
@@ -247,31 +272,61 @@
 
     <!-- ===== Innehåll ===== -->
     <main>
-      <p class="ingress">Lärare, fotograf och kreatör – med teknik, bild och människor i centrum.</p>
+      <p class="ingress">Jag brinner för att förena teknik, kreativitet och lärande.</p>
       <p class="bio">
-        Jag undervisar i IT, media och spelutveckling på Järvsögymnasiet och är kursledare på
-        Tärna folkhögskola. Tillsammans med Mia driver jag Järvsö Event &amp; Media med foto, webb,
-        podd och event. Fotograf med kärlek till porträtt, natur och livemusik – och gammal DJ i själen.
+        Som utbildare inom media och IT undervisar jag på gymnasium och folkhögskola i webbutveckling,
+        film- och medieproduktion, digital kommunikation och AI. Målet är alltid att eleverna ska känna
+        nyfikenhet, självförtroende och en vilja att fortsätta utforska.
+      </p>
+      <p class="bio" style="margin-top:14px">
+        Utanför klassrummet driver jag Järvsö Event &amp; Media tillsammans med Mia, där vi gör webb, foto
+        och film för företag och organisationer. Jag trivs bäst när människor, idéer och teknik möts.
       </p>
 
       <section>
         <h2>Kompetenser</h2>
         <ul class="taggar">
-          <li>Undervisning och pedagogik</li>
-          <li>AI i undervisningen</li>
+          <li>Digital kommunikation</li>
           <li>Webbutveckling</li>
+          <li>AI i utbildning</li>
+          <li>Foto och filmproduktion</li>
+          <li>Pedagogisk utveckling</li>
+          <li>Podd och ljud</li>
           <li>Spelutveckling</li>
-          <li>Foto</li>
-          <li>Film och ljud</li>
-          <li>Podd</li>
           <li>Nätverk och IT-infrastruktur</li>
           <li>Automation och API:er</li>
-          <li>3D-print</li>
         </ul>
         <p class="verktyg">
           <strong>Verktyg:</strong> HTML, CSS, JavaScript, React, Next.js, Unity och C#, WordPress och WooCommerce,
           Make.com, Photoshop, Illustrator, Premiere Pro, Audition, Keynote, UniFi, Raspberry Pi, Blender, Claude och Ollama.
         </p>
+      </section>
+
+      <section>
+        <h2>Erfarenhet</h2>
+        <ul class="cv">
+          <li><span class="ar">2023 – nu</span><div><div class="roll-titel">Lärare</div><div class="org">Järvsögymnasiet</div>
+            <p class="text">Filmproduktion, webbutveckling och digital kommunikation, med AI-verktyg som en naturlig del av undervisningen.</p></div></li>
+          <li><span class="ar">2022 – nu</span><div><div class="roll-titel">Grundare och digital producent</div><div class="org">Järvsö Event &amp; Media AB</div>
+            <p class="text">Film, foto och webb för företag och organisationer i Järvsö och Hälsingland.</p></div></li>
+          <li><span class="ar">2019 – nu</span><div><div class="roll-titel">Pedagog</div><div class="org">Tärna folkhögskola, Region Västmanland</div>
+            <p class="text">Utvecklar och undervisar IT-pedagogutbildningen med fokus på AI, digital produktion och sociala medier.</p></div></li>
+          <li><span class="ar">2019 – nu</span><div><div class="roll-titel">Producent och programledare</div><div class="org">Järvsöpodden</div>
+            <p class="text">Intervjupodd med personer och grupper från Järvsö med omnejd.</p></div></li>
+          <li><span class="ar">2014 – 2023</span><div><div class="roll-titel">Fotograf, egen firma</div><div class="org">Fotograf Joakim Berndes</div>
+            <p class="text">Porträtt i studio, event och pressuppdrag. Levererar även bilder till Wikimedia och Wikipedia.</p></div></li>
+          <li><span class="ar">1998 – 2000</span><div><div class="roll-titel">Webbdesigner</div><div class="org">Sweweb IT AB, Göteborg</div>
+            <p class="text">Webbdesign och databasutveckling i FileMaker och Lasso. Början på arbetet med Adobes verktyg.</p></div></li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Utbildning och certifieringar</h2>
+        <ul class="cv">
+          <li><span class="ar">Pågår</span><div><div class="roll-titel">Apple Teacher Portfolio</div><div class="org">Apple Education · förberedelse inför Apple Distinguished Educator</div></div></li>
+          <li><span class="ar">2025</span><div><div class="roll-titel">Apple Teacher</div><div class="org">Apple Education · certifikat</div></div></li>
+          <li><span class="ar">2011</span><div><div class="roll-titel">MI – motiverande samtal</div><div class="org">Utbildning i Motivational Interviewing</div></div></li>
+        </ul>
       </section>
 
       <section>
@@ -296,7 +351,7 @@
       </section>
 
       <section>
-        <h2>Utbildning</h2>
+        <h2>Skola och profiler</h2>
         <ul class="lista">
           <li><a href="https://jarvgym.se" target="_blank" rel="noopener">
             <span class="titel">Järvsögymnasiet</span>
@@ -305,7 +360,7 @@
           </a></li>
           <li><a href="https://tarna.fhsk.se" target="_blank" rel="noopener">
             <span class="titel">Tärna folkhögskola</span>
-            <span class="beskrivning">Kursledare</span>
+            <span class="beskrivning">Pedagog på IT-pedagogutbildningen</span>
             <span class="adress"><span class="domän">tarna.fhsk.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
           </a></li>
           <li><a href="https://education.apple.com/profile/jberndes" target="_blank" rel="noopener">
@@ -335,21 +390,6 @@
             <span class="typ">Foto · Undervisning</span>
           </li>
           <li>
-            <h3>MathBattle</h3>
-            <p>Tvåspelarspel för Matte 1b, byggt i Unity med nordisk sagokänsla.</p>
-            <span class="typ">Spel · Unity</span>
-          </li>
-          <li>
-            <h3>Comic Con-showcase</h3>
-            <p>Webbsida där elevernas Unity-spel kan spelas direkt i webbläsaren.</p>
-            <span class="typ">Elevspel · WebGL</span>
-          </li>
-          <li>
-            <h3>Järvsö Quest</h3>
-            <p>Skattjakt på cykel genom Järvsö med gåtor om lokala sägner.</p>
-            <span class="typ">Webbapp · Lokalhistoria</span>
-          </li>
-          <li>
             <h3>JEM-1 Groovestation</h3>
             <p>Synt och trummaskin i en enda HTML-fil, byggd med Web Audio API.</p>
             <span class="typ">Musik · Webb</span>
@@ -358,13 +398,18 @@
       </section>
 
       <section>
+        <h2>Utmärkelser och uppdrag</h2>
+        <ul class="cv">
+          <li><span class="ar">2018</span><div><div class="roll-titel">2:a pris, Årets digitala kommunikatör i Almedalen</div><div class="org">Utdelat av Springtime PR</div></div></li>
+          <li><span class="ar">2021 – nu</span><div><div class="roll-titel">Sekreterare</div><div class="org">Järvsö Allmänna Schacksällskap</div></div></li>
+          <li><span class="ar">2019 – 2022</span><div><div class="roll-titel">Ledamot</div><div class="org">JärvsöRådet</div></div></li>
+          <li><span class="ar">2010 – 2018</span><div><div class="roll-titel">Ordförande och sekreterare</div><div class="org">Nyköpings Fotoklubb och Midsommargårdens Fotoklubb</div></div></li>
+        </ul>
+      </section>
+
+      <section>
         <h2>I rörelse</h2>
-        <div class="siffror">
-          <div class="siffra"><div class="tal">49</div><div class="text">träningspass 2026</div></div>
-          <div class="siffra"><div class="tal">360 km</div><div class="text">på cykel, skidor och till fots</div></div>
-          <div class="siffra"><div class="tal">31 h</div><div class="text">i rörelse</div></div>
-        </div>
-        <p class="kalla">Mest mountainbike, skidor och gym. Siffror från <a href="https://www.strava.com/athletes/15635732" target="_blank" rel="noopener">Strava</a>, 1 januari–21 september 2026.</p>
+        <p class="kalla" style="font-size:1rem;color:#3a3a3c">Mest mountainbike, skidor och gym. <a href="https://www.strava.com/athletes/15635732" target="_blank" rel="noopener">Häng med mig på Strava &rarr;</a></p>
       </section>
 
       <footer>&copy; 2026 Joakim Berndes</footer>

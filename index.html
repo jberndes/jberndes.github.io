@@ -3,15 +3,79 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Joakim Berndes</title>
-  <meta name="description" content="Lärare inom IT, media och spelutveckling, fotograf och medgrundare av Järvsö Event & Media. Järvsö, Hälsingland.">
+  <title>Joakim Berndes – IT-pedagog och fotograf i Järvsö</title>
+  <meta name="description" content="Joakim Berndes är IT-pedagog, lärare och fotograf i Järvsö, Hälsingland. Undervisar i webbutveckling, film, digital kommunikation och AI – och driver Järvsö Event &amp; Media.">
 
   <!-- Förhandsvisning när länken delas i sociala medier -->
-  <meta property="og:title" content="Joakim Berndes">
-  <meta property="og:description" content="Lärare, fotograf och kreatör i Järvsö, Hälsingland.">
+  <meta property="og:title" content="Joakim Berndes – IT-pedagog och fotograf i Järvsö">
+  <meta property="og:description" content="IT-pedagog, lärare och fotograf i Järvsö, Hälsingland. Be creative – be a teacher.">
   <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
   <meta property="og:url" content="https://joakimberndes.se/">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="sv_SE">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://joakimberndes.se/">
+
+  <!-- Strukturerad data: berättar för Google vem sidan handlar om -->
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Joakim Berndes",
+  "alternateName": "jberndes",
+  "url": "https://joakimberndes.se/",
+  "image": "https://joakimberndes.se/portratt.jpg",
+  "jobTitle": "IT-pedagog och lärare",
+  "description": "IT-pedagog, lärare och fotograf i Järvsö, Hälsingland.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Järvsö",
+    "addressRegion": "Gävleborgs län",
+    "addressCountry": "SE"
+  },
+  "worksFor": [
+    {
+      "@type": "EducationalOrganization",
+      "name": "Järvsögymnasiet",
+      "url": "https://jarvgym.se"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Tärna folkhögskola",
+      "url": "https://tarna.fhsk.se"
+    },
+    {
+      "@type": "Organization",
+      "name": "Järvsö Event & Media AB",
+      "url": "https://jarvsoeventmedia.se"
+    }
+  ],
+  "knowsAbout": [
+    "AI i undervisningen",
+    "Webbutveckling",
+    "Digital kommunikation",
+    "Foto",
+    "Filmproduktion",
+    "IT-pedagogik",
+    "Podd",
+    "Spelutveckling"
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/jberndes/",
+    "https://www.instagram.com/jberndes/",
+    "https://www.youtube.com/@jBerndes",
+    "https://www.facebook.com/jBerndes/",
+    "https://www.threads.com/@jberndes",
+    "https://x.com/jBerndes",
+    "https://www.flickr.com/people/jberndes/",
+    "https://500px.com/p/jberndes",
+    "https://github.com/jberndes",
+    "https://jberndes.itch.io",
+    "https://www.strava.com/athletes/15635732",
+    "https://education.apple.com/profile/jberndes"
+  ]
+}
+  </script>
   <link rel="icon" href="portratt.jpg">
 
   <style>
@@ -87,6 +151,7 @@
     .roll { color: var(--muted); font-size: 0.95rem; margin-top: 8px; }
     .plats { color: var(--accent); font-size: 0.85rem; margin-top: 2px; letter-spacing: 0.02em; }
 
+    .sedan { color: var(--muted); font-size: 0.82rem; font-style: italic; margin-top: 10px; }
     .avdelare { width: 48px; height: 2px; background: var(--gron); border: 0; margin: 28px auto; }
 
     /* Sociala medier som diskret textlista */
@@ -213,6 +278,16 @@
     .underrubrik-liten { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 26px 2px 0; }
     @media (max-width: 480px) { .cv li { grid-template-columns: 1fr; } }
 
+    /* ===== Kompetenser i tre grupper ===== */
+    .grupper { display: grid; grid-template-columns: 1fr; gap: 18px; padding-top: 14px; }
+    .grupp h3 { font-size: 0.8rem; font-weight: 600; color: var(--accent); margin-bottom: 8px; letter-spacing: 0.02em; }
+    .grupp .taggar { padding-top: 0; flex-direction: column; gap: 6px; }
+    /* I grupperna blir etiketterna en ren lista med grön markör */
+    .grupp .taggar li { border: 0; background: none; padding: 0 0 0 14px; border-radius: 0; position: relative; font-size: 0.92rem; }
+    .grupp .taggar li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 6px; height: 6px; border-radius: 50%; background: var(--gron); }
+    .grupp { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+    @media (min-width: 900px) { .grupper { grid-template-columns: repeat(3, 1fr); gap: 20px; } }
+
     footer {
       margin-top: 64px;
       color: var(--muted);
@@ -244,10 +319,11 @@
 
     <!-- ===== Sidopanel: porträtt, namn, sociala medier, Apple Teacher ===== -->
     <aside>
-      <img class="portratt" src="portratt.jpg" alt="Porträtt av Joakim Berndes" width="132" height="132">
+      <img class="portratt" src="portratt.jpg" alt="Svartvitt porträtt av Joakim Berndes, IT-pedagog och fotograf i Järvsö" width="132" height="132">
       <h1 class="namn">Joakim Berndes</h1>
       <p class="roll">Lärare · Fotograf · Kreatör</p>
       <p class="plats">Järvsö, Hälsingland</p>
+      <p class="sedan">IT har varit en del av mitt liv sedan 1985</p>
 
       <hr class="avdelare">
 
@@ -272,33 +348,58 @@
 
     <!-- ===== Innehåll ===== -->
     <main>
-      <p class="ingress">Jag brinner för att förena teknik, kreativitet och lärande.</p>
+      <p class="ingress">Be creative – be a teacher.</p>
+      <p class="bio" style="font-size:1.15rem;color:var(--accent);margin:-6px 0 18px">Teknik, kreativitet och lärande som hjälper människor i stort och smått.</p>
       <p class="bio">
         Som utbildare inom media och IT undervisar jag på gymnasium och folkhögskola i webbutveckling,
         film- och medieproduktion, digital kommunikation och AI. Målet är alltid att eleverna ska känna
         nyfikenhet, självförtroende och en vilja att fortsätta utforska.
       </p>
       <p class="bio" style="margin-top:14px">
-        Utanför klassrummet driver jag Järvsö Event &amp; Media tillsammans med Mia, där vi gör webb, foto
-        och film för företag och organisationer. Jag trivs bäst när människor, idéer och teknik möts.
+        Utanför klassrummet driver jag Järvsö Event &amp; Media AB tillsammans med min fru Mia. Jag bygger
+        webbplatser och appar och arbetar med foto och film för företag och organisationer. Mia håller i
+        teambuilding, yinyoga och dans för hälsa i Lilla Studion och på Järvsö Retreat. Där möts teknik och
+        välmående – och det är där jag trivs bäst: när människor, idéer och teknik möts.
       </p>
 
       <section>
         <h2>Kompetenser</h2>
-        <ul class="taggar">
-          <li>Digital kommunikation</li>
-          <li>Webbutveckling</li>
-          <li>AI i utbildning</li>
-          <li>Foto och filmproduktion</li>
-          <li>Pedagogisk utveckling</li>
-          <li>Podd och ljud</li>
-          <li>Spelutveckling</li>
-          <li>Nätverk och IT-infrastruktur</li>
-          <li>Automation och API:er</li>
-        </ul>
+        <div class="grupper">
+          <div class="grupp">
+            <h3>Pedagogik</h3>
+            <ul class="taggar">
+              <li>AI i undervisningen</li>
+              <li>Digitala lärmiljöer med Apple</li>
+              <li>Kurs- och utbildningsutveckling</li>
+              <li>Föreläsningar och workshops</li>
+              <li>Motiverande samtal (MI)</li>
+            </ul>
+          </div>
+          <div class="grupp">
+            <h3>Kommunikation och skapande</h3>
+            <ul class="taggar">
+              <li>Digital kommunikation och sociala medier</li>
+              <li>Grafisk form och layout</li>
+              <li>Foto och film</li>
+              <li>Podd och ljud</li>
+              <li>Event- och liveproduktion</li>
+            </ul>
+          </div>
+          <div class="grupp">
+            <h3>Teknik</h3>
+            <ul class="taggar">
+              <li>Webb- och apputveckling</li>
+              <li>Spelutveckling</li>
+              <li>IT-strategi och drift</li>
+              <li>Nätverk och IT-infrastruktur</li>
+              <li>Automation och API:er</li>
+            </ul>
+          </div>
+        </div>
         <p class="verktyg">
-          <strong>Verktyg:</strong> HTML, CSS, JavaScript, React, Next.js, Unity och C#, WordPress och WooCommerce,
-          Make.com, Photoshop, Illustrator, Premiere Pro, Audition, Keynote, UniFi, Raspberry Pi, Blender, Claude och Ollama.
+          <strong>Verktyg:</strong> Lightroom (sedan version 1.5), Photoshop, Illustrator, InDesign, Premiere Pro, Audition,
+          Keynote, Meta-annonsering, HTML, CSS, JavaScript, React, Next.js, Unity och C#, WordPress och WooCommerce,
+          Make.com, UniFi, Raspberry Pi, Blender, Claude och Ollama.
         </p>
       </section>
 
@@ -325,7 +426,9 @@
         <ul class="cv">
           <li><span class="ar">Pågår</span><div><div class="roll-titel">Apple Teacher Portfolio</div><div class="org">Apple Education · förberedelse inför Apple Distinguished Educator</div></div></li>
           <li><span class="ar">2025</span><div><div class="roll-titel">Apple Teacher</div><div class="org">Apple Education · certifikat</div></div></li>
-          <li><span class="ar">2011</span><div><div class="roll-titel">MI – motiverande samtal</div><div class="org">Utbildning i Motivational Interviewing</div></div></li>
+          <li><span class="ar">2011</span><div><div class="roll-titel">MI – motiverande samtal</div><div class="org">Folkhälsoinstitutet (FHI), Stockholm</div></div></li>
+          <li><span class="ar">&nbsp;</span><div><div class="roll-titel">IT-pedagogutbildning</div><div class="org">Tärna folkhögskola, Sala</div></div></li>
+          <li><span class="ar">&nbsp;</span><div><div class="roll-titel">MCTS/MCITP SharePoint 2010</div><div class="org">Firebrand Training, Helsingborg</div></div></li>
         </ul>
       </section>
 
@@ -400,7 +503,7 @@
       <section>
         <h2>Utmärkelser och uppdrag</h2>
         <ul class="cv">
-          <li><span class="ar">2018</span><div><div class="roll-titel">2:a pris, Årets digitala kommunikatör i Almedalen</div><div class="org">Utdelat av Springtime PR</div></div></li>
+          <li><span class="ar">2018</span><div><div class="roll-titel">2:a pris, Årets digitala kommunikatör i Almedalen</div><div class="org">Utdelat av Springtime PR.</div></div></li>
           <li><span class="ar">2021 – nu</span><div><div class="roll-titel">Sekreterare</div><div class="org">Järvsö Allmänna Schacksällskap</div></div></li>
           <li><span class="ar">2019 – 2022</span><div><div class="roll-titel">Ledamot</div><div class="org">JärvsöRådet</div></div></li>
           <li><span class="ar">2010 – 2018</span><div><div class="roll-titel">Ordförande och sekreterare</div><div class="org">Nyköpings Fotoklubb och Midsommargårdens Fotoklubb</div></div></li>

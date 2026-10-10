@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
   <title>Joakim Berndes – IT-pedagog och fotograf i Järvsö</title>
   <meta name="description" content="Joakim Berndes är IT-pedagog, lärare och fotograf i Järvsö, Hälsingland. Undervisar i webbutveckling, film, digital kommunikation och AI – och driver Järvsö Event &amp; Media.">
 
@@ -84,7 +87,7 @@
        Bakgrund  #FAFAF8  – ljus, nästan vit
        Sidopanel #EEF1E8  – ljus salvia
        Text      #1D1D1F  – nästan svart
-       Dämpad    #6E6E73  – sekundär text
+       Dämpad    #6A6A6F  – sekundär text (justerad för kontrast mot sidopanelen)
        Linje     #E4E0D9  – tunna avdelare
        Grön      #899A72  – salvia, från Järvsö Retreat (dekor)
        Grön mörk #5E6E4A  – samma ton, mörkare för text (klarar kontrastkrav)
@@ -94,14 +97,40 @@
       --panel: #eef1e8;
       --card: #ffffff;
       --text: #1d1d1f;
-      --muted: #6e6e73;
+      --muted: #6a6a6f;
       --line: #e1e4da;
       --accent: #5e6e4a;
       --gron: #899a72;
+      --text2: #3a3a3c;
+      --tag-bg: #f4f6f0;
+      --tag-border: #cdd5c2;
+      --tag-text: #3f4a31;
+      --on-accent: #ffffff;
 
       /* Rubriker: New York på Mac/iPhone, Georgia som reserv. Brödtext: SF Pro. Inga externa typsnitt. */
       --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
       --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+
+    /* Mörkt tema följer enhetens inställning. Alla text- och bakgrundspar är kontrastkontrollerade (WCAG AA). */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512;
+        --panel: #1b1f19;
+        --card: #1a1d18;
+        --text: #ededeb;
+        --text2: #cfd0cc;
+        --muted: #a6a8a1;
+        --line: #2e332b;
+        --accent: #b3c79a;
+        --gron: #899a72;
+        --tag-bg: #222820;
+        --tag-border: #3a4333;
+        --tag-text: #cfdcbd;
+        --on-accent: #10120e;
+      }
+      /* Den svarta Apple Teacher-signaturen vänds till vit på mörk bakgrund */
+      .apple-teacher img { filter: invert(1); }
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -110,12 +139,13 @@
       background: var(--bg);
       color: var(--text);
       font-family: var(--sans);
-      font-size: 17px;
+      font-size: 1.0625rem;
       line-height: 1.6;
       -webkit-font-smoothing: antialiased;
     }
 
     a { color: inherit; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 
     /* ===== Layout: sidopanel + innehåll (mobil först: staplat) ===== */
     .sida { display: flex; flex-direction: column; min-height: 100vh; }
@@ -156,7 +186,7 @@
 
     /* Sociala medier som diskret textlista */
     .sociala { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; font-size: 0.9rem; }
-    .sociala a { color: var(--muted); text-decoration: none; transition: color .15s; }
+    .sociala a { display: inline-block; padding: 8px 2px; color: var(--muted); text-decoration: none; transition: color .15s; }
     .sociala a:hover, .sociala a:focus-visible { color: var(--text); }
 
     /* Apple Teacher-signaturen: i sidopanelen, på ljus bakgrund = svart version.
@@ -176,7 +206,7 @@
       margin-bottom: 18px;
     }
 
-    .bio { color: #3a3a3c; max-width: 60ch; }
+    .bio { color: var(--text2); max-width: 60ch; }
 
     section { margin-top: 52px; }
 
@@ -233,10 +263,10 @@
     .taggar li {
       font-size: 0.88rem;
       padding: 6px 12px;
-      border: 1px solid #cdd5c2;
+      border: 1px solid var(--tag-border);
       border-radius: 999px;
-      background: #f4f6f0;
-      color: #3f4a31;
+      background: var(--tag-bg);
+      color: var(--tag-text);
     }
     .verktyg { color: var(--muted); font-size: 0.88rem; margin-top: 14px; line-height: 1.7; }
     .verktyg strong { color: var(--text); font-weight: 500; }
@@ -261,7 +291,7 @@
     .siffra .tal { font-family: var(--serif); font-size: 2rem; font-weight: 500; line-height: 1.1; }
     .siffra .text { color: var(--muted); font-size: 0.85rem; }
     .kalla { color: var(--muted); font-size: 0.85rem; margin-top: 14px; }
-    .kalla a { color: var(--accent); }
+    .kalla a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 
     /* ===== Erfarenhet och uppdrag: årtal till vänster, text till höger ===== */
     .cv { list-style: none; }
@@ -275,7 +305,7 @@
     .cv .ar { color: var(--muted); font-size: 0.85rem; padding-top: 2px; font-variant-numeric: tabular-nums; }
     .cv .roll-titel { font-weight: 500; }
     .cv .org { color: var(--muted); font-size: 0.92rem; }
-    .cv .text { color: #3a3a3c; font-size: 0.92rem; margin-top: 4px; line-height: 1.5; }
+    .cv .text { color: var(--text2); font-size: 0.92rem; margin-top: 4px; line-height: 1.5; }
     .underrubrik-liten { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); margin: 26px 2px 0; }
     @media (max-width: 480px) { .cv li { grid-template-columns: 1fr; } }
 
@@ -313,13 +343,23 @@
       main { padding: 96px 64px 56px; margin: 0; }
       .ingress { font-size: 2.25rem; }
     }
+
+    /* ===== Tillgänglighet ===== */
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    main:focus { outline: none; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+    }
   </style>
 </head>
 <body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
   <div class="sida">
 
     <!-- ===== Sidopanel: porträtt, namn, sociala medier, Apple Teacher ===== -->
-    <aside>
+    <aside aria-label="Om Joakim Berndes">
       <img class="portratt" src="portratt.jpg" alt="Svartvitt porträtt av Joakim Berndes, IT-pedagog och fotograf i Järvsö" width="132" height="132">
       <h1 class="namn">Joakim Berndes</h1>
       <p class="roll">Lärare · Fotograf · Kreatör</p>
@@ -328,16 +368,18 @@
 
       <hr class="avdelare">
 
+      <nav aria-label="Sociala medier">
       <ul class="sociala">
-        <li><a href="https://www.linkedin.com/in/jberndes/" target="_blank" rel="noopener">LinkedIn</a></li>
-        <li><a href="https://www.instagram.com/jberndes/" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://www.youtube.com/@jBerndes" target="_blank" rel="noopener">YouTube</a></li>
-        <li><a href="https://www.facebook.com/jBerndes/" target="_blank" rel="noopener">Facebook</a></li>
-        <li><a href="https://www.threads.com/@jberndes" target="_blank" rel="noopener">Threads</a></li>
-        <li><a href="https://x.com/jBerndes" target="_blank" rel="noopener">X</a></li>
-        <li><a href="https://www.flickr.com/people/jberndes/" target="_blank" rel="noopener">Flickr</a></li>
-        <li><a href="https://500px.com/p/jberndes" target="_blank" rel="noopener">500px</a></li>
+        <li><a href="https://www.linkedin.com/in/jberndes/" target="_blank" rel="noopener">LinkedIn<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.instagram.com/jberndes/" target="_blank" rel="noopener">Instagram<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.youtube.com/@jBerndes" target="_blank" rel="noopener">YouTube<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.facebook.com/jBerndes/" target="_blank" rel="noopener">Facebook<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.threads.com/@jberndes" target="_blank" rel="noopener">Threads<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://x.com/jBerndes" target="_blank" rel="noopener">X<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.flickr.com/people/jberndes/" target="_blank" rel="noopener">Flickr<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://500px.com/p/jberndes" target="_blank" rel="noopener">500px<span class="dold"> (öppnas i ny flik)</span></a></li>
       </ul>
+      </nav>
 
       <!-- Lägg Apples officiella SVARTA Apple Teacher-signatur som apple-teacher.png i samma mapp -->
       <div class="apple-teacher">
@@ -346,7 +388,7 @@
     </aside>
 
     <!-- ===== Innehåll ===== -->
-    <main>
+    <main id="innehall" tabindex="-1">
       <p class="ingress">Be creative – be a teacher.</p>
       <p class="bio" style="font-size:1.15rem;color:var(--accent);margin:-6px 0 18px">Teknik, kreativitet och lärande som hjälper människor i stort och smått.</p>
       <p class="bio">
@@ -441,17 +483,17 @@
             <span class="titel">Järvsö Event &amp; Media</span>
             <span class="beskrivning">Foto, webb, podd och event</span>
             <span class="adress"><span class="domän">jarvsoeventmedia.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
           <li><a href="https://jarvsopodden.se" target="_blank" rel="noopener">
             <span class="titel">Järvsöpodden</span>
             <span class="beskrivning">Podd från Järvsö</span>
             <span class="adress"><span class="domän">jarvsopodden.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
           <li><a href="https://jarvsoretreat.se" target="_blank" rel="noopener">
             <span class="titel">Järvsö Retreat</span>
             <span class="beskrivning">Retreat i Järvsö</span>
             <span class="adress"><span class="domän">jarvsoretreat.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
         </ul>
       </section>
 
@@ -462,22 +504,22 @@
             <span class="titel">Järvsögymnasiet</span>
             <span class="beskrivning">Lärare i IT, media och spelutveckling</span>
             <span class="adress"><span class="domän">jarvgym.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
           <li><a href="https://tarna.fhsk.se" target="_blank" rel="noopener">
             <span class="titel">Tärna folkhögskola</span>
             <span class="beskrivning">Pedagog på IT-pedagogutbildningen</span>
             <span class="adress"><span class="domän">tarna.fhsk.se</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
           <li><a href="https://education.apple.com/profile/jberndes" target="_blank" rel="noopener">
             <span class="titel">Apple Education Community</span>
             <span class="beskrivning">Min profil som Apple Teacher</span>
             <span class="adress"><span class="domän">education.apple.com</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
           <li><a href="https://github.com/jberndes" target="_blank" rel="noopener">
             <span class="titel">GitHub</span>
             <span class="beskrivning">Kod och projekt</span>
             <span class="adress"><span class="domän">github.com/jberndes</span><span class="pil" aria-hidden="true">&rarr;</span></span>
-          </a></li>
+          <span class="dold"> (öppnas i ny flik)</span></a></li>
         </ul>
       </section>
 
@@ -503,6 +545,17 @@
       </section>
 
       <section>
+        <h2>Följ AI-utvecklingen</h2>
+        <ul class="lista">
+          <li><a href="/ai/">
+            <span class="titel">AI-nyheter från de stora bolagen</span>
+            <span class="beskrivning">Senaste inlägg från OpenAI, Anthropic, Google, Mistral med flera</span>
+            <span class="adress"><span class="domän">joakimberndes.se/ai</span><span class="pil" aria-hidden="true">&rarr;</span></span>
+          </a></li>
+        </ul>
+      </section>
+
+      <section>
         <h2>Utmärkelser och uppdrag</h2>
         <ul class="cv">
           <li><span class="ar">2018</span><div><div class="roll-titel">2:a pris, Årets digitala kommunikatör i Almedalen</div><div class="org">Utdelat av Springtime PR.</div></div></li>
@@ -514,7 +567,7 @@
 
       <section>
         <h2>I rörelse</h2>
-        <p class="kalla" style="font-size:1rem;color:#3a3a3c">Mest mountainbike, skidor och gym. <a href="https://www.strava.com/athletes/15635732" target="_blank" rel="noopener">Häng med mig på Strava &rarr;</a></p>
+        <p class="kalla" style="font-size:1rem;color:var(--text2)">Mest mountainbike, skidor och gym. <a href="https://www.strava.com/athletes/15635732" target="_blank" rel="noopener">Häng med mig på Strava <span aria-hidden="true">&rarr;</span><span class="dold"> (öppnas i ny flik)</span></a></p>
       </section>
 
       <footer>&copy; 2026 Joakim Berndes</footer>

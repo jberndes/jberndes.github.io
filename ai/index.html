@@ -3,31 +3,40 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
   <title>AI-nyheter från de stora bolagen – Joakim Berndes</title>
   <meta name="description" content="Senaste inläggen från AI-bolagens egna bloggar och nyhetssidor. Endast rubrik och länk till originalet.">
   <link rel="canonical" href="https://joakimberndes.se/ai/">
   <style>
     :root {
       --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
-      --muted: #6e6e73; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
       --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
       --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 17px; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
     a { color: inherit; }
     header { background: var(--panel); padding: 28px 20px 26px; }
     .inre { max-width: 760px; margin: 0 auto; }
-    .tillbaka { font-size: 15px; color: var(--accent); text-decoration: none; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
     .tillbaka:hover { text-decoration: underline; }
     h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
     .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
     main { padding: 24px 20px 48px; }
     .filter { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px; }
-    .chip { font: inherit; font-size: 14px; padding: 6px 13px; border-radius: 3px; border: 1px solid var(--line); background: var(--card); color: var(--text); cursor: pointer; }
+    .chip { font: inherit; font-size: 0.875rem; min-height: 44px; padding: 8px 14px; border-radius: 3px; border: 1px solid var(--line); background: var(--card); color: var(--text); cursor: pointer; }
     .chip:hover { border-color: var(--gron); }
-    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
-    .chip:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+    .chip:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     ul { list-style: none; border-top: 1px solid var(--line); }
     li { display: grid; grid-template-columns: 62px 1fr; column-gap: 12px; row-gap: 2px; padding: 14px 0; border-bottom: 1px solid var(--line); }
     li[hidden] { display: none; }
@@ -37,6 +46,10 @@
     li a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
     footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
     footer p + p { margin-top: 8px; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    main:focus { outline: none; }
     @media (min-width: 700px) {
       header { padding: 44px 32px 36px; }
       main { padding: 32px 32px 56px; }
@@ -48,14 +61,15 @@
   </style>
 </head>
 <body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
   <header>
     <div class="inre">
-      <a class="tillbaka" href="/">&larr; Joakim Berndes</a>
+      <a class="tillbaka" href="/"><span aria-hidden="true">&larr;</span> Joakim Berndes</a>
       <h1>AI-nyheter från de stora bolagen</h1>
       <p class="ingress">De senaste inläggen direkt från bolagens egna bloggar och nyhetssidor. Här visas bara rubrik och länk, texten finns hos avsändaren.</p>
     </div>
   </header>
-  <main>
+  <main id="innehall" tabindex="-1">
     <div class="inre">
       <div class="filter" role="group" aria-label="Filtrera på källa">
         <button type="button" class="chip" data-f="alla" aria-pressed="true">Alla</button>
@@ -68,206 +82,208 @@
         <button type="button" class="chip" data-f="amazon" aria-pressed="false">Amazon Science</button>
         <button type="button" class="chip" data-f="huggingface" aria-pressed="false">Hugging Face</button>
       </div>
+      <p class="dold" id="status" role="status" aria-live="polite"></p>
+      <h2 class="dold">Senaste inlägg</h2>
       <ul id="lista">
       <li data-src="openai">
         <time datetime="2026-10-09">9 okt</time>
         <span class="kalla">OpenAI</span>
-        <a href="https://openai.com/index/sophos" target="_blank" rel="noopener">Sophos cuts threat investigation time by 96% with OpenAI Daybreak</a>
+        <a lang="en" href="https://openai.com/index/sophos" target="_blank" rel="noopener">Sophos cuts threat investigation time by 96% with OpenAI Daybreak<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="openai">
         <time datetime="2026-10-09">9 okt</time>
         <span class="kalla">OpenAI</span>
-        <a href="https://openai.com/index/asana-browser-agent" target="_blank" rel="noopener">Asana cuts model costs 76x in browser tests with GPT-6.1 Sol</a>
+        <a lang="en" href="https://openai.com/index/asana-browser-agent" target="_blank" rel="noopener">Asana cuts model costs 76x in browser tests with GPT-6.1 Sol<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="huggingface">
         <time datetime="2026-10-09">9 okt</time>
         <span class="kalla">Hugging Face</span>
-        <a href="https://huggingface.co/blog/allenai/impactful-scheduling" target="_blank" rel="noopener">Impactful scheduling for GPU clusters</a>
+        <a lang="en" href="https://huggingface.co/blog/allenai/impactful-scheduling" target="_blank" rel="noopener">Impactful scheduling for GPU clusters<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="openai">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">OpenAI</span>
-        <a href="https://openai.com/index/oracle" target="_blank" rel="noopener">How Oracle turns days of work into minutes with ChatGPT and Codex</a>
+        <a lang="en" href="https://openai.com/index/oracle" target="_blank" rel="noopener">How Oracle turns days of work into minutes with ChatGPT and Codex<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="openai">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">OpenAI</span>
-        <a href="https://openai.com/index/pollo-ai" target="_blank" rel="noopener">Pollo AI turns creative ideas into campaigns with OpenAI</a>
+        <a lang="en" href="https://openai.com/index/pollo-ai" target="_blank" rel="noopener">Pollo AI turns creative ideas into campaigns with OpenAI<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="openai">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">OpenAI</span>
-        <a href="https://openai.com/index/legalon-halves-codex-costs" target="_blank" rel="noopener">LegalOn halves Codex costs while maintaining development speed</a>
+        <a lang="en" href="https://openai.com/index/legalon-halves-codex-costs" target="_blank" rel="noopener">LegalOn halves Codex costs while maintaining development speed<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="anthropic">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">Anthropic</span>
-        <a href="https://www.anthropic.com/news/2026-usage-policy-update" target="_blank" rel="noopener">2026 Usage Policy update</a>
+        <a lang="en" href="https://www.anthropic.com/news/2026-usage-policy-update" target="_blank" rel="noopener">2026 Usage Policy update<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="anthropic">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">Anthropic</span>
-        <a href="https://www.anthropic.com/news/genesis-mission-commitment" target="_blank" rel="noopener">Building on our commitment to American scientific discovery</a>
+        <a lang="en" href="https://www.anthropic.com/news/genesis-mission-commitment" target="_blank" rel="noopener">Building on our commitment to American scientific discovery<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="anthropic">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">Anthropic</span>
-        <a href="https://www.anthropic.com/news/anthropic-cyber-mission" target="_blank" rel="noopener">Introducing the Anthropic Cyber Mission</a>
+        <a lang="en" href="https://www.anthropic.com/news/anthropic-cyber-mission" target="_blank" rel="noopener">Introducing the Anthropic Cyber Mission<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="nvidia">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">NVIDIA</span>
-        <a href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" target="_blank" rel="noopener">Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents</a>
+        <a lang="en" href="https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/" target="_blank" rel="noopener">Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="huggingface">
         <time datetime="2026-10-08">8 okt</time>
         <span class="kalla">Hugging Face</span>
-        <a href="https://huggingface.co/blog/building-with-ml-intern" target="_blank" rel="noopener">The model that didn&#x27;t exist, so you made it yourself</a>
+        <a lang="en" href="https://huggingface.co/blog/building-with-ml-intern" target="_blank" rel="noopener">The model that didn&#x27;t exist, so you made it yourself<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="google">
         <time datetime="2026-10-07">7 okt</time>
         <span class="kalla">Google AI</span>
-        <a href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/" target="_blank" rel="noopener">Introducing Playground: Create and play custom games</a>
+        <a lang="en" href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/" target="_blank" rel="noopener">Introducing Playground: Create and play custom games<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="nvidia">
         <time datetime="2026-10-07">7 okt</time>
         <span class="kalla">NVIDIA</span>
-        <a href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/" target="_blank" rel="noopener">NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents</a>
+        <a lang="en" href="https://blogs.nvidia.com/blog/local-ai-rtx-spark-microsoft-windows-event/" target="_blank" rel="noopener">NVIDIA, Microsoft Kick Off a New Beginning for Windows PCs With RTX Spark and AI Agents<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="huggingface">
         <time datetime="2026-10-07">7 okt</time>
         <span class="kalla">Hugging Face</span>
-        <a href="https://huggingface.co/blog/LiquidAI/open-d1" target="_blank" rel="noopener">Multimodal open d1 decision models for the edge</a>
+        <a lang="en" href="https://huggingface.co/blog/LiquidAI/open-d1" target="_blank" rel="noopener">Multimodal open d1 decision models for the edge<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="huggingface">
         <time datetime="2026-10-07">7 okt</time>
         <span class="kalla">Hugging Face</span>
-        <a href="https://huggingface.co/blog/tiiuae/falcon-asr" target="_blank" rel="noopener">Introducing Falcon ASR</a>
+        <a lang="en" href="https://huggingface.co/blog/tiiuae/falcon-asr" target="_blank" rel="noopener">Introducing Falcon ASR<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="huggingface">
         <time datetime="2026-10-07">7 okt</time>
         <span class="kalla">Hugging Face</span>
-        <a href="https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026" target="_blank" rel="noopener">One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO</a>
+        <a lang="en" href="https://huggingface.co/blog/nvidia/nemotron-ioi-and-imo-2026" target="_blank" rel="noopener">One Model Family, Two Gold-Level Results: Fine-Tuning Nemotron for IOI and IMO<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="anthropic">
         <time datetime="2026-10-06">6 okt</time>
         <span class="kalla">Anthropic</span>
-        <a href="https://www.anthropic.com/news/cyber-verification-program" target="_blank" rel="noopener">Expanding the Cyber Verification Program</a>
+        <a lang="en" href="https://www.anthropic.com/news/cyber-verification-program" target="_blank" rel="noopener">Expanding the Cyber Verification Program<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="deepmind">
         <time datetime="2026-10-06">6 okt</time>
         <span class="kalla">Google DeepMind</span>
-        <a href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/" target="_blank" rel="noopener">EmbeddingGemma 2: an open, lightweight multimodal embedding model</a>
+        <a lang="en" href="https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/" target="_blank" rel="noopener">EmbeddingGemma 2: an open, lightweight multimodal embedding model<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="mistral">
         <time datetime="2026-10-06">6 okt</time>
         <span class="kalla">Mistral</span>
-        <a href="https://mistral.ai/news/mistral-large-4/" target="_blank" rel="noopener">Introducing Mistral Large 4</a>
+        <a lang="en" href="https://mistral.ai/news/mistral-large-4/" target="_blank" rel="noopener">Introducing Mistral Large 4<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="nvidia">
         <time datetime="2026-10-06">6 okt</time>
         <span class="kalla">NVIDIA</span>
-        <a href="https://blogs.nvidia.com/blog/telecom-operators-open-models/" target="_blank" rel="noopener">Why Telecom Operators Are Building Their AI Strategy on Open Models</a>
+        <a lang="en" href="https://blogs.nvidia.com/blog/telecom-operators-open-models/" target="_blank" rel="noopener">Why Telecom Operators Are Building Their AI Strategy on Open Models<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="nvidia">
         <time datetime="2026-10-05">5 okt</time>
         <span class="kalla">NVIDIA</span>
-        <a href="https://blogs.nvidia.com/blog/ai-breast-cancer-startups/" target="_blank" rel="noopener">From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps</a>
+        <a lang="en" href="https://blogs.nvidia.com/blog/ai-breast-cancer-startups/" target="_blank" rel="noopener">From Scan to Treatment Plan, AI Helps Close Breast Cancer’s Deadliest Gaps<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="anthropic">
         <time datetime="2026-10-02">2 okt</time>
         <span class="kalla">Anthropic</span>
-        <a href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener">Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap</a>
+        <a lang="en" href="https://www.anthropic.com/news/claude-frontier-academy" target="_blank" rel="noopener">Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="google">
         <time datetime="2026-10-02">2 okt</time>
         <span class="kalla">Google AI</span>
-        <a href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/" target="_blank" rel="noopener">The latest AI news we announced in September 2026</a>
+        <a lang="en" href="https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/" target="_blank" rel="noopener">The latest AI news we announced in September 2026<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="nvidia">
         <time datetime="2026-10-02">2 okt</time>
         <span class="kalla">NVIDIA</span>
-        <a href="https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/" target="_blank" rel="noopener">NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI</a>
+        <a lang="en" href="https://blogs.nvidia.com/blog/local-ai-dgx-spark-64gb-sync/" target="_blank" rel="noopener">NVIDIA DGX Spark 64GB Gives Developers More Ways to Build and Scale Local AI<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="amazon">
         <time datetime="2026-10-01">1 okt</time>
         <span class="kalla">Amazon Science</span>
-        <a href="https://www.amazon.science/blog/graph-centric-agentic-intelligence" target="_blank" rel="noopener">Graph-centric agentic intelligence</a>
+        <a lang="en" href="https://www.amazon.science/blog/graph-centric-agentic-intelligence" target="_blank" rel="noopener">Graph-centric agentic intelligence<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="deepmind">
         <time datetime="2026-09-30">30 sep</time>
         <span class="kalla">Google DeepMind</span>
-        <a href="https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/" target="_blank" rel="noopener">Gemini 4 Argon: our next era of frontier intelligence</a>
+        <a lang="en" href="https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/" target="_blank" rel="noopener">Gemini 4 Argon: our next era of frontier intelligence<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="deepmind">
         <time datetime="2026-09-30">30 sep</time>
         <span class="kalla">Google DeepMind</span>
-        <a href="https://deepmind.google/blog/introducing-synthid-bio/" target="_blank" rel="noopener">Introducing SynthID Bio</a>
+        <a lang="en" href="https://deepmind.google/blog/introducing-synthid-bio/" target="_blank" rel="noopener">Introducing SynthID Bio<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="google">
         <time datetime="2026-09-28">28 sep</time>
         <span class="kalla">Google AI</span>
-        <a href="https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/" target="_blank" rel="noopener">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.</a>
+        <a lang="en" href="https://blog.google/innovation-and-ai/technology/ai/winner-future-vision-xprize/" target="_blank" rel="noopener">Watch the winning trailer from the Future Vision XPRIZE, The Gifted.<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="mistral">
         <time datetime="2026-09-28">28 sep</time>
         <span class="kalla">Mistral</span>
-        <a href="https://mistral.ai/news/hallo-deutschland/" target="_blank" rel="noopener">Hallo, Deutschland!</a>
+        <a lang="en" href="https://mistral.ai/news/hallo-deutschland/" target="_blank" rel="noopener">Hallo, Deutschland!<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="amazon">
         <time datetime="2026-09-25">25 sep</time>
         <span class="kalla">Amazon Science</span>
-        <a href="https://www.amazon.science/blog/a-kernel-centric-path-to-real-time-video-generation-on-trainium" target="_blank" rel="noopener">A kernel-centric path to real-time video generation on Trainium</a>
+        <a lang="en" href="https://www.amazon.science/blog/a-kernel-centric-path-to-real-time-video-generation-on-trainium" target="_blank" rel="noopener">A kernel-centric path to real-time video generation on Trainium<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="deepmind">
         <time datetime="2026-09-24">24 sep</time>
         <span class="kalla">Google DeepMind</span>
-        <a href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live with Live Avatar</a>
+        <a lang="en" href="https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/" target="_blank" rel="noopener">Introducing Gemini 3.8 Live with Live Avatar<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="deepmind">
         <time datetime="2026-09-23">23 sep</time>
         <span class="kalla">Google DeepMind</span>
-        <a href="https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/" target="_blank" rel="noopener">Advancing Private AI Compute with secure, server-side memory</a>
+        <a lang="en" href="https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/" target="_blank" rel="noopener">Advancing Private AI Compute with secure, server-side memory<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="google">
         <time datetime="2026-09-23">23 sep</time>
         <span class="kalla">Google AI</span>
-        <a href="https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/" target="_blank" rel="noopener">Google Beam expands with new regions, partners, and customers</a>
+        <a lang="en" href="https://blog.google/innovation-and-ai/technology/research/google-beam-expansion/" target="_blank" rel="noopener">Google Beam expands with new regions, partners, and customers<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="amazon">
         <time datetime="2026-09-21">21 sep</time>
         <span class="kalla">Amazon Science</span>
-        <a href="https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science" target="_blank" rel="noopener">Amazon launches research initiative with Stanford University to advance AI and science</a>
+        <a lang="en" href="https://www.amazon.science/news/amazon-launches-research-initiative-with-stanford-university-to-advance-ai-and-science" target="_blank" rel="noopener">Amazon launches research initiative with Stanford University to advance AI and science<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="amazon">
         <time datetime="2026-09-21">21 sep</time>
         <span class="kalla">Amazon Science</span>
-        <a href="https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies" target="_blank" rel="noopener">Advancing AI for biology: Teaching models to design and characterize antibodies</a>
+        <a lang="en" href="https://www.amazon.science/blog/advancing-ai-for-biology-teaching-models-to-design-and-characterize-antibodies" target="_blank" rel="noopener">Advancing AI for biology: Teaching models to design and characterize antibodies<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="google">
         <time datetime="2026-09-18">18 sep</time>
         <span class="kalla">Google AI</span>
-        <a href="https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/" target="_blank" rel="noopener">New experts join Google’s AI &amp; Economy team</a>
+        <a lang="en" href="https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/" target="_blank" rel="noopener">New experts join Google’s AI &amp; Economy team<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="mistral">
         <time datetime="2026-09-16">16 sep</time>
         <span class="kalla">Mistral</span>
-        <a href="https://mistral.ai/news/mistral-x-mozilla/" target="_blank" rel="noopener">Mistral and Mozilla are bringing open, private and multilingual AI to your web browser</a>
+        <a lang="en" href="https://mistral.ai/news/mistral-x-mozilla/" target="_blank" rel="noopener">Mistral and Mozilla are bringing open, private and multilingual AI to your web browser<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="mistral">
         <time datetime="2026-09-10">10 sep</time>
         <span class="kalla">Mistral</span>
-        <a href="https://mistral.ai/news/mistral-x-cloudera/" target="_blank" rel="noopener">Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data</a>
+        <a lang="en" href="https://mistral.ai/news/mistral-x-cloudera/" target="_blank" rel="noopener">Cloudera and Mistral Partner to Bring Specialized, Sovereign Intelligence to Enterprise Data<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="amazon">
         <time datetime="2026-09-10">10 sep</time>
         <span class="kalla">Amazon Science</span>
-        <a href="https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit" target="_blank" rel="noopener">Why don’t machine learning research agents overfit?</a>
+        <a lang="en" href="https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit" target="_blank" rel="noopener">Why don’t machine learning research agents overfit?<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       <li data-src="mistral">
         <time datetime="2026-09-09">9 sep</time>
         <span class="kalla">Mistral</span>
-        <a href="https://mistral.ai/news/legacy-code-modernization/" target="_blank" rel="noopener">Modernizing complex legacy code with AI agents.</a>
+        <a lang="en" href="https://mistral.ai/news/legacy-code-modernization/" target="_blank" rel="noopener">Modernizing complex legacy code with AI agents.<span class="dold"> (öppnas i ny flik)</span></a>
       </li>
       </ul>
     </div>
@@ -282,11 +298,18 @@
     (function () {
       var chips = document.querySelectorAll('.chip');
       var rows = document.querySelectorAll('#lista li');
+      var status = document.getElementById('status');
       chips.forEach(function (c) {
         c.addEventListener('click', function () {
           var f = c.getAttribute('data-f');
           chips.forEach(function (x) { x.setAttribute('aria-pressed', x === c ? 'true' : 'false'); });
-          rows.forEach(function (r) { r.hidden = !(f === 'alla' || r.getAttribute('data-src') === f); });
+          var n = 0;
+          rows.forEach(function (r) {
+            var show = (f === 'alla' || r.getAttribute('data-src') === f);
+            r.hidden = !show;
+            if (show) n++;
+          });
+          status.textContent = f === 'alla' ? 'Visar alla ' + n + ' inlägg' : 'Visar ' + n + ' inlägg från ' + c.textContent;
         });
       });
     })();

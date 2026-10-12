@@ -1,0 +1,14 @@
+# Test: bara manuell start. Ingen schemaläggning och inga ändringar av sidan.
+name: AI-uppdatering (test)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Workflow fungerar"

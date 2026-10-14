@@ -1,0 +1,18 @@
+title: Joakim Berndes
+description: Funderingar om skola och AI, appar och webbprojekt.
+url: https://joakimberndes.se
+lang: sv
+timezone: Europe/Stockholm
+permalink: /blogg/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: inlagg
+exclude:
+  - README.md
+  - .github

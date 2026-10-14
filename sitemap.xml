@@ -1,3 +1,5 @@
+---
+---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
@@ -12,4 +14,12 @@
     <loc>https://joakimberndes.se/enstroms-tankar/</loc>
     <lastmod>2026-10-14</lastmod>
   </url>
-</urlset>
+  <url>
+    <loc>https://joakimberndes.se/blogg/</loc>
+    <lastmod>2026-10-14</lastmod>
+  </url>
+{% for p in site.posts %}  <url>
+    <loc>https://joakimberndes.se{{ p.url }}</loc>
+    <lastmod>{{ p.date | date: '%Y-%m-%d' }}</lastmod>
+  </url>
+{% endfor %}</urlset>

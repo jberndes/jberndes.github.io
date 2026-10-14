@@ -1,3 +1,5 @@
+---
+---
 <!DOCTYPE html>
 <html lang="sv">
 <head>
@@ -414,6 +416,22 @@
         teambuilding, yinyoga och dans för hälsa i Lilla Studion och på Järvsö Retreat. Där möts teknik och
         välmående – och det är där jag trivs bäst: när människor, idéer och teknik möts.
       </p>
+
+{% if site.posts.size > 0 %}
+      <section aria-labelledby="h-blogg">
+        <h2 id="h-blogg">Mina inlägg</h2>
+        <ul class="lista">
+{% for p in site.posts limit:3 %}
+          <li><a href="{{ p.url }}">
+            <span class="titel">{{ p.title }}</span>
+            <span class="beskrivning">{{ p.ingress | escape }}</span>
+            <span class="adress"><span class="pil" aria-hidden="true">&rarr;</span></span>
+          </a></li>
+{% endfor %}
+        </ul>
+        <p class="alla"><a href="/blogg/">Alla inlägg</a></p>
+      </section>
+{% endif %}
 
       <div class="floden">
         <section aria-labelledby="h-ens">

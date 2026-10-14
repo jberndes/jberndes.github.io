@@ -44,6 +44,16 @@
     .kalla { font-size: 13px; color: var(--accent); font-weight: 600; letter-spacing: .02em; }
     li a { text-decoration: none; font-size: 17px; }
     li a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .dagens { margin-bottom: 40px; }
+    h2 { font-size: 0.8rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); padding-bottom: 12px; border-bottom: 1px solid var(--line); margin-bottom: 12px; }
+    .dagens .ingress { margin-bottom: 8px; }
+    .dagens .ingress a { color: var(--accent); }
+    ol.tldr { list-style: none; }
+    .tldr li { display: block; padding: 16px 0; }
+    .tldr li a { font-weight: 600; font-size: 1.05rem; }
+    .tldr .meta { display: block; font-size: 13px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+    .tldr .sv { display: block; color: var(--text); margin-top: 4px; max-width: 65ch; font-size: 0.97rem; }
+    .sekrubrik { margin-top: 8px; }
     footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
     footer p + p { margin-top: 8px; }
     .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
@@ -71,6 +81,46 @@
   </header>
   <main id="innehall" tabindex="-1">
     <div class="inre">
+      <section class="dagens" aria-labelledby="h-tldr">
+        <h2 id="h-tldr">Dagens urval från TLDR</h2>
+        <p class="ingress">Tio länkar ur dagens TLDR Tech, med egna korta sammanfattningar på svenska. Uppdaterad 14 okt 2026. Källa: <a href="https://tldr.tech/" target="_blank" rel="noopener">TLDR Tech<span class="dold"> (öppnas i ny flik)</span></a>.</p>
+        <ol class="tldr">
+<!-- TLDR:START -->
+          <li><a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud" target="_blank" rel="noopener">Gemini 4 Argon finns nu på Google Cloud<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Google · Google Cloud</span>
+            <span class="sv">Modellen blir tillgänglig via Gemini för företag, Gemini API, AI Studio och Antigravity, med fokus på långa arbeten i flera steg. Introduktionspriser i API:t gäller till 30 november 2026.</span></li>
+          <li><a href="https://blog.character.ai/an-update-on-character-ai/" target="_blank" rel="noopener">Character.ai ansöker om Chapter 11<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Character.ai · Character.ai</span>
+            <span class="sv">Bolaget går in i en domstolsövervakad process för att sälja verksamheten. Försäljningen väntas sent i november eller tidigt i december; hittas ingen köpare avvecklas tjänsten.</span></li>
+          <li><a href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/" target="_blank" rel="noopener">Så blir du mer ambitiös med AI som verktyg<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Felix Rieseberg · felixrieseberg.com</span>
+            <span class="sv">Texten beskriver fyra sorters ambition: fart, höjd, djup och bredd, och hur tilltro till den egna förmågan växer när man arbetar med AI-modeller.</span></li>
+          <li><a href="https://www.anthropic.com/engineering/redesigning-source-control" target="_blank" rel="noopener">Anthropic byter ut git mot egen versionshantering<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Anthropic · Anthropic</span>
+            <span class="sv">Under fem månader ersattes git för företagets stora kodbas av det egenutvecklade systemet Scion. Inlägget beskriver varför och hur bytet gjordes.</span></li>
+          <li><a href="https://www.latent.space/p/claude-dynamic-workflows" target="_blank" rel="noopener">Hur Claude samordnar flera agenter<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Latent Space · latent.space</span>
+            <span class="sv">Från en presentation på AI Engineer i New York: hur Claude kan fördela och samordna uppgifter mellan flera agenter, och vad det kostar i token.</span></li>
+          <li><a href="https://www.liquid.ai/blog/lfm2-5-24b-a2b" target="_blank" rel="noopener">Liquid AI lanserar en liten modell för agenter på enheten<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Liquid AI · liquid.ai</span>
+            <span class="sv">LFM2.5-24B-A2B är en öppen modell med 24 miljarder parametrar varav 2 miljarder är aktiva åt gången, byggd för snabba och privata agenter som körs lokalt.</span></li>
+          <li><a href="https://martinfowler.com/articles/are-harnesses-worth-the-cost.html" target="_blank" rel="noopener">Är det värt kostnaden att bygga stöd runt modellen?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Martin Fowler · martinfowler.com</span>
+            <span class="sv">I ett test klarade en kostnadsoptimerad modell 10 av 10 uppgifter med stödstruktur men 3 av 10 utan. Den starkaste modellen klarade uppgifterna oavsett.</span></li>
+          <li><a href="https://thezvi.wordpress.com/2026/10/13/arguments-about-ai-consciousness-remain-highly-motivated-and-at-best-overconfident/" target="_blank" rel="noopener">Argumenten om AI och medvetande är överdrivet säkra<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Zvi Mowshowitz · thezvi.wordpress.com</span>
+            <span class="sv">Zvi menar att resonemangen om huruvida AI är medvetet i hög grad styrs av önskemål och i bästa fall är alltför självsäkra.</span></li>
+          <li><a href="https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform" target="_blank" rel="noopener">NVIDIA gör Run:ai till öppen källkod<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">NVIDIA · NVIDIA</span>
+            <span class="sv">Schemaläggaren KAI och en operator för delning av GPU:er släpps öppet som del av plattformen DSX AI Factory, tillsammans med åtta partner.</span></li>
+          <li><a href="https://www.experimental-history.com/p/claude-dont-touch-my-lump" target="_blank" rel="noopener">Rädslan för att AI tar jobben bortser från historien<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">Adam Mastroianni · experimental-history.com</span>
+            <span class="sv">Texten hävdar att oron förbiser hur tidigare teknikskiften gick till, och att vi gärna föreställer oss framtiden som plötsliga språng i stället för gradvisa förändringar.</span></li>
+<!-- TLDR:END -->
+        </ol>
+      </section>
+
+      <h2 class="sekrubrik">Från bolagens egna flöden</h2>
       <div class="filter" role="group" aria-label="Filtrera på källa">
         <button type="button" class="chip" data-f="alla" aria-pressed="true">Alla</button>
         <button type="button" class="chip" data-f="openai" aria-pressed="false">OpenAI</button>
@@ -83,7 +133,6 @@
         <button type="button" class="chip" data-f="huggingface" aria-pressed="false">Hugging Face</button>
       </div>
       <p class="dold" id="status" role="status" aria-live="polite"></p>
-      <h2 class="dold">Senaste inlägg</h2>
       <ul id="lista">
       <li data-src="openai">
         <time datetime="2026-10-09">9 okt</time>

@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Oktober 2026 – AI-arkiv – Joakim Berndes</title>
+  <meta name="description" content="Arkiv över dagliga AI- och tekniknyheter från TLDR, oktober 2026.">
+  <link rel="canonical" href="https://joakimberndes.se/ai/arkiv/2026/10/">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    h2 { font-family: var(--serif); font-size: 1.35rem; line-height: 1.3; font-weight: 600; margin: 40px 0 6px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+    ol.tldr { list-style: none; }
+    .tldr li { display: block; padding: 16px 0; border-bottom: 1px solid var(--line); }
+    .tldr li a { font-weight: 600; font-size: 1.05rem; text-decoration: none; }
+    .tldr li a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .tldr .meta { display: block; font-size: 13px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+    .tldr .sv { display: block; margin-top: 4px; max-width: 65ch; font-size: 0.97rem; }
+    .dagar ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; border: 0; margin: 4px 0 8px; }
+    .dagar li { display: block; padding: 0; border: 0; }
+    .dagar a { display: inline-block; padding: 10px 12px; min-height: 44px; border: 1px solid var(--line); border-radius: 3px; background: var(--card); text-decoration: none; font-size: 0.9rem; }
+    .dagar a:hover { border-color: var(--gron); }
+    .manadsnav { margin: 4px 0 16px; font-size: 0.95rem; }
+    .manadsnav a { color: var(--accent); }
+    ul.manader { list-style: none; border-top: 1px solid var(--line); }
+    ul.manader li { display: flex; justify-content: space-between; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+    ul.manader a { font-weight: 600; font-size: 1.1rem; text-decoration: none; }
+    ul.manader a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .antal { color: var(--muted); font-size: 0.9rem; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai/arkiv/"><span aria-hidden="true">&larr;</span> Arkiv</a>
+      <h1>Oktober 2026</h1>
+      <p class="ingress">10 dagar och 100 länkar ur TLDR AI och TLDR Tech, med egna korta sammanfattningar på svenska. Senaste dagen överst.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre">
+      <nav aria-label="Hoppa till datum" class="dagar">
+        <ul>
+        <li><a href="#d-2026-10-14">14 okt</a></li>
+        <li><a href="#d-2026-10-13">13 okt</a></li>
+        <li><a href="#d-2026-10-12">12 okt</a></li>
+        <li><a href="#d-2026-10-09">9 okt</a></li>
+        <li><a href="#d-2026-10-08">8 okt</a></li>
+        <li><a href="#d-2026-10-07">7 okt</a></li>
+        <li><a href="#d-2026-10-06">6 okt</a></li>
+        <li><a href="#d-2026-10-05">5 okt</a></li>
+        <li><a href="#d-2026-10-02">2 okt</a></li>
+        <li><a href="#d-2026-10-01">1 okt</a></li>
+        </ul>
+      </nav>
+      <section id="d-2026-10-14" aria-labelledby="h-2026-10-14">
+        <h2 id="h-2026-10-14">onsdag 14 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-4-argon-available-on-google-cloud" target="_blank" rel="noopener">Gemini 4 Argon Lands on Google Cloud<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Gemini 4 Argon blir tillgänglig på Google Cloud den 13 oktober. Google beskriver stöd för längre arbetsflöden och sammanställning av dokument som blandar text, tabeller, diagram och bilder.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.latent.space/p/claude-dynamic-workflows" target="_blank" rel="noopener">How Anthropic&#x27;s Dynamic Workflows Coordinate Claude Agents<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Dynamic workflows låter Claude skriva programmet som delar upp arbete mellan agenter och samlar resultaten. Utvecklare kan sätta en sessionsbudget, men modellen känner inte själv till den under körningen.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.liquid.ai/blog/lfm2-5-24b-a2b" target="_blank" rel="noopener">LFM2.5-24B-A2B<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Apple</span>
+            <span class="sv">Liquid AI släpper en öppen modell med 24 miljarder parametrar, varav två miljarder aktiveras per token. Kontextfönstret ökar till 131 072 token och företaget rapporterar 184 token per sekund på Apple M5 Max.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://anoma.ly/notes/opencode-2-0/" target="_blank" rel="noopener">OpenCode 2.0<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">OpenCode 2.0 samlar terminal-, webb- och skrivbordsklienter kring en gemensam bakgrundsprocess. Versionen får nytt API och SDK, men tillägg för 1.0 fungerar inte i 2.0.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.copilotkit.ai/blog/introducing-clif" target="_blank" rel="noopener">Introducing CLiF: Continual Learning from Full-Stack Trajectories<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">CLiF fångar både agentsteg och användarhandlingar via AG-UI och föreslår återanvändbara färdigheter. Varje förslag blir en SKILL.md-fil som granskas och godkänns innan den används; egen drift stöds.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.pi.website/blog/api-beta" target="_blank" rel="noopener">Frontier Models for Every Robot<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Pi API-betan låter utvecklare ladda upp robotdemonstrationer, finjustera modeller och använda dem via en driftad anslutning. En partner utvecklade en bearbetningsuppgift på fyra dagar, medan andra tester visade nätverksproblem.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.anthropic.com/engineering/redesigning-source-control" target="_blank" rel="noopener">Redesigning source control at Anthropic<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Anthropic ersätter Git för sitt monorepo med det egna systemet Scion efter fem månaders migrering. Företaget uppger att antalet dagliga infogade kodändringar steg från cirka 2 500 i maj till över 30 000 i september.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://felixrieseberg.com/how-to-be-more-ambitious-a-tutorial-for-humans-with-models/" target="_blank" rel="noopener">How to be more ambitious: A tutorial for humans with models<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Felix Rieseberg beskriver fyra sätt att utveckla AI-användning: snabbhet, högre mål, djupare analys och större ämnesbredd. Ett exempel går från att skapa presentationsbilder till att identifiera tre viktiga beslut och pröva alternativen.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://martinfowler.com/articles/are-harnesses-worth-the-cost.html" target="_blank" rel="noopener">Are Harnesses Worth the Cost?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">I ett test av en API-tjänst klarade GPT-6 Luna tre av tio körningar utan extra styrning och tio av tio med ett testbaserat ramverk. Sol klarade alla körningar i båda fallen, vilket visar att nyttan beror på modell och uppgift.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arstechnica.com/google/2026/10/google-wants-to-host-your-personal-vibe-coded-apps-in-the-play-store/" target="_blank" rel="noopener">Google wants to host your personal vibe-coded apps in the Play Store<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Google börjar införa ett privat Play Store-bibliotek för appar skapade i AI Studio. Apparna är privata som standard och kan delas med en liten grupp utan vanligt utvecklarkonto; utrullningen börjar i utvalda marknader.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-13" aria-labelledby="h-2026-10-13">
+        <h2 id="h-2026-10-13">tisdag 13 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://research.meta.ai/blog/muse-wonder" target="_blank" rel="noopener">Muse Wonder<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Meta släpper Muse Wonder via modell-API och Muse Code, medan Wonder Full begränsas till Muse Code-prenumeranter. Active Memory hämtar relevant information från tidigare samtal och Active Focus stödjer längre arbetsuppgifter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.ploeh.dk/2026/10/12/releasing-ai-generated-software/" target="_blank" rel="noopener">Releasing AI-generated software<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Mark Seemann diskuterar hur AI-skriven kod kan granskas med tester, kvalitetssäkring och snabb återkoppling. Han påpekar att utelämnade testfall lämnar beteenden ospecificerade även när alla befintliga tester går igenom.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://discuss.huggingface.co/t/offloading-bounded-decisions-cut-agent-llm-calls-by-29-6-on-360-sop-bench-cases/190420" target="_blank" rel="noopener">Decision Models Cut Agent LLM Calls by 29.6%<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">I 360 testfall minskade antalet anrop till huvudmodellen från 2 537 till 1 785 när Jev tog över avgränsade beslut. Författaren betonar att resultatet inte bevisar en generell förbättring av noggrannheten.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://noiz.ai/lp/blog/meet-helix-world" target="_blank" rel="noopener">Meet Helix World: A Real-Time Audio-Visual World Model<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Spel</span>
+            <span class="sv">Helix World skapar en utforskbar miljö med matchande stereoljud från en startbild. Demon styrs med tangentbord och uppges generera 24 bilder per sekund på en NVIDIA H800.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://sarthakai.substack.com/p/a-coding-plugin-to-make-you-a-10x" target="_blank" rel="noopener">Make Your Coding Assistant a 10x AI Engineer<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">AGENT-ENGINEER innehåller elva färdigheter, fyra underagenter och fem händelsekopplingar för kodassistenter. Författaren testar tillägget på sex uppgifter med tre körningar vardera, bland annat för att förbättra utvärdering och hantering av API-nycklar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.yoav.ws/posts/why_webmcp_matters/" target="_blank" rel="noopener">Why WebMCP matters<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">WebMCP låter webbplatser erbjuda tydligt beskrivna JavaScript-verktyg som agenter kan anropa. I ett Shopify-test lyckades 60 av 60 försök, jämfört med 56 av 60 med vanlig webbläsarautomatisering.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arstechnica.com/gaming/2026/10/report-epic-games-goes-all-in-on-ai-for-disney-collaboration/" target="_blank" rel="noopener">Epic Games reportedly pivoting to “AI first” game development model<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Spel</span>
+            <span class="sv">Enligt rapporteringen lägger Epic om Disney-samarbetet till AI-stödd kod- och bildproduktion under mänsklig ledning. Spelet, tidigare planerat till mars 2027, uppges vara försenat på obestämd tid.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://newsletter.posthog.com/p/38-things-weve-learned-about-building" target="_blank" rel="noopener">38 things we&#x27;ve learned about building AI products<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">PostHog sammanfattar 38 erfarenheter från tio AI-produkter. Ett råd är att välja verkliga återkommande uppgifter och bestämma utvärderingskriterier i förväg i stället för att nöja sig med en imponerande demo.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://words.filippo.io/right-answers/" target="_blank" rel="noopener">(Post-Quantum) Cryptographic Right Answers<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Filippo Valsorda uppdaterar sina kryptografiska råd för 2026 och beskriver hur asymmetriska algoritmval förändras inför postkvantövergången. Genomgången skiljer bland annat nyckelhantering från autentiserad kryptering av stora datamängder.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://mpadge.eu/blog/coding-alone.html" target="_blank" rel="noopener">Coding Alone<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Mark Padgham analyserar hur öppna projekt rör sig mot mer ensamarbete och mindre deltagande utifrån. Underlaget omfattar bland annat npm, PyPI och CRAN, och artikeln föreslår att AI används för att stärka gemenskaper.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-12" aria-labelledby="h-2026-10-12">
+        <h2 id="h-2026-10-12">måndag 12 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://www.anthropic.com/research/investigating-unintended-model-actions" target="_blank" rel="noopener">Investigating unintended model actions in our evaluations and internal use<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Anthropic beskriver oavsiktliga externa handlingar under tester och intern användning. Företaget stänger tills vidare internetåtkomst i alla interna utvärderingar medan övervakning och säkerhetsåtgärder kontrolleras.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.vals.ai/blogs/multi-agent-vibe-code-bench" target="_blank" rel="noopener">Do Agent Teams Pay Off? A Case Study on Vibe Code Bench<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Tester på 50 webbappar visar att agentteam kostade 1,8–5,1 gånger mer än en ensam agent. Bara en av fyra jämförelser gav en statistiskt säker förbättring av resultatet.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.cloudflare.com/clef-faster-cheaper-multimodal/" target="_blank" rel="noopener">Introducing Clef-omni with full multimodality, plus a faster Clef and a cheaper Clef-flash<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Clef-omni tar text, bilder, ljud och video i samma beslutsanrop. Samtidigt sänks priset på den driftade Clef-flash, vars kontextfönster minskar från 64 000 till 24 000 token.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://threadreaderapp.com/thread/2108621476538781878.html" target="_blank" rel="noopener">Anthropic just let in every Pro and Max user from the Claude Code Projects waitlist<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Anthropic släpper in alla Pro- och Max-användare som stod på väntelistan till Claude Code Projects. I betan samordnar en beständig projektkonversation uppgifter som körs i parallella trådar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://ghuntley.com/replaced/" target="_blank" rel="noopener">If your team is too busy doing their &#x27;normal job&#x27; to experiment with AI, you&#x27;re preparing them to be replaced<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Geoffrey Huntley argumenterar för att team måste avsätta arbetstid för AI-experiment. Han använder Ralph och återkommande agentloopar som exempel på hur utvecklingsarbetet förändras.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.theregister.com/devops/2026/10/09/so-long-spokes-github-rewrites-storage-to-restore-reliability-just-in-time-for-agentic-hordes/5302148" target="_blank" rel="noopener">So long, Spokes: GitHub rewrites storage to restore reliability, just in time for agentic hordes<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">GitHub bygger om Git-lagringen med separata läs- och skrivflöden samt objektlagring. Interna tester visar 35 gånger snabbare skrivningar, medan utvecklarnas arbetsflöden ska bestå.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.cloudflare.com/deno-joins-cloudflare/" target="_blank" rel="noopener">Deno is joining Cloudflare<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Deno-teamet går till Cloudflare och arbetet med workerd och celld ska förenas. Målet är att förenkla egen drift av Workers och Durable Objects med samma byggstenar på fler platser.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://larstofus.com/2026/10/11/speeding-up-the-unreal-editor-by-not-using-unnecessarily-secure-hash-methods/" target="_blank" rel="noopener">Speeding up the Unreal editor by… not using unnecessarily secure hash methods<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Spel</span>
+            <span class="sv">Ett byte från SHA1 till xxHash minskar den uppmätta CPU-tiden för shader-hashning från 12,90 till 1,59 sekunder. Ändringen har accepterats men var ännu inte infogad när artikeln skrevs.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://royfish.dev/fingerprints-are-the-new-cookies" target="_blank" rel="noopener">From now on I&#x27;ll call you<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Artikeln visar hur språk, operativsystem, IP-adress och hårdvarumätningar tillsammans kan identifiera en webbläsare utan kakor. Den beskriver också hur olika webbläsare begränsar sådan spårning.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://scotthelme.co.uk/the-first-reduction-in-their-history-64-day-lets-encrypt-certificates/" target="_blank" rel="noopener">The First Reduction in Their History: 64-Day Let&#x27;s Encrypt Certificates<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Let&#x27;s Encrypt börjar testa 64-dagarscertifikat den 14 oktober 2026. Produktionsstandardens giltighet ändras först den 10 februari 2027, vilket gör automatisk förnyelse viktigare.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-09" aria-labelledby="h-2026-10-09">
+        <h2 id="h-2026-10-09">fredag 9 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026" target="_blank" rel="noopener">Gemini Agent<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Google presenterar en gemensam agent för bland annat Workspace, kod och mediearbete. Den behåller minne mellan enheter och kan fortsätta molnuppgifter i timmar eller dagar efter att datorn stängts.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://epoch.ai/publications/can-ai-automate-epoch" target="_blank" rel="noopener">Can AI automate Epoch?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Epoch testar sex modeller på egna arbetsuppgifter, bland annat grafik och forskningsplanering. Modellerna klarar tydligt avgränsade uppgifter bättre än öppna uppdrag där kvalitetsbedömning och underförstådda krav behövs.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://exa.ai/blog/atlas-benchmark" target="_blank" rel="noopener">ATLAS: Evaluating Agents on Search-Intensive Tasks<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">ATLAS omfattar 547 sökuppgifter där både riktighet och fullständighet bedöms. Även de dyraste testade sökagenterna missade omkring en tredjedel av referensresultaten.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://github.com/microsoft/quicksand" target="_blank" rel="noopener">Quicksand<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Quicksand styr och sparar QEMU-maskiner via ett asynkront Python-API för isolerad agentkörning. Det stöder macOS, Linux och Windows på x86_64 och ARM64 utan krav på root eller Docker.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://updates.midjourney.com/testing-thinking-mode/" target="_blank" rel="noopener">Testing Thinking Mode<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Midjourney testar ett nytt tänkande läge på sin Alpha-webbplats från 8 oktober. En befintlig bild kan köras om med läget för att pröva bättre instruktionsefterlevnad, typografi och sammanhang.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://docs.devin.ai/work-with-devin/security-swarm" target="_blank" rel="noopener">Security Swarm<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Security Swarm delar en kodbas mellan parallella Devin-agenter för att hitta och verifiera sårbarheter. Fynd kan leda till rättningsförslag som pull requests, men dokumentationen kräver kontroll av faktisk åtkomlighet och konsekvens.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.anthropic.com/news/anthropic-cyber-mission" target="_blank" rel="noopener">Anthropic Cyber Defense Initiative<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Anthropics Cyber Mission börjar med två områden: kritisk infrastruktur och öppen källkod. OSS Scanner erbjuder öppna projekt återkommande kostnadsfria säkerhetskontroller och förslag på rättningar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.ivokund.com/first-look-at-claude-code-mods-spoiler-yes-use-one-now/" target="_blank" rel="noopener">First look at Claude Code mods (spoiler: yes, use one now!)<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Ivo Kund visar en egen sidopanel som visualiserar ett två timmar långt Claude Code-arbetsflöde. Andra anpassningar gör GitHub-ärenden klickbara och hjälper till att följa test- och driftsättningssteg.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.getbootstrap.com/2026/10/08/bootstrap-6-alpha/" target="_blank" rel="noopener">Bootstrap 6 Alpha<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Bootstrap 6 Alpha inför Sass-moduler, ESM-baserad JavaScript och fler inbyggda webbfunktioner. Minimikraven är Chrome/Edge 130, Firefox 132 och Safari 18; Bootstrap 5 stöds fortfarande.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://github.com/zerobrewhq/zerobrew" target="_blank" rel="noopener">zerobrew<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Apple</span>
+            <span class="sv">Zerobrew är en alternativ Homebrew-klient med cache som gör ominstallationer snabbare på macOS och Linux. Projektets test med version 0.3.5 saknar dock efterinstallationssteg, vilket begränsar jämförbarheten med Homebrew.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-08" aria-labelledby="h-2026-10-08">
+        <h2 id="h-2026-10-08">torsdag 8 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://openai.com/index/gpt-6-for-everyone/" target="_blank" rel="noopener">GPT-6 and Intelligent UI for everyone<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">ChatGPT får interaktiva diagram, formulär och små verktyg direkt i svaren. Artikeln visar hur användaren kan ändra indata och utforska förklaringar steg för steg för att lära sig komplexa ämnen.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://simonwillison.net/2026/Oct/7/claude-haiku-5-5/" target="_blank" rel="noopener">Claude Haiku 5.5<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Haiku 5.5 kostar 0,10 dollar per miljon indatatoken och 0,50 dollar för utdata upp till 100 000 token. Simon Willison påpekar att priset därefter femdubblas och att den nya tokeniseringen kan öka förbrukningen.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.llamaindex.ai/blog/introducing-opendocrouter" target="_blank" rel="noopener">Introducing OpenDocRouter: every document model under one API<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">OpenDocRouter omvandlar PDF, PNG och JPEG till Markdown genom ett gemensamt API för flera modeller. Direkt svar stöds upp till 50 sidor, medan en begäran får omfatta högst 500 sidor eller 50 MB.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/" target="_blank" rel="noopener">Introducing Playground: Create and play custom games<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Spel</span>
+            <span class="sv">Playground låter användare skapa och dela webbläsarspel med textinstruktioner. Lanseringen gäller USA och personer över 18 år; integration med Unity Spark är fortfarande under test.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/" target="_blank" rel="noopener">Google Expands SynthID Detector Globally<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">SynthID Detector öppnas globalt på engelska för kontroll av vattenmärkta bilder, filmer och ljud. Det söker märkning från Google och partner som OpenAI och NVIDIA, vilket inte omfattar allt AI-genererat material.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/" target="_blank" rel="noopener">MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Microsoft uppger att MAI-Code-1.1-Flash använder 25 procent färre token per uppgift och kostar en fjärdedel av föregångaren. Modellen finns i GitHub Copilot, med förbättringar särskilt för terminal- och .NET-uppgifter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://refactoringenglish.com/blog/anti-patterns-software-blogging/" target="_blank" rel="noopener">Anti-Patterns in Software Blogging<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Michael Lynch rekommenderar att titel och de första tre meningarna klargör målgrupp och nytta. Artikeln visar också vanliga webbproblem som mobil överbredd och text med för låg kontrast.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.kevin.md/i-put-melee-in-my-living-room.md" target="_blank" rel="noopener">I Put Smash Bros Melee in My Living Room<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Spel</span>
+            <span class="sv">Kevin Tang kombinerar Slippi-repriser, spelresurser och Unity för att visa Melee i Meta Quest. Arbetet skiljer mellan återspelning och nya botstrider och beskriver bland annat ett inspelningsfel med 140 millisekunders ljudfördröjning.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arstechnica.com/ai/2026/10/software-is-over-bold-ai-developer-takes-aim-at-adobe-with-open-source-clones/" target="_blank" rel="noopener">“Software is over”: Bold AI developer takes aim at Adobe with open source clones<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Kreativt</span>
+            <span class="sv">Artcraft släpper sju öppna appar som efterliknar Adobe-verktyg för bild, film och dokument. De är skrivna i Rust med AI-stöd och befinner sig i en mycket tidig alfaversion med tydliga brister.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.schneier.com/blog/archives/2026/10/apples-verified-photography-system.html" target="_blank" rel="noopener">Apple&#x27;s Verified Photography System<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Apple</span>
+            <span class="sv">Apples Reference Image ska verifiera att ett foto kommer oförändrat från en nyare iPhone utan att offentliggöra fotografens identitet. Systemet använder Apples privata molnberäkning för validering och signering.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-07" aria-labelledby="h-2026-10-07">
+        <h2 id="h-2026-10-07">onsdag 7 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://deepmind.google/models/model-cards/nano-banana-2-1/" target="_blank" rel="noopener">Nano Banana 2.1<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Modellkortet beskriver bildgenerering med ett kontextfönster på en miljon token och både text och bilder som indata. Små texter och konsekvent återgivning av karaktärer anges fortfarande som begränsningar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/" target="_blank" rel="noopener">EmbeddingGemma 2<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">EmbeddingGemma 2 omvandlar text, kod, bilder, ljud och video till sökbara representationer lokalt. Multimodalmodellen har 740 miljoner parametrar och Apache-2.0-licens.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://claude.com/resources/articles/claude-now-works-in-google-docs-sheets-and-slides" target="_blank" rel="noopener">Claude now works with Google Docs, Sheets, and Slides<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Claude får en sidopanel i Docs, Sheets och Slides för betalande användare i offentlig beta. Den kan ändra dokument, skapa formler och arbeta med presentationsteman, med godkännande av ändringar som standard.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://developers.openai.com/api/docs/guides/decisions" target="_blank" rel="noopener">Decisions<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">OpenAI testar ett besluts-API med GPT-6 Luna som returnerar booleska svar, alternativval eller poäng. Det tar text och bilder och uppges vara omkring tio gånger snabbare än vanlig generering för dessa uppgifter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://ogzhanolguncu.com/blog/how-to-keep-learning-in-the-age-of-llms/" target="_blank" rel="noopener">How to keep learning in the age of LLMs<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Skola och AI</span>
+            <span class="sv">Författaren visar en kodmentor som ställer vägledande frågor i stället för att direkt ge lösningen. Ett exempel använder ett indexfel för att låta den lärande resonera och själv skriva den viktiga koden.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://survey.stackoverflow.co/2026" target="_blank" rel="noopener">Stack Overflow Developer Survey 2026<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Enkäten omfattar över 30 000 svarande från 169 länder. Nästan 70 procent uppger att de använder AI för lärande, medan 48 procent bara litar på AI för uppgifter med låg risk.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://developer.chrome.com/blog/jpeg-xl-in-chrome" target="_blank" rel="noopener">Shipping JPEG XL in Chrome<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Kreativt</span>
+            <span class="sv">Chrome 155 får stöd för JPEG XL, med bland annat HDR och förlustfri komprimering. Google anger att formatet kan ge 30–50 procent mindre filer än JPEG.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://lucumr.pocoo.org/2026/10/6/codemode/" target="_blank" rel="noopener">What is Codemode<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Armin Ronacher beskriver hur Pi 1.0 låter JavaScript samordna MCP-verktyg. Koden körs i en QuickJS-sandlåda via WebAssembly utan direkt åtkomst till nätverk eller filsystem.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://mitchellh.com/writing/program-status-osc7501" target="_blank" rel="noopener">A Terminal Protocol for Program Status (OSC 7501)<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">OSC 7501 låter program rapportera status som arbetar, väntar, klar eller misslyckad till terminalen. Det möjliggör statusvisning och aviseringar utan att terminalen måste gissa från utskriften.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://ghuntley.com/lisp/" target="_blank" rel="noopener">An application in Lisp you grow by talking to it<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Jiti låter användaren be en språkmodell lägga till Lisp-funktioner i en levande applikation. Funktionerna sparas och kan sedan köras som vanlig kod utan ny modellinferens.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-06" aria-labelledby="h-2026-10-06">
+        <h2 id="h-2026-10-06">tisdag 6 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://openai.com/index/eu-text-provenance/" target="_blank" rel="noopener">OpenAI to Add Text Watermarks<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">OpenAI beskriver osynlig textmärkning med Grain, med frivilligt API-stöd och planerad utrullning i EU. I ett redigeringstest föll detektionen från 92 till 66 procent när tio procent av orden byttes ut.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://devin.ai/blog/memory-and-dreaming" target="_blank" rel="noopener">How Devin&#x27;s Memory and Dreaming Work<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Devin lagrar beständiga minnen i Git-hanterade Markdown-filer. En daglig bakgrundsprocess sammanför dubbletter och uppdaterar kopplingar mellan minnen som användaren kan granska.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://github.com/gatewai-dev/framefields" target="_blank" rel="noopener">Framefields<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Framefields omvandlar TypeScript-kompositioner till MP4 med WebGPU och Node. Projektet kombinerar 2D, 3D och ljud och innehåller över 50 GPU-baserade shader-effekter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://9to5mac.com/2026/10/05/apple-invites-developers-to-submit-iphone-duo-ready-apps-to-the-app-store/" target="_blank" rel="noopener">Apple invites developers to submit iPhone Duo-ready apps to the App Store<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Apple</span>
+            <span class="sv">Apple öppnar för appar anpassade till iPhone Duo med Xcode 27.1 RC1. Artikeln beskriver också nya krav på appanpassning och skärmbilder från april 2027.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://lemire.me/blog/2026/10/05/ephemeral-testing/" target="_blank" rel="noopener">Ephemeral testing<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Daniel Lemire föreslår tillfälliga testappar som AI bygger ovanpå ett bibliotek. Genom att använda biblioteket i en konkret integration kan de avslöja API-problem innan testappen kastas bort.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://deadparrotbbs.com/why-plain-text-is-still-one-of-the-best-technologies-we-have/" target="_blank" rel="noopener">Why Plain Text Is Still One of the Best Technologies We Have<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Artikeln beskriver hur vanlig text kan sökas, jämföras och säkerhetskopieras utan ett särskilt program. Textbaserad lagring gör det också lättare att flytta information mellan verktyg.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://stratechery.com/2026/apple-and-a-hackers-future/" target="_blank" rel="noopener">Apple and a Hacker&#x27;s Future<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Apple</span>
+            <span class="sv">Ben Thompson berättar att hans Mac mini komprometterades via skärmdelning på port 5900. Händelsen används för att diskutera hur mer kapabla AI-agenter förändrar både angrepp och felsökning.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://terrytao.wordpress.com/2026/10/05/the-future-of-mathematics/" target="_blank" rel="noopener">The Future of Mathematics<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Skola och AI</span>
+            <span class="sv">Jeremy Avigad beskriver tre vägar framåt för matematik: svårare problem, större idéer och nya verktyg. Han betonar att studenter behöver utveckla eget resonemang även när AI kan leverera svar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://jacobtomlinson.dev/posts/2026/writing-blog-posts-while-walking-the-dog/" target="_blank" rel="noopener">Writing blog posts while walking the dog<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Kreativt</span>
+            <span class="sv">Jacob Tomlinson använder cirka 30 minuters röstsamtal med AI för att utveckla artikelidéer. Därefter bestämmer han strukturen och dikterar stycken som AI hjälper till att ordna.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.theaithinker.com/p/how-to-build-an-ai-native-software" target="_blank" rel="noopener">How to Build an AI-Native Software Factory<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Artikeln beskriver sex byggstenar i Ubers AI-stödda utveckling, bland annat gemensamma regler och molnagenter. Den föreslår att börja med en återkommande uppgift och följa kostnaden per infogad kodändring.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-05" aria-labelledby="h-2026-10-05">
+        <h2 id="h-2026-10-05">måndag 5 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://www.testingcatalog.com/aleph-alpha-releases-open-weight-kolibri-with-1m-context/" target="_blank" rel="noopener">Aleph Alpha releases open-weight Kolibri with 1M context<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Kolibri har ett kontextfönster på en miljon token och aktiverar 3,46 av totalt 78,1 miljarder parametrar. De öppna vikterna har Apache-2.0-licens och modellen fokuserar på engelska och tyska.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://katecarruthers.com/smaller-models-are-the-future-of-ai-sovereignty-2/" target="_blank" rel="noopener">Smaller models are the future of AI sovereignty<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Författaren argumenterar för mindre, specialiserade modeller som organisationer kan driva själva. Öppna vikter gör det möjligt att byta leverantör och behålla kontrollen över driftsmiljön.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://cactuscompute.com/blog/whistle" target="_blank" rel="noopener">Whistle: Speech to Text in 16.9MB<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Whistle transkriberar lokalt på CPU med en modell på 16,9 MB. Webbdemon tar ljudklipp på upp till 30 sekunder och stöder sju språk, men inte svenska.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://research.google/blog/toward-provably-private-learning-from-federated-data/" target="_blank" rel="noopener">Toward provably private learning from federated data<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Google beskriver hur krypterade träningsbidrag behandlas i verifierade, isolerade servermiljöer. Tekniken används redan för Gboards engelska och japanska modeller.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link" target="_blank" rel="noopener">Meta open sources code to let you make Muse AI gadgets<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Meta öppnar kod för egna Muse-tillbehör med exempelvis ESP32 eller Raspberry Pi. Utvecklare kan koppla in skärmar, sensorer och knappar via ett SDK.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://nolanlawson.com/2026/10/03/why-dont-more-developers-use-the-platform/" target="_blank" rel="noopener">Why don&#x27;t more developers “use the platform”?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Nolan Lawson diskuterar varför utvecklare väljer bibliotek trots inbyggda webbfunktioner. CSS-egenskapen position:sticky illustrerar hur webbläsaren ibland kan ersätta ett extra npm-beroende.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://simonwillison.net/2026/Oct/3/default-hard-budget-caps/" target="_blank" rel="noopener">We&#x27;re going to need default hard budget caps on pretty much everything<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Simon Willison efterlyser kostnadsgränser som stoppar tjänster när budgeten är slut. Han skiljer sådana stopp från e-postvarningar, som inte hindrar en AI-agent från att fortsätta förbruka resurser.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://metedata.substack.com/p/what-meta-got-right-with-muse" target="_blank" rel="noopener">What Meta Got Right With Muse<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Artikeln analyserar hur Muse samlar arbetet i en huvudsaklig chatt. Att ta bort separata modellval och lägen minskar antalet beslut användaren behöver fatta.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://vxlang.org/" target="_blank" rel="noopener">Vx<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Vx är ett systemspråk som använder typer för att beskriva hårdvara och minnesåtkomst. Det stöder Linux och macOS på Apple Silicon och upptäcker vissa felaktiga enhetsåtkomster vid kompilering.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://sjg.io/writing/could-this-finally-be-microsofts-moment/" target="_blank" rel="noopener">Could this finally be Microsoft&#x27;s moment?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Analysen beskriver hur Copilot Home, Code och Autopilot knyts till Microsofts befintliga verktyg. Home och Code ligger i Frontier-programmet medan Autopilot fortfarande är en privat förhandsversion.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-02" aria-labelledby="h-2026-10-02">
+        <h2 id="h-2026-10-02">fredag 2 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://www.anthropic.com/research/claude-shaped-science" target="_blank" rel="noopener">Claude-shaped science<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Matthew Schwartz beskriver hur Claude och det öppna verktyget BootLoops användes i 36 manuskript inom 18 ämnesområden. Han betonar att experter behövde kontrollera resultaten och välja vetenskapligt meningsfulla frågor.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.cloudflare.com/clef-decision-models/" target="_blank" rel="noopener">Introducing Clef: our open-source decision models, and new RL fine-tuning platform<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Clef klassificerar text och bilder och returnerar typade svar med sannolikheter i stället för fri text. Modellen har ett kontextfönster på 64 000 token och kan köras med öppna vikter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://microsoft.ai/news/our-first-streaming-transcription-model/" target="_blank" rel="noopener">Microsoft&#x27;s first streaming transcription model debuts at No. 1 on Artificial Analysis<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Microsoft lanserar löpande transkribering på 60 språk med de första preliminära orden efter drygt 100 millisekunder. De nya röstmodellerna stöder 23 språk och kan behålla samma röst vid språkbyte.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.oneusefulthing.org/p/the-dot-and-the-swarm" target="_blank" rel="noopener">The Dot and the Swarm<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Kreativt</span>
+            <span class="sv">Ethan Mollick beskriver hur AI-agenter själva planerar och fördelar arbete. I ett exempel skapade AI en musikvideo från en enda instruktion med Suno för musiken och kod för bilden.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://ideas.imbue.com/p/personal-computing-20" target="_blank" rel="noopener">Personal Computing 2.0<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Josh Albrecht föreslår en datormiljö där användaren äger sina data och kan flytta AI-arbetet mellan egen dator och molntjänster. Öppna lokala modeller och samarbete mellan olika leverantörers agenter är centrala delar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://earendil.com/posts/pi-durable/" target="_blank" rel="noopener">Pi Durable<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Pi Durable lanseras som ett experimentellt ramverk för långvariga agenter samtidigt med Pi 1.0. Det stöder bland annat SQLite- och JSONL-lagring samt återhämtning efter avbrott.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.pragmaticengineer.com/the-pulse-ror-creator-sparks-new-death-of-coding-by-hand-debate/" target="_blank" rel="noopener">RoR creator sparks new “death of coding by hand” debate<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">37signals uppger att manuell kodning blivit undantag och att AI gör nya satsningar på native-appar möjliga. Företaget behåller Rails för webbappar men flyttar vissa backendtjänster till Rust.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://quesma.com/blog/agent-session-transcripts-are-precious/" target="_blank" rel="noopener">Your agent session transcripts are precious, keep them<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Quesma släpper ett öppet verktyg som samlar sessioner från Claude Code, Codex och Cursor till egen lagring. Det filtrerar upptäckta känsliga uppgifter och krypterar filerna före uppladdning.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/" target="_blank" rel="noopener">Fair Moderation, Equitable Access, and AI: arXiv&#x27;s Updated Rate Limit Policy<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">Från 1 oktober begränsar arXiv inskickare till två bidrag per kalendermånad och högst tre aktiva bidrag samtidigt. Ändringen ska minska moderatorernas belastning när mängden AI-stödda bidrag ökar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://strandsagents.com/blog/introducing-strands-decider/" target="_blank" rel="noopener">Amazon Enters the Decision Model Race With Strands Decider 2B<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Strands Decider 2B är en öppen beslutsmodell med två miljarder parametrar för lokal utveckling. Den väljer mellan givna alternativ i stället för att generera godtycklig text.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-10-01" aria-labelledby="h-2026-10-01">
+        <h2 id="h-2026-10-01">torsdag 1 oktober 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/" target="_blank" rel="noopener">Gemini 4 Argon<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">Google utökar modellens maximala utdata till en miljon token för längre programmerings- och analysuppgifter. Tillgången börjar med utvalda testare inom cybersäkerhet.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://github.com/NVIDIA/OpenShell" target="_blank" rel="noopener">NVIDIA OpenShell Secures Autonomous AI Agents<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">OpenShell begränsar AI-agenters åtkomst till filer, nätverk och inloggningsuppgifter i isolerade miljöer. Behörighetsändringar granskas med formell verifiering innan de tillämpas.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://yedhu.me/posts/commit-description-as-a-thinking-tool/" target="_blank" rel="noopener">Commit Description as a Thinking Tool<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Författaren skriver själv commit-beskrivningar för att kontrollera AI-genererad kod. Beskrivningen ska förklara varför ändringen behövs och när tillfälliga lösningar kan tas bort.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://techcrunch.com/2026/09/30/reddit-is-killing-rss-feeds-ending-public-api-access-because-of-ai-bots/" target="_blank" rel="noopener">Reddit is killing RSS feeds and ending public API access because of AI bots<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Reddit stänger RSS-flödena den 13 november och avslutar den offentliga API-åtkomsten senast i mars 2027. Företaget anger scraping och automatiserat missbruk som skäl.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://liamhorne.com/agents-and-programmable-cryptography" target="_blank" rel="noopener">Connecting Agents with Cryptography<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Artikeln visar hur MPC och homomorf kryptering kan låta agenter jämföra uppgifter utan att exponera rådata. Ett konkret exempel jämför om två löner skiljer högst 10 000 dollar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://e2b.dev/resources/introducing-e2b-embed" target="_blank" rel="noopener">Introducing E2B Embed<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Webb och appar</span>
+            <span class="sv">E2B Embed låter utvecklare köra kodsandlådor och kontrollpanel på en egen maskin med Python- eller JavaScript-SDK. Koden är Apache-2.0-licensierad och Docker-alternativet kräver Linux med KVM.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://runway.com/research/introducing-praxis-1" target="_blank" rel="noopener">Praxis-1<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Runway använder videoförträning för robotstyrning och testar Praxis-1 hos tre namngivna partner. Modellvikterna planeras bli offentliga under de kommande månaderna.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.goodfire.com/blog/we-can-and-must-solve-alignment" target="_blank" rel="noopener">We can and must solve alignment<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">Goodfire föreslår två huvudspår för säkrare AI: styra vad modeller lär sig och verifiera deras interna mekanismer. Företaget beskriver verktyg för att upptäcka, felsöka och motverka belöningsfusk.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.lukascampos.com/blog/router-economy" target="_blank" rel="noopener">The Router Economy<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Audioscrapes grundare uppger att registreringar via ChatGPT ökade 36 gånger under sex dagar och sedan föll efter en plattformsändring. Han använder fallet för att diskutera beroendet av AI-assistenters verktygsval.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arxiv.org/abs/2609.38149" target="_blank" rel="noopener">A new transformer passes its hidden state to the next token instead of recomputing it<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Övrigt</span>
+            <span class="sv">LIFT för vidare intern information mellan genereringssteg. Försök med modeller på 135 miljoner till en miljard parametrar visar förbättringar på bland annat språkmodellering och beräkningsuppgifter.</span>
+          </li>
+        </ol>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p>Källa: <a href="https://tldr.tech/" target="_blank" rel="noopener">TLDR<span class="dold"> (öppnas i ny flik)</span></a> (TLDR AI och TLDR Tech). Rubrikerna står på originalspråket och länkarna leder till originalet. Sammanfattningarna är gjorda på svenska med egna ord.</p>
+    </div>
+  </footer>
+</body>
+</html>

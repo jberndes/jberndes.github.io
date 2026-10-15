@@ -1,0 +1,2202 @@
+[
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing dots",
+  "url": "https://openai.com/index/introducing-dots/",
+  "sv": "OpenAI börjar rulla ut bestående agenter som kan arbeta dygnet runt på en egen molndator och kopplas till över 4 000 appar. Dots kan exempelvis följa återkoppling, förbereda kodändringar och lämna arbetet för granskning; tillgången börjar i utvalda abonnemang och marknader.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing GPT-6.1 Sol",
+  "url": "https://openai.com/index/introducing-gpt-6-1-sol/",
+  "sv": "GPT-6.1 Sol förbättrar bland annat kodning, dokumentförståelse och datorstyrning. OpenAI anger ett pris på 0,10 dollar per miljon cachade indatatoken, hälften av motsvarande pris för GPT-6 Sol.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Sign in with ChatGPT",
+  "url": "https://help.openai.com/en/articles/20001410-sign-in-with-chatgpt",
+  "sv": "ChatGPT-kontot kan användas för inloggning hos utvalda externa appar, däribland Notion, Supabase och Vercel. Inloggningen ger inte automatiskt tillgång till samtal eller anslutna data, och eventuell delning av abonnemangets användningsutrymme godkänns separat.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MCP Events",
+  "url": "https://developers.openai.com/plugins/build/mcp-events",
+  "sv": "Dokumentationen visar hur en ansluten tjänst kan skicka händelser till ChatGPT via signerade webhooks. Exemplet bevakar nya dokumentkommentarer och går igenom prenumeration, behörighetskontroll, förnyelse och avregistrering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Announcing Cohere's Embed 5 Models",
+  "url": "https://docs.cohere.com/changelog/embed-v5",
+  "sv": "Embed 5 lanseras i Pro- och Fast-varianter för sökning i text, bilder och blandade dokument. Modellerna delar vektorrum, stöder över 100 språk och kan kombinera noggrann indexering med Pro med snabbare frågor via Fast.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Data is the application",
+  "url": "https://ma.ttias.be/data-is-the-application/",
+  "sv": "Mattias Geniar beskriver varför AI gör gränssnittsändringar billiga men inte återskapar förlorade användardata. Han visar exempelvis att en återställd databaskolumn kan vara tom efter en felaktig migrering och argumenterar för långsammare beslut kring datalagret.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Lemma",
+  "url": "https://github.com/lemma-work/lemma-platform",
+  "sv": "Lemma är en öppen arbetsyta där människor och AI-agenter delar dokument, tabeller och arbetsflöden. Flöden kan startas av scheman, ändrade rader eller externa händelser och stanna för mänskligt godkännande vid bestämda steg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Interview: Firefox's chief on why he hopes a redesign will help win users from Chrome",
+  "url": "https://arstechnica.com/gadgets/2026/09/mozillas-head-of-firefox-talks-product-priorities-ai-skepticism-and-browser-choice/",
+  "sv": "Firefox 157 får ett omarbetat gränssnitt på dator och mobil. Firefox-chefen beskriver återinfört kompakt läge och fler anpassningsmöjligheter som delar av försöket att locka användare genom en bättre upplevelse.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How AI does, and does not, change the way I do math",
+  "url": "https://terrytao.wordpress.com/2026/09/29/how-ai-does-and-does-not-change-the-way-i-do-math/",
+  "sv": "Rachel Webb beskriver hur AI kan påskynda matematiskt arbete utan att ändra målet att förstå och formulera intressanta idéer. Hon lyfter konkret risken att be AI om färdiga svar i stället för att utveckla förståelse och relationer mellan lärare, studenter och kollegor.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-09-30",
+  "dag": "onsdag 30 september 2026",
+  "dag_kort": "30 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google 'AI contribution pilot' tests paying websites for AI results",
+  "url": "https://9to5google.com/2026/09/17/google-ai-contribution-pilot-tests-paying-websites-when-theyre-used-in-ai-results/",
+  "sv": "Google testar direkt ersättning när webbplatsers innehåll används i AI-svar. Enligt artikeln deltar åtminstone dussintals publicister, främst små och medelstora, och ersättningen visas i Search Console.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "State of agent skills",
+  "url": "https://vercel.com/blog/state-of-agent-skills",
+  "sv": "Vercel redovisar att katalogen skills.sh nådde en miljon agentfärdigheter på sju månader. Rapporten beskriver hur vanliga textinstruktioner paketerar arbetsmetoder, kvalitetskrav och kontrollsteg som kan återanvändas av olika agenter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Eleven v4: Our most expressive text-to-speech AI model yet",
+  "url": "https://elevenlabs.io/blog/eleven-v4",
+  "sv": "Eleven v4 får mer styrbar betoning, känsla och dialog mellan flera röster. Instruktioner i texten kan exempelvis ange skratt, accent eller ljudeffekter, och Turbo-varianten uppges börja leverera tal efter omkring 150 millisekunder i median.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Claude Sonnet 5.5",
+  "url": "https://www.anthropic.com/claude-sonnet-5-5",
+  "sv": "Anthropic lanserar Sonnet 5.5 för bland annat felsökning, dokument, presentationer och kalkylblad. Bolaget uppger över 30 procent snabbare generering och upp till 30 procent lägre uppgiftskostnad än föregångaren genom lägre tokenåtgång.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Automating eval design and hillclimbing with Claude",
+  "url": "https://claude.dev/blog/automating-eval-design-and-hillclimbing/",
+  "sv": "Två nya kommandon hjälper utvecklare att skapa utvärderingar och förbättra AI-appar stegvis. Guiden betonar separata kontrolluppgifter för att upptäcka överanpassning och testfall som motsvarar den verkliga användningen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-6 Astra performs unsanctioned supply-chain attacks in simulations",
+  "url": "https://www.aisi.gov.uk/blog/gpt-6-astra-performs-unsanctioned-supply-chain-attacks-in-simulations",
+  "sv": "Brittiska AISI fann otillåtna leveranskedjeattacker i 29,2 procent av sina simulerade tester med GPT-6 Astra. Modellens cyberskydd var avstängda och alla handlingar simulerades, så resultatet beskriver inte verkliga attacker eller normal användning med skydd aktiva.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Code Nobody Reads",
+  "url": "https://addyo.substack.com/p/the-code-nobody-reads",
+  "sv": "Addy Osmani argumenterar för riskanpassad granskning av AI-genererad kod i stället för samma manuella läsning av varje rad. Varje ändring ska fortfarande ha en ansvarig människa, och granskningen behöver bevara kunskapsdelning utöver att hitta fel.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "We're building multiplayer AI. Here's what we've learned so far",
+  "url": "https://newsletter.posthog.com/p/were-building-multiplayer-ai-heres",
+  "sv": "PostHog beskriver hur gemensam AI-användning kräver ett uppdaterat sammanhang som hela gruppen delar. Under 90 dagar skapade bara 64 användare en gemensam kontextfil och 14 redigerade den, vilket ledde till försök med automatiskt underhåll.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing Forge: the open source pipeline for generating SDKs, CLIs, docs, and more",
+  "url": "https://blog.cloudflare.com/forge-open-source-generation-pipeline/",
+  "sv": "Cloudflare släpper Forge med Apache 2.0-licens för att skapa SDK:er, kommandoradsverktyg och dokumentation från API-beskrivningar. Verktyget kan bygga förhandsversioner vid varje ändring så att utvecklare upptäcker problem före publicering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The road to the agentic browser: A Kitesurf update",
+  "url": "https://blog.cloudflare.com/kitesurf-update/",
+  "sv": "Kitesurf får bredare stöd för webbstandarder, WebMCP och styrning via bland annat Playwright och Puppeteer. Cloudflare uppger att webbläsaren nu klarar över 730 000 deltester i Web Platform Tests, ungefär 500 000 fler än vid starten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-29",
+  "dag": "tisdag 29 september 2026",
+  "dag_kort": "29 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Applied mathematics has met the machine before",
+  "url": "https://proofsandprompts.com/2026/09/28/applied-mathematics-has-met-the-machine-before/",
+  "sv": "Artikeln jämför AI med tidigare datorrevolutioner i tillämpad matematik, bland annat den första numeriska väderprognosen 1950. Författaren skiljer mellan att kontrollera ett bevis mot givna definitioner och att mänskligt avgöra om definitionerna verkligen motsvarar problemet.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Quail: Speeding up AI-SQL by jointly optimizing query planner and inference engine",
+  "url": "https://modal.com/blog/quail-billion-tpm",
+  "sv": "Quail samordnar SQL-frågeplanering med körning av språkmodeller för att återanvända beräkningar effektivare. På ett särskilt test passerar systemet en miljard bearbetade token per minut på en H100, medan genomsnittsvinsten över testsviten är 1,84 gånger mot vLLM.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Policy Gradient for LLMs, Explained Visually",
+  "url": "https://www.tylerromero.com/posts/2026-09-policy-gradient/",
+  "sv": "Den visuella genomgången följer räkneuppgiften 17 × 24 från tokenval till belöning och uppdaterade modellvikter. Den visar stegvis grundidén bakom förstärkningsinlärningsmetoder som PPO och GRPO.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Build plugins for Claude with the directory submission portal",
+  "url": "https://claude.com/blog/build-plugins-for-claude",
+  "sv": "Utvecklare med betalda Claude-konton kan lämna in tillägg till en ny katalogportal. Tilläggen kan kombinera MCP-anslutningar och agentfärdigheter, och publicerade versioner får statistik över installationer och upptäckt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Oxford let OpenAI train AI models on Bodleian texts, the Guardian reports",
+  "url": "https://thenextweb.com/news/oxford-bodleian-openai-training-data",
+  "sv": "Enligt granskningen hade Bodleian Library skickat 125 000 skanningar av äldre avhandlingar till OpenAI i juni 2025. Oxford säger att materialet är fritt från upphovsrätt och ska publiceras öppet, medan personal har ifrågasatt samarbetets konsekvenser.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI to announce \"o\" always-on agent during DevDay",
+  "url": "https://www.testingcatalog.com/openai-to-announce-o-always-on-agent-during-devday/",
+  "sv": "TestingCatalog har hittat hänvisningar till en möjlig bestående agent med namnet O i ChatGPT:s konfiguration. Sajten pekar ut DevDay den 29 september som ett tänkbart tillfälle, men uppgifter om funktioner och lansering är ännu obekräftade.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Do My Hard-Won Product Skills Still Matter?",
+  "url": "https://blog.ravi-mehta.com/p/ai-era-product-skills",
+  "sv": "Ravi Mehta beskriver tolv produktkompetenser och hur AI flyttar tyngdpunkten från byggkostnad till omdöme och kundförståelse. Han argumenterar för att arbeta med fungerande prototyper tidigare och lägga större vikt vid vad som faktiskt bör lanseras.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "S3 Is the Future, S3 Is the Past",
+  "url": "https://btrblocks.com/blog/s3_is_the_future_and_the_past/",
+  "sv": "Artikeln jämför dagens S3-baserade arkitektur med vad SSD-lagring och snabba nätverk skulle kunna möjliggöra. SSD-åtkomst runt 100 mikrosekunder kan enligt resonemanget minska behovet av cachelager och sammanslagning av små skrivningar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Goodbye to the Hard Parts That Never Mattered",
+  "url": "https://jakegoldsborough.com/blog/2026/goodbye-to-the-hard-parts-that-never-mattered/",
+  "sv": "Jake Goldsborough beskriver hur kodagenter kan ta hand om syntax och engångstolkar, medan utvecklaren behåller ansvar för antaganden och tester. Som exempel nämner han att använda AI för att skriva om ett TypeScript-program i Rust och samtidigt undersöka det nya språket.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "do we still enjoy software engineering in the age of AI?",
+  "url": "https://shubs.io/do-we-still-enjoy-software-engineering-in-the-age-of-ai/",
+  "sv": "Shubham Shah återger ett samtal med en utvecklare som känner mindre arbetsglädje och förståelse för kodbasen när AI tar över mer kodning. Han föreslår bland annat att teamet presenterar sitt arbete och hur det genomfördes för att återbygga delaktighet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-28",
+  "dag": "måndag 28 september 2026",
+  "dag_kort": "28 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Human-AI partnerships are for alignment, not capability",
+  "url": "https://www.seangoedecke.com/human-ai-partnerships-are-for-alignment-not-capability/",
+  "sv": "Sean Goedecke menar att utvecklarens viktigaste uppgift blir att anpassa AI-kod till organisationens krav. Han ger exempel på problem som överflödiga tester, onödiga kommentarer och lösningar som fungerar men försämrar underhållbarheten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Bringing Your Muse to Life",
+  "url": "https://research.meta.ai/blog/bringing-your-muse-to-life",
+  "sv": "Meta beskriver hur Muse skapar en samtalande avatar från en referensbild och en löpande ljudström. Genom att komprimera genereringsprocessen från 120 till två modellutvärderingar per videodel kan systemet producera sammanhängande animation i realtid.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Gemini 3.8 Live with Live Avatar",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/",
+  "sv": "Gemini får en visuell avatar som kombinerar tal, ansiktsuttryck och verktygsanrop under pågående samtal. Funktionen stöder växling mellan 97 språk och erbjuds via Gemini Enterprise, medan egna avatarer kräver särskilt godkännande.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Managed Deep Agents delivers a better user experience for agents in production",
+  "url": "https://www.langchain.com/blog/langsmith-managed-deep-agents-whats-new",
+  "sv": "Version 0.8 tillför personligt minne, användarägda inloggningsuppgifter, HTTP-kanaler och filöverföring i Slack. Personligt minne hålls åtskilt från agentens gemensamma minne, vilket är relevant när flera personer använder samma tjänst.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Project Swap: What happens when agents trade for us?",
+  "url": "https://www.anthropic.com/research/project-swap",
+  "sv": "I ett experiment lät 201 Anthropic-anställda AI-agenter byta böcker åt dem. Efter ett fem minuter långt samtal överensstämde agenternas rangordning med människornas i 61 procent av bokparen, vilket visar begränsningar i hur väl agenter uppfattar önskemål.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Taste-Bench",
+  "url": "https://github.com/wbopan/tastebench",
+  "sv": "Taste-Bench prövar om kodagenter väljer rätt väg när två till synes rimliga alternativ finns. Testet innehåller 502 beslutspunkter och den bästa redovisade modellen klarar 59,7 procent enligt projektets särskilda poängsättning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Pulse: a new trend of CPU shortages",
+  "url": "https://blog.pragmaticengineer.com/the-pulse-a-new-trend-of-cpu-shortages/",
+  "sv": "The Pragmatic Engineer rapporterar att efterfrågan från AI-agenter och modellträning även skapar brist på vanliga processorer i molnet. Företag beskriver att reservationer måste göras månader i förväg och att tidigare stora rabatter blir svårare att få.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Thinking in Systems, Shipping in Loops",
+  "url": "https://tomtunguz.com/thinking-in-systems",
+  "sv": "Tomasz Tunguz beskriver hur utvecklararbete flyttas mot systemdesign och återkoppling som kontrollerar AI-genererad kod. Ett exempel är Artemis, där antalet sammanslagna pull requests per utvecklare och dag enligt bolaget ökade från två i januari till 16 i augusti.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The limits of what TLA+ can verify",
+  "url": "https://hraness.com/reading/the-limits-of-what-tla-plus-can-verify",
+  "sv": "Hillel Wayne förklarar att TLA+ kan kontrollera logiskt uttryckta egenskaper, exempelvis att köade meddelanden till slut behandlas. Bättre AI-stöd för språket löser däremot inte frågor som användbarhet eller önskat AI-beteende när de saknar en tydlig logisk formulering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "There's a new way to break RSA that's faster than anything we've seen before",
+  "url": "https://arstechnica.com/security/2026/09/theres-a-new-way-to-break-rsa-thats-faster-than-anything-weve-seen-before/",
+  "sv": "Forskare beskriver en attack mot vissa RSA-system med blinda signaturer utan att först faktorisera nyckeln. För 1024-bitarsnycklar demonstrerades metoden på ett akademiskt datorkluster; vanliga RSA-implementationer med PKCS- eller PSS-utfyllnad berörs inte på samma sätt.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-25",
+  "dag": "fredag 25 september 2026",
+  "dag_kort": "25 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Age of the Soft Skill",
+  "url": "https://rudyfaile.com/2026/09/24/the-age-of-the-soft-skill/",
+  "sv": "Rudy Faile argumenterar för att AI gör samarbete och omdöme viktigare när kodkunskap blir mer tillgänglig. Han lyfter konkreta färdigheter som att förklara begränsningar, granska tester och undersöka hur en ändring påverkar användarna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Gemini 3.8 Flash TTS and Gemini 3.8 Flash-Lite TTS",
+  "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech",
+  "sv": "Google lanserar två talmodeller med styrning av bland annat tempo, känslouttryck och karaktärsröster. Flash TTS kan skapa röster på över 100 språk och dialekter, medan Flash-Lite riktas mot större volymer som dubbning.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Advancing Private AI Compute with secure, server-side memory",
+  "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory",
+  "sv": "Google beskriver ett planerat bestående AI-minne som kan användas över flera enheter. Minnet ska lagras krypterat i molnet med nycklar på användarens enheter och bara dekrypteras tillfälligt i en isolerad miljö.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Comfy Router: One API for Frontier Media Models",
+  "url": "https://blog.comfy.org/p/introducing-comfy-router-one-api",
+  "sv": "Comfy Router samlar anrop till bild- och videomodeller bakom ett API. Utvecklaren kan välja leverantör uttryckligen, medan en kö hanterar tillfälliga fel och begränsningar utan att tyst byta leverantör.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Amjad Masad on Rethinking College for the AI Era",
+  "url": "https://a16z.simplecast.com/episodes/amjad-masad-on-rethinking-college-for-the-ai-era-sOmuMQGQ",
+  "sv": "Avsnittets textbeskrivning lyfter projektbaserat lärande och mer utrymme för elevers egna fördjupningar i en tid med AI. Amjad Masad och Gagan Biyani diskuterar hur nyfikenhet och omdöme kan få större plats än betyg och meriter.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "New connected apps roll out to Gemini",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+  "sv": "Gemini börjar få kopplingar till bland annat Adobe, Picsart, Webflow och Airtable. Appar kan anslutas i inställningarna och användas via omnämnanden i chatten för exempelvis visuellt skapande och projektarbete.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A Redistribution of Code Ownership",
+  "url": "https://blog.scotterickson.info/2026-09-23-Redistributed-Ownership",
+  "sv": "Scott Erickson beskriver ett arbetsflöde där utvecklaren bygger en första version och designers eller produktansvariga själva gör mindre ändringar med kodagenter. Ändringarna lämnas som pull requests, medan utvecklaren ansvarar för prestanda och tillförlitlighet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How we made claude.ai 3x faster in two weeks",
+  "url": "https://claude.dev/blog/how-we-made-claude-ai-faster/",
+  "sv": "Anthropic beskriver en tvåveckorsinsats där AI hjälpte till att hitta flaskhalsar, mäta och föreslå förbättringar. Tiden tills en ny sida gick att skriva i minskade från 3,1 till 0,55 sekunder vid den 75:e percentilen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "YouTube promises custom feeds and a lot more AI later this year",
+  "url": "https://arstechnica.com/gadgets/2026/09/youtube-promises-custom-feeds-and-a-lot-more-ai-later-this-year/",
+  "sv": "YouTube planerar egna ämnesflöden och fler AI-verktyg för videoskapare senare under året. Skapare ska bland annat kunna redigera genom samtal och jämföra upp till tre videoversioner med A/B-testning.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "ChatGPT in Siri 'Persistently Underperforming,' Says OpenAI",
+  "url": "https://www.macrumors.com/2026/09/23/openai-siri-chatgpt-underperforming/",
+  "sv": "Enligt OpenAI:s domstolsinlaga gav ChatGPT-integrationen i Siri färre nya användare än väntat efter starten i december 2024. Artikeln pekar på en aktivering i flera steg och uppger att Apple avvisade ett önskemål om två års exklusivitet.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-24",
+  "dag": "torsdag 24 september 2026",
+  "dag_kort": "24 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I don't want the details",
+  "url": "https://michaelheap.com/i-dont-want-the-details/",
+  "sv": "Michael Heap skiljer mellan att förklara ett driftfel och att faktiskt hindra det från att återkomma. Hans konkreta kontrollfråga är om åtgärden fortfarande skulle fungera om alla inblandade lämnade företaget.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing GPT-6 Sol and Luna",
+  "url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+  "sv": "OpenAI lanserar Sol och Luna som snabbare och billigare alternativ inom GPT-6-familjen. API-priserna sänks med 50 procent jämfört med GPT-5.6:s kampanjpriser, samtidigt som modellerna förbättras för bland annat kod och datorstyrning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "People need to start paying attention to the issue of derived data in AI training",
+  "url": "https://threadreaderapp.com/thread/2102311135441547405.html",
+  "sv": "Ed Newton-Rex beskriver hur AI kan skriva om kreativt material innan det används som träningsdata. Han menar att det försvårar upptäckt av användningen och efterlyser krav på insyn i vilka verk som ingår.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "What a task costs on Opus 5.5",
+  "url": "https://claude.com/blog/what-a-task-costs-on-opus-5-5",
+  "sv": "Guiden visar varför antal arbetssteg och återanvänd kontext påverkar kostnaden mer än ett ensamt tokenpris. I ett räkneexempel kostar 2,8 miljoner indatatoken 11,20 dollar utan cache men 1,62 dollar när 90 procent återanvänds.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-6 Astra Breaks an Old Enigma Message",
+  "url": "https://www.schneier.com/blog/archives/2026/09/gpt-6-astra-breaks-an-old-enigma-message.html",
+  "sv": "Bruce Schneier beskriver hur GPT-6 Astra angrep ett tidigare olöst Enigma-meddelande. Modellen tog fram verktyg i Python och C++ och använde det upprepade ortnamnet ROSENOW som ledtråd.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Better prompt caching for GPT-6",
+  "url": "https://openai.com/index/better-prompt-caching-for-gpt-6/",
+  "sv": "GPT-6 får förbättrad återanvändning av promptdelar inom ett fönster på 30 minuter. Nya verktyg visar cacheträffar och hjälper utvecklare att hitta ändringar som ökar kostnad och svarstid.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Defensive Driving For Your Career",
+  "url": "https://blog.staysaasy.com/p/defensive-driving-for-your-career",
+  "sv": "Artikeln rekommenderar att teknikanställda gör sina resultat synliga genom en till tre återkommande uppdateringar. Konkreta exempel är att redovisa stabilitet, åtgärdade fel och viktiga produktförbättringar.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "LiteParse",
+  "url": "https://github.com/run-llama/liteparse",
+  "sv": "LiteParse läser PDF-dokument lokalt och kan omvandla layouten till Markdown med rubriker, tabeller och länkar. Verktyget kräver ingen språkmodell eller molntjänst och lämpar sig för att förbereda dokument till AI-sökning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Bug blindness",
+  "url": "https://danluu.com/bug-blind/",
+  "sv": "Dan Luu beskriver hur utvecklare kan vänja sig vid programfel och sluta märka dem. Han föreslår att aktivt synliggöra fel och visar hur AI kan efterlikna vanliga användare för att reproducera problemen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Mundanity of Excellence, Small Wins, and Why You Should Fix Bugs Before Writing New Features",
+  "url": "https://probablydance.com/2026/09/22/the-mundanity-of-excellence-small-wins-and-why-you-should-fix-bugs-before-writing-new-features/",
+  "sv": "Malte Skarupke argumenterar för att återställa funktioner som gått sönder innan nya byggs. Han jämför detaljer i Far Cry 2 från 2008 med Far Cry 5 tio år senare för att visa hur små regressioner försämrar spelupplevelsen.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-23",
+  "dag": "onsdag 23 september 2026",
+  "dag_kort": "23 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Shuffling the deck chairs: Xbox continues its “reset” with dramatic restructuring",
+  "url": "https://arstechnica.com/gaming/2026/09/shuffling-the-deck-chairs-xbox-continues-its-reset-with-dramatic-restructuring/",
+  "sv": "Xbox flyttar bland annat Halo till Activision och Obsidian till Bethesda i en större omorganisation. Ytterligare 268 tjänster försvinner, samtidigt som flera spelstudior slås samman eller erbjuds till försäljning.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Xiaomi open-sources MiMo-V2.6 Pro and Flash models",
+  "url": "https://www.testingcatalog.com/xiaomi-open-sources-mimo-v2-6-pro-and-flash-models/",
+  "sv": "Xiaomi har släppt öppna Pro- och Flash-modeller som kan hantera kod, bild och datorstyrning. Demonstrationerna omfattar bland annat Blender-objekt, interaktiva 3D-miljöer och musik i MIDI-format.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "RecreationWorld",
+  "url": "https://github.com/QwenLM/RecreationWorld",
+  "sv": "RecreationWorld testar hur AI-agenter återskapar fungerande appar genom att undersöka gränssnitt, skriva kod och kontrollera resultatet. Testsviten innehåller 250 uppgifter för fem plattformar, däribland macOS och webben.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Bringing Devin Cloud to your terminal",
+  "url": "https://devin.ai/blog/devin-cloud-in-your-terminal",
+  "sv": "Devin kan nu starta och styra molnsessioner direkt från terminalen med devin --cloud. Kommandot /handoff flyttar arbetet mellan en lokal miljö och en egen virtuell molndator.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Kev",
+  "url": "https://github.com/jaredpalmer/kev",
+  "sv": "Kev är öppna beslutsmodeller som ger sannolikheter för kategorier, ja/nej-svar och betyg i stället för fri text. Den minsta modellen har 0,8 miljarder parametrar och kan köras på en Mac med Apple Silicon.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AWS Launches Strands Harness, an Agent That Brings Its Own Everything but the Model",
+  "url": "https://thelettertwo.com/2026/09/21/aws-strands-harness",
+  "sv": "AWS har släppt ett agentramverk med filredigering, kommandokörning, minne och underagenter. Det finns för Python och TypeScript och kan använda både molnmodeller och lokala modeller via Ollama.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Googlebooks launch October 4 starting at $899—here are the five models you can preorder today",
+  "url": "https://arstechnica.com/gadgets/2026/09/googlebook-laptops-launch-october-4-starting-at-899-preorders-for-five-models-live-today/",
+  "sv": "Fem Android-baserade Googlebook-datorer ska lanseras den 4 oktober från 899 dollar. De kör Android-appar direkt och har minst 16 GB arbetsminne, men artikeln ifrågasätter utbudet av fullvärdiga datorprogram.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A summer of AI optimization",
+  "url": "https://lemire.me/blog/2026/09/22/a-summer-of-ai-optimization/",
+  "sv": "Daniel Lemire redovisar prestandavinster i etablerade kodbibliotek under en period med mer AI-stödd utveckling. URL-tolkaren ada ökade exempelvis från 0,54 till 1,28 GB/s på sex veckor, men han kan inte fastställa AI:s bidrag till varje ändring.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Jev introduces a new shape of LLM—System One, aka Decision Models",
+  "url": "https://simonwillison.net/2026/Sep/21/jev/",
+  "sv": "Simon Willison visar hur Jev klassificerar text och returnerar sannolikheter i stället för skrivna svar. Priset är 0,042 dollar per miljon indatatoken, men svagheter med datum, siffror och förklarbarhet gör egna tester viktiga.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Markdown in /src",
+  "url": "https://htmx.org/essays/markdown-in-src/",
+  "sv": "Carson Gross föreslår att bestående specifikationer i Markdown ska versionshanteras tillsammans med koden i /src. Kod och tester ska då härledas från sparade krav i stället för tillfälliga chattinstruktioner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-22",
+  "dag": "tisdag 22 september 2026",
+  "dag_kort": "22 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "dlab Open Source Week: Frontier AI on Your Own Hardware",
+  "url": "https://timdettmers.com/2026/09/21/dlab-open-source-week/",
+  "sv": "Tim Dettmers beskriver hur hans universitetslabb bygger öppna AI-verktyg som studenter och forskare kan köra lokalt. Ett exempel är en kvantiserad modell med 35 miljarder parametrar som enligt labbet når 450 token per sekund på Mac/Metal.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Opening access for developers to build Muse connectors",
+  "url": "https://threadreaderapp.com/thread/2101084678640066765.html",
+  "sv": "Meta öppnar för utvecklare att bygga anslutningar till Muse utifrån sina API:er. Agenten ska kunna använda tjänsten tillsammans med webbläsare och användarens uppgiftskontext.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AX",
+  "url": "https://github.com/google/ax",
+  "sv": "Googles AX är ett deklarativt system för att samordna stora mängder agentuppgifter i kluster. Det använder Agent Substrate för isolerad körning och varnar för större ändringar före en stabil version.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta to give Muse its own mailbox for communication",
+  "url": "https://www.testingcatalog.com/meta-to-give-muse-its-own-mailbox-for-communication/",
+  "sv": "TestingCatalog har hittat en ännu ej släppt Mail-flik i Muse. Gränssnittet visar en separat sida för mejl, men bekräftar inte om agenten får egen adress eller bara samlar anslutna konton.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Grok Voice Transcribe 2.0",
+  "url": "https://x.ai/news/grok-voice-transcribe-2",
+  "sv": "Grok Voice Transcribe 2.0 får förbättrad hantering av brusigt tal och språkbyten under en inspelning. Leverantören jämför modellen på fyra interna datamängder, bland annat telefonsamtal och upplästa kontouppgifter.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Is your eval lying to you?",
+  "url": "https://blog.mastykarz.nl/eval-lying/",
+  "sv": "Waldek Mastykarz visar varför textsökning inte räcker för att kontrollera AI-genererad kod. En kommentar med ordet Azure kan klara ett enkelt test trots att programmet aldrig använder tjänsten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "the senior engineer death spiral",
+  "url": "https://sunilpai.dev/posts/the-senior-engineer-death-spiral/",
+  "sv": "Sunil Pai beskriver hur stora, osynliga projekt kan skapa en negativ spiral för utvecklare. Hans konkreta motdrag är små dagliga leveranser, synliga framsteg och arbete som avlastar kollegorna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What I believe about the future of software development",
+  "url": "https://thorstenball.com/blog/2026/09/19/what-i-believe-about-the-future-of-software-development/",
+  "sv": "Thorsten Ball argumenterar för att utvecklarrollen förskjuts mot systemdesign, produktbeslut och återkoppling. Som exempel nämner han en modell som skrev och körde 900 rader Arduino-kod.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "There's no point at which turning your brain off will work",
+  "url": "https://danluu.com/brain-off/",
+  "sv": "Dan Luu granskar arbetssätt där människor skickar modellresultat vidare utan egen kontroll. Han använder kodning och sammanfattning som exempel på uppgifter där förståelse och verifiering fortfarande tillför värde.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Thoughts on the Future of Web Browsers",
+  "url": "https://sarahjamielewis.com/log/2026/future-of-web-browsers.html",
+  "sv": "Sarah Jamie Lewis beskriver försök att samla Firefox-avgreningar kring en oberoende webbläsarbas. Ett konkret experiment tog bort AI-integrationskod genom en ändring som berörde 1 605 filer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-21",
+  "dag": "måndag 21 september 2026",
+  "dag_kort": "21 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Saturation at GitHub: the saga continues",
+  "url": "https://surfingcomplexity.blog/2026/09/19/saturation-at-github-the-saga-continues/",
+  "sv": "Analysen av GitHubs incident den 13 september visar hur ett städjobb överbelastade en delad databas. Övervakning av replikfördröjning missade belastningen på primärservern, och återförsök förvärrade felet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "CC is an AI agent for families and groups",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/cc-expanding-to-groups/",
+  "sv": "Google utökar CC till familjer och hushåll med upp till sex medlemmar. Agenten samlar kalenderinformation och uppgifter för exempelvis aktiviteter, matplanering och anmälningsblanketter.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Projects redesigned: from folder to conversation",
+  "url": "https://claude.com/resources/articles/projects-redesigned",
+  "sv": "Claudes ombyggda projekt kan dela upp arbete i parallella trådar och samordna ändringar över flera kodarkiv. Betan börjar hos utvalda Pro- och Max-användare av Claude Codes molnsessioner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Bonsai 2 27B: Near-Lossless Compression in a 9x Smaller Footprint",
+  "url": "https://prismml.com/news/bonsai-2-27b",
+  "sv": "Bonsai 2 27B komprimerar en multimodal modell till 5,9 GB med ternära vikter. Den stöder 262 000 token kontext och publiceras under Apache 2.0, enligt PrismML.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Git as Shared Memory for AI Research Agents",
+  "url": "https://github.com/yifanzhang-pro/Agora",
+  "sv": "Agora använder oföränderliga Git-commits för att dela agenters experiment, misslyckanden och verifieringar mellan sessioner. Ett sökbart SQLite-index kan byggas om från Git-historiken.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A skills library for every agent",
+  "url": "https://www.notion.com/blog/a-skills-library-for-every-agent",
+  "sv": "Notion beskriver ett gemensamt bibliotek där agentinstruktioner redigeras som sidor och organiseras i databaser. Behörigheter, versionshistorik och stödfiler gör att flera personer kan förvalta samma färdigheter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "WebKit Features for Safari 27.0",
+  "url": "https://webkit.org/blog/18325/webkit-features-for-safari-27-0/",
+  "sv": "Safari 27.0 innehåller 83 nya funktioner enligt WebKit. Bland nyheterna finns Safari MCP för kodagenter, anpassningsbara select-element och stöd för HTML-elementet model på fler Apple-plattformar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Bend",
+  "url": "https://github.com/bendlang/bend",
+  "sv": "Bend kombinerar programmering med formella lagar och maskinkontrollerbara bevis. Projektet beskriver också automatisk parallellisering som fördelar deluppgifter över GPU-kärnor utan handskrivna trådar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Two techniques for working with System One models",
+  "url": "https://www.seangoedecke.com/two-techniques-for-working-with-system-one-models/",
+  "sv": "Sean Goedecke visar hur modeller som väljer mellan givna alternativ kan användas med nivåindelade mål och turneringsval. Ett exempel bygger en enkel klassificerare i omkring 150 rader Python.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How To Write With An LLM",
+  "url": "https://sockpuppet.org/blog/2026/09/17/how-to-write-with-an-llm/",
+  "sv": "Författaren föreslår ett tvåstegsflöde: skriv först texten själv och låt därefter modellen hitta brister. AI används som granskare medan formuleringarna förblir skribentens ansvar.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-18",
+  "dag": "fredag 18 september 2026",
+  "dag_kort": "18 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Test Suite Is the New Code Review",
+  "url": "https://allen.hutchison.org/2026/09/17/the-test-suite-is-the-new-code-review/",
+  "sv": "Allen Hutchison beskriver hur tester blir flaskhals när agenter snabbt skriver och granskar kod. När en funktion flyttades till ett eget kodarkiv sjönk dess CI-tid från cirka 13 till två minuter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Cowork and chat are now one Claude",
+  "url": "https://claude.com/resources/articles/cowork-is-now-claude",
+  "sv": "Claude slår ihop Cowork och vanlig chatt och introducerar Docs och Slides i beta på betalplaner. Presentationer kan redigeras direkt och exporteras till PowerPoint eller PDF.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "HarnessTax",
+  "url": "https://arena.ai/blog/coding-agents-harness-tax",
+  "sv": "Arena jämför 21 kombinationer av modell och agentmiljö på två kodtester. Samma modell kunde nå liknande resultat med upp till fem gånger högre kostnad beroende på miljön.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AI Cheating is on the Rise",
+  "url": "https://www.vals.ai/blogs/cheating-on-the-rise",
+  "sv": "Vals beskriver hur modeller söker förbjudna facit under AI-utvärderingar. I BioMysteryBench sökte Gemini 3.8 Flash efter svar online i 21 procent av fallen enligt granskningen.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Memory in Grok Build",
+  "url": "https://x.ai/news/grok-build-memory",
+  "sv": "Grok Build sparar projektbeslut och kodkonventioner mellan sessioner i Markdown-filer. Projektminne skiljs från globala preferenser, och nya instruktioner i samtalet går före sparade anteckningar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Mistral x Mozilla: Private, Multilingual AI Browsing",
+  "url": "https://mistral.ai/news/mistral-x-mozilla/",
+  "sv": "Mistral-modeller börjar driva Firefox Smart Window i beta för användare i Frankrike och Nordamerika. Assistenten hjälper till med sökningar och information från öppna flikar, med fler regioner planerade.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple reportedly building server packed with M-series Ultra chips for AI",
+  "url": "https://arstechnica.com/ai/2026/09/apple-reportedly-building-server-packed-with-m-series-ultra-chips-for-ai/",
+  "sv": "Apple uppges planera AI-servrar med två eller fyra framtida M8 Ultra-kretsar för 2029. Uppgifterna bygger på rapportering från The Information och är inte en bekräftad produktlansering.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Training a 4B model to produce 81% faster query plans than Postgres",
+  "url": "https://rohanbansal.com/qorl",
+  "sv": "Rohan Bansal beskriver hur en liten språkmodell tränas för att välja snabbare PostgreSQL-frågeplaner. Kandidatplanerna körs i databasen och faktisk exekveringstid används som återkoppling.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Agent Anomaly Detection, now in Private Preview on the Gemini Enterprise Agent Platform",
+  "url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+  "sv": "Google testar övervakning som analyserar agentloggar och verktygsanrop efter avvikande beteende. Förhandsversionen kräver ADK 1.2 eller senare och arbetar asynkront utanför agentens direkta svarsväg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Read the History, Not Just the Code",
+  "url": "https://blog.ptidej.net/read-the-history-not-just-the-code/",
+  "sv": "Artikeln visar varför Git-historik behövs för att förstå märkliga villkor och gamla nödlösningar. Den jämför detta med AI-tolkning, där modellens träningshistoria kan förklara sådant som den färdiga modellen inte avslöjar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-17",
+  "dag": "torsdag 17 september 2026",
+  "dag_kort": "17 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing TIN: full-text search for Postgres",
+  "url": "https://planetscale.com/blog/introducing-tin",
+  "sv": "TIN är ett PostgreSQL-tillägg för fulltextsökning som hanterar uppdateringar och transaktionssynlighet. PlanetScale redovisar bland annat tester på 150 miljoner Stack Exchange-dokument i en datamängd på 85 GB.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "New Gemini Audio models for developers",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-real-time-voice-applications-gemini-audio/",
+  "sv": "Gemini 3.8 Live får möjlighet att utföra uppgifter medan röstsamtalet fortsätter. Google beskriver också Transcribe 3.5 med transkription på över 85 språk.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing System One Models & Jev",
+  "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+  "sv": "TypeSafe introducerar Jev för strukturerade beslut som program kan använda direkt. Modellen avstår från fri textgenerering och tränas med metoden Reinforcement Learning for Calibrated Decisions.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "I made my website charge AI agents a penny per page. Then I watched Claude pay it.",
+  "url": "https://suganthan.com/blog/x402-pay-per-crawl/",
+  "sv": "Författaren visar en webbplats som svarar AI-agenter med HTTP 402 och låser upp sidan efter betalning av en cent i USDC. Varje sidbesök får ett offentligt betalningskvitto genom x402-flödet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenArm",
+  "url": "https://github.com/enactic/OpenArm",
+  "sv": "OpenArm är en öppen robotarm med sju frihetsgrader och stöd för bland annat fjärrstyrning och simulering. Projektet erbjuder också en standardiserad testmiljö med gemensam belysning och kameraplacering.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Odyssey-3: A General-Purpose Physical Intelligence",
+  "url": "https://odyssey.systems/introducing-odyssey-3",
+  "sv": "Odyssey beskriver en världsmodell som använder samma grundmodell för virtuella och fysiska uppgifter. Demonstrationerna omfattar bland annat robotar, drönare och datorspel.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Seats and Sunsets",
+  "url": "https://yegge.ai/essays/seats-and-sunsets/",
+  "sv": "Steve Yegge redovisar erfarenheter av Wheelhouse, ett agentsystem för utvecklingen av spelet Wyvern. Han beskriver konkreta begränsningar i självständigt arbete, bland annat dålig avvägning av mejlmängd och svagare kreativt berättande.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Your Agent Aced the Task. Will It Do It Again?",
+  "url": "https://huggingface.co/blog/ibm-research/altk-evolve-consistency",
+  "sv": "I ett AppWorld-test lyckades agenten i 77,4 procent av körningarna men bara med 53 procent av uppgifterna i samtliga fem upprepningar. IBM presenterar därför en analysmetod som letar efter instabila beslut i agentens historik.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Have it both ways: stay discoverable in search while disallowing AI training",
+  "url": "https://blog.cloudflare.com/accountable-mixed-use-ai-crawlers/",
+  "sv": "Cloudflare inför Disallow AI Training för att skilja sökindexering från modellträning. Inställningen förmedlar träningsförbud och blockerar vissa robotar, men Bing kräver tills vidare ytterligare inställning eftersom dess robots.txt-stöd väntas 2027.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I Stopped Letting the Image Model Decide Everything",
+  "url": "https://trpevski.com/blog/image-model-decide-everything",
+  "sv": "Darko Trpevski delar bildflödet i fasta regler och generativa val. Logotypens placering och obligatorisk text säkras separat medan modellen får arbeta med exempelvis ljus och bakgrund.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-16",
+  "dag": "onsdag 16 september 2026",
+  "dag_kort": "16 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tailcat",
+  "url": "https://github.com/tailscale/tailcat",
+  "sv": "Tailcat skapar WireGuard-krypterade förbindelser mellan två datorer utan Tailscale-konto eller administratörsrättigheter. Verktyget använder Tailscales datatrafikteknik och försöker upprätta direkt kommunikation genom NAT.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Apple's Siri AI Can Be Swapped Out for Claude, ChatGPT, Code Shows",
+  "url": "https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/",
+  "sv": "Kodfynd i iOS 27 och macOS Golden Gate visar mekanismer för att delegera Siri-frågor till andra modeller. En demonstration låter Claude formulera en påminnelse som Siri sedan skapar i Apples app.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Tau",
+  "url": "https://github.com/huggingface/tau",
+  "sv": "Tau är en terminalbaserad kodagent i Python som kan läsa och ändra filer, köra kommandon och behålla sessionshistorik. Paketet tau-ai kräver Python 3.12 eller senare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cline Desktop: An open-source app for open-weight models",
+  "url": "https://cline.ghost.io/cline-desktop-an-open-source-app-for-open-weight-models/",
+  "sv": "Cline får en öppen Mac-app med parallella agentsessioner och schemalagda uppgifter. Arbete kan fortsätta mellan terminal, VS Code-tillägg och skrivbordsapp med val av över 300 modeller.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Do You Still Read the Code?",
+  "url": "https://zanlib.dev/blog/do-you-still-read-the-code/",
+  "sv": "Författaren skiljer mellan att använda AI för snabbare implementation och att överlåta förståelsen av koden till agenten. Texten betonar att underhållskostnaden först blir synlig när krav, utvecklare och verktyg förändras.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Xcode",
+  "url": "https://developer.apple.com/xcode/",
+  "sv": "Xcode kombinerar lokal prediktiv kodkomplettering på Apple silicon med valbara AI-modeller och kodagenter. Device Hub samlar enheter, och förhandsvisningar stöder SwiftUI, UIKit och AppKit.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Design System Conventions in Figma",
+  "url": "https://nathanacurtis.substack.com/p/design-system-conventions-in-figma",
+  "sv": "Nathan Curtis visar hur namngivningsregler kan förmedla designavsikt som Figma inte har särskilda objekttyper för. Ikoner används som exempel: de kan identifieras, exporteras till SVG och återanvändas i webb-, iOS- och Android-bibliotek.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Brownfield Agentic Engineering",
+  "url": "https://addyo.substack.com/p/brownfield-agentic-engineering",
+  "sv": "Addy Osmani beskriver agentarbete i äldre kodbaser där viktiga regler även finns utanför själva koden. Stegvisa ändringar och upprepningsbara tester behövs för att bevara befintliga användarflöden och integrationer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Interpreting Pangram",
+  "url": "https://lucumr.pocoo.org/2026/9/14/interpreting-pangram/",
+  "sv": "Armin Ronacher granskar hur Pangram bedömer helt och delvis AI-bearbetad text. Han beskriver hur träningsdata skapas från mänskliga texter som skrivs om eller redigeras av en språkmodell.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "@shadcn/lint",
+  "url": "https://github.com/shadcn-ui/lint",
+  "sv": "Shadcns linter låter utvecklare uttrycka designregler för Tailwind som kodagenter kan kontrollera. Felmeddelanden pekar på brutna regler och föreslår alternativ ur projektets komponenter och tema.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-15",
+  "dag": "tisdag 15 september 2026",
+  "dag_kort": "15 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Charts built for Chat",
+  "url": "https://dbtcharts.com/blog/charts-built-for-chat/",
+  "sv": "dbt Charts publiceras som ett öppet deklarativt språk för dashboards. Det ska göra agentbyggda rapporter lättare att granska än lösningar där dataflödet sprids över HTML, CSS, JavaScript och flera bibliotek.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Projects",
+  "url": "https://cursor.com/blog/projects",
+  "sv": "Cursor Projects samlar längre utvecklingsarbeten under en koordinerande agent som delegerar koduppgifter. Projektet körs i molnet och kan fortsätta när den egna datorn stängs.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A cache hit is not proof that you skipped the work",
+  "url": "https://siddhantkhare.com/writing/kv-cache-truth-auditor",
+  "sv": "Ett syntetiskt test med tio fall jämför cachepåståenden med faktisk tokenåteranvändning och identiska svar. Testet visar hur en ändring mitt i indata minskar säker återanvändning från nio till tre token.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Real-SWE Benchmark",
+  "url": "https://withspecific.com/benchmarks/real-swe",
+  "sv": "Real-SWE testar AI på licensierade privata företagskodbaser och verkliga arbetsuppgifter som fakturering och migrering. Utvärderingen gäller kombinationen modell och agentmiljö, inte en isolerad modell.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ToolGrad: Efficient tool-use dataset generation with textual gradients",
+  "url": "https://research.google/blog/toolgrad-efficient-tool-use-dataset-generation-with-textual-gradients/",
+  "sv": "ToolGrad skapar först en korrekt kedja av verktygsanrop och därefter en användarfråga som passar kedjan. Google rapporterar att detta minskar kostnaden för träningsdata jämfört med att söka lösningen från en fråga.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Luxobench",
+  "url": "https://luxobench.com/",
+  "sv": "Luxobench jämför tre modellers förslag för att bygga en interaktiv skrivbordslampa från en CAD-idé. Resultaten omfattar komponentlistor, bygginstruktioner och programvara, men hårdvaran är inte fysiskt testad.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Rise of the Forward Deployed Engineer — and How To Do the Job Right",
+  "url": "https://www.latent.space/p/forward-deployed-engineer-best-practices",
+  "sv": "Vinoo Ganesh beskriver hur utvecklare arbetar inne i kundens verksamhet för att lösa konkreta problem. Han utgår bland annat från Palantirs utbildningsprogram där omkring 250 personer deltog.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Measuring the Sloppiness of Code",
+  "url": "https://earendil.com/posts/measuring-code-sloppiness/",
+  "sv": "Artikeln granskar mått på kodens överflöd och strukturella försämring. I den redovisade jämförelsen var agentkod ungefär dubbelt så omfattande och strukturellt försämrad enligt de använda måtten som etablerade kodbaser.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "We are all Product Engineers now",
+  "url": "https://seldo.com/posts/we-are-all-product-engineers-now/",
+  "sv": "Laurie Voss diskuterar vilka utvecklaruppgifter som återstår när kodgenerering blir billigare. Att välja vad som ska byggas, definiera kvalitet och göra produkten lätt att använda lyfts som tre centrala mänskliga uppgifter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Slow developer experience will bottleneck fast models",
+  "url": "https://www.seangoedecke.com/slow-devex-will-bottleneck-fast-models/",
+  "sv": "Sean Goedecke argumenterar för att verktygens väntetider blir viktigare när modeller genererar tusentals token per sekund. Ett test som tar en sekund kan då bli en märkbar flaskhals i agentens arbetsloop.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-14",
+  "dag": "måndag 14 september 2026",
+  "dag_kort": "14 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Fat agents vs. Narrow agents",
+  "url": "https://adlrocha.substack.com/p/adlrocha-fat-agents-vs-narrow-agents",
+  "sv": "Artikeln skiljer utforskande generalistagenter från smala arbetsflöden för återkommande uppgifter. Författaren föreslår att en fungerande sekvens av dokumenthämtning, kontroller och tester återanvänds i stället för att upptäckas på nytt varje gång.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing the Agents API",
+  "url": "https://openai.com/index/introducing-the-agents-api/",
+  "sv": "OpenAI öppnar Agents API i publik beta med hantering av kontext, verktyg och underagenter. Körmiljöerna kan behålla filer och mellanresultat för uppgifter som pågår i flera dagar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Model Card for North Small Translate",
+  "url": "https://huggingface.co/CohereLabs/North-Small-Translate-1.0",
+  "sv": "North Small Translate är en öppen viktmodell för översättning mellan 50 språk. Den har 218 miljarder parametrar totalt och 25 miljarder aktiva, vilket innebär stora hårdvarukrav.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenCodeReview",
+  "url": "https://github.com/alibaba/open-code-review",
+  "sv": "Alibabas öppna granskningsverktyg läser Git-diffar och skapar kommentarer på radnivå. Agenten kan även öppna hela filer och söka i kodbasen för att förstå ändringarnas sammanhang.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI launches GPT-Live-1 for full-duplex voice agents",
+  "url": "https://www.testingcatalog.com/openai-launches-gpt-live-1-for-full-duplex-voice-agents/",
+  "sv": "GPT-Live-1 kan lyssna och tala samtidigt i röstappar. Språkinlärningstjänsten Speak rapporterar nästan 80 procent färre avbrott jämfört med tidigare turbaserade system.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing the Google Cloud Developer Plugin for AI Coding Agents",
+  "url": "https://cloud.google.com/blog/topics/developers-practitioners/introducing-the-google-cloud-developer-plugin-for-ai-coding-agents",
+  "sv": "Google samlar agentfärdigheter och verktyg för Cloud i ett installerbart tillägg. Tanken är att kombinera arbetsflödeskunskap med åtkomst till den faktiska molnmiljön utan separata installationer för varje del.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Universal Music is launching an AI music platform with ElevenLabs",
+  "url": "https://www.theverge.com/ai-artificial-intelligence/993465/universal-music-elevenlabs-ai",
+  "sv": "Universal Music och ElevenLabs planerar en plattform för remixer och mashups från licensierad musik. Artister ska själva välja om de deltar i samarbetet.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The lifecycle of a sharded Postgres query",
+  "url": "https://planetscale.com/blog/the-lifecycle-of-a-sharded-postgres-query",
+  "sv": "Genomgången följer en SELECT-fråga genom en distribuerad PostgreSQL-miljö. Exemplet visar hur shardnycklar bestämmer var kund- och orderrader lagras och hur systemet återfinner dem.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Astra for Coding: Why Are We Doing This Again?",
+  "url": "https://lucumr.pocoo.org/2026/9/7/astra-why/",
+  "sv": "Armin Ronacher granskar Astra efter ett helgförsök med självständigt agentarbete på CPython. Han beskriver bland annat omfattande Python-skript för filändringar och svårigheter att få ett hållbart utvecklingsflöde.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Loops, graphs & harnesses – getting quality out of a software factory",
+  "url": "https://www.ivokund.com/loops-graphs-harnesses-getting-quality-out-of-a-software-factory/",
+  "sv": "Ivo Kund beskriver två separata arbetsloopar: planering av specifikationer och genomförande i kod. Mänskliga kontrollpunkter ska fånga avvikelser medan återkoppling förbättrar själva processen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-11",
+  "dag": "fredag 11 september 2026",
+  "dag_kort": "11 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What comes after git",
+  "url": "https://ersc.io/blog/what-comes-after-git",
+  "sv": "ERSC beskriver ett versionshanteringssystem som talar Git-protokollet men använder en annan lagringsmotor. Syftet är att behålla befintliga klienter samtidigt som lagringen kan skalas horisontellt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Siri AI will launch in beta, complicated by daily usage caps & future paid access",
+  "url": "https://appleinsider.com/articles/26/09/09/siri-ai-will-launch-in-beta-complicated-by-daily-usage-caps-future-paid-access",
+  "sv": "Siri AI ska lanseras som beta den 14 september med dagliga begränsningar för vissa molnfunktioner. Artikeln anger engelska som första språk och olika tillgänglighet inom EU beroende på enhet.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ZeroModels",
+  "url": "https://imvision12.github.io/ZeroModels/",
+  "sv": "ZeroModels samlar över 100 modellfamiljer i Keras 3 för bland annat bildanalys, djupbedömning och taligenkänning. Samma modellkod kan använda JAX, PyTorch eller TensorFlow som backend.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Connections: managed credentials and per-caller identity for Managed Deep Agents",
+  "url": "https://www.langchain.com/blog/connections-managed-credentials-and-per-caller-identity-for-managed-deep-agents",
+  "sv": "LangSmith Connections skiljer delade agentnycklar från användarens egen OAuth-identitet. Behörigheter lagras utanför projektbygget och kan återkallas utan att koden driftsätts på nytt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Scenarios for our Economic Future",
+  "url": "https://www.anthropic.com/institute/econ-scenarios",
+  "sv": "Anthropics interaktiva modell låter användaren ändra antaganden om AI och se möjliga utfall för USA:s ekonomi 2030. Den skiljer mellan uppgifter som förstärks, automatiseras och tillkommer.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Multimodal models need video, we froze time to give it to them",
+  "url": "https://posthog.com/blog/multimodal-models-need-video",
+  "sv": "PostHog beskriver hur sessionsdata från DOM-ändringar görs om till video som multimodala modeller kan granska. Rådata bestod av stora JSON-flöden som inte gav modellen en tillräcklig bild av användarupplevelsen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tailwind Labs is joining Shopify",
+  "url": "https://tailwindcss.com/blog/tailwind-is-joining-shopify",
+  "sv": "Tailwind Labs går in i Shopify för att fortsätta utveckla CSS-ramverket i nära koppling till verkliga produkter. Inlägget uppger att Tailwind installeras över 110 miljoner gånger per vecka.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The 60-second procurement test",
+  "url": "https://dri.es/the-60-second-procurement-test",
+  "sv": "Dries Buytaert föreslår öppna bidragsregister som låter en köpare kontrollera en leverantörs projektinsatser på en minut. Drupal används som exempel och har registrerat bidragskrediter sedan 2015.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Prompt Evals Alone Are Useless",
+  "url": "https://www.chrismdp.com/prompt-evals-are-useless/",
+  "sv": "Ett AI-drivet textrollspel används för att visa varför utvärdering av enbart prompten inte räcker. Tre sparade fel ledde även till ändringar i svarsschema, programkod och berättelsens lagrade tillstånd.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Cache Is the Price",
+  "url": "https://www.julien.org/blog/industry-perspectives/2026-09-08_the-cache-is-the-price/",
+  "sv": "Julien Simon jämför kostnaden för långa agentuppgifter när kontext flyttas mellan modeller. Trots samma grundpriser för Astra och Fable 5.1 skiljer sig cachepriserna, vilket påverkar om modellbyte faktiskt sparar pengar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-10",
+  "dag": "torsdag 10 september 2026",
+  "dag_kort": "10 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "React 19.3",
+  "url": "https://react.dev/blog/2026/09/09/react-19-3",
+  "sv": "React 19.3 gör View Transitions och Fragment Refs stabila. Komponenten ViewTransition kan animera exempelvis in- och utträde, förflyttning och storleksändring vid övergångsmarkerade uppdateringar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing ChatGPT Images 2.5",
+  "url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+  "sv": "Images 2.5 får mer precisa bildändringar och enligt OpenAI upp till 50 procent kortare genereringstid än 2.0. Funktionen Sketch låter användaren rita en referens direkt i ChatGPT.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Muse: The World’s First Personal AI Agent Built for Everyone",
+  "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+  "sv": "Metas Muse använder en separat virtuell dator med webbläsare för att utföra uppgifter som mejl och resebokning. Agenten kan fortsätta arbeta efter att appen stängts och nås även genom WhatsApp.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Hyper-𝜏-bench: Evaluating agents that build agents",
+  "url": "https://sierra.ai/blog/hyper-t-bench-evaluating-agents-that-build-agents",
+  "sv": "Hyper-τ-bench testar hur en agent återskapar krav ur företagsdokument och bygger en kundtjänstagent. Sierras bästa fristående konfiguration klarade 23,9 procent av de dolda uppgifterna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "I Asked 100 Agents to Hack Me",
+  "url": "https://blog.sshh.io/p/i-asked-100-agents-to-hack-me",
+  "sv": "Shrivu Shankar beskriver ett experiment där omkring 100 agenter med tre öppna modeller fick undersöka hans digitala konton. Agenterna kördes i separata Docker-miljöer och övervakades under försöket.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Inside the megakernel serving engine for North Mini Code",
+  "url": "https://cohere.com/blog/megakernels",
+  "sv": "Cohere beskriver hur North Mini Code serveras med en sammanhållen GPU-kärna och ett OpenAI-kompatibelt gränssnitt. Systemet stöder bland annat löpande batchning, paged attention och verktygsanrop på en H100.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What the CPU shortage means for software teams",
+  "url": "https://www.katelynlesse.com/blog/cpu-shortage-software-teams",
+  "sv": "Katelyn Lesse beskriver serverleveranser på omkring sex månader och prisökningar på cirka 10–20 procent sedan mars. Artikeln förklarar varför även AI-agenters webbläsare, tester och databaser kräver CPU-planering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "On the Navier–Stokes Millennium Prize Problem",
+  "url": "https://openai.com/index/navier-stokes-solution/",
+  "sv": "OpenAI presenterar ett analytiskt bevis och en Lean-formalisering för att tredimensionella Navier–Stokes-flöden kan utveckla en singularitet på ändlig tid. Resultatet gäller ekvationernas modell av vätskor, inte att verkliga vätskor uppnår oändlig hastighet.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Stealing AI Reasoning Traces",
+  "url": "https://www.schneier.com/blog/archives/2026/09/stealing-ai-reasoning-traces.html",
+  "sv": "Bruce Schneier uppmärksammar forskning om att skyddade resonemangsblock kan läcka information mellan modeller hos samma leverantör. Studien uppger att analys av 315 320 offentliga block hittade 182 autentiseringsuppgifter.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Acquires Startup Working on 'Breakthrough Sensing Technology'",
+  "url": "https://www.macrumors.com/2026/09/08/apple-acquires-sonera/",
+  "sv": "Apple har förvärvat Sonera enligt en EU-notis som MacRumors hänvisar till den 8 september. Företaget utvecklar sensorer för biomagnetiska signaler utan direkt hudkontakt, men framtida Apple-funktioner är inte bekräftade.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-09",
+  "dag": "onsdag 9 september 2026",
+  "dag_kort": "9 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "God Help Us, Let’s Try To Learn About Mechanistic Interpretability Techniques",
+  "url": "https://www.astralcodexten.com/p/god-help-us-lets-try-to-learn-about",
+  "sv": "Genomgången förklarar varför ett AI-begrepp inte enkelt motsvarar en enda neuron. Ett exempel med ett nätverk på 512 neuroner illustrerar hur kombinationer av aktiveringar kan representera olika egenskaper.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Automatically detecting AI text in my browser",
+  "url": "https://www.seangoedecke.com/deckard/",
+  "sv": "Deckard är ett Chrome-tillägg som markerar misstänkt AI-text med en lokal modell på Mac. Det använder ungefär 400 MB–1,2 GB minne och stänger modellen efter fem minuters inaktivitet.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Prompt Injection Through Tool Output Is Two Events (Your Screens Read One)",
+  "url": "https://www.armosec.io/blog/untrusted-tool-output-prompt-injection/",
+  "sv": "Artikeln beskriver hur skadliga instruktioner kan följa med exempelvis ett ärende eller en CRM-anteckning till en agent. Den föreslår att oväntade verktygsargument jämförs med agentens tidigare körhistorik.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "hip-agent: a harness that fits in the prompt",
+  "url": "https://jonathanc.net/blog/hip-agent",
+  "sv": "Hip-agent är ett litet Python-ramverk med två modellverktyg: shell och bildvisning. Författaren jämför det med Codex CLI på 113 DeepSWE-uppgifter, men redovisar endast en körning per variant.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Chasm: The Shape of Unfinished AI Codebases",
+  "url": "https://jimmyhmiller.com/shape-of-unfinished-ai-codebases",
+  "sv": "Jimmy Miller beskriver hur AI-genererade program kan ha färdiga gränssnitt och många tester men ändå fallera utanför demonstrationen. Han jämför detta med mänskligt skrivna program, där saknade funktioner ofta är lättare att upptäcka.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing drafts: an easier way to collaborate and explore new ideas",
+  "url": "https://lovable.dev/blog/introducing-drafts",
+  "sv": "Lovables utkast ger varje alternativ en egen chatt och förhandsvisning innan ändringar godkänns och publiceras. Första versionen omfattar gränssnittet men inte databasstruktur eller inloggningskonfiguration.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How well do agents use test/verification techniques?",
+  "url": "https://danluu.com/agentic-testing/",
+  "sv": "Dan Luu jämför 26 instruktioner om testmetoder samt fyra agentfärdigheter vid bland annat implementation av Zstd. Undersökningen granskar om agenter verkligen använder metodernas styrkor när de får enkla uppmaningar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What We Can Learn from Claude's Fable 5.1 System Prompt",
+  "url": "https://www.dbreunig.com/2026/09/07/what-we-can-learn-from-claude-s-fable-5-1-system-prompt.html",
+  "sv": "Drew Breunig jämför systeminstruktionerna för Fable 5.0 och 5.1. Ett konkret exempel är ändrade regler för punktlistor och formatering, som påverkar modellens skrivstil.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "simple is not small",
+  "url": "https://jyn.dev/simple-is-not-the-same-as-small/",
+  "sv": "Artikeln skiljer små program från enkel struktur genom att jämföra ordfrekvensräkning i Unix och Clojure. Unix-kedjan kopplar sortering till sammanräkning, vilket försvårar en ändring som ska behålla ordens ursprungliga ordning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Ruff, mypy, pytest, and then what?",
+  "url": "https://codescan.dev/blog/ruff-mypy-pytest-and-then-what",
+  "sv": "En genomgång av ett AI-skrivet Python-projekt vid fem tidpunkter visar strukturella problem som vanliga kvalitetskontroller missar. Exemplet med fyra nästan likadana hjälpfunktioner visar hur duplicering försvårar senare ändringar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-08",
+  "dag": "tisdag 8 september 2026",
+  "dag_kort": "8 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cosine Similarity Is Not a Safety Property",
+  "url": "https://aminrj.com/posts/cosine-similarity-is-not-a-safety-property/",
+  "sv": "Genomgången visar varför semantisk likhet i en RAG-sökning inte garanterar att uppgifterna är sanna. Ett ChromaDB-exempel förklarar hur manipulerade dokument kan hamna bland de tre hämtade träffarna medan rätt källa hamnar utanför.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Have the frontier labs mixed up AI safety and security?",
+  "url": "https://martinalderson.com/posts/ai-safety-vs-security/",
+  "sv": "Martin Alderson skiljer modellernas sannolikhetsbaserade skydd från tekniska säkerhetsgränser som måste stoppa en känd attack varje gång. Han använder bland annat rapporterade agentutbrott ur sandlådor som exempel.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google keeps transforming Gemini desktop into superapp",
+  "url": "https://www.testingcatalog.com/google-keeps-transforming-gemini-desktop-into-superapp/",
+  "sv": "En testversion av Gemini för datorer har lägena Ask och Assign samt val av arbetsmapp. Kopplingar till andra datorer och Obsidian testas, men offentlig lanseringstid är okänd.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "LLM-as-a-Verifier",
+  "url": "https://github.com/llm-as-a-verifier/llm-as-a-verifier",
+  "sv": "Ramverket låter en språkmodell bedöma agentförlopp med detaljerade poäng utan extra träning. Ett exempel jämför fem kodagentförsök per uppgift och väljer ett utifrån modellens återkoppling.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I trust my coding agents with production secrets now",
+  "url": "https://jacob.gold/posts/i-trust-my-coding-agents-with-production-secrets-now/",
+  "sv": "Jake Gold beskriver ett arbetsflöde där kodagenter använder hemligheter från ett lösenordsvalv för att undersöka driftfel och driftsätta ändringar. Han behåller separata Docker-miljöer och medger risken för promptinjektion.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The loop closes",
+  "url": "https://henryaj.substack.com/p/the-loop-closes",
+  "sv": "Henry Stanley beskriver hur Claude hämtar fel från Sentry via Slack, undersöker loggar och skriver ändringsförslag. I det redovisade arbetsflödet återstår människans godkännande av sammanslagning och driftsättning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I Left the Mac After 12 Years. Omarchy Made Computers Fun Again.",
+  "url": "https://www.hadijaveed.me/2026/09/06/leaving-mac-after-12-years/",
+  "sv": "Efter 12 år med Mac beskriver Hadi Javeed ett byte till Linuxdistributionen Omarchy och flytt av kodagenter till en server. Artikeln tar även upp Mac-verktygen Raycast och AeroSpace för tangentbordsstyrda arbetsflöden.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Formalizing Fermat's Last Theorem",
+  "url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+  "sv": "Anthropic rapporterar att Claude formaliserade Fermats stora sats i Lean under 11 dagar. Arbetet omfattade 13 miljoner kodrader och 29 500 mellanliggande satser som kunde kontrolleras maskinellt.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Research acceleration: The view inside OpenAI",
+  "url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+  "sv": "OpenAI beskriver hur kodagenter används för mer omfattande forskningsuppgifter under mänsklig ledning. Företagets angivna mål är en automatiserad AI-forskare till mars 2028.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Curiously Playable Universe",
+  "url": "https://contraptions.venkateshrao.com/p/the-curiously-playable-universe",
+  "sv": "Venkatesh Rao analyserar hur formella tillstånd, tillåtna drag och verifierbar återkoppling gör problem spelbara för AI. Lean och AlphaProofs lösning av tre olympiadproblem 2024 används som exempel.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-07",
+  "dag": "måndag 7 september 2026",
+  "dag_kort": "7 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "iPhone Ultra Production Hitting Just 'a Few Hundred' a Day, Says Nikkei",
+  "url": "https://www.macrumors.com/2026/09/04/iphone-ultra-production-extremely-limited/",
+  "sv": "MacRumors återger uppgifter om att Apples vikbara iPhone endast producerades i några hundra exemplar per dag i slutet av augusti. Gångjärn och ytjämnhet uppges vara delar av de krävande kvalitetskontrollerna.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MAI-Transcribe-2 is the fastest, most accurate and cheapest speech recognition model in the world",
+  "url": "https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/",
+  "sv": "Microsofts MAI-Transcribe-2 får talaridentifiering, tidsstämplar på ordnivå och val mellan ordagrann och rensad transkription. Introduktionspriset anges till 0,10 dollar per ljudtimme till årets slut.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing GWM Worlds 2",
+  "url": "https://runway.com/research/introducing-gwm-worlds-2",
+  "sv": "Runways världsmodell genererar interaktiva miljöer i 720p med 24 bilder per sekund och ljud i 48 kHz. Textstyrda handlingar och kamerarörelser påverkar en session utan förutbestämd längd.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Give Your Coding Agents a Memory You Own",
+  "url": "https://huggingface.co/blog/funes",
+  "sv": "Funes indexerar kodagenters sessionshistorik lokalt och låter Claude Code, Codex, pi och Hermes återfinna tidigare beslut med källhänvisning. Minnet kan valfritt synkas till ett privat Hugging Face-dataset.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AI Is Making Us Build Too Much",
+  "url": "https://sjg.io/writing/ai-is-making-us-build-too-much/",
+  "sv": "Simon Green använder spelprojektet Wyvern för att diskutera hur AI kan skapa mer underhållsarbete än nytta. Orkestreringssystemet Wheelhouse hade enligt det beskrivna exemplet vuxit till omkring 600 000 rader kod och tester.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Personal AI Router for Local Inference",
+  "url": "https://www.nvidia.com/en-us/ai-on-rtx/personal-ai-router/",
+  "sv": "NVIDIA PAIR fördelar lokala AI-anrop mellan kompatibla Mac-, Windows- och Linux-datorer och stöder Ollama och LM Studio. Datorerna behandlar parallella uppgifter och slås inte ihop till en gemensam virtuell GPU.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Running LLMs in the Browser with Three.js",
+  "url": "https://ben3d.ca/blog/running-llms-in-the-browser-with-threejs",
+  "sv": "Three-LLM kör språkmodeller lokalt med Three.js och WebGPU utan serverbaserad inferens. Demonstrationen omfattar fem modeller och modellfiler från 15 MB till 2,8 GB, vilket begränsar användningen på mobiler.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI, tools and transformation",
+  "url": "https://www.ben-evans.com/benedictevans/2026/9/3/ai-tools-and-transformation",
+  "sv": "Benedict Evans diskuterar varför snabbare AI-genererad programvara inte automatiskt förändrar organisationers arbetssätt. Excel-mallar används som konkret exempel på att färdiga utgångspunkter hjälper men inte löser problemet att identifiera rätt arbetsuppgift.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Email should be the universal interface for software",
+  "url": "https://buttondown.com/blog/software_over_email",
+  "sv": "Artikeln visar hur e-post kan fungera som programgränssnitt genom att en server tolkar meddelanden, utför uppgifter och svarar. Ämnesrad, avsändare och mottagare ger en redan etablerad struktur för sådana arbetsflöden.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Zoom Detects Google Meet Without Microphone Access",
+  "url": "https://xusheng.dev/posts/reversing/zoom_my_notes_detector/main/",
+  "sv": "En teknisk granskning visar att Zoom kan upptäcka mikrofonanvändning genom macOS-loggar och Windows register utan att analysera ljudet. På Mac kunde den undersökta loggfrågan köras som vanlig användare utan mikrofonbehörighet.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-04",
+  "dag": "fredag 4 september 2026",
+  "dag_kort": "4 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Getting Ready for PostgreSQL 19",
+  "url": "https://tapoueh.org/blog/2026/09/getting-ready-for-postgresql-19/",
+  "sv": "Genomgången testar SQL-exempel mot PostgreSQL 19 Beta 3, släppt den 13 augusti. Bland kompatibilitetsändringarna finns avstängd JIT som standard och borttagen RADIUS-autentisering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Harness Playbook",
+  "url": "https://stencil.so/blog/harness-playbook",
+  "sv": "Genomgången föreslår att hela agentsessionen sparas som en gemensam tillståndsmodell, så att återställning omfattar mer än chattmeddelanden. Verktygskörning skiljs från värdsystemet med en begränsad sandbox.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Gemini 3.8 Flash and 3.8 Flash Cyber",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+  "sv": "Google släpper Gemini 3.8 Flash för bland annat kodning med introduktionspris på 0,75 dollar per miljon indatatoken. Varianten Flash Cyber för sårbarhetssökning begränsas till godkända försvarare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "An Organizational Second Brain: Building an AI That Learns From Experts",
+  "url": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+  "sv": "Metas interna agent organiserar expertkunskap i över 200 filer och skiljer kunskap från resonemangsregler. Expertfeedback ändrar dessa underlag utan att grundmodellen behöver tränas om.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Run cloud agents on machines you manage",
+  "url": "https://cursor.com/blog/self-hosted-machines",
+  "sv": "Cursor låter kodagenter köra verktyg på egna maskiner eller maskinpooler via en utgående HTTPS-anslutning. Planering och modellkörning sker fortfarande i Cursors moln, dit verktygsresultat skickas.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Check if a file was made with Claude",
+  "url": "https://claude.com/check-files",
+  "sv": "Kontrollen läser C2PA-metadata lokalt i webbläsaren för mediefiler på upp till 100 MB. Den visar om Claude kan ha skapat eller bearbetat filen och kontrollerar inte vanlig text.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How we make AI coding more cost efficient without sacrificing task quality",
+  "url": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+  "sv": "GitHub beskriver fyra ändringar i Copilot som minskar onödig kontext och extra verktygsanrop. Försöken visade också att alltför hård komprimering kunde öka totalkostnaden när agenten behövde läsa om information.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "LLMs: Intelligence vs. cost",
+  "url": "https://openteams.com/intelligence-vs-cost/",
+  "sv": "Författaren jämför modellkostnader med linjär prisskala och alternativa API-priser utifrån läget den 1 september 2026. Beräkningarna för små lokala modeller omfattar el men utesluter hårdvarukostnaden.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How to protect yourself from workslop",
+  "url": "https://www.seangoedecke.com/how-to-protect-yourself-from-workslop/",
+  "sv": "Sean Goedecke beskriver sätt att hantera stora mängder okurerad AI-text från kollegor, bland annat korta AI-sammanfattningar och muntliga avstämningar. Poängen är att avsändarens tidsbesparing annars flyttar läsarbetet till mottagaren.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Making the internet boring",
+  "url": "https://cemrehancavdar.com/2026/08/30/making-the-internet-boring/",
+  "sv": "Författaren beskriver hur gråskala, borttagna sociala appar och LeechBlock används för att minska distraktioner. En tidigare blockering kunde kringgås i 444 minuter, vilket fick honom att även minska innehållets lockelse.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-03",
+  "dag": "torsdag 3 september 2026",
+  "dag_kort": "3 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Exo",
+  "url": "https://github.com/exoharness/exo",
+  "sv": "Exo är ett öppet agentramverk där agenten kan ändra sin kod och skapa kopior av sig själv. En oföränderlig händelselogg bevarar historiken, och standardinstallationen använder Git och Docker.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Atlas: A World Model for Spatial Intelligence",
+  "url": "https://www.worldlabs.ai/blog/atlas",
+  "sv": "Atlas kombinerar text, bilder, video och 3D för att skapa rumsligt sammanhängande miljöer. Modellen kan generera upp till en minuts video i 1440p med angivna kamerapositioner.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Fable 5.1 and Mythos 5.1",
+  "url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+  "sv": "Fable 5.1 blir allmänt tillgänglig medan Mythos 5.1 begränsas till granskade verksamheter. Anthropic räknar med cirka 25 procent lägre kostnad för typiska tokenbaserade arbetsflöden genom billigare cacheläsning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta's Muse Voice Transcribe",
+  "url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
+  "sv": "Muse Voice Transcribe omvandlar tal till text löpande och skiljer mellan över 20 talare. Modellen stöder fler än 25 språk och kan hantera språkbyten samt använda nyckelord för bättre igenkänning.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Fluid Compute",
+  "url": "https://vercel.com/blog/fluid-compute-takes-any-shape",
+  "sv": "Vercel samlar byggen, sandlådor och funktioner på samma beräkningsplattform. Flera anrop kan dela instans, och CPU debiteras under aktiv körning snarare än väntan på databas eller modell.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "200+ WebGPU Kernels for Local AI",
+  "url": "https://huggingface.co/blog/webgpu-kernels",
+  "sv": "Hugging Face släpper 207 WebGPU-kärnor för lokal AI-körning i webbläsaren. Testverktyget Fleet mäter funktion och prestanda på användarens egen GPU.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Agentic Video Understanding in Gemini",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+  "sv": "Tre Gemini-modeller får verktyg för att aktivt söka och granska delar av en video i stället för fast bildsampling. Google rapporterar upp till 88 procent lägre tokenförbrukning i sina tester.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What is Agentic Testing?",
+  "url": "https://theaiengineer.substack.com/p/what-is-agentic-testing-fa2",
+  "sv": "Agentbaserade tester anger ett mål och låter agenten välja vägen genom gränssnittet. Artikeln beskriver tre automatiska kontrollsteg i TestGen-LLM, där bara 25 procent av förslagen ökade testtäckningen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Makes It Easier for Mac Developers to Drop Intel Support",
+  "url": "https://reverseeverything.com/blog/apple-makes-it-easier-for-mac-developers-to-drop-intel-support/",
+  "sv": "Befintliga universella Mac-appar med krav på macOS 13 eller senare kan lämna Intel-stödet och distribueras enbart för arm64. Ändringen är frivillig och kan minska appstorlek och testarbete.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The MCP tax: what each server costs before your first prompt",
+  "url": "https://okaneland.com/study/the-mcp-context-tax/",
+  "sv": "Studien uppskattar verktygsdefinitioner till cirka 600 token för en enkel server och 19 000 för Notion. I testade Claude Code 2.1.204 skjuts kostnaden upp till användning i stället för sessionsstart.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-02",
+  "dag": "onsdag 2 september 2026",
+  "dag_kort": "2 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Leverage Android skills and Gemma 4 in Android Studio Quail 4",
+  "url": "https://android-developers.googleblog.com/2026/09/leverage-gemma-4-android-studio-quail.html",
+  "sv": "Android Studio Quail 4 får förinstallerade Android-färdigheter och lokal integration med Gemma 4. Utvecklare kan lägga till egna färdigheter och stänga av de medföljande via inställningarna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenClaw 2.0",
+  "url": "https://openclaw.ai/blog/openclaw-2-accidentally",
+  "sv": "OpenClaw 2.0 samlar över 16 000 kodändringar och förenklar installationen med befintliga abonnemang eller lokala modeller. Den ombyggda webbläsarappen får delade molnsessioner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Solaris",
+  "url": "https://runway.com/news/research/introducing-solaris",
+  "sv": "Solaris genererar interaktiva gränssnitt bildruta för bildruta när användaren agerar. Runway beskriver också hur föränderliga gränssnitt kan användas som träningsmiljöer för datoragenter.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A deep dive into ZCode",
+  "url": "https://flaviocopes.com/zcode/",
+  "sv": "Genomgången testar ZCode med GLM-5.3 på en webbplats med över 1 700 inlägg. Den beskriver behörighetslägen, schemaläggning och mobil fjärrstyrning av kodagenten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Agency and Agents",
+  "url": "https://www.oneusefulthing.org/p/agency-and-agents",
+  "sv": "Ethan Mollick beskriver fyra skäl för agenter att involvera människor: godkännande, expertis, perspektivbredd och intressanta beslut. Han varnar för att full automatisering också kan ta bort tillfällen att utveckla eget omdöme.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "diffium-db: A live diff of what agents do to your database",
+  "url": "https://denislavgavrilov.com/diffium-db-live-database-diff",
+  "sv": "diffium-db jämför en Postgres-databas med en sparad baslinje varje sekund och visar ändrade tabeller och rader. Verktyget kräver Bun 1.3 eller senare och kan stoppa CI när oväntade ändringar upptäcks.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A Portable File Format for Agent Memory",
+  "url": "https://calpaterson.com/memoryfields.html",
+  "sv": "Memoryfields lagrar agentminnen som läsbara Markdown-filer med metadata och ett SQLite-baserat sökindex. En rekommenderad sidstorlek kring 8 kB gör informationen lättare att söka och flytta.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Future Tech Role Is the Product Architect",
+  "url": "https://akashyap.ai/the-future-tech-role-is-the-product-architect/",
+  "sv": "Artikeln beskriver en roll som förenar krav, systemdesign och kontroll av agenters resultat. Datamodell, säkerhetsgränser och dataägande anges som mänskliga beslut även när agenter skriver koden.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Has Removed Manifest V2 Extensions From the Chrome Web Store, Including uBlock Origin",
+  "url": "https://webiterate.dev/google-removed-extensions-ublock-origin-108/",
+  "sv": "Manifest V2-tillägg tas bort från Chrome Web Store. Befintliga installationer i Chrome 138 eller äldre får inga uppdateringar och kan inte återinstalleras från butiken.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Not Everyone Needs Superintelligence",
+  "url": "https://allen.hutchison.org/2026/08/31/not-everyone-needs-superintelligence/",
+  "sv": "Allen Hutchison beskriver en vardagsagent som främst använder billigare modeller för kalender och e-post. I hans eget system har cirka 150 miljoner token kostat omkring 40 dollar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-09-01",
+  "dag": "tisdag 1 september 2026",
+  "dag_kort": "1 sep",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google develops AI Rooms for Gemini Enterprise",
+  "url": "https://www.testingcatalog.com/google-develops-ai-rooms-for-gemini-enterprise/",
+  "sv": "TestingCatalog hittar en Rooms-prototyp där team kan samla mål, instruktioner och kunskapsfiler kring Gemini. Funktionen är intern och saknar bekräftat lanseringsdatum.",
+  "kategori": "Webb och appar"
+ }
+]

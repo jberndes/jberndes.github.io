@@ -38,6 +38,10 @@
     <loc>https://joakimberndes.se/kontakt/</loc>
     <lastmod>2026-10-15</lastmod>
   </url>
+  <url>
+    <loc>https://joakimberndes.se/projekt/</loc>
+    <lastmod>2026-10-15</lastmod>
+  </url>
 {% for p in site.posts %}  <url>
     <loc>https://joakimberndes.se{{ p.url }}</loc>
     <lastmod>{{ p.date | date: '%Y-%m-%d' }}</lastmod>

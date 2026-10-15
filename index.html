@@ -185,10 +185,8 @@
 
     /* Sociala medier som diskret textlista */
     .sociala { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 18px; font-size: 0.9rem; }
-    .sociala a { display: inline-block; padding: 8px 2px; color: var(--muted); text-decoration: none; transition: color .15s; }
-    .sociala a:hover, .sociala a:focus-visible { color: var(--text); }
-    .sociala a.intern { color: var(--accent); font-weight: 600; }
-    .sociala a.intern:hover, .sociala a.intern:focus-visible { color: var(--text); }
+    .sociala a { display: inline-block; padding: 8px 2px; color: var(--accent); font-weight: 400; text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 4px; transition: color .15s; }
+    .sociala a:hover, .sociala a:focus-visible { color: var(--text); text-decoration-color: currentColor; }
 
     /* Apple Teacher-signaturen: i sidopanelen, på ljus bakgrund = svart version.
        Padding ger frizon runt signaturen. Saknas filen döljs den. */

@@ -1,0 +1,2102 @@
+[
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "You have to beat the models at something",
+  "url": "https://www.seangoedecke.com/you-have-to-beat-the-models-at-something/",
+  "sv": "Ingenjörer bör skilja ut sig genom djup kunskap om kodbasen och god kommunikation, eftersom modeller skriver kod billigt men ofta missar systemets sammanhang.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's Ternus Takes the Reins as CEO, With AI as Job No. 1",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-30/apple-s-new-ceo-john-ternus-takes-reins-from-tim-cook-focusing-on-ai",
+  "sv": "John Ternus blir Apples vd den 1 september efter 25 år med att forma företagets enheter. Höstens produkter, bland annat en vikbar iPhone, är centrala för Apples AI-satsning.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Thoughts and Observations on Apple's First Immersive MLB Broadcast, a Yankees 1-0 Win Over the Red Sox",
+  "url": "https://daringfireball.net/2026/08/thoughts_and_observations_apple_immersive_mlb_broadcast",
+  "sv": "Författaren recenserar Apples immersiva livesändning av baseboll och beskriver den som slående när den ses i Vision Pro.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "GitHub Agentic Workflows",
+  "url": "https://github.github.com/gh-aw/",
+  "sv": "Med den här GitHub-funktionen kan utvecklare lägga till AI-driven automatisering i sina förråd via schemalagda och händelsestyrda jobb, vid sidan av befintliga CI/CD-flöden. Den har skyddsräcken och stödjer flera AI-motorer, bland annat Copilot, Claude Code, Gemini och Codex.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Bug blindness",
+  "url": "https://danluu.com/bug-blind/",
+  "sv": "Utvecklare och avancerade användare slutar ofta lägga märke till buggar som frustrerar vanliga användare, eftersom de lärt sig kringgå dem. Texten menar att välkomnande av kritik hjälper team att hitta fler sådana brister.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "First outputs from GPT-6 'Astra' model from OpenAI",
+  "url": "https://www.testingcatalog.com/first-outputs-from-gpt-6-astra-model-from-openai/",
+  "sv": "Tidiga prov tyder på att Astra är stark på kodning och visuell programvaruskapande och kan ge komplexa resultat utifrån en enda prompt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI Ends Cursor Partnership After SpaceX Acquisition",
+  "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+  "sv": "OpenAI avslutar sitt avtal med Cursor efter att SpaceX köpt bolaget, med hänvisning till avtalsbrott från Elon Musks företag. Utvecklare har till den 12 november att byta.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Hy4 Preview",
+  "url": "https://simonwillison.net/2026/Aug/29/hy4/",
+  "sv": "Tencents öppna Hy4-modell har 770 miljarder parametrar totalt, 49 miljarder aktiva, ett kontextfönster på en miljon tokens och lägen för högt eller avstängt resonerande.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Standup Your Agents Can't Attend",
+  "url": "https://codegood.co/writing/the-standup-your-agents-cant-attend",
+  "sv": "Många mötesuppdateringar upprepar bara fakta som redan fanns. Om de skrivs ned som dokument kan agenter läsa dem, vilket sparar tid för människor.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-31",
+  "dag": "måndag 31 augusti 2026",
+  "dag_kort": "31 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Base Models Stopped Being the Bottleneck",
+  "url": "https://adlrocha.substack.com/p/adlrocha-base-models-stopped-being",
+  "sv": "Öppna modeller har förbättrats snabbt, och en Opus-modell från föregående generation kan nu köras på hemmahårdvara. Beskurna basmodeller kan fortfarande prestera bra på specifika uppgifter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing H3 Max by fal",
+  "url": "https://blog.fal.ai/introducing-h3-max-by-fal/",
+  "sv": "En hastighetsoptimerad, efterträndad version av MiniMax H3 som kan skapa en fem sekunder lång video på under tre sekunder. Den är rabatterad på fal en vecka, och artikeln beskriver hur den tränats.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Gemini Omni 1.1 Flash",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+  "sv": "Googles nya videomodell lägger till kontroller för att förlänga scener, interpolera mellan första och sista bildruta och skala upp till 4K, med snabbare iteration via Gemini API.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Fast On-Device Voice Cloning",
+  "url": "https://research.haloneuro.ai/posts/sopro-v2",
+  "sv": "Halo Neuro lanserade Sopro V2 och släppte Sopro V2 Turbo som öppen källkod, en flerspråkig röstkloningsmodell med 120 miljoner parametrar som strömmar på bärbara datorers CPU och i webbläsare.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Breaking Claude Code Opus 5 Auto Mode",
+  "url": "https://simonwillison.net/2026/Aug/27/breaking-claude-code-opus-5-auto-mode/",
+  "sv": "En kritik av att Anthropic förlitar sig på Claude Codes auto-läge för att skydda användare mot promptinjektionsattacker.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Audit your Agent files",
+  "url": "https://addyo.substack.com/p/audit-your-agent-files",
+  "sv": "Kodagenters konfigurationer blir föråldrade när modeller, verktyg och kodbaser förändras och behöver därför regelbunden granskning. Författaren föreslår att man kör Claudes /doctor med några veckors mellanrum och kontrollerar om varje instruktion fortfarande är användbar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Small Models Have Arrived",
+  "url": "https://calv.info/small-models-have-arrived",
+  "sv": "Efterfrågan på snabba, billiga och tillräckligt bra modeller väntas växa lika snabbt som efterfrågan på toppmodeller. Att göra dem praktiska för företag är fortfarande en utmaning, men författaren räknar med att det kommer att ske.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "We need to talk about migrations with AI",
+  "url": "https://blog.pragmaticengineer.com/the-pulse-we-need-to-talk-about-migrations-with-ai/",
+  "sv": "Texten ifrågasätter OpenAIs påstående att Codex hjälpte Asana att slutföra fem års migreringsarbete på två veckor och menar att uppskattningen av ingenjörsinsatsen är uppblåst. Slutsatsen är ändå att AI gör migreringar praktiska som tidigare inte var det.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How we saved 100 terabytes of memory by optimizing 1.1.1.1's DNS cache",
+  "url": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+  "sv": "Cloudflare gjorde fem på varandra följande ändringar i hur DNS-cacheposter lagras och skar minnesåtgången per post med mer än hälften.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Good taste doesn't exist",
+  "url": "https://blog.ravi-mehta.com/p/taste-is-a-skill-not-a-gift",
+  "sv": "Smak handlar om att göra val, och om ett val är bra beror på vilka det görs för.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-28",
+  "dag": "fredag 28 augusti 2026",
+  "dag_kort": "28 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Hugging Face is selling a cute $399 open source duck robot, Microduck",
+  "url": "https://techcrunch.com/2026/08/27/hugging-face-is-selling-a-cute-399-open-source-duck-robot-microduck/",
+  "sv": "Hugging Faces 25 centimeter höga robot med öppen källkod kan gå, lyfta små föremål med näbben och åka rullskridskor. Dess beteenden kan tränas i simulering och köras direkt, och koden finns på GitHub.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Muse Image",
+  "url": "https://developer.meta.com/ai/models/muse-image/",
+  "sv": "Metas Muse Image genererar bilder som kan förankras med sökresultat och resonerar kring en förfrågan innan den renderas. Priset är omkring en cent per bild vid stora volymer.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude gets its own browser in Cowork",
+  "url": "https://claude.com/blog/cowork-built-in-browser",
+  "sv": "Claudes inbyggda webbläsare börjar rullas ut den här veckan till Pro-, Max- och Team-användare i Claudes skrivbordsapp.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ChatGPT Now Supports WebMCP",
+  "url": "https://nekuda.substack.com/p/breaking-chatgpt-now-supports-webmcp",
+  "sv": "ChatGPT:s webbläsare för dator och ChatGPT Sites kan nu använda WebMCP, så att ChatGPT och Codex kan anropa en webbplats verktyg direkt. Artikeln noterar att webbteam nu behöver planera för AI-agenter som användare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Intelligent transcription with Gemini 3.5 Transcribe",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+  "sv": "Googles Gemini 3.5 Transcribe gör om rått tal till ren, formaterad text. Tjänsten finns i Gemini API och Google AI Studio och stödjer både strömmande och förinspelat ljud.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Automatic Harness Optimization",
+  "url": "https://github.com/microsoft/AutoSaddler",
+  "sv": "Microsofts AutoSaddler går igenom agenters körspår och reviderar automatiskt prompter, verktyg och mellanlager för att förbättra prestandan.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How to Make LLMs 3X Faster",
+  "url": "https://blog.bytebytego.com/p/how-to-make-llms-3x-faster",
+  "sv": "Förklaring av spekulativ avkodning, där en liten utkastmodell föreslår tokens som en stor modell verifierar i ett svep, vilket kan ge upp till tre gånger snabbare generering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I had some free time, so I tried to pwn V8",
+  "url": "https://blog.himanshuanand.com/2026/08/i-had-some-free-time-so-i-tried-to-pwn-v8/",
+  "sv": "En utvecklare beskriver hur tre publika V8-buggar kedjades ihop för att utnyttja den Chrome-version som användes i Googles v8CTF-utmaning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Medium's writerly favicons",
+  "url": "https://unsung.aresluna.org/mediums-writerly-favicons/",
+  "sv": "Ett kort inlägg som berömmer hur Medium använder favicons på ett praktiskt och charmigt sätt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Lovable CTO: The Future of SaaS Is Apps That Agents Can Use",
+  "url": "https://www.latent.space/p/lovable-future-of-saas",
+  "sv": "Lovables teknikchef berättar om bolagets expansion från AI-byggda webbappar till MCP-drivna funktioner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-27",
+  "dag": "torsdag 27 augusti 2026",
+  "dag_kort": "27 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A day in the life of the AI-assisted technical content writer",
+  "url": "https://elizabethtai.com/2026/08/26/a-day-in-a-life-of-the-ai-assisted-technical-content-writer/",
+  "sv": "En titt på hur AI-verktyg kan fungera som stöd för tekniska skribenter som arbetar ensamma.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Apple introduces M6 and M5 Ultra for local AI compute",
+  "url": "https://www.apple.com/newsroom/2026/08/apple-introduces-m6-and-m5-ultra-for-a-big-leap-in-performance-and-ai-compute/",
+  "sv": "Apple presenterade chipen M6 och M5 Ultra för Mac mini och Mac Studio, vilka utökar vilka AI-modeller maskinerna kan köra lokalt.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's new desktop computers are designed specifically for local AI development",
+  "url": "https://arstechnica.com/apple/2026/08/with-new-mac-studio-and-mac-mini-apple-leans-hard-into-local-ai-inference/",
+  "sv": "Apple har släppt uppdaterade Mac mini- och Mac Studio-modeller med M6 och M5 Ultra. Maskinerna är populära för lokalt AI-arbete tack vare sitt enhetliga minne och snabba processorer.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Holds Farewell Party for Tim Cook as Ternus Prepares to Take Over",
+  "url": "https://www.macrumors.com/2026/08/24/apple-tim-cook-farewell-party/",
+  "sv": "Tim Cook lämnar posten som Apples vd den 1 september och blir styrelseordförande med operativa uppgifter. John Ternus efterträder honom, och Apple höll en avskedsfest med omkring 200 deltagare.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Perplexity partners with Nvidia to launch Portable Computer, a fully local AI agent with zero token costs",
+  "url": "https://venturebeat.com/infrastructure/perplexity-partners-with-nvidia-to-launch-portable-computer-a-fully-local-ai-agent-with-zero-token-costs",
+  "sv": "Perplexitys agentplattform körs nu på hårdvara som användare redan äger, med modeller och data kvar på enheten. Molnmodeller används bara med tillstånd i varje steg. Den finns nu för Linux, och Windows planeras till september.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic merges Claude chat and Cowork memory, on by default",
+  "url": "https://thenextweb.com/news/anthropic-claude-cowork-shared-memory-default",
+  "sv": "Claude och Claude Cowork delar nu ett minnessystem och minns samma konversationer. Funktionen är på som standard, och användare kan se, redigera eller radera varje lagrat minne under Topics i inställningarna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Short-Lived Credentials for AI Agents",
+  "url": "https://vercel.com/blog/the-end-of-credential-sprawl-for-agents",
+  "sv": "Vercel Connect ersätter långlivade API-nycklar med behörigheter som utfärdas vid körning, avgränsas till varje uppgift och går ut automatiskt. Den allmänt tillgängliga versionen har över 100 kopplingar och styrfunktioner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing Run SDK: secure eval for your agents",
+  "url": "https://vercel.com/blog/introducing-run",
+  "sv": "Vercels Run SDK kör obetrodd JavaScript eller TypeScript i en isolerad QuickJS-miljö där bara utvalda operationer exponeras via värdfunktioner. Befintliga tjänsteklienter kan stanna utanför sandlådan.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Let me Click",
+  "url": "https://ilyabirman.net/meanwhile/all/let-me-click/",
+  "sv": "Artikeln ger exempel på principen att låta användaren klicka i gränssnittsdesign, där man tillåter en direkt handling i stället för att blockera eller avbryta.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Knowledge Compressor",
+  "url": "https://githubnext.com/posts/knowledge-compressor/",
+  "sv": "En studie visar att upprepande naturligt språk höjer tokenkostnaderna när AI-modeller bearbetar stora dokument. Vanlig teknisk dokumentation kunde komprimeras till ungefär hälften av antalet tokens med liten förlust i användbarhet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-26",
+  "dag": "onsdag 26 augusti 2026",
+  "dag_kort": "26 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Open Omnimodal World Models",
+  "url": "https://github.com/jd-opensource/JoyAI-Echo",
+  "sv": "EchoWM är en öppen världsmodell som genererar 720p-video med ljud, musik och tal längs kontinuerliga kamerabanor. Den stödjer förstaperson- och tredjepersonsvy.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Gears Up to Launch Its First New Mac Mini in Two Years",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-25/apple-to-launch-new-mac-mini-airpods-5-and-oled-ipad-mini-timing-details",
+  "sv": "Apples första nya Mac mini på ungefär två år kan komma inom några dagar, driven av stark efterfrågan på nuvarande modell för lokalt AI-arbete. Det ingår i en bredare uppsättning lanseringar under andra halvåret.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Alibaba launches Wan3.0 AI video model after record $10 billion share sale",
+  "url": "https://finance.yahoo.com/technology/ai/articles/alibaba-launches-wan3-0-ai-131300534.html",
+  "sv": "Alibabas Wan3.0-modell kan skapa 30 sekunder långa videor utifrån text och data.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "When code is abundant",
+  "url": "https://about.gitlab.com/blog/when-code-is-abundant/",
+  "sv": "När AI gör kod billig att generera blir den största utmaningen att lita på och verifiera koden. Företag som Stripe, Spotify och Amplitude sätter AI-skriven kod i produktion med styrning och verifieringssystem.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anonymous Ox Alpha processes 26T tokens on OpenCode, breaks OpenRouter launch record",
+  "url": "https://runtimewire.com/article/anonymous-ox-alpha-processes-26t-tokens-on-opencode-breaks-openrouter-launch-rec",
+  "sv": "En oidentifierad modell hanterade 26 biljoner tokens från OpenCode-användare under sina första fyra dagar och är gratis att använda via en kompatibel ändpunkt, men skaparen är okänd.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "LLMs could control their host machines by exploiting inference engines",
+  "url": "https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines",
+  "sv": "Datorer som kör AI-modeller är attraktiva mål, och forskning tyder på att modeller kan skapa tokensekvenser som utnyttjar brister i programvaran som laddar dem på GPU:er. Föreslagna försvar är att skilja GPU-värdar från tokentolkare och behandla utdata som obetrodd.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Rome",
+  "url": "https://github.com/rome-os/rome",
+  "sv": "Kör beständiga AI-agenter, arbetsflöden och appar i en samarbetsmiljö med skyddsräcken.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Uber built a software factory for agentic coding: the MCP gateway and the platform underneath",
+  "url": "https://newsletter.port.io/p/how-uber-built-a-software-factory",
+  "sv": "Uber uppger att AI-agenter nu skriver över 70 procent av dess pull requests och att levererad kod per ingenjör har fördubblats på ett år. Texten förklarar den interna plattformen och MCP-gatewayen som låter agenter arbeta säkert i stor skala.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The State Machine Nobody Designed",
+  "url": "https://www.vedanshh.com/blog/context-engineering",
+  "sv": "Författaren menar att varje del i en agentstomme antingen lägger till i modellens kontext, filtrerar vad som kommer in eller kontrollerar utdata. Eftersom kontextutrymmet är begränsat är valet av vad som behålls lika viktigt som vad som läggs till.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Universities Should Prepare Founders",
+  "url": "https://paulgraham.com/prepare.html",
+  "sv": "Paul Graham menar att studenter som vill grunda företag behöver tid borta från kursarbetet för egna projekt, eftersom många idéer inte skulle överleva ett officiellt godkännande. Han föreslår att universitet ger studenter en eller två veckors respit från press.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-25",
+  "dag": "tisdag 25 augusti 2026",
+  "dag_kort": "25 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Your executable is a SQLite database",
+  "url": "https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database",
+  "sv": "Inlägget undersöker om SQLite skulle kunna ersätta ELF som format för körbara filer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's Foldable iPhone Will Help Bring Some Magic Back",
+  "url": "https://www.bloomberg.com/news/newsletters/2026-08-23/apple-s-foldable-iphone-details-retail-store-changes-for-new-home-products-mt5vjf61",
+  "sv": "Apple planerar enligt uppgift att visa sin vikbara iPhone omkring den 9 september. Enheten ska fungera bra som kamerasökare men saknar teleobjektiv och använder Touch ID i stället för Face ID.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The asteroid currently hitting frontend web development",
+  "url": "https://nolanlawson.com/2026/08/23/the-asteroid-currently-hitting-frontend-web-development/",
+  "sv": "Frontendarbete ses som lägre risk att lämna till AI-agenter, så många utvecklare kan komma att låta agenter sköta det utan nära tillsyn.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "There's no reason for software to be slow anymore",
+  "url": "https://danluu.com/perf-opt/",
+  "sv": "AI har gjort prestandaoptimering mycket billigare och förvandlat arbete som tidigare tog dagar eller veckor till en rutinmässig loop. Optimeringar som förr ansågs för riskabla är nu värda att pröva.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The New MCP Roadmap",
+  "url": "https://blog.modelcontextprotocol.io/posts/mcp-roadmap/",
+  "sv": "Den uppdaterade färdplanen för Model Context Protocol sätter prioriteringar för de kommande månaderna inom fem områden. Specifikationsförslag som passar områdena får snabbare granskning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "An agent.md to improve LLM-assisted code quality",
+  "url": "https://fabiensanglard.net/agent.md/index.html",
+  "sv": "En väl utformad kodningsstomme kan märkbart förbättra kvaliteten på kod som tas fram med LLM-stöd.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Evolution of the Agent Harness",
+  "url": "https://www.latent.space/p/attention-interface",
+  "sv": "Texten följer hur bättre modeller och bättre agentstommar har utvecklats tillsammans. Fokus förskjuts mot att utforma gränssnitt som stödjer människors uppmärksamhet och beslut.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The AI-Native SDLC playbook",
+  "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+  "sv": "Handboken menar att AI snabbar upp kodskrivandet men att gamla utvecklingsprocesser kan hindra team från att ta del av produktivitetsvinsterna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "More data than open-source AI is taking share from OpenAI and Anthropic",
+  "url": "https://threadreaderapp.com/thread/2091542026072338623.html",
+  "sv": "Enligt en tråd ökade öppna modellers andel av tokenanvändningen på Vercel från 28 till 62 procent under de senaste två månaderna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic will give defenders what its strongest model finds, but not the model itself",
+  "url": "https://thenextweb.com/news/anthropic-mythos-5-defenders-open-source-fund",
+  "sv": "Claude Mythos 5 kan nu användas för kodskanning i Claude Security, med fler integrationer planerade i partners säkerhetsverktyg. Användare får patchförslag eller varningar men kan inte be modellen skriva exploits.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-24",
+  "dag": "måndag 24 augusti 2026",
+  "dag_kort": "24 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Fast and Hard Code",
+  "url": "https://lucumr.pocoo.org/2026/8/22/fast-hard-code/",
+  "sv": "AI gör det lättare för utvecklare att använda mindre vanliga språk och ta sig an svårare tekniker.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic's Project Parka sits through meetings and assigns Claude agents the homework",
+  "url": "https://runtimewire.com/article/anthropic-s-project-parka-sits-through-meetings-and-assigns-claude-agents-the-ho",
+  "sv": "Anthropics funktion, först för Mac, spelar in möten och gör dem till utskrifter som kan bli uppgifter åt Claude-agenter. Det är oklart om uppgifterna startar automatiskt eller kräver godkännande.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ChatGPT update adds Apple Messages integration on Mac",
+  "url": "https://9to5mac.com/2026/08/20/chatgpt-update-adds-apple-messages-integration-on-mac/",
+  "sv": "ChatGPT-appen för macOS kan nu komma åt konversationer i Meddelanden, alltså iMessage, SMS och RCS, på alla planer. Artikeln varnar för sekretessriskerna med att ge den åtkomsten.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple reportedly lays off 60 Vision employees amid shifting priorities",
+  "url": "https://9to5mac.com/2026/08/20/apple-reportedly-lays-off-60-vision-employees-amid-shifting-priorities/",
+  "sv": "Apple ska enligt uppgift säga upp omkring 60 anställda inom Vision när resurser flyttas mot AI-drivna smarta glasögon.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Slack Code: Where Your Team and Agents Build Together",
+  "url": "https://slack.com/blog/news/slack-code-channels-for-agents",
+  "sv": "Slacks nya kodkanaler låter team planera, skriva och granska programvara med AI-agenter, med integrationer från GitHub, Anthropic och Vercel. Ingenjörer kan se diffar och liveförhandsvisningar i Slack.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google brings Antigravity agents into enterprise subscriptions and existing IDEs",
+  "url": "https://antigravity.google/blog/antigravity-enterprise",
+  "sv": "Google har lagt till Antigravity i vissa Gemini Enterprise-planer och släppt tillägg för flera IDE:er, bland annat VS Code och JetBrains. Administratörer får kontroll över sandlåda, verktygsbehörigheter, budgetar och granskningsloggar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic packages computer use, browser access, skills, and reusable files for production agents",
+  "url": "https://x.com/ClaudeDevs/status/2090540270219567575",
+  "sv": "Anthropic har samlat datoranvändning, webbläsaråtkomst, versionshanterade färdigheter och återanvändbara filer i en enda yta för att bygga agenter för produktion.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Mistral replaces one-shot document retrieval with a navigable search loop",
+  "url": "https://mistral.ai/news/agentic-search/",
+  "sv": "Mistrals Agentic Search låter en modell söka, öppna, navigera, läsa och söka i dokument för att verifiera svar, i stället för att lita på de första hämtade textavsnitten. Resultaten är körda av leverantören själv.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Are We Thinking Correctly About AI Intelligence?",
+  "url": "https://www.quantamagazine.org/are-we-thinking-correctly-about-ai-intelligence-20260820/",
+  "sv": "Melanie Mitchell menar att AI-intelligens skiljer sig i grunden från mänskligt tänkande och föreslår att metoder från psykologin, som används på spädbarn och djur, anpassas för att utvärdera den. Hon ger sex principer för bättre bedömning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Better Batteries",
+  "url": "https://matklad.github.io/2026/08/20/better-batteries.html",
+  "sv": "Författaren menar att Pythons ojämna standardbibliotek är en styrka eftersom det levererar funktioner tidigt. Han jämför med Rust, som fortfarande saknar ett enkelt sätt att få slumpmässiga bytes från operativsystemet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-21",
+  "dag": "fredag 21 augusti 2026",
+  "dag_kort": "21 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The next GitHub is not worth winning",
+  "url": "https://davidpoblador.com/blog/the-next-github-is-not-worth-winning.html",
+  "sv": "Artikeln menar att GitHub försöker tjäna både snabba engångsexperiment och långlivade seriösa projekt, vars behov krockar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Early outputs of Muse Video model from Meta",
+  "url": "https://www.testingcatalog.com/exclusive-early-outputs-of-muse-video-model-from-meta/",
+  "sv": "Metas videomodell Muse Video är i sluten beta. Tidiga prover visar inbyggt ljud, detaljerade tiosekundersvideor och god konsekvens mellan bildrutor.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Replit Introduces Free Mode",
+  "url": "https://replit.com/blog/replit-introduces-free-mode",
+  "sv": "Replits Free Mode låter användare bygga med OpenAIs GPT-5.6 Luna för vardagsuppgifter utan att förbruka krediter. Betalande prenumeranter får högre användningsgränser.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta launches AI desktop app for macOS with screen sharing",
+  "url": "https://www.testingcatalog.com/meta-launches-ai-desktop-app-for-macos-with-screen-sharing/",
+  "sv": "Meta har släppt en AI-skrivbordsapp för macOS med skärmdelning.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "superwhisper/s1-mini",
+  "url": "https://huggingface.co/superwhisper/s1-mini",
+  "sv": "En engelsk modell med 0,6 miljarder parametrar som städar rå tal-till-text till färdig skriven text, med 94,8 procents tokennoggrannhet. Den körs på CPU och kräver ett särskilt indataformat.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cloud Agents and Cursor Harness Improvements",
+  "url": "https://cursor.com/changelog/08-19-26",
+  "sv": "Cursors agenter kan nu bevaka pull requests, Slack-trådar och schemalagda uppgifter och vakna vid händelser. Underagenter kan köras på egna virtuella maskiner och användare kan styra agenter under pågående arbete.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Accidentally Leaked More Than 10 New Products in macOS Update",
+  "url": "https://www.macrumors.com/2026/08/19/apple-leak-macos-26-7/",
+  "sv": "Kod i macOS 26.7 hänvisar till osläppta produkter, bland annat AirPods med infrarödkameror, en vikbar iPhone, en smart hemhubb, OLED-modeller av MacBook och iPad mini samt en ny Apple TV-fjärrkontroll.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "YouTube Offers Creators Millions to Not Work With Netflix",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-19/youtube-offers-creators-millions-to-not-work-with-netflix-mt0lbfaj",
+  "sv": "YouTube erbjuder enligt uppgift stora belopp till toppkanaler för exklusivitet, för att bromsa Netflix värvning av de största stjärnorna.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A faster way to calculate the day of the week",
+  "url": "https://www.benjoffe.com/fast-day-of-week",
+  "sv": "En djupdykning i bitmanipulation på låg nivå för snabbare beräkning av veckodag, riktad till utvecklare av datumbibliotek, databasmotorer och kompilatorer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "BetterWright (GitHub Repo)",
+  "url": "https://github.com/BetterWright/betterwright",
+  "sv": "BetterWright är en beständig, policystyrd Playwright-webbläsare byggd för AI-agenter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-20",
+  "dag": "torsdag 20 augusti 2026",
+  "dag_kort": "20 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Palomar",
+  "url": "https://terrytao.wordpress.com/2026/08/18/palomar-a-registry-of-lean-verified-mathematics/",
+  "sv": "Palomar är ett register över matematik som verifierats i Lean och tar nu emot bidrag.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Git at Any Scale",
+  "url": "https://cursor.com/blog/git-at-any-scale",
+  "sv": "Cursor förklarar varför Gits packfilsbaserade, distribuerade design är svår att köra som en stor centraliserad tjänst och beskriver sätt att distribuera filsystemet, packfilerna eller Git självt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Building Production-Grade Agent Loops",
+  "url": "https://www.liquid.ai/blog/agent-loops",
+  "sv": "Liquid AI använde autonoma kodagenter för att bygga en BPE-tokenizerträning för produktion och pekar ut konkreta specifikationer, uppgifter över flera områden och extern verifiering som nycklar till pålitliga agentflöden.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The New American AI Model Designed to be Customized",
+  "url": "https://blog.bytebytego.com/p/the-new-american-ai-model-designed",
+  "sv": "Genomgång av Thinking Machines Inkling, den första modellen som tränats från grunden och släppts på Hugging Face under Apache 2.0, med arkitektur, positionskodning, multimodal indata och inställning för tänkandenivå.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Warp's new system is an out-of-the-box software factory for AI development",
+  "url": "https://techcrunch.com/2026/08/18/warps-new-system-is-an-out-of-the-box-software-factory-for-ai-development/",
+  "sv": "Warp Factories är ett färdigt system som tillämpar en mjukvarufabriksmodell för att effektivisera AI-programutveckling.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Vercel's $1 Million Sandbox Escape Challenge",
+  "url": "https://vercel.com/blog/one-million-dollar-hacker-challenge-for-vercel-sandbox",
+  "sv": "Vercel har startat en tvåveckors säkerhetsutmaning med upp till 1 miljon dollar till forskare som kan ta sig ut ur den Firecracker-baserade sandlådan.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Mojo is now open source!",
+  "url": "https://www.modular.com/blog/mojo-open-source",
+  "sv": "Programspråket Mojo är nu helt öppen källkod under Apache 2.0 med LLVM-undantag. En färdigbyggd kompilator behövs fortfarande för anpassade MAX-kärnor eller modeller.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Code Mode",
+  "url": "https://ai-sdk.dev/docs/ai-sdk-core/code-mode",
+  "sv": "Code Mode låter modeller skriva JavaScript- eller TypeScript-kod som anropar AI SDK:s verktyg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Malleable software = solid bases + custom code",
+  "url": "https://www.mdubakov.me/malleable-software-solid-bases-custom-code/",
+  "sv": "Artikeln menar att programvara byggd på solida grunder och anpassningsbar kod kommer att dominera marknaden för produktivitetsverktyg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "I'm Worried About a Prompt Injection Worm",
+  "url": "https://danielmiessler.com/blog/prompt-injection-worm",
+  "sv": "Inlägget lyfter en stor AI-säkerhetsrisk: halvautonoma agenter som arbetar på nätet med för stor behörighet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-19",
+  "dag": "onsdag 19 augusti 2026",
+  "dag_kort": "19 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Extensible Software in the age of LLMs",
+  "url": "https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/",
+  "sv": "Inlägget diskuterar svårigheten att utforma och stödja plattformar med kundvända API:er och varför mödan ändå lönar sig för användare och skapare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Testing Fable vs Sol in terms of taste (they are both bad)",
+  "url": "https://magichour.ai/blog/fable-vs-sol-taste-test",
+  "sv": "Forskare gav två modeller samma kreativa uppdrag, korta reklamfilmer och en minidokumentär. De drar slutsatsen att modellerna hjälper till med idéarbete men ännu inte kan ersätta mänskligt omdöme.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "dig.bench (Website)",
+  "url": "https://digbench.ai/",
+  "sv": "Ett test av om agenter kan experimentera sig fram till ett spels dolda regler i 70 textspel. Människor löser de svåraste spelen, men toppmodellerna har svårt för dem.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "SOTA Apple Silicon Inference",
+  "url": "https://www.reddit.com/r/LocalLLaMA/comments/1vphr8u/sota_apple_silicon_inference_august_15_2026/",
+  "sv": "En gemenskapsguide till aktuella modell- och körmiljöval för att köra inferens på Apple Silicon.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cursor launches Origin code hosting platform as GitHub outage exposes opening in AI coding race",
+  "url": "https://venturebeat.com/infrastructure/cursor-launches-origin-code-hosting-platform-as-github-outage-exposes-opening-in-ai-coding-race",
+  "sv": "Cursor rullar ut Origin för betalande användare, samtidigt som ett GitHub-avbrott pågår. Origin kopplas till befintliga GitHub-förråd, så team kan prova utan att flytta.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How Software Teams Use AI in 2026",
+  "url": "https://linear.app/data",
+  "sv": "Linear har analyserat AI-användning hos tiotusentals programvaruteam, fördelat på roll och företagsstorlek, och hur planering och aktivitet hos kodagenter förändrats.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Warp Agent Memory (Research Preview)",
+  "url": "https://docs.warp.dev/agents/agent-memory/",
+  "sv": "Warp har lagt till bestående agentminne som delas mellan olika miljöer, maskiner och kollegor, med spårning av ursprung och inställbar åtkomst.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Qwen3.8 vs Qwen3.6 vs Gemma 4 on a 24GB GPU",
+  "url": "https://kingy.ai/blog/qwen3-8-27b-vs-qwen3-6-27b-vs-gemma-4-31b/",
+  "sv": "Ett praktiskt test av tre täta multimodala modeller på ett grafikkort med 24 GB, med fokus på minnesutrymme vid längre kontext.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How I use AI in 2026 (Coding, Writing, Learning, Assistant-ing)",
+  "url": "https://blog.sshh.io/p/how-i-use-ai-in-2026-coding-writing",
+  "sv": "En titt på hur en självbeskriven storanvändare använder AI för kodning, skrivande, lärande och assistentuppgifter, som vägledning för att använda verktygen effektivt.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Your CI should be disposable",
+  "url": "https://oppi.li/posts/disposable_ci/",
+  "sv": "Författaren menar att CI:ns kärnuppgift är schemaläggning, så CI-system bör behandlas som utbytbara.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-18",
+  "dag": "tisdag 18 augusti 2026",
+  "dag_kort": "18 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The benchmarkpocalypse",
+  "url": "https://danluu.com/benchpocalypse/",
+  "sv": "Inlägget varnar för att prestandatest nu är lättare än någonsin att manipulera, vilket ger falska prestandavinster.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "LittleLearner (Website)",
+  "url": "https://littlelearner-ll.github.io/",
+  "sv": "En språkmodell med 5 miljarder parametrar som är begränsad till vad en femteklassare kan, och som går att köra i webbläsaren. Den är byggd för att studera hur modeller tillägnar sig kunskap.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The AI Engineering Skills Map",
+  "url": "https://x.com/AndrewYNg/status/2088302050706686198",
+  "sv": "Andrew Ng beskriver fyra grundläggande färdigheter för AI-ingenjörer: att bygga och driftsätta AI-appar, programvarugrunder, vana vid kodagenter och produktriktning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "When the Hard Part Stops Being Hard",
+  "url": "https://proofsandintuitions.net/2026/08/14/when-the-hard-part-stops-being-hard/",
+  "sv": "En essä som menar att människor bör sikta på mer ambitiösa utmaningar i takt med att det blir lättare att producera arbete.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Custom Agents",
+  "url": "https://antigravity.google/blog/introducing-custom-agents",
+  "sv": "Googles filbaserade Custom Agents för Antigravity 2.0 och dess CLI, var och en med avgränsade instruktioner, verktyg och begränsningar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities",
+  "url": "https://z.ai/blog/glm-5.3",
+  "sv": "Z.ais nya modell förbättras främst genom mer efterträning, med framsteg inom komplex kodning och uppgifter över lång tid.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cursor is now a part of SpaceX",
+  "url": "https://cursor.com/blog/joining-spacex",
+  "sv": "SpaceX har köpt Cursor för att använda sina GPU-resurser till att träna starkare och billigare AI-modeller.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Qwen 3.8 27B is excellent, but it defaults to wildly overthinking things",
+  "url": "https://simonwillison.net/2026/Aug/16/qwen-38-27b/",
+  "sv": "Recension av Alibabas 27B-modell med Apache 2.0-licens och bildförståelse. Författaren noterar att den har en tendens att tänka över sig.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "So You Want to Build an AI Star?",
+  "url": "https://www.nytimes.com/2026/08/13/arts/ai-podcasts-fashion-pop-avatars.html",
+  "sv": "Flera företag försöker skapa syntetiska kändisar. Billiga AI-bildverktyg gör att nästan vem som helst kan bygga fotorealistiska avatarer, vilket oroat mänskliga artister.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A quick look at zero-knowledge proofs",
+  "url": "https://bernsteinbear.com/blog/zkp/",
+  "sv": "Artikeln förklarar hur nollkunskapsbevis låter en part övertyga en annan om att en lösning finns utan att avslöja den, och hur de kan användas utanför kryptovalutor, till exempel för åldersverifiering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-17",
+  "dag": "måndag 17 augusti 2026",
+  "dag_kort": "17 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Code is the Byproduct",
+  "url": "https://yagmin.com/blog/code-is-the-byproduct/",
+  "sv": "Essän menar att kod är resultatet av att man förstått ett problem, inte det huvudsakliga målet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google's Gemini 3.7 Flash targets coding and agents with a 50% introductory price cut",
+  "url": "https://venturebeat.com/technology/googles-gemini-3-7-flash-targets-coding-and-agents-with-a-50-introductory-price-cut",
+  "sv": "Googles nya Flash-modell kommer tre veckor efter 3.6 Flash, och API-priserna är tillfälligt halverade till årets slut.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google launches Sheets canvas for Gemini mini-apps",
+  "url": "https://www.testingcatalog.com/google-launches-sheets-canvas-for-gemini-mini-apps/",
+  "sv": "Sheets canvas använder Gemini för att göra kalkylbladsdata till interaktiva miniappar som ligger ovanpå bladet och hålls synkade med det. Funktionen finns globalt på engelska för Google AI Pro- och Ultra-prenumeranter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Apple trains own AI model for China with Alibaba support, Reuters reports",
+  "url": "https://au.investing.com/news/stock-market-news/apple-trains-own-ai-model-for-china-with-alibaba-support-reuters-reports-4599519",
+  "sv": "Enligt Reuters tränar Apple en modell för Kina med hjälp av Alibaba. En lokalt tränad modell kan ge Apple mer kontroll över sitt AI-erbjudande där.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OCR 4.1 (Website)",
+  "url": "https://docs.mistral.ai/models/ocr-4-1",
+  "sv": "Mistrals OCR 4.1 är en bildmodell byggd för att tolka komplexa dokument, inklusive täta tabeller och nästlade strukturer, och ge ren JSON eller Markdown.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cloud agents start 3x faster with builds",
+  "url": "https://cursor.com/blog/builds",
+  "sv": "Cursor förbereder nu utvecklingsmiljöer i bakgrunden utan extra kostnad, så att molnagenter kan starta i färdiga miljöer. Agenterna faller tillbaka på senaste lyckade bygget.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "X open sources its ranking algorithm, letting users see if they've been 'shadowbanned'",
+  "url": "https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/",
+  "sv": "X har släppt sin For You-algoritm och sin kärnmotor för rangordning som öppen källkod. Bolaget testar också ett verktyg där användare kan se om rangordningen påverkat deras konton eller inlägg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Pangram, Authorship, and French Theory",
+  "url": "https://www.a16z.news/p/this-essay-is-10-ai-generated",
+  "sv": "Anklagelser om AI-användning har blivit ett socialt sätt att kritisera personer och inlägg. Essän menar att det speglar en längtan efter författarskap, som ger mening åt människor.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Foreman (4 minute read)",
+  "url": "https://ask-foreman.dev/docs/how-it-works",
+  "sv": "Dokumentationsöversikt över Foremans körmiljö, hur filsystemet definierar agenten och de tre gränser som formar designen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "DeepSeek Harness (Website)",
+  "url": "https://deepseek.com/harness/en/",
+  "sv": "DeepSeek Harness finns i utvecklarförhandsvisning med källkod. Förmågorna är utbytbara plugin, och allt modellen ser loggas i en logg som bara kan byggas på.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-14",
+  "dag": "fredag 14 augusti 2026",
+  "dag_kort": "14 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Write for people",
+  "url": "https://newsletter.vickiboykis.com/archive/write-for-people",
+  "sv": "I takt med att förklarande material genereras i stället för att skrivas blir det allt svårare för människor att navigera i kodbaser.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude's Chrome Side Panel Becomes a Full Cowork Session",
+  "url": "https://claude.com/claude-in-chrome",
+  "sv": "Sidopanelen i Claude in Chrome kör nu en hel Cowork-session. Konversationer synkas med ditt Claude-konto, och dina befintliga färdigheter och kopplingar fungerar i webbläsaren.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MAI-Image-2.6 Reaches No. 2 on Arena",
+  "url": "https://microsoft.ai/news/mai-image-2-6-launches-at-no-2-on-arena-ahead-of-google-meta-and-xai/",
+  "sv": "Microsofts MAI-Image-2.6 hamnade på andra plats på Arenas rankning för text-till-bild.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "What sort of maths are LLMs good at?",
+  "url": "https://gowers.wordpress.com/2026/08/12/what-sort-of-maths-are-llms-good-at/",
+  "sv": "Inlägget berömmer OpenAIs senaste matematikbesked men menar att språkmodeller ännu inte överträffar alla människor inom alla delar av matematiken, vilket är varför resultaten inte kommer i strida strömmar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Vibe-Coding Startup Lovable Hits $13 Billion Valuation",
+  "url": "https://www.wsj.com/business/entrepreneurship/vibe-coding-startup-lovable-hits-13-billion-valuation-0c87ff8a",
+  "sv": "Lovable väntas nå en intäktstakt på nästan 600 miljoner dollar i slutet av månaden.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How a Three-Person Team Ships Hundreds of PRs",
+  "url": "https://wesmckinney.com/blog/agentic-engineering-aug-2026/",
+  "sv": "Inlägget beskriver Kenn Softwares agentstödda arbetssätt, där tre utvecklare slår ihop hundratals pull requests i veckan samtidigt som antalet buggar i produktion hålls lågt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Why Tiny JPEGs Look Different in Chrome",
+  "url": "https://guillaumetech.github.io/posts/jpg-scaling-chrome/",
+  "sv": "Den till synes buggen är en avsiktlig avkodningsgenväg. Chromes grafikbibliotek Skia avkodar JPEG-bilder i reducerad skala först och skalar sedan ned, vilket kan få små bilder att se olika ut på olika maskiner.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI is removing the middle class of software engineering",
+  "url": "https://blog.florianherrengt.com/ai-removing-middle-class-software-engineering.html",
+  "sv": "AI påskyndar misslyckandet i projekt med svag ingenjörspraxis, eftersom dåliga utvecklare inte längre skyddas av långsam utveckling. Företag kommer att koncentrera sina satsningar på en liten grupp betrodda ingenjörer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The human is the loop",
+  "url": "https://brentfitzgerald.com/posts/the-human-is-the-loop/",
+  "sv": "Texten uppmanar till medvetna val om när man ska använda AI och när man ska hoppa över den, med ärlig redovisning av vad varje val ger och kostar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "GitHub vs Vercel vs Replit: What Dev Platforms Do When AI Code Is Cheap",
+  "url": "https://blog.bytebytego.com/p/github-vs-vercel-vs-replit-what-dev",
+  "sv": "När AI gör kod billig att skriva omorienterar sig GitHub, Vercel och Replit mot andra svåra delar av programvaruutveckling.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-13",
+  "dag": "torsdag 13 augusti 2026",
+  "dag_kort": "13 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How we tracked down a 16-year-old SQLite bug",
+  "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+  "sv": "Tailscale beskriver en stor insats över flera team, med SQLites kärnunderhållare, för att lösa en länge existerande bugg i WAL-återställning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Gemini Passed 1 Billion Monthly Users",
+  "url": "https://x.com/newsfromgoogle/status/2087233951031009665",
+  "sv": "Google uppger att Gemini-appen nått 1 miljard aktiva användare per månad, den fjortonde produkten som klarar den nivån. Över 150 miljoner bilder genereras dagligen och mer än 100 miljoner aktiva iOS-användare rapporteras.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cursor prepares to launch Origin platform for code reviews",
+  "url": "https://www.testingcatalog.com/cursor-prepares-to-launch-origin-platform-for-code-reviews/",
+  "sv": "Cursor verkar vara redo att utvidga Origin bortom den slutna partnerbetan som Cursor Review, med flikarna Codebase och Review. Granskningsfliken kör en automatisk pull request-process som varnar utvecklare när deras bedömning behövs.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MAI-Code-1.1-Flash: Better, faster, at a quarter of the cost",
+  "url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/",
+  "sv": "Microsofts MAI-Code-1.1-Flash ger bättre kod med 25 procent högre tokeneffektivitet till en fjärdedel av tidigare kostnad, och finns nu i GitHub Copilot.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The model picker is a dead end",
+  "url": "https://lovable.dev/blog/the-model-picker-is-a-dead-end",
+  "sv": "Lovable menar att en enda modellväljare förutsätter att en modell passar alla uppgifter, och matchar i stället modeller mot uppgifter och byter allteftersom modellerna förbättras.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Import from another agent",
+  "url": "https://learn.chatgpt.com/docs/import",
+  "sv": "ChatGPT:s skrivbordsapp och Codex CLI kan nu hämta in inställningar, färdigheter, plugin och projekt från andra agenter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Grok Bot",
+  "url": "http://x.ai/news/introducing-grok-bot",
+  "sv": "Grok Bot ger varje agent en egen molndator, minne och åtkomst till appar och webbplatser, så att team kan delegera flerstegsarbete som körs självständigt.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Everything hackable will get hacked",
+  "url": "https://vercel.com/blog/everything-hackable-will-get-hacked",
+  "sv": "AI-modeller har blivit mycket bättre på säkerhetsuppgifter, vilket ger försvarare ett tillfälligt försprång. Team bör hitta och åtgärda sårbarheter löpande, eftersom öppna modeller snart hinner ikapp de slutna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Modular 26.5: Mojo 1.0 is here!",
+  "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+  "sv": "Mojo har mognat till ett allmänt programmeringsspråk med en aktiv utvecklargemenskap. Den här utgåvan markerar version 1.0.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Compression is prediction",
+  "url": "https://ngrok.com/blog/compression-is-prediction",
+  "sv": "Texten kopplar entropi från datakomprimering till språkmodellering, där samma idé hjälper modeller att förutsäga text bättre.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-12",
+  "dag": "onsdag 12 augusti 2026",
+  "dag_kort": "12 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Scaling an Agentic Coding SDK: What Concurrency Actually Costs",
+  "url": "https://sahansera.dev/scaling-an-agentic-coding-sdk-what-concurrency-actually-costs/",
+  "sv": "Att köra många agenter samtidigt är i praktiken att driva en stor flotta delvis betrodda maskiner på en gång. Artikeln undersöker vad den samtidigheten kostar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Learning more about Claude's mathematical capabilities",
+  "url": "https://www.anthropic.com/research/riemann-zeta",
+  "sv": "Claude höjde den bevisade nedre gränsen för andelen nollställen som uppfyller Riemannhypotesen från 41,6 till 67,2 procent, efter att ha samordnat deluppgifter och testat hundratals idéer. Oberoende matematiker och formell validering bekräftade resultatet.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta released Muse Glimmer",
+  "url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+  "sv": "Meta har släppt Muse Glimmer, en öppen modell med 30 miljarder parametrar under Apache 2.0. Den riktar sig mot lokala agenter som alltid är igång, kodning, funktionsanrop och modellutvärdering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Are Agents Really Killing UI?",
+  "url": "https://x.com/posthog/status/2086896332862886283",
+  "sv": "Agenter driver programvaran mot hybridgränssnitt i stället för att ta bort gränssnitten. De mest värdefulla vyerna blir de för godkännande, granskning, ångra och insyn i vad agenterna gör.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "h3-metal (GitHub Repo)",
+  "url": "https://github.com/antirez/h3.c",
+  "sv": "Inbyggd MiniMax-H3-inferens för Apple Silicon som stöder prompt-till-video/ljud och referenser i bild, video och ljud. Fokus ligger på Metal-prestanda på M3 Max och M5 Max.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Can Agents Use a Computer Yet? We've Got the Data",
+  "url": "https://a16z.com/can-agents-use-a-computer-yet-weve-got-the-data/",
+  "sv": "Agenter har snabbt blivit bättre på datoranvändning och klarar upprepat arbete som ärendehantering, datainmatning och att navigera äldre system utan API:er.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple is working on a way to authenticate that a photo came from an iPhone camera",
+  "url": "https://9to5mac.com/2026/08/10/apple-is-working-on-a-way-to-authenticate-that-a-photo-came-from-an-iphone-camera/",
+  "sv": "Konceptet Apple Reference Image skulle verifiera ett fotos ursprung med data knuten till den iPhone-kamera som tog bilden.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What's the best programming language for coding agents?",
+  "url": "https://danluu.com/pl-tokens/",
+  "sv": "Texten menar att man behöver många varierade utvärderingar för att kunna säga vilka språk som passar LLM-kodagenter, och att dagens resultat är för spretiga för att peka ut ett enda.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Following Epic loss, Google has started hosting rival app stores in the Play Store",
+  "url": "https://arstechnica.com/gadgets/2026/08/third-party-app-stores-are-rolling-out-in-google-play-but-theres-only-one-right-now/",
+  "sv": "Aptoide, en spelinriktad butik som länge funnits som sidladdad klient, är den första tredjepartsbutiken i Google Play.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Everything I Learned Shipping Device Bound Session Credentials",
+  "url": "https://scotthelme.co.uk/everything-i-learned-shipping-device-bound-session-credentials/",
+  "sv": "Artikeln handlar om att binda webbläsarsessioner till en privat nyckel som webbläsaren skapar i hårdvara och som inte kan exporteras.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-11",
+  "dag": "tisdag 11 augusti 2026",
+  "dag_kort": "11 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google's classic Search button is gone in a new AI-first homepage",
+  "url": "https://searchenginewatch.com/google-tests-ai-focused-homepage-for-signed-out-users/",
+  "sv": "Google testar en startsida där sökknappen ersatts av en AI Mode-knapp, med funktioner för frågor om filer och idégenerering utan inloggning.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Code Makes Auto Mode the Default",
+  "url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+  "sv": "Anthropic gör auto-läget till standard i Claude Code för Pro-, Max- och Team-användare den 14 augusti, så att de flesta åtgärder körs utan att be om godkännande.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "xAI launches Imagine Image 2.0 in Grok Quality Mode",
+  "url": "https://www.testingcatalog.com/xai-launches-imagine-image-2-0-in-grok-quality-mode/",
+  "sv": "xAI har släppt Imagine Image 2.0 i Grok med redigeringsverktyg som Magic Wand och Smart Resize. Ett API är planerat, men än så länge finns den bara i Groks webb och app.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI Acquires NextSlide",
+  "url": "https://nextslide.ai/",
+  "sv": "OpenAI har köpt NextSlide, ett startup som gör om prompter, anteckningar, dokument och research till redigerbara presentationer.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Explores Shaking Up Its Smartwatch for a New Era",
+  "url": "https://www.bloomberg.com/news/newsletters/2026-08-09/apple-explores-apple-watch-shake-up-company-prepares-for-september-iphone-event",
+  "sv": "Apples designteam överväger flera nya riktningar för sina smarta klockor, i takt med att billigare skärmlösa träningsband och smarta ringar utmanar Apple Watch.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Why you might want to build your WebApp in Canvas instead of HTML",
+  "url": "https://hivekit.io/blog/why-you-might-want-to-build-your-webapp-in-canvas-instead-of-html/",
+  "sv": "Canvas är ett lågnivåalternativ för rendering som ger utvecklare mer kontroll än vanlig HTML.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Agentic Code Quality",
+  "url": "https://addyo.substack.com/p/agentic-code-quality",
+  "sv": "Programvarukvalitet beror nu på vilka begränsningar som sätts för de AI-agenter som skriver koden. Begränsningarna avgör om en agents förslag är säkra, korrekta, avgränsade och användbara.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "jax-js (Website)",
+  "url": "https://jax-js.com/",
+  "sv": "jax-js är ett maskininlärningsbibliotek som kör neurala nätverk, bildbehandling, simuleringar och numerisk kod i webbläsaren, med JIT-kompilering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "ChatGPT starts blocking direct requests to copy an author's style",
+  "url": "https://arstechnica.com/ai/2026/07/chatgpt-stops-cloning-famous-writers-voices-but-may-capture-a-similar-feeling/",
+  "sv": "I stället för att härma en namngiven författares röst skriver ChatGPT nu ett svar som speglar författarens allmänna egenskaper men behåller sin egen röst.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Message your other Claude Code sessions",
+  "url": "https://code.claude.com/docs/en/cross-session-messaging",
+  "sv": "Claude Code-sessioner kan nu skicka meddelanden till varandra, så att en session kan varna en annan om ett fel eller skicka vidare en lösning. Funktionen kräver Claude Code v2.1.224 eller senare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-10",
+  "dag": "måndag 10 augusti 2026",
+  "dag_kort": "10 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How Cursor Router chooses the right model for the task",
+  "url": "https://cursor.com/blog/how-cursor-router-works",
+  "sv": "Cursors router väljer modell utifrån hur de presterar på riktiga utvecklaruppgifter. Först avgörs om en förfrågan är enkel nog för en billigare modell, annars väljs den toppmodell som mest sannolikt lyckas.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-5.6 Luna Became ChatGPT's Default Free Model",
+  "url": "https://openai.com/index/improving-gpt-5-6-sol-in-chatgpt/",
+  "sv": "OpenAI har tagit bort begränsningar för textchattar och gjort GPT-5.6 Luna till standard för gratis- och Go-användare. Ett nytt Think-läge ger valfri djupare resonering.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "An Agentic IDE that builds itself",
+  "url": "https://x.com/sawyerhood/status/2085039905529597982",
+  "sv": "bb är en agentorkestrerare som användaren kan bygga ut åt vilket håll som helst, helt enkelt genom att be bb bygga den funktion man vill ha.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Kitesurf: The agent-first browser that runs in V8 isolates on Cloudflare Workers",
+  "url": "https://blog.cloudflare.com/kitesurf/",
+  "sv": "Kitesurf är en lätt webbläsare byggd för AI-agenter som körs på Cloudflare Workers.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Agent Plugins",
+  "url": "https://vercel.com/blog/introducing-agent-plugins",
+  "sv": "Agent Plugins 1.0.0 är en öppen standard för att paketera återanvändbara agentfärdigheter och MCP-servrar i plugin.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The next chapter of our AI momentum",
+  "url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+  "sv": "Google lägger till AI-funktioner i produkter som Gmail och Maps, bland annat bättre personalisering och förståelse av sammanhang.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI's New Device Will Be Hockey Puck-Sized and Cost Over $300",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-06/what-is-openai-s-device-a-doughnut-shaped-speaker-that-costs-over-300",
+  "sv": "OpenAIs kommande enhet är en skärmlös smarthögtalare med rörliga delar. Den väntas 2027 till ett pris över 300 dollar och positioneras som ett AI-första verktyg för att få saker gjorda.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "GitHub Actions Is Having One of the Worst Days in Its History",
+  "url": "https://kernel.pryanic.com/posts/github-actions-is-having-one-of-the-worst-days-in-its-history",
+  "sv": "Ett stort avbrott i GitHub Actions strypte webhook-utlösare, så att pushar och pull requests tyst misslyckades med att starta jobb. Både hostade och egna runners drabbades.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Building an open Agentic Internet: readable, discoverable, callable, and payable",
+  "url": "https://blog.cloudflare.com/the-agentic-internet/",
+  "sv": "Texten menar att ett agentorienterat internet kommer att behöva egna verktyg och protokoll.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Channels SDK (GitHub Repo)",
+  "url": "https://github.com/CopilotKit/channels-sdk",
+  "sv": "SDK:t kopplar AG-UI-kompatibla agenter till de kommunikationsplattformar som företag redan använder.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-07",
+  "dag": "fredag 7 augusti 2026",
+  "dag_kort": "7 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "WeatherNext: AI model achieves breakthrough in forecasting cyclones",
+  "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+  "sv": "WeatherNext når toppnivå för cyklonernas bana, styrka och vindstruktur och ger meteorologer i snitt ungefär ett dygn extra användbar prognos. Google har öppnat WeatherNext 2 och WeatherNext Cyclones.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta Releases Muse Code",
+  "url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+  "sv": "Metas nya kodagent för terminalen bygger på Muse Spark 1.2 och hanterar komplexa ingenjörsuppgifter i hela kodförråd.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Qwen-Image-3.0-Pro",
+  "url": "https://www.qwencloud.com/models/qwen-image-3.0-pro",
+  "sv": "Bildmodellen genererar komplexa layouter som tidningar, storyboards, menyer och provblad i ett enda steg.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AI startup Hark unveils first product: an affordable, fast computer use agent Hark Handoff",
+  "url": "https://venturebeat.com/technology/ai-startup-hark-unveils-first-product-an-affordable-fast-computer-use-agent-hark-handoff",
+  "sv": "Hark Handoff surfar på webben åt användaren och får en egen virtuell dator för varje uppdrag. Den kan logga in och agera med sparade adresser, betalsätt och historik. Anmälan är öppen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Flex: Let the Model Write the Code",
+  "url": "https://www.cmpnd.ai/blog/let-the-model-write-the-code.html",
+  "sv": "Flex låter modeller skriva om ett programs kod, inte bara dess prompter, och kör den genererade koden i en isolerad tolk. Målet är att göra program billigare och snabbare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "DeepSeek Plans Significant API Price Increases",
+  "url": "https://technode.com/2026/08/06/deepseek-plans-significant-api-price-increases/",
+  "sv": "DeepSeek tänker höja sina API-priser kraftigt men har ännu inte publicerat någon ny prislista.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Cloudflare OS (GitHub Repo)",
+  "url": "https://github.com/cloudflare/cloudflare-os",
+  "sv": "Ett öppet operativsystem för AI-stött arbete med chattgränssnitt mot en agent, isolerad apputveckling och säkerhetsspärrar. Det byggdes för Cloudflares eget bruk.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What are code reviews even for?",
+  "url": "https://newsletter.getdx.com/p/what-are-code-reviews-even-for",
+  "sv": "Kodgranskning hjälper team att bygga en gemensam förståelse av sina system, och automatisering kan urholka den förståelsen. Den skuld som då uppstår är svår att se och dyr att reparera senare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Sims and EA FC maker Electronic Arts sells for $55bn to Saudi-led group",
+  "url": "https://www.bbc.com/news/articles/cjejyl34345o",
+  "sv": "Investerare köper Electronic Arts och samtliga börsnoterade aktier, så att bolaget inte längre handlas på någon börs.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's iCloud Private Relay is Leaking Users' Real IP Addresses",
+  "url": "https://www.macrumors.com/2026/08/05/icloud-private-relay-ip-address-leak/",
+  "sv": "Private Relay kan avslöja användares riktiga IP-adresser för webbplatser som använder passkeys eller imiterar dem.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-06",
+  "dag": "torsdag 6 augusti 2026",
+  "dag_kort": "6 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ByteDance SeedRealtime",
+  "url": "https://seed.bytedance.com/en/SeedRealtime",
+  "sv": "En ljud- och bildmodell som tar emot kontinuerlig video, ljud och text och samtidigt genererar tal i realtid.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple vs. OpenAI: How Siri AI Stacks Up Against the New ChatGPT",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-03/apple-siri-ai-vs-chatgpt-which-ai-assistant-is-better",
+  "sv": "Jämförelse mellan Apples kommande Siri-AI i iOS 27 och ChatGPT. Siri leder på frågor om det som syns på skärmen och på enhetsstyrning, medan ChatGPT är starkare på samtal, produktivitet och integrationer.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Unpacking ChatGPT Work: the Agent for a Billion Users",
+  "url": "https://www.latent.space/p/unpacking-chatgpt-work",
+  "sv": "Genomgång av ChatGPT Work, OpenAIs agent för kunskapsarbete, och hur den kombinerar flera befintliga produkter. Texten tar också upp designvalen och att OpenAI planerar slå ihop Chat och Work.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Kiro Crew",
+  "url": "https://kiro.dev/blog/introducing-kiro-crew/",
+  "sv": "Kiro Crew är en bestående utvecklingsmiljö som körs lokalt eller på distans och för arbete vidare mellan sessioner. Uppgifter kan startas från skrivbordsapp, webb eller CLI och fortsättas i till exempel Slack och Discord.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A unified API for AI model routing",
+  "url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+  "sv": "Modellroutning i Google Cloud API Gateway finns i publik förhandsvisning. Den tar emot OpenAI-kompatibla anrop och skickar dem vidare till Gemini, Claude eller OpenAI OSS-modeller.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Reverse Replicator",
+  "url": "https://www.backflip.ai/blog/the-reverse-replicator",
+  "sv": "Backflip AI har byggt en modell som gör om fysiska delar till digitala CAD-filer på några minuter, till en kostnad av omkring 10 dollar.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Turn one giant AI-generated pull request to a reviewable stack",
+  "url": "https://github.blog/engineering/turn-one-giant-ai-generated-pull-request-to-a-reviewable-stack/",
+  "sv": "Staplade pull requests i GitHub delar upp stora ändringar i en kedja av små lager som kan granskas var för sig. Inlägget visar hur det gör granskning enklare för både utvecklare och deras agenter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Cloudflare enforces engineering standards using AI",
+  "url": "https://blog.cloudflare.com/engineering-standards-enforcement/",
+  "sv": "Cloudflares Codex är en styrd uppsättning tekniska standarder som både människor och AI-agenter kan hämta från. Den stödjer kod-, design- och incidentgranskningar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Computer Use Verification Skill That Every Agent Needs",
+  "url": "https://x.com/zachlloydtweets/status/2084411777354277027",
+  "sv": "Inlägget menar att verifiering via datoranvändning låter kodagenter återskapa buggar, jämföra implementationer mot specifikationer och bifoga skärmbilder eller video till pull requests.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The end of the age of heroes",
+  "url": "https://www.noahpinion.blog/p/the-end-of-the-age-of-heroes",
+  "sv": "Mänsklig förståelse av matematik behåller sitt värde i AI-eran, på samma sätt som idag, även utan praktiska tillämpningar. AI kan också göra det möjligt att ta sig an svårare problem.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-05",
+  "dag": "onsdag 5 augusti 2026",
+  "dag_kort": "5 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "What Codex Actually Sends to the Model",
+  "url": "https://www.0xkato.xyz/what-codex-actually-sends-to-the-model",
+  "sv": "En utvecklare riktade Codex mot en egen lokal server för att logga anropen från en kort prompt. Inlägget visar hur anropen förändras när instruktioner, verktyg, filer och historik läses in.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How OpenAI Built GPT-Live",
+  "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+  "sv": "OpenAI beskriver hur röstsystemet byggts om kring en fullduplexmodell som lyssnar och talar samtidigt. Lösningen kombinerar tillståndsbaserad inferens och asynkron delegering med snabb medietransport.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "One agent, every surface: how we built the Kiro agent harness",
+  "url": "https://kiro.dev/blog/one-agent/",
+  "sv": "Kiros agentstomme är en lätt serverprocess som körs bredvid kodbasen. Klienter som IDE, CLI och webben pratar med den via ett protokoll, så agenten kan utvecklas oberoende av dem.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "China's MiniMax H3 is the first open model to top an AI video ranking",
+  "url": "https://the-decoder.com/chinas-minimax-h3-is-the-first-open-model-to-top-an-ai-video-ranking/",
+  "sv": "Artificial Analysis rankar MiniMax H3 etta på videoredigering, tvåa på text-till-video och trea på bild-till-video.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Bringing Human Taste to AI Models",
+  "url": "https://techcrunch.com/2026/08/03/designarena-creators-raise-7-9-million-to-bring-taste-to-ai-models/",
+  "sv": "Design Arena har fått 7,9 miljoner dollar för att hjälpa AI-bolag mäta subjektiva kvaliteter, till exempel om ett genererat spel är roligt.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google Workspace Plugins",
+  "url": "https://cursor.com/changelog/google-workspace-plugins",
+  "sv": "Cursors nya plugin i dess Marketplace låter verktyget läsa, skriva och agera i Google Workspace.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "LLMs reward expertise",
+  "url": "https://www.seangoedecke.com/llms-reward-expertise/",
+  "sv": "Ämneskunskap är den mest värdefulla promptfärdigheten, eftersom den hjälper en att känna igen bra lösningar och skriva bättre prompter. Det tyder på att mänsklig expertis förblir relevant när modellerna förbättras.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Cloudflare Computer",
+  "url": "https://blog.cloudflare.com/cloudflare-computer/",
+  "sv": "Cloudflare Computer är ett virtuellt filsystem byggt på ett Durable Object med SQLite-baserat tillstånd. Varje AI-agent får en egen, skalbar datormiljö där kod körs i isolat, containrar eller webbläsare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Plans iPhone-to-Windows Copy and Paste in EU After Microsoft Request",
+  "url": "https://www.macrumors.com/2026/08/03/apple-iphone-windows-copy-paste/",
+  "sv": "Apple planerar att lägga till kopiera och klistra in mellan iPhone och Windows i EU senast tidigt 2028, efter en begäran från Microsoft.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What the bliss taught us",
+  "url": "https://daniel.haxx.se/blog/2026/08/03/what-the-bliss-taught-us/",
+  "sv": "Curls underhållare tog juli ledigt från hanteringen av sårbarhetsrapporter och reflekterar över vad uppehållet lärde dem.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-04",
+  "dag": "tisdag 4 augusti 2026",
+  "dag_kort": "4 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MirrorCode",
+  "url": "https://epoch.ai/MirrorCode",
+  "sv": "MirrorCode är ett test där modeller ska återskapa hela program från grunden utan originalkoden. Lösningarna måste ge exakt samma utdata som originalen i 25 program.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Is Reinventing Itself as the World's Biggest Subscription Provider",
+  "url": "https://www.bloomberg.com/news/newsletters/2026-08-02/apple-subscriptions-macbook-air-shortages-apple-to-make-glasses-health-device-msbvajjp",
+  "sv": "Apples leasingprogram Upgrade pekar mot en större satsning på prenumerationer, i takt med att minnesbrist driver upp hårdvarupriserna. En stor investering görs om till en liten daglig kostnad.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google is aiming to close feature gaps on Gemini desktop",
+  "url": "https://www.testingcatalog.com/google-is-aiming-to-close-feature-gaps-on-gemini-desktop/",
+  "sv": "Google lägger till egna flikar för bild- och videogenerering samt kamerabilagor i Geminis skrivbordsapp.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "A new era of AI testing",
+  "url": "https://threadreaderapp.com/thread/2083749667410727319.html",
+  "sv": "Andrej Karpathy bad Opus 5 animera inledningen på en känd fantasyroman i Three.js och fick tillbaka cirka 5 500 rader procedurellt genererad kod.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Qwen3.8-Max: A New Bar for Coding and Cowork",
+  "url": "https://qwen.ai/blog",
+  "sv": "Alibabas Qwen 3.8-Max har 2,4 biljoner parametrar och förbättringar inom kodning och flerstegsuppgifter. Öppna vikter utlovas veckan efter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "gh stack (GitHub Repo)",
+  "url": "https://github.com/github/gh-stack",
+  "sv": "Ett tillägg till GitHub CLI som hanterar staplade grenar och pull requests så att stora ändringar delas upp i små, länkade granskningar. Verktyget automatiserar bland annat grenskapande och ombasering.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Devtools must be open source",
+  "url": "https://blog.exe.dev/devtools-must-be-open-source",
+  "sv": "Skribenten menar att AI gjort programvaruändringar så billiga att plugin-system och konfigurationsfiler spelar mindre roll. Användare kan själva ändra verktygen med hjälp av agenter, vilket gör öppen källkod viktigare för utvecklarverktyg.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Software abundance",
+  "url": "https://nader.substack.com/p/software-abundance",
+  "sv": "Att skriva kod går allt snabbare och enklare, men att bygga bra programvara kräver fortfarande omsorg och gott omdöme.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Ramp SWE-Bench",
+  "url": "https://labs.ramp.com/swebench",
+  "sv": "Ramp har byggt ett privat test med 80 backend-uppgifter från verklig drift och bedömer om modellernas lösningar är redo för granskning. Jämförelsen gäller träffsäkerhet, svarstid och kostnad.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Microsoft tests new MAI Realtime voice model",
+  "url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/",
+  "sv": "En dold post i Microsofts MAI Playground tyder på en röstmodell som kan lyssna och tala samtidigt. Den kan nå Foundry och Copilot, men inget datum är satt.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-08-03",
+  "dag": "måndag 3 augusti 2026",
+  "dag_kort": "3 aug",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Ten advances in mathematics and theoretical computer science",
+  "url": "https://openai.com/index/ten-advances-in-mathematics/",
+  "sv": "OpenAI presenterar tio resultat som hittats vid test av en ännu osläppt modell. Vart och ett gäller ett länge olöst problem inom matematik eller datavetenskap.",
+  "kategori": "Skola och AI"
+ }
+]

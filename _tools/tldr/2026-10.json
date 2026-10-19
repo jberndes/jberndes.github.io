@@ -1,5 +1,305 @@
 [
  {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic Commits Equity to Public Benefit",
+  "url": "https://www.anthropic.com/news/public-benefit-fund",
+  "sv": "Anthropic avsätter till en början 5 procent av sitt aktiekapital till en fond för samhällsnytta. Fler bidrag knyts till hur värderingen växer.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI testing new 'Aurora' GPT-Image model on Arena",
+  "url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/",
+  "sv": "Tre möjliga bildmodeller har dykt upp i OpenAI:s API och i blindtester på Arena. De kan vara en tidig version av GPT Image 3.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How AI Is Reshaping Anthropic's Workforce",
+  "url": "https://www.anthropic.com/research/employment-at-anthropic",
+  "sv": "Andelen nybörjare bland Anthropics tekniska nyanställda har sjunkit från 27 till 9 procent sedan början av 2025. De anställda lägger nu mer tid på att övervaka AI-agenter.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How the Claude Code team does code review",
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "sv": "Claude Code-teamet har skalat upp sin kodgranskning genom att automatisera de flesta stegen och granska löpande. Risknivåer avgör vilka ändringar som kräver mänskligt godkännande.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Replit Switches Its Default AI Provider to OpenAI",
+  "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+  "sv": "Replit har gjort OpenAI till förstahandsval för Replit Agent. Användarna kan fortfarande välja Claude och andra modeller.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's HomeView Offers Tantalizing Preview of a Future Robotic Version",
+  "url": "https://www.bloomberg.com/news/newsletters/2026-10-18/apple-homeview-with-robotic-arm-new-mac-ipad-mini-nov-6-release-iphone-duo",
+  "sv": "Apple ska enligt uppgift utveckla en dyrare HomeView med motoriserad arm som vänder skärmen mot den som pratar.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Weak Links Start to Show in AI Borrowing",
+  "url": "https://www.nytimes.com/2026/10/17/business/ai-debt-coreweave-oracle-softbank.html",
+  "sv": "Investerarna har lånat ut mycket till AI, men tvivlet växer på att framtida intäkter räcker för dagens skulder. Vissa datacenterprojekt har redan fastnat.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Will it be a golden age or a dark age for mathematics (and science)?",
+  "url": "https://terrytao.wordpress.com/2026/10/18/will-it-be-a-golden-age-or-a-dark-age-for-mathematics-and-science/",
+  "sv": "Terence Tao beskriver hur språkmodeller antingen kan ge en ny generation forskare nya möjligheter eller samla kunskapsproduktionen hos få och göra den svår att förstå.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Claude reveals ECDSA curve origins",
+  "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+  "sv": "Frövärdena till ECDSA-kurvorna kom från slumptalsgeneratorn lrand48 i ett C-bibliotek, startad med tidsstämplar. De kom inte från hashfunktioner eller någon dold bakdörr.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-19",
+  "dag": "måndag 19 oktober 2026",
+  "dag_kort": "19 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "7 years later, Apple's gaming push has proven surprisingly resilient",
+  "url": "https://www.polygon.com/apple-indie-games-week-interview/",
+  "sv": "Sju år efter starten av Apple Arcade fortsätter Apple att satsa stort på spel och verkar vilja bli en stor aktör.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Muse Spark Open",
+  "url": "https://research.meta.ai/blog/muse-spark-open",
+  "sv": "Metas öppna multimodala modell har 816 miljarder parametrar, varav 42 miljarder är aktiva, och 1 miljon tokens kontext. Den kan köras lokalt på två sammankopplade Mac Studio med M5 Ultra.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Inside Microsoft's Frontier Pre-Training Stack",
+  "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
+  "sv": "Microsoft beskriver hur de tränade MAI-Base-2, en mixture-of-experts-modell med 2,8 biljoner parametrar. Företaget planerar också att sälja interna modeller via Foundry.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Krea 3",
+  "url": "https://www.krea.ai/krea-3",
+  "sv": "Krea 3 är en bildredigeringsmodell för produktion. Ett ingrepp tar under åtta sekunder och kostar 0,06 dollar per bild, och upp till åtta referensbilder kan blandas.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic Expanded Independent Access to Its AI Safety Work",
+  "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+  "sv": "Anthropic ger organisationen METR nästan lika bred tillgång som de egna anställda till modeller, träningsinformation och skyddsåtgärder. METR kan därmed bedöma riskerna oberoende och publicera sina slutsatser.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "FLUX 3 Image Klein",
+  "url": "https://bfl.ai/blog/flux-3-image-klein",
+  "sv": "Black Forest Labs släpper en öppen modell med 5,6 miljarder parametrar för bildgenerering och redigering, med inbyggd 4K-upplösning och upp till 10 referensbilder.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tesla's New Roadster Takes Flight After Nearly a Decade of Delays",
+  "url": "https://www.wsj.com/business/autos/tesla-roadster-elon-musk-530c8e78",
+  "sv": "Tesla visade sin andra generation Roadster med en uppskjutningsdemo. Produktion planeras till 2028 och något pris är inte offentliggjort.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Bringing the magic: Google breaks open a bottleneck in quantum computing",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
+  "sv": "Google Quantum AI visar att magic state cultivation fungerar på processorn Willow och minskar felen med en faktor 40.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Using Artificial Intelligence to reverse engineer hardware",
+  "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/",
+  "sv": "Utvecklare använder Claude för att hitta mönster i USB-loggar och skriva tester för sina hypoteser. Människor bestämmer fortfarande vad som ska byggas och kontrollerar rättningarna på riktig hårdvara.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "John Ternus Is Engineering a New Era for Apple",
+  "url": "https://time.com/collection/best-inventions/2026/apple-iphone-duo/",
+  "sv": "Apples John Ternus leder på sitt eget sätt i stället för att kopiera tidigare chefer.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-16",
+  "dag": "fredag 16 oktober 2026",
+  "dag_kort": "16 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "New trend of building \"internal vibe-coding apps\" at tech companies",
+  "url": "https://blog.pragmaticengineer.com/the-pulse-new-trend-of-building-internal-vibe-coding-apps-at-tech-companies/",
+  "sv": "Företag bygger interna vibe-kodningsverktyg för icke-programmerare. De är billiga att göra, används mer än inköpta produkter och håller interna data säkrare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Grok Voice 3.0",
+  "url": "https://x.ai/news/grok-voice-3",
+  "sv": "xAI släpper en tal-till-tal-modell som svarar snabbt och klarar kundtjänstuppgifter bättre än tidigare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google Harness² for Recursive Self Improvement",
+  "url": "https://github.com/google-research/harness2",
+  "sv": "Google Researchs ramverk låter agenter förbättra sina prompter, verktyg, minne och samordning över tid utan att modellens vikter ändras. Lärdomar förs vidare till senare uppgifter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Analyzing technical documents with Deep Review",
+  "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+  "sv": "Googles agent Deep Review ger teknisk återkoppling på dokument, till att börja med PDF och ren text. Stöd för flera filer är planerat.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Adds OpenTelemetry for Agent Observability",
+  "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+  "sv": "Anthropic har lagt till OpenTelemetry-spårning i Claude Managed Agents, Messages API och Claudes SDK:er.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "More Agents, Same Mythical Month",
+  "url": "https://www.brokenrobot.xyz/blog/more-agents-same-mythical-month/",
+  "sv": "När kod blir billig att skriva flyttas flaskhalsen till att besluta, verifiera och samordna arbetet. Fler agenter löser inte dålig samordning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic Says Revenue Jumped 45% to $16.8 Billion in Third Quarter",
+  "url": "https://www.nytimes.com/2026/10/14/technology/anthropic-ipo-revenue-profit.html",
+  "sv": "Anthropic har berättat för investerare att omsättningen steg med cirka 45 procent under kvartalet, inför en möjligen rekordstor börsintroduktion.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Making of Grand Theft Auto VI",
+  "url": "https://www.bloomberg.com/features/2026-grand-theft-auto-6-making-of/",
+  "sv": "Bloomberg har ett långt reportage om hur Rockstar byggde GTA VI, som väntas bli en av de största underhållningslanseringarna någonsin.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Code you didn't write",
+  "url": "https://jaredpalmer.com/blog/code-you-didnt-write",
+  "sv": "Verktyg blir allt bättre på att bedöma kodkvalitet, men att veta hur ett program är tänkt att vara uppbyggt är fortfarande en mänsklig förmåga. God AI-kodning börjar med tydligt problemtänkande.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Agentic Verification",
+  "url": "https://addyo.substack.com/p/agentic-verification",
+  "sv": "Om AI-agenter får kontrollera sitt eget arbete med end-to-end-tester, egenskapsbaserade tester och snabba deterministiska testloopar blir resultatet bättre.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-15",
+  "dag": "torsdag 15 oktober 2026",
+  "dag_kort": "15 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI is mass decompiling games. That's both awesome and scary",
+  "url": "https://popcar.bearblog.dev/ai-is-mass-decompiling-games-thats-both-awesome-and-scary/",
+  "sv": "AI-driven dekompilering av spel kan gynna konsumenter men kan också skaka om branschen.",
+  "kategori": "Spel"
+ },
+ {
   "datum": "2026-10-14",
   "dag": "onsdag 14 oktober 2026",
   "dag_kort": "14 okt",

@@ -1,5 +1,205 @@
 [
  {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Voxtral 3: Voice Agent SDK & Speech Models in 50+ Languages",
+  "url": "https://mistral.ai/news/voxtral-3/",
+  "sv": "Mistral släpper modeller för tal till text och text till tal på ett femtiotal språk, plus ett verktyg för att bygga röstagenter i realtid över telefon eller webb.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Making every harness durable",
+  "url": "https://vercel.com/blog/making-every-harness-durable",
+  "sv": "Vercels durable-harness gör att agentramverk klarar krascher och bortkopplade webbläsare. Avbrutna svar återupptas från en logg i stället för att startas om för hand.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Sundar Pichai on Google's AI Strategy and Compute Tradeoffs",
+  "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+  "sv": "Googles vd berättar om satsningen på spetsforskning inom AI, bland annat att acceptera lägre kortsiktiga molnintäkter för att styra beräkningskraft till modellutveckling.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta's Muse Reaches 10 Million US Downloads in 40 Days",
+  "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+  "sv": "Metas AI-sällskapsapp passerade 10,2 miljoner nedladdningar i USA på 40 dagar, ett tempo som bara 11 andra appar har nått.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "ChatGPT now lets you lock your chats",
+  "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+  "sv": "Låsta chattar hålls isär från den vanliga historiken, fästa chattar och sökresultat.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tesla and SpaceX Formed Committees to Discuss Potential Merger, Elon Musk Says",
+  "url": "https://www.wsj.com/business/earnings/spacex-spcx-q3-earnings-report-2026-stock-4138193d",
+  "sv": "Särskilda kommittéer i båda bolagen väger en möjlig fusion. Musk ser fördelar men sitter inte i någon av dem, och inget avtal finns ännu. Aktieägarna skulle rösta.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic S-1 Shows Red-Hot Growth, Risks, and Massive Computing Costs",
+  "url": "https://www.wsj.com/tech/ai/anthropic-revenue-growth-ipo-accaf0f1",
+  "sv": "Anthropics utkast till börsprospekt visar en nettoförlust på över 80 miljarder dollar första halvåret och räknar upp många risker. Intäkterna växer snabbt, men tillgången till datorkraft är osäker.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Claude designed protein binders against scorpion neurotoxins",
+  "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+  "sv": "Anthropic lät en intern forskningsmodell designa bindande proteiner mot skorpiongift. 17 av 211 designer uppfyllde kriterierna. Företaget hävdar inte att de neutraliserar gift i celler.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Internet goes on high alert after discovery of 8 compromised TLS certs",
+  "url": "https://arstechnica.com/security/2026/10/the-internet-goes-on-high-alert-after-discovery-of-8-compromised-tls-certs/",
+  "sv": "Åtta mellanliggande certifikat från den indiska certifikatutfärdaren eMudhra visade sig vara felaktiga på sätt som ingenjörer tidigare ansåg omöjliga.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-21",
+  "dag": "onsdag 21 oktober 2026",
+  "dag_kort": "21 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+  "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+  "sv": "Två kritiska sårbarheter för fjärrkörning av kod, CVE-2026-109618 och CVE-2026-109619, tros påverka PHP 5 till 8. Nödpatchar väntas inom kort.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "MiniMax M3.1 Flash: Redefining Agent Performance and Cost",
+  "url": "https://www.minimax.io/blog/minimax-m31f",
+  "sv": "MiniMax nya modell förbättrar agentuppgifter, kodning, datoranvändning och cybersäkerhet. Den körs nästan tre gånger snabbare online och sänker användningskostnaden med 70 procent. Vikterna ska släppas senare.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Inside Meta's Gigawatt-Scale AI Supercluster",
+  "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+  "sv": "Meta beskriver Prometheus, ett superkluster på gigawattskala för företagets Muse-modeller. Artikeln tar upp uppbyggnaden, planerna på ungefär en miljon GPU:er och slutna vätskekylsystem.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Nscale and Anthropic are reportedly in talks for yet another $45B compute deal",
+  "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+  "sv": "Företagen kan vara nära en andra beräkningsaffär på 45 miljarder dollar, ungefär en månad efter den förra. Båda siktar på börsnotering, och Nscale möter kritik från investerare mot värderingen på 30 miljarder dollar.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How to shape your slides and videos with Gemini Notebook",
+  "url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+  "sv": "Gemini Notebook har verktyg för att skapa presentationer och videor, med designförslag från AI.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AI lab offers free plumbing and HVAC repairs across three cities to train AI robots",
+  "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-lab-offers-free-plumbing-and-hvac-repairs-across-three-cities-to-train-ai-robots-wearable-sensors-record-video-of-repair-work-for-robotics-training-free-services-also-include-electrical-work-air-duct-cleaning-and-carpet-cleaning",
+  "sv": "HUMXN subventionerar hemtjänster i Minneapolis, Chicago och Miami för att samla data till robotträning. Arbetarna bär kameror som filmar jobben i hemmen.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Waymo plans to quintuple its fleet",
+  "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
+  "sv": "Waymo siktar på 20 000 fordon vid utgången av nästa år, från omkring 4 000 i 15 amerikanska städer, efter att ha tagit in 5 miljarder dollar i privat kredit.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro",
+  "url": "https://www.bloomberg.com/news/articles/2026-10-19/apple-announces-oct-28-event-for-touch-screen-macbook-pro",
+  "sv": "Apple håller ett evenemang den 28 oktober för att visa sin första MacBook med pekskärm, tillsammans med en enklare MacBook Pro, en uppdaterad iMac och en ny iPad mini.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+  "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+  "sv": "OpenAI:s publicerade bevis för en svagare variant av Riemannhypotesen anses vara det mest betydelsefulla AI-resultatet inom matematik hittills, eftersom de flesta följderna hänger på den.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Releasing Python 3.15.0",
+  "url": "https://hugovk.dev/blog/2026/releasing-python-3-15-0/",
+  "sv": "Den nya Python-versionen får lata importer, inbyggda typer för frozendict och sentinel, bättre färgutskrifter, snabbare JIT och konfigurationsfiler för paketstart.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-20",
+  "dag": "tisdag 20 oktober 2026",
+  "dag_kort": "20 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "People are using AI to make their smart TVs dumb again",
+  "url": "https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/",
+  "sv": "Användare tar bort reklam, snabbar upp appstartaren, designar om startskärmen och stänger av spårning på sina smarta tv-apparater.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-10-19",
   "dag": "måndag 19 oktober 2026",
   "dag_kort": "19 okt",

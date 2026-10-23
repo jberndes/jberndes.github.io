@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors",
+  "url": "https://www.cnbc.com/2026/10/22/openai-funding-round-uae-investors.html",
+  "sv": "OpenAI närmar sig en finansieringsrunda som kan värdera bolaget till över en biljon dollar, med investerare från Förenade arabemiraten i spetsen. Runden beskrivs som en brygga inför en möjlig börsnotering, och slutstorleken är ännu inte klar.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing 1Password for Agents",
+  "url": "https://1password.com/blog/1password-for-ai-agents",
+  "sv": "1Password lanserar en plattform där AI-agenter kan logga in på webbplatser utan att få se användarens lösenord. Agenten begär uppgifter från valvet och efter godkännande fyller 1Password i dem på sidan medan de förblir dolda för agenten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "WorldTUI: I trained a 360M model to pretend to be a terminal",
+  "url": "https://simedw.com/2026/10/21/world-model-terminal/",
+  "sv": "WorldTUI är en modell med 360 miljoner parametrar som tränats att agera terminal genom att förutsäga hur skärmen ändras vid varje tangenttryckning, utan något skal eller filsystem bakom. Den kan skapa filer, köra vim och tmux och spela snake, och det finns en demo i webbläsaren.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How Researchers Tested OpenAI's Internal Agent Monitoring",
+  "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+  "sv": "METR och Redwood Research gjorde en tre veckor lång säkerhetsgranskning med tillgång till OpenAI:s interna infrastruktur. De hittade sårbarheter som kan låta AI-agenter undgå övervakning, kringgå sandlådebegränsningar eller dölja sina handlingar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude's Text Output Now Carries an Invisible Watermark",
+  "url": "https://www.oreilly.com/radar/the-latest-anthropic-claude-models-contain-ai-text-watermarks-what-does-this-mean-for-you",
+  "sv": "Anthropics senaste Claude-modeller lägger enligt artikeln in en SynthID-Text-baserad vattenstämpel i all text för att följa EU:s AI-förordning. Den fungerar genom små förskjutningar mellan likvärdiga ordval, lägger inte till dolda tecken och innehåller ingen information om användaren.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Signal Chats That Cost OpenAI Researchers Their Jobs",
+  "url": "https://www.wsj.com/tech/ai/the-signal-chats-that-cost-openai-researchers-their-jobs-594c5853",
+  "sv": "Tre säkerhetsforskare på OpenAI sades upp efter att säkerhetsvakter hittat Signal-chattar med försvinnande meddelanden på deras privata enheter. OpenAI säger att det gällde brott mot regler för känslig information, medan forskarna menar att uppsägningarna kan stänga en kanal för oberoende insyn.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Amazon's New Tablet Is a Credible iPad Rival for Much Less Money",
+  "url": "https://www.bloomberg.com/news/features/2026-10-22/amazon-rivals-apple-s-ipad-offering-with-new-alexa-tablet-12-pro-review",
+  "sv": "Amazons nya Alexa Tablet-serie är öppnare än tidigare Fire-surfplattor och går att använda som vilken Android-platta som helst, med Google Play och tjänster som Gmail och YouTube. Den 12 tum stora Pro-modellen beskrivs som välbyggd och konkurrenskraftig mot Apples iPad.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "LLMs are making formal software verification feasible at a much larger scale",
+  "url": "https://www.anthropic.com/research/formal-verification",
+  "sv": "Formell verifiering som bevisar att kod är fri från buggar har krävt år av expertarbete, men språkmodeller kan nu ta fram formella bevis i stor skala. Det öppnar för arbetssätt med bevisade säkerhetsgarantier, och metoden väntas bli central för säker programutveckling.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic builds its own source control system",
+  "url": "https://blog.pragmaticengineer.com/the-pulse-anthropic-builds-its-own-source-control-system/",
+  "sv": "Anthropic har enligt artikeln omkring 3 500 anställda men en kodproduktion som liknar ett bolag med 35 000 till 70 000. Liksom Google och Meta, som lämnade Git, har bolaget byggt ett eget versionshanteringssystem som heter Scion.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-23",
+  "dag": "fredag 23 oktober 2026",
+  "dag_kort": "23 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "JPEG XL, Welcome to the Web!",
+  "url": "https://cgicoffee.com/blog/2026/10/jpeg-xl-welcome-to-the-web-chrome-firefox",
+  "sv": "Artikeln beskriver JPEG XL som det slutgiltiga universella bildformatet, med bra komprimering, stort färgdjup, inbyggt HDR, förlustfri omkodning av JPEG och öppen licens.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-10-22",
   "dag": "torsdag 22 oktober 2026",
   "dag_kort": "22 okt",

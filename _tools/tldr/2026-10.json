@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Duet",
+  "url": "https://claude.com/resources/articles/claude-duet",
+  "sv": "Anthropic presenterar Claude Duet, en proaktiv agent på Opus 5.5 som bevakar kopplade appar, prioriterar uppgifter och arbetar självständigt men ber om godkännande för vissa åtgärder. Den är en forskningsförhandsvisning med väntelista för Pro- och Max-prenumeranter i USA.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Introducing Flint",
+  "url": "https://recursive.com/updates/introducing-recursive-flint",
+  "sv": "Recursives Flint är en mixture-of-experts-modell för snabb agentkodning på lokal hårdvara, med 40 miljarder parametrar totalt och 2,5 miljarder aktiva per token. Den ska köra över 125 tokens per sekund på en M4 Pro MacBook Pro.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI models are coming to Google Cloud",
+  "url": "https://openai.com/index/openai-models-google-cloud/",
+  "sv": "OpenAI:s modeller och Codex-arbetsflöden ska finnas i Google Clouds Model Garden för företagskunder. De kopplas till Google Clouds åtkomstkontroll och datastyrning och ska senare nå Antigravity och Gemini Agent.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "How does Fable 5.1 hide messages in images?",
+  "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+  "sv": "Språkmodeller kan koda meddelanden i bilder och avkoda dem senare, även utan att få veta kodningsmetoden. Det syns om avkodarens verktygsanrop övervakas, men meddelandena är svåra att upptäcka.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Mods: Flipping the Harness Inside Out",
+  "url": "https://www.latent.space/p/claude-mods",
+  "sv": "Claude Mods vänder på agentramverket så att det möter människan, med ett anpassningsbart gränssnitt för uppmärksamhet. Mods är TypeScript- eller JavaScript-funktioner som ändrar Claude Codes beteende i realtid, och Claude kan bygga dem själv.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude API version 2026-10-21 is now available",
+  "url": "https://threadreaderapp.com/thread/2113013247209021918.html",
+  "sv": "Det är Claude-API:ets första officiella versionerade utgåva sedan 2023, och Anthropic planerar tätare utgåvor. Versionen 2023-06-10 finns kvar, och nya större SDK- och CLI-versioner använder som standard det nya API:et.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI's PHP Patcher",
+  "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+  "sv": "OpenAI arbetade med PHP:s underhållare och säkerhetspartner för att åtgärda kritiska sårbarheter som hittats med GPT-5.6 Sol och separat av Wiz. De släppte också en PHP-kontroll och föreslog ett ramverk för att samordna svar på AI-upptäckta säkerhetsluckor.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenClaw creator says he spent $10 million in tokens last month",
+  "url": "https://www.theregister.com/ai-and-ml/2026/10/21/openclaw-creator-says-he-spent-10-million-in-tokens-last-month/5304573",
+  "sv": "Peter Steinberger, OpenClaws skapare som numera jobbar på OpenAI, uppskattar att han förbrukade cirka 10 miljoner dollar i tokens förra månaden. Artikeln bygger på ett samtal med Cloudflares tekniske chef på Cloudflare Connect 2026.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Contained: Oct 21, 2026 LiteLLM release v1.107.0 Compromised",
+  "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+  "sv": "Ett skadligt LiteLLM-paket publicerades på PyPI och låg ute i ungefär två timmar innan det drogs tillbaka.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-22",
+  "dag": "torsdag 22 oktober 2026",
+  "dag_kort": "22 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Computer use on the phone itself: a 2B model that operates Android apps",
+  "url": "https://getopposable.com/blog/computer-use-on-the-phone",
+  "sv": "GUI-Owl 1.5 är en skärmmodell med två miljarder parametrar som läser Android-skärmen via tillgänglighetstjänsten och kan trycka och skriva i valfri app.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-10-21",
   "dag": "onsdag 21 oktober 2026",
   "dag_kort": "21 okt",

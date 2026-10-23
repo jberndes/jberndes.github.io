@@ -1,0 +1,190 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Google Gemini med Canvas: bygg ett memoryspel – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: skapa ett enkelt lärospel i Gemini Canvas, testa det direkt och förbättra det med följdpromptar. Färdiga promptar att kopiera.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/gemini-canvas/">
+  <meta property="og:title" content="Google Gemini med Canvas: bygg ett memoryspel – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: skapa ett enkelt lärospel i Gemini Canvas, testa det direkt och förbättra det med följdpromptar. Färdiga promptar att kopiera.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/gemini-canvas/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Google Gemini med Canvas: bygg ett memoryspel</h1>
+      <p class="ingress">Så går du från en tom chatt till ett memoryspel med matematiska begrepp som du kan testa och dela. Du behöver inga programmeringskunskaper.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Gemini</strong> är Googles AI-tjänst. <strong>Canvas</strong> är en funktion i Gemini: en arbetsyta som öppnas bredvid chatten. Där kan Gemini skriva dokument, kod, appar och spel, och du ser resultatet direkt i en förhandsvisning.</p>
+      <p>En nybörjare kan använda Canvas för att göra små övningsappar, quiz, spel och enkla sidor till undervisningen, bara genom att beskriva vad man vill ha.</p>
+      <p>Skillnaden mellan begreppen: Gemini är tjänsten, Canvas är funktionen, och bakom finns en AI-modell som du oftast inte behöver välja själv. Enligt Googles produktsida ger Google AI Pro och Google AI Ultra tillgång till Canvas med modellen Gemini 3 och ett större sammanhangsfönster för mer komplexa projekt.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett Google-konto</strong> och inloggning på gemini.google.com.</li>
+        <li><strong>Ingen betalplan krävs:</strong> Googles produktsida anger att Canvas är tillgängligt för alla Gemini-användare. Betalplanerna Google AI Pro och Ultra ger mer avancerade möjligheter.</li>
+        <li><strong>Var funktionen finns:</strong> på datorn, under textfältet. Klicka på <strong>Add Files</strong> och välj <strong>Canvas</strong>. Menynamnen är hämtade från Googles engelska hjälpsida och kan heta något annat i ett svenskt gränssnitt.</li>
+        <li><strong>Tillgången kan variera</strong> mellan konton. Skol- och jobbkonton styrs av en administratör, och vissa funktioner är begränsade för användare under 18 år. Fråga din IT-ansvarige om du inte hittar Canvas.</li>
+        <li><strong>Personuppgifter:</strong> skriv aldrig in elevers namn eller andra personuppgifter i prompten.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Ett memoryspel där elever i årskurs 7 parar ihop matematiska begrepp med rätt förklaring. Du ska kunna spela det i förhandsvisningen och förbättra det med två eller tre följdpromptar.</p>
+      <p><strong>Ungefärlig tid:</strong> 20 till 30 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna gemini.google.com på en dator och logga in med ditt Google-konto.</li>
+        <li>Starta en ny chatt.</li>
+        <li>Klicka på <strong>Add Files</strong> under textfältet.</li>
+        <li>Välj <strong>Canvas</strong>.</li>
+        <li>Klistra in startprompten nedan i textfältet.</li>
+        <li>Klicka på <strong>Submit</strong>.</li>
+        <li>Vänta tills Canvas-panelen öppnas och visar förhandsvisningen av spelet.</li>
+        <li>Spela spelet: klicka på två kort och kontrollera att rätt par blir kvar.</li>
+        <li>Klicka på <strong>Code</strong> uppe till höger om du vill se koden. Klicka på <strong>Show console</strong> om något inte fungerar.</li>
+        <li>Skriv en följdprompt i chatten för att förbättra spelet.</li>
+        <li>Klicka på <strong>Share &amp; export</strong>, välj <strong>Share</strong> och klicka på <strong>Copy link</strong> om du vill dela spelet.</li>
+      </ol>
+      <p><strong>Sparar och exporterar:</strong> enligt Googles hjälpsida sparas ändringar automatiskt. Under <strong>Share &amp; export</strong> finns även <strong>Copy contents</strong>. Alternativen <strong>Export to Docs</strong> och <strong>Export to Slides</strong> gäller dokument, inte appar.</p>
+      <p><strong>Viktigt vid delning:</strong> enligt Googles hjälpsida kan alla med den publika länken se och ändra appens data. Låt därför inte elever skriva personuppgifter i en delad app. Delade länkar öppnas bara på gemini.google.com, inte i Gemini-appen på mobilen.</p>
+      <h2>Startprompt</h2>
+      <p>Klistra in hela texten. Den beskriver exakt vad spelet ska göra, så att Gemini inte behöver gissa.</p>
+      <blockquote>
+        <p>Skapa ett enkelt lärospel i Canvas som en enda sida med HTML, CSS och JavaScript. Allt ska vara på svenska.</p>
+        <p>Spelet är ett memoryspel för elever i årskurs 7 där de parar ihop matematiska begrepp med rätt förklaring.</p>
+        <ul>
+          <li>Använd 8 par, alltså 16 kort, som blandas slumpmässigt varje gång spelet startar.</li>
+          <li>Paren är: summa = resultatet av en addition; differens = resultatet av en subtraktion; produkt = resultatet av en multiplikation; kvot = resultatet av en division; faktor = ett tal som ingår i en multiplikation; term = ett tal som ingår i en addition; täljare = talet ovanför bråkstrecket; nämnare = talet under bråkstrecket.</li>
+          <li>Eleven klickar på två kort för att vända dem. Ett rätt par blir kvar uppvänt. Ett fel par vänds tillbaka efter ungefär en sekund.</li>
+          <li>Visa hur många försök eleven har gjort. När alla par är hittade ska en text visas med antal försök och en knapp med texten Spela igen.</li>
+          <li>Korten ska vara stora, ha tydliga färger och fungera på dator, surfplatta och mobil. Texten ska vara minst 18 pixlar.</li>
+          <li>Spelet ska inte kräva inloggning, inga externa bibliotek och inte skicka någon data någonstans.</li>
+        </ul>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Skriv en följdprompt i taget i samma chatt och testa efter varje. Då ser du exakt vad som ändrades.</p>
+      <h3>Spara bästa resultat</h3>
+      <blockquote>
+        <p>Lägg till en text som visar bästa antal försök medan sidan är öppen. Lägg också till en knapp som heter Ny omgång och som blandar korten igen utan att ladda om sidan.</p>
+      </blockquote>
+      <h3>Gör spelet tillgängligt</h3>
+      <blockquote>
+        <p>Gör spelet lättare att använda för fler elever. Korten ska gå att välja med tangentbordet med Tab och Enter. Färgerna ska ha tillräcklig kontrast. Ett kort som hör ihop med ett annat ska kunna skiljas åt även utan att man ser färg.</p>
+      </blockquote>
+      <h3>Lägg till svårighetsgrader</h3>
+      <blockquote>
+        <p>Lägg till tre svårighetsgrader som eleven väljer innan spelet startar: Lätt med 6 par, Medel med 8 par och Svår med 12 par. Hitta på fyra nya matematiska begrepp med korta förklaringar till Svår och visa dem i en lista när jag ber om det.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>En sida med en rubrik, en räknare för försök och ett rutnät med 16 kort. När du klickar på ett kort vänds det och visar ett begrepp eller en förklaring. Hittar du ett rätt par blir båda korten kvar. Hittar du ett fel par vänds de tillbaka efter en kort stund. När alla par är hittade visas en avslutande text och en knapp för att spela igen.</p>
+      <p><strong>Granska innehållet.</strong> Kontrollera att varje begrepp har rätt förklaring innan du ger spelet till elever. AI kan skriva fel med stor säkerhet.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Förhandsvisningen är tom eller visar ett fel</h3>
+      <p>Klicka på <strong>Show console</strong> uppe till höger och kopiera felmeddelandet. Skriv sedan i chatten: Förhandsvisningen ger det här felet: (klistra in felet). Rätta felet och behåll resten av spelet.</p>
+      <h3>Jag hittar inte Canvas under Add Files</h3>
+      <p>Kontrollera att du är inloggad i Gemini. Om du använder ett skol- eller jobbkonto kan en administratör ha begränsat funktionen. Prova då med ett personligt konto för egen testning, men låt inte elever använda privata konton utan att skolan har bestämt det.</p>
+      <h3>Min ändring gjorde spelet sämre</h3>
+      <p>Klicka på <strong>Previous Version</strong> uppe i Canvas för att gå tillbaka till en tidigare version. <strong>Next Version</strong> tar dig framåt igen.</p>
+      <h3>Jag vill ändra utseende på texten</h3>
+      <p>Enligt Googles hjälpsida kan du bara ändra textstil och format i Gemini på webben på dator, inte på mobilen.</p>
+      <h3>Länken fungerar inte på mobilen</h3>
+      <p>Delade Canvas-länkar öppnas bara på gemini.google.com enligt Googles hjälpsida. Be mottagaren öppna länken i en webbläsare.</p>
+      <h2>Egen övning</h2>
+      <p>Gör spelet till ditt eget. Ändra ämne och begrepp så att det passar din kurs.</p>
+      <ol>
+        <li>Skriv en ny prompt där du byter ut de åtta paren mot begrepp från ditt eget ämne.</li>
+        <li>Klicka på <strong>Select &amp; ask</strong> längst ned till höger i Canvas-panelen, markera ett kort i förhandsvisningen och be Gemini ändra just det kortet.</li>
+        <li>Låt en kollega spela och fråga vad som var oklart. Skriv en följdprompt som rättar det.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://gemini.google/overview/canvas/?hl=en" target="_blank" rel="noopener">Google Gemini: Canvas (produktsida)<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/gemini/answer/16047321?hl=en&amp;amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Apps Help: Create docs, apps &amp; more with Canvas<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Menynamnen kommer från den engelska hjälpsidan för datorversionen. Svenska namn och placering kan skilja sig. Exempeltexten under resultat är en beskrivning, inte ett test av en körning.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

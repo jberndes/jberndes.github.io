@@ -1,0 +1,197 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>ChatGPT: ett multiplikationsquiz som öppnas i webbläsaren – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: låt ChatGPT skriva en komplett HTML-fil med ett multiplikationsquiz, spara den på din Mac och öppna den i webbläsaren. Färdiga promptar.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/chatgpt-multiplikationsquiz/">
+  <meta property="og:title" content="ChatGPT: ett multiplikationsquiz som öppnas i webbläsaren – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: låt ChatGPT skriva en komplett HTML-fil med ett multiplikationsquiz, spara den på din Mac och öppna den i webbläsaren. Färdiga promptar.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/chatgpt-multiplikationsquiz/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>ChatGPT: ett multiplikationsquiz som öppnas i webbläsaren</h1>
+      <p class="ingress">Så får du ett fungerande övningsquiz från en tom chatt till en fil du kan öppna, testa och ge till elever. Metoden fungerar även utan betalplan.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>ChatGPT</strong> är OpenAI:s chattjänst. Du skriver en beskrivning och får text, kod eller bilder tillbaka. En nybörjare kan använda den för att få fram små övningsappar, quiz, arbetsblad och förklaringar.</p>
+      <p>Den här guiden bygger medvetet inte på funktionen <strong>canvas</strong>. Enligt OpenAI:s release notes togs canvas bort från modellerna GPT-5.5 Instant och GPT-5.5 Thinking den 28 maj 2026, och skrivande och kodning sker nu i skriv- och kodblock i chatten. Det här är ett bra exempel på att funktioner byter plats och namn.</p>
+      <p>I stället ber du ChatGPT skriva en komplett <strong>HTML-fil</strong>. Det är en vanlig textfil som alla webbläsare kan öppna. Då är det inte tjänstens förhandsvisning som avgör om det fungerar, utan din egen webbläsare.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett OpenAI-konto</strong> och inloggning på chatgpt.com.</li>
+        <li><strong>Ingen betalplan krävs för den här metoden.</strong> Enligt OpenAI:s release notes (7 oktober 2026) använder Free och Go modellen GPT-6 Luna i chatten, och Plus, Pro, Business och Enterprise använder GPT-6 Sol. Modellerna byts ofta. Titta på modellväljaren för att se vad du har.</li>
+        <li><strong>En Mac</strong> med programmet TextEdit och en webbläsare, till exempel Safari.</li>
+        <li><strong>Betalplan för ett steg längre:</strong> funktionen ChatGPT Sites, som publicerar en webbplats eller liten app direkt, finns enligt OpenAI:s hjälpsida för Plus, Pro, Business och Enterprise. Den är inte tillgänglig på Free eller Go, och Edu nämns inte som berättigad. Se rutan efter stegen.</li>
+        <li><strong>Personuppgifter:</strong> skriv aldrig in elevers namn eller andra personuppgifter. OpenAI skriver att konversationer på Free, Go, Plus och Pro kan användas för träning om inställningen Improve the model for everyone är på.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Ett quiz där eleven övar multiplikationstabellerna: tio frågor, direkt rätt eller fel efter varje svar och en poängsammanfattning i slutet.</p>
+      <p><strong>Ungefärlig tid:</strong> 20 till 30 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna chatgpt.com och logga in.</li>
+        <li>Starta en ny chatt.</li>
+        <li>Klistra in startprompten nedan och skicka den.</li>
+        <li>Vänta tills ChatGPT har skrivit klart kodblocket.</li>
+        <li>Kopiera all kod i kodblocket. Det brukar finnas en kopieringsknapp i kodrutan.</li>
+        <li>Öppna programmet TextEdit på din Mac.</li>
+        <li>Skapa ett nytt dokument med Cmd+N.</li>
+        <li>Tryck Skift+Cmd+T så att dokumentet blir vanlig text.</li>
+        <li>Klistra in koden med Cmd+V.</li>
+        <li>Spara med Cmd+S. Döp filen till <code>multiplikationsquiz.html</code> och välj .html om TextEdit frågar vilken ändelse som ska användas.</li>
+        <li>Dubbelklicka på filen i Finder så öppnas quizet i din webbläsare.</li>
+        <li>Testa quizet. Skriv en följdprompt i chatten, kopiera den nya koden och ersätt innehållet i filen med den.</li>
+      </ol>
+      <p><strong>Om du har en betalplan: ChatGPT Sites.</strong> Enligt OpenAI:s hjälpsida öppnar du <strong>Work</strong> på webben, beskriver sidan och skriver ordet website eller @Sites, granskar förhandsvisningen och väljer sedan Deploy för att få en webbadress. Nya sajter är privata som standard. Dela via <strong>Share</strong> och välj vem som har åtkomst. Radering kan inte ångras.</p>
+      <p><strong>Så sparas och delas resultatet med den vanliga metoden:</strong> du har en enda fil på din dator. Skicka den som bilaga, lägg den på skolans lagring eller öppna den på en skärm i klassrummet. Filen innehåller allt och behöver ingen server.</p>
+      <h2>Startprompt</h2>
+      <p>Klistra in hela texten. Den anger både vad sidan ska göra och hur svaret ska se ut, så att du får kod som går att spara direkt.</p>
+      <blockquote>
+        <p>Skapa en komplett webbsida i en enda HTML-fil med inbyggd CSS och JavaScript. Svara med bara koden i ett kodblock, utan förklaringar före eller efter.</p>
+        <p>Sidan är ett multiplikationsquiz på svenska för elever i årskurs 3 och 4.</p>
+        <ul>
+          <li>Eleven väljer först vilka tabeller som ska övas, 2 till 10, med kryssrutor. Som standard är alla markerade.</li>
+          <li>Quizet har 10 frågor i slumpmässig ordning, till exempel 6 × 7 =.</li>
+          <li>Eleven skriver svaret i ett fält och trycker på knappen Svara eller på Enter.</li>
+          <li>Efter varje svar visas direkt Rätt! eller Fel, rätt svar är … i tydlig text.</li>
+          <li>En framstegsrad visar till exempel fråga 3 av 10.</li>
+          <li>Efter sista frågan visas poängen, till exempel 8 av 10, och en knapp som heter Börja om.</li>
+          <li>Stora knappar och stor text som fungerar på dator, surfplatta och mobil, med tillräcklig kontrast.</li>
+          <li>Använd <code>&lt;meta charset="utf-8"&gt;</code> så att å, ä och ö visas rätt. Inga externa bibliotek, ingen inloggning och ingen data som skickas någonstans.</li>
+        </ul>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Be om en förändring i taget. Kopiera sedan den nya koden och ersätt innehållet i filen.</p>
+      <h3>Visa tiden utan tidspress</h3>
+      <blockquote>
+        <p>Lägg till en text efter sista frågan som visar hur lång tid hela quizet tog. Ingen tid ska visas under frågorna och det ska inte finnas någon tidspress.</p>
+      </blockquote>
+      <h3>Öva på det som blev fel</h3>
+      <blockquote>
+        <p>Efter sista frågan ska en lista visa de frågor eleven svarade fel på, tillsammans med rätt svar. Lägg till en knapp som heter Öva på dem igen och som startar ett nytt quiz med bara de frågorna.</p>
+      </blockquote>
+      <h3>Välj antal frågor</h3>
+      <blockquote>
+        <p>Lägg till ett val före start där eleven väljer 10, 20 eller 30 frågor. Behåll resten av sidan oförändrad och skriv ut hela filen igen.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>En enkel sida med en rubrik, kryssrutor för tabellerna 2 till 10 och en startknapp. Under quizet visas en fråga i taget, ett svarsfält och en framstegsrad. Efter varje svar kommer en kort text som säger om svaret var rätt, och i slutet visas poängen med möjlighet att börja om.</p>
+      <p><strong>Kontrollera räkningen.</strong> Svara fel med flit på några frågor och se att rätt svar som visas stämmer.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Webbläsaren visar koden i stället för quizet</h3>
+      <p>Filen sparades som formaterad text. Skapa ett nytt dokument i TextEdit, tryck Skift+Cmd+T innan du klistrar in koden, och spara om som <code>.html</code>.</p>
+      <h3>TextEdit frågar om .txt eller .html</h3>
+      <p>Välj .html. Annars blir filen en vanlig textfil och öppnas inte som en webbsida.</p>
+      <h3>å, ä och ö visas konstigt</h3>
+      <p>Skriv till ChatGPT: Lägg till meta charset utf-8 i head och skriv ut hela filen igen. Ersätt sedan innehållet i filen.</p>
+      <h3>Koden är avklippt eller ofullständig</h3>
+      <p>Skriv: Skriv ut hela filen igen från början till slut i ett kodblock. Ta med allt.</p>
+      <h3>Filen öppnas i TextEdit i stället för webbläsaren</h3>
+      <p>Högerklicka på filen i Finder, välj Öppna med och sedan Safari eller en annan webbläsare.</p>
+      <h3>Jag får inte upp någon sajtfunktion</h3>
+      <p>Det är väntat på Free och Go. Sites kräver enligt hjälpsidan Plus, Pro, Business eller Enterprise. Metoden med en HTML-fil fungerar utan det.</p>
+      <h2>Egen övning</h2>
+      <p>Ändra quizet så att det passar din undervisning.</p>
+      <ol>
+        <li>Byt tabellerna mot division eller mot glosor som du själv hittar på.</li>
+        <li>Be ChatGPT att byta färgtema till något som passar din skola.</li>
+        <li>Låt någon annan testa filen och fråga vad som var svårt att förstå. Skriv en följdprompt som rättar det.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://help.openai.com/en/articles/9275245-chatgpt-free-tier-faq" target="_blank" rel="noopener">OpenAI Help: ChatGPT Free Tier FAQ<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener">OpenAI Help: ChatGPT release notes (canvas 28 maj 2026, modeller 7 oktober 2026)<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://help.openai.com/en/articles/20001339-creating-and-using-chatgpt-sites" target="_blank" rel="noopener">OpenAI Help: Creating and using ChatGPT Sites<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt" target="_blank" rel="noopener">OpenAI Help: GPT-6 and other models in ChatGPT<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>OpenAI:s hjälpsida om canvas gick inte att läsa vid kontrollen, så canvas beskrivs bara utifrån release notes. OpenAI:s Free-sida nämner modellen GPT-5.6 Luna medan release notes nämner GPT-6 Luna för Free. Det visar hur snabbt modellnamnen ändras. Stegen med TextEdit är inte testade på din Mac-version.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

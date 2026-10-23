@@ -1,0 +1,196 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Gemini Notebook: arbeta med egna källor – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: ladda in en egen text i Gemini Notebook (tidigare NotebookLM), få sammanfattning, kontrollfrågor med källhänvisning, quiz och flashcards.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/gemini-notebook-egna-kallor/">
+  <meta property="og:title" content="Gemini Notebook: arbeta med egna källor – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: ladda in en egen text i Gemini Notebook (tidigare NotebookLM), få sammanfattning, kontrollfrågor med källhänvisning, quiz och flashcards.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/gemini-notebook-egna-kallor/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Gemini Notebook: arbeta med egna källor</h1>
+      <p class="ingress">Så gör du en egen text till studiehjälp, quiz och flashcards. Svaren bygger bara på de källor du lagt in, och varje svar går att kontrollera.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Gemini Notebook</strong> hette tidigare <strong>NotebookLM</strong>. Google meddelade namnbytet den 16 juli 2026, och enligt Google ligger befintliga delade anteckningsböcker och länkar kvar tack vare automatiska omdirigeringar.</p>
+      <p>Tjänsten svarar utifrån de källor du själv laddar in, till exempel dina egna texter, PDF-filer, Google Dokument eller webbsidor. Svaren har numrerade källhänvisningar, så du kan kontrollera varifrån varje uppgift kommer. Det gör den lämplig för nybörjare som vill ha kontroll över vad AI:n utgår från.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett Google-konto.</strong> Enligt Googles hjälpsida måste du först verifiera din ålder i Google-kontot, och ditt land måste vara ett av de länder där Gemini-appen finns. På skol- eller jobbkonto måste en administratör ha slagit på tjänsten.</li>
+        <li><strong>Gratis nivå räcker:</strong> Standard (gratis) har enligt Google upp till 100 anteckningsböcker per användare och 50 källor per anteckningsbok. Betalnivåerna Plus, Pro och Ultra ger fler. Gränserna kan ändras.</li>
+        <li><strong>Var den finns:</strong> på notebook.google.com, där du väljer <strong>Create new notebook</strong>.</li>
+        <li><strong>Källor som fungerar:</strong> bland annat PDF, Word, textfiler, Markdown, CSV, PowerPoint, Google Dokument, bilder, ljudfiler, webbadresser och inklistrad text. Varje källa kan vara upp till 500 000 ord eller 200 MB. PDF-filer med kopieringsskydd och sidor bakom betalvägg går inte att importera.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Du laddar in en kort text om fotosyntesen och får en sammanfattning på lätt svenska, kontrollfrågor med källhänvisning samt ett quiz och flashcards som du kan använda med elever.</p>
+      <p><strong>Ungefärlig tid:</strong> 25 till 35 minuter</p>
+      <h3>Exempeltext att använda som källa</h3>
+      <p>Den här texten är skriven för guiden och kan klistras in som källa. Du kan också använda en egen text.</p>
+      <blockquote>
+        <p>Fotosyntesen är processen där växter, alger och vissa bakterier omvandlar ljusenergi till kemisk energi. I växter sker fotosyntesen i kloroplasterna, som innehåller det gröna ämnet klorofyll. Klorofyllet fångar upp solljus. Med hjälp av ljusenergin bildar växten glukos, en sorts socker, av koldioxid och vatten. Samtidigt bildas syre som växten släpper ut.</p>
+        <p>Koldioxiden tar växten upp genom små öppningar i bladen som kallas klyvöppningar. Vattnet tas upp av rötterna och transporteras upp till bladen. Glukosen använder växten som energi och som byggmaterial. Överskottet kan lagras som stärkelse, till exempel i potatisknölar.</p>
+        <p>Utan fotosyntes skulle det inte finnas något syre i atmosfären som vi kan andas, och nästan alla näringskedjor skulle sakna sin grund. Fotosyntesen påverkas av hur mycket ljus som finns, temperaturen och hur mycket koldioxid och vatten som är tillgängligt.</p>
+      </blockquote>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Gå till notebook.google.com och logga in med ditt Google-konto.</li>
+        <li>Klicka på <strong>Create new notebook</strong>.</li>
+        <li>Välj <strong>Upload a source</strong> i fönstret som öppnas.</li>
+        <li>Lägg till exempeltexten som inklistrad text, eller ladda upp en egen fil.</li>
+        <li>Vänta tills <strong>Chat</strong>-panelen har visat en sammanfattning av källan.</li>
+        <li>Klistra in startprompten nedan i chatten och skicka.</li>
+        <li>Klicka på de numrerade källhänvisningarna i svaret och kontrollera att de stämmer med källtexten.</li>
+        <li>Öppna panelen <strong>Studio</strong> och välj <strong>Quizzes</strong>. Klicka på pennan först om du vill välja svårighetsgrad och skriva en egen instruktion.</li>
+        <li>Välj <strong>Flashcards</strong> i Studio. Klicka på <strong>Download</strong> för att spara korten som en CSV-fil.</li>
+      </ol>
+      <p><strong>Panelerna:</strong> enligt Googles hjälpsida visar Chat-panelen en genererad sammanfattning där du kan ställa frågor, Studio-panelen skapar resultat som anteckningar, rapporter och datatabeller, och Sources-panelen låter dig lägga till eller ta bort källor med <strong>+ Add</strong>. Varje anteckningsbok är fristående och kan inte använda information från flera anteckningsböcker samtidigt.</p>
+      <p><strong>Quiz och flashcards:</strong> du kan välja svårighetsgrad (easy, medium eller hard) och skriva en egen instruktion. Flashcards kan laddas ned som CSV. Googles hjälpsida beskriver ingen exportväg för quiz.</p>
+      <h2>Startprompt</h2>
+      <p>Skriv i chatten. Prompten ber om källhänvisning och om ett tydligt svar när något saknas i källan.</p>
+      <blockquote>
+        <p>Använd bara min källa. Du hjälper en lärare som undervisar i biologi i årskurs 7. Gör så här:</p>
+        <ol>
+          <li>Skriv en sammanfattning på högst 100 ord med lätt språk.</li>
+          <li>Lista de fem viktigaste begreppen med en mening vardera.</li>
+          <li>Skriv tre kontrollfrågor med svar, och ange vilken del av källan varje svar kommer från.</li>
+        </ol>
+        <p>Om något inte står i källan ska du skriva att det saknas i källan.</p>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Fortsätt i samma chatt. Källan är densamma, så svaren bygger på samma material.</p>
+      <h3>Hitta svåra ställen</h3>
+      <blockquote>
+        <p>Vilka delar av källtexten kan vara svåra att förstå för en elev i årskurs 7? Föreslå en enklare formulering för varje del och ange var i källan den finns.</p>
+      </blockquote>
+      <h3>Frågor som kräver eget tänkande</h3>
+      <blockquote>
+        <p>Skriv tre frågor som kräver att eleven förklarar med egna ord och inte bara återger texten. Ge ett exempel på ett bra elevsvar till varje fråga och peka ut vilken del av källan svaret bygger på.</p>
+      </blockquote>
+      <h3>Granska källan</h3>
+      <blockquote>
+        <p>Finns det något i källan som är otydligt, förenklat eller som kan misstolkas? Ange var det står.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>I chatten kommer en kort sammanfattning, en lista med fem begrepp och tre kontrollfrågor. Varje svar har små numrerade märken. När du klickar på ett märke markeras motsvarande stycke i källan. I Studio-panelen dyker ett quiz och en kortlek upp efter en stund.</p>
+      <p><strong>Kontrollera källhänvisningarna.</strong> Klicka på dem och läs stycket. Om något i svaret inte finns i källan ska du ställa en följdfråga.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Jag hittar inte NotebookLM</h3>
+      <p>Tjänsten heter numera Gemini Notebook. Adressen notebook.google.com fungerar, och Google skriver att gamla länkar omdirigeras. Mobilappen kan behöva uppdateras.</p>
+      <h3>Tjänsten öppnas inte med mitt skolkonto</h3>
+      <p>Enligt Google måste en administratör slå på tjänsten för skol- och jobbkonton. Be din IT-ansvarige om det.</p>
+      <h3>Källhänvisningar saknas i ett svar</h3>
+      <p>Googles hjälpsida skriver att hänvisningar kan saknas när en källa är för kort. Lägg in mer text eller be om hänvisning i en följdfråga.</p>
+      <h3>Min PDF går inte att lägga in</h3>
+      <p>PDF-filer med kopieringsskydd kan inte importeras enligt Google. Använd en kopia utan skydd, eller klistra in texten.</p>
+      <h3>En webbsida importeras inte</h3>
+      <p>Bara text importeras från webbadresser, och sidor bakom betalvägg stöds inte. Kopiera texten och klistra in den som källa.</p>
+      <h3>Funktioner saknas i mobilappen</h3>
+      <p>Googles hjälpsida skriver att mobilappen kanske inte stöder alla funktioner än. Använd en webbläsare på datorn.</p>
+      <h2>Egen övning</h2>
+      <p>Gör anteckningsboken till din egen.</p>
+      <ol>
+        <li>Lägg till en egen källa, till exempel ett arbetsblad eller en text ur din kurs.</li>
+        <li>Be om en jämförelse: Vad skiljer källorna åt, och var går de isär? Ange var varje uppgift står.</li>
+        <li>Skapa ett quiz med svårighetsgrad hard och läs frågorna kritiskt.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="http://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html" target="_blank" rel="noopener">Google Workspace Updates: NotebookLM är nu Gemini Notebook (16 juli 2026)<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/notebooklm/answer/16269187?hl=en" target="_blank" rel="noopener">Gemini Notebook Help: Frequently asked questions<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/notebooklm/answer/16213268?hl=en" target="_blank" rel="noopener">Gemini Notebook Help: Learn about plans<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/gemininotebook/answer/16206563?hl=en" target="_blank" rel="noopener">Gemini Notebook Help: Create a notebook<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/gemininotebook/answer/16215270?hl=en&amp;amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Notebook Help: Add or discover new sources<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/gemininotebook/answer/16958963?hl=en" target="_blank" rel="noopener">Gemini Notebook Help: Generate flashcards or quizzes<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Menynamnen är hämtade från Googles engelska hjälpsidor. Google anger att användningsgränserna kan ändras, och chattgränser finns på en separat hjälpsida som inte lästes. Sammanfattningen och frågorna i resultatet är en beskrivning, inte en körning.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

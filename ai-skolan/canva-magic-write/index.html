@@ -1,0 +1,187 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Canva med Magic Write: ett arbetsblad om energikällor – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: skapa ett arbetsblad med frågor och facit i Canva med Magic Write och förbättra det med följdinstruktioner. Canva for Education är gratis för verifierade lärare.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/canva-magic-write/">
+  <meta property="og:title" content="Canva med Magic Write: ett arbetsblad om energikällor – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: skapa ett arbetsblad med frågor och facit i Canva med Magic Write och förbättra det med följdinstruktioner. Canva for Education är gratis för verifierade lärare.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/canva-magic-write/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Canva med Magic Write: ett arbetsblad om energikällor</h1>
+      <p class="ingress">Så skapar du ett färdigt arbetsblad med faktaruta, frågor och facit utan att börja från ett blankt papper.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Canva</strong> är ett designverktyg för dokument, presentationer och affischer. <strong>Magic Write</strong> är Canvas AI-funktion för text: du beskriver vad du vill ha och får ett utkast som du kan infoga, ändra eller bygga vidare på.</p>
+      <p>En nybörjare kan använda den för arbetsblad, instruktioner, förslag på uppgifter och korta quiz, och sedan forma resultatet med Canvas vanliga designverktyg.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett Canva-konto.</strong> Enligt Canva är Canva Education kostnadsfritt för verifierade lärare och elever i grund- och gymnasieskolan, utan dolda avgifter. Sidan hänvisar till riktlinjer för vem som är berättigad.</li>
+        <li><strong>AI-funktioner som Canva nämner för lärare:</strong> Magic Write (även kallad Magic Write 2.0), Magic Resize och Background Remover. Canvas sida nämner inte Magic Studio för Education.</li>
+        <li><strong>Begränsningar:</strong> Canva skriver att de har ändrat hur användningsgränserna för AI fungerar och hänvisar till en hjälpsida om AI-gränser. Den sidan gick inte att läsa vid kontrollen, så titta på den innan du planerar en hel kursuppsättning.</li>
+        <li><strong>Var funktionen finns:</strong> i ett öppet dokument eller en design, under Quick actions eller genom att skriva snedstreck. På startsidan väljer du <strong>Canva AI</strong> i sökfältet och sedan <strong>Draft a doc</strong>.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Ett arbetsblad på svenska om energikällor för årskurs 6 med en kort faktaruta, åtta frågor, tre diskussionsfrågor och ett facit för läraren.</p>
+      <p><strong>Ungefärlig tid:</strong> 20 till 30 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna canva.com och logga in.</li>
+        <li>Klicka på sökfältet på startsidan, välj <strong>Canva AI</strong> och sedan <strong>Draft a doc</strong>.</li>
+        <li>Klistra in startprompten nedan.</li>
+        <li>Skicka prompten och vänta på utkastet.</li>
+        <li>Klicka på <strong>Insert</strong> för att lägga in texten i dokumentet.</li>
+        <li>Läs igenom allt. Ändra eller ta bort det som inte stämmer.</li>
+        <li>Markera en text och välj <strong>Magic Write</strong> i verktygsraden för att förkorta, rätta stavning eller skriva om.</li>
+        <li>Formatera dokumentet så att det går att skriva ut: tillräckligt med utrymme för elevens svar.</li>
+        <li>Spara filen enligt Canvas hjälpsida för att ladda ned designs, och kontrollera att utskriften ser rätt ut.</li>
+      </ol>
+      <p><strong>Andra sätt att använda Magic Write:</strong> i en design öppnar du Quick actions, eller skriver snedstreck, och väljer Magic Write. Du kan också högerklicka på befintlig text och välja ett alternativ, till exempel Rewrite, Shorten, Fix Spelling, More fun, More formal eller Generate quiz. Med <strong>More like this</strong> får du en liknande version, och med <strong>This but…</strong> lägger du till en instruktion.</p>
+      <p><strong>Presentationsanteckningar:</strong> i en presentation väljer du <strong>Notes</strong>, sedan <strong>Generate notes</strong>, och väljer att utgå från sidans innehåll eller en egen instruktion.</p>
+      <p><strong>Nedladdning:</strong> Canvas hjälpsida om att ladda ned designs beskriver formaten. De exakta menyvalen gick inte att läsa vid kontrollen, så följ det som visas på skärmen.</p>
+      <h2>Startprompt</h2>
+      <p>Prompten anger målgrupp, uppbyggnad, antal frågor och facit. Då slipper du sortera i ett långt utkast.</p>
+      <blockquote>
+        <p>Skriv ett arbetsblad på svenska om energikällor för elever i årskurs 6.</p>
+        <ul>
+          <li>Börja med en faktaruta på högst 80 ord om skillnaden mellan förnybara och icke förnybara energikällor.</li>
+          <li>Skriv sedan 8 frågor: 4 flervalsfrågor med tre svarsalternativ, 2 sant eller falskt och 2 korta skrivfrågor.</li>
+          <li>Avsluta med 3 diskussionsfrågor.</li>
+          <li>Lämna plats för elevens svar efter varje fråga.</li>
+          <li>Lägg facit sist under rubriken Facit för läraren.</li>
+        </ul>
+        <p>Använd enkla ord och korta meningar. Inga namn på riktiga elever.</p>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Markera hela texten eller ett avsnitt och använd This but… för att lägga till en instruktion.</p>
+      <h3>Lättare version</h3>
+      <blockquote>
+        <p>Gör arbetsbladet lättare. Använd kortare frågor, förklara svåra ord inom parentes och ge ett svarsalternativ mindre i flervalsfrågorna.</p>
+      </blockquote>
+      <h3>Utmaning för snabba elever</h3>
+      <blockquote>
+        <p>Lägg till två utmanande frågor sist som kräver att eleven jämför två energikällor och motiverar sitt val. Lägg exempel på bra svar i facit.</p>
+      </blockquote>
+      <h3>Förkorta faktarutan</h3>
+      <blockquote>
+        <p>Förkorta faktarutan till högst 50 ord och lägg till en rad med de tre viktigaste orden i fetstil.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>Ett dokument med en rubrik, en kort faktaruta, åtta numrerade frågor med svarsplats, tre diskussionsfrågor och ett facit på slutet. Du kan flytta runt block, byta teckensnitt och färger som i vilket Canva-dokument som helst.</p>
+      <p><strong>Kontrollera facit.</strong> Gå igenom varje fråga och varje rätt svar innan arbetsbladet delas ut. AI kan ge ett fel svar som ser rätt ut.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Jag hittar inte Magic Write</h3>
+      <p>Öppna ett dokument eller en design och öppna Quick actions, eller skriv ett snedstreck. Välj Magic Write. På startsidan finns även Canva AI i sökfältet.</p>
+      <h3>Jag får ett meddelande om användningsgräns</h3>
+      <p>Canva har ändrat hur AI-gränserna fungerar enligt sin hjälpsida. Läs sidan om AI-gränser i Canvas hjälpcenter eller vänta tills gränsen återställs.</p>
+      <h3>Jag är lärare men får inte Canva Education</h3>
+      <p>Canva hänvisar till riktlinjer för vem som är berättigad och till verifiering. Kontrollera dem och kontakta Canvas support om det inte fungerar.</p>
+      <h3>Facit är fel</h3>
+      <p>Rätta det själv, eller skriv: Fråga 3 har fel facit. Rätt svar är B. Rätta facit och ändra inget annat.</p>
+      <h3>Texten på svenska blir konstig</h3>
+      <p>Läs noga. Be Canva skriva om i enklare språk med This but… och rätta stavningen med Fix Spelling.</p>
+      <h2>Egen övning</h2>
+      <p>Gör ett eget material.</p>
+      <ol>
+        <li>Skriv en kort text om något i din kurs och markera den. Välj <strong>Magic Write</strong> och sedan <strong>Generate quiz</strong>.</li>
+        <li>Skapa en presentation och generera anteckningar med <strong>Generate notes</strong>.</li>
+        <li>Låt en kollega lösa arbetsbladet och notera vad som var oklart. Rätta det med This but….</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://www.canva.com/education/teachers/" target="_blank" rel="noopener">Canva: Canva for Teachers<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.canva.com/en_in/help/use-magic-write/" target="_blank" rel="noopener">Canva Help Centre: Use Magic Write to generate text<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.canva.com/en_gb/help/download-design/" target="_blank" rel="noopener">Canva Help Centre: Download designs<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Canvas hjälpsidor om AI-gränser, om delning av Docs och översiktssidan om Magic Write gick inte att läsa vid kontrollen, så vad som ingår i vilken plan och hur Docs sparas är inte bekräftat. Stegen följer det som stod på sidan om att använda Magic Write. Ingen text har genererats vid kontrollen.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

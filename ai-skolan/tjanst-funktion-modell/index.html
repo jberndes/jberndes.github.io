@@ -1,0 +1,189 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Tjänst, funktion eller modell? Så skiljer du dem åt – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Förstå skillnaden mellan AI-tjänst, funktion och modell med verkliga exempel från hösten 2026, och gör en egen jämförelse med samma prompt i två lägen.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/tjanst-funktion-modell/">
+  <meta property="og:title" content="Tjänst, funktion eller modell? Så skiljer du dem åt – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Förstå skillnaden mellan AI-tjänst, funktion och modell med verkliga exempel från hösten 2026, och gör en egen jämförelse med samma prompt i två lägen.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/tjanst-funktion-modell/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Tjänst, funktion eller modell? Så skiljer du dem åt</h1>
+      <p class="ingress">Namnen på AI-tjänster byts hela tiden. Här lär du dig se vad som är vad, och gör en liten jämförelse som du kan upprepa med eleverna.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Tjänst</strong> är produkten du öppnar, till exempel ChatGPT, Gemini, Claude, Perplexity eller Mistral Vibe. <strong>Funktion</strong> är ett verktyg inne i tjänsten, till exempel Canvas, ljudöversikt eller Teach. <strong>Modell</strong> är själva AI-motorn bakom, till exempel GPT-6 Luna eller Gemini 3.</p>
+      <p>Det spelar roll, eftersom tjänsten, funktionen och modellen ändras i olika takt. En funktion kan försvinna ur en modell, en tjänst kan byta namn och en modell kan bytas ut över en natt. Här är verkliga exempel från hösten 2026.</p>
+      <ul>
+        <li><strong>ChatGPT (tjänst):</strong> enligt OpenAI:s release notes användes från 7 oktober 2026 GPT-6 Sol för Plus, Pro, Business och Enterprise, och GPT-6 Luna för Free och Go. Funktionen canvas togs bort från GPT-5.5 Instant och GPT-5.5 Thinking den 28 maj 2026.</li>
+        <li><strong>Gemini (tjänst) och Canvas (funktion):</strong> Google skriver att Canvas finns för alla Gemini-användare, och att Google AI Pro och Ultra ger Canvas med modellen Gemini 3.</li>
+        <li><strong>Gems:</strong> Googles hjälpsida om Gems skriver att Gems försvinner på personliga Google-konton från november 2026 och automatiskt övergår till skills.</li>
+        <li><strong>Namnbyten:</strong> NotebookLM blev Gemini Notebook, enligt Googles meddelande den 16 juli 2026. Le Chat blev Mistral Vibe den 12 augusti 2026.</li>
+        <li><strong>Modellval:</strong> Perplexity låter Pro-användare välja modell i Pro Search, med Best som standard.</li>
+      </ul>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Minst två AI-tjänster</strong> som du kan komma åt, till exempel ChatGPT och Gemini. Konto och kostnad beror på tjänsten. Se de andra guiderna för detaljer.</li>
+        <li><strong>Ett dokument</strong> där du klistrar in svaren, till exempel i Pages eller Word.</li>
+        <li><strong>Tillgången kan variera mellan planer.</strong> Enligt OpenAI har Free och Go ett Think-läge, medan Plus och Pro har ett reglage för tänkandenivå. Modellväljaren ser olika ut beroende på plan och version.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Du ställer exakt samma fråga i två lägen eller tjänster, jämför svaren och noterar tjänst, funktion och modell i en egen tabell. Det är en övning du kan göra med eleverna.</p>
+      <p><strong>Ungefärlig tid:</strong> 25 till 35 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna en AI-tjänst, till exempel chatgpt.com, och starta en ny chatt.</li>
+        <li>Notera tjänstens namn och, om den visas, modellens namn eller läget i modellväljaren.</li>
+        <li>Klistra in startprompten nedan och skicka den.</li>
+        <li>Kopiera svaret till ett dokument och skriv överst vilken tjänst och vilket läge du använde.</li>
+        <li>Starta en ny chatt i samma tjänst. Slå på Think eller välj en högre nivå i modellväljaren om det finns på din plan.</li>
+        <li>Skicka samma prompt igen och kopiera svaret till samma dokument.</li>
+        <li>Öppna en annan tjänst, till exempel gemini.google.com, starta en ny chatt och skicka samma prompt.</li>
+        <li>Kopiera även det svaret till dokumentet.</li>
+        <li>Jämför svaren: vad är lika, vad skiljer, och vad påstår AI:n att den är osäker på?</li>
+        <li>Skriv in resultatet i en tabell med fyra kolumner: tjänst, funktion, modell och datum.</li>
+      </ol>
+      <p><strong>Rättvis jämförelse:</strong> använd exakt samma prompt, i en ny chatt, samma dag. Annars jämför du inte det du tror. AI-tjänster ger olika svar varje gång, även på samma fråga, så upprepa gärna körningen två gånger innan du drar slutsatser.</p>
+      <p><strong>Fråga tjänsten, men kontrollera:</strong> AI-tjänster kan ha fel om sig själva. Titta i tjänstens inställningar och hjälpsidor i stället för att lita på vad den svarar om sin egen modell.</p>
+      <h2>Startprompt</h2>
+      <p>Prompten kräver en avslutande rad om osäkerhet. Då kan du jämföra hur olika tjänster uttrycker osäkerhet.</p>
+      <blockquote>
+        <p>Förklara fotosyntesen för en elev i årskurs 6 i högst 120 ord. Ge sedan tre kontrollfrågor med svar. Skriv sist en rad som börjar med Det här är jag osäker på: och ange vad du är osäker på, eller skriv inget.</p>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Ställ de här frågorna i varje tjänst och jämför.</p>
+      <h3>Vad behöver kontrolleras?</h3>
+      <blockquote>
+        <p>Vilka påståenden i ditt svar bör en lärare dubbelkolla mot en lärobok eller en myndighetskälla? Lista dem.</p>
+      </blockquote>
+      <h3>Anpassa språket</h3>
+      <blockquote>
+        <p>Skriv om svaret för en elev som har läst svenska i ett år. Använd korta meningar och förklara svåra ord.</p>
+      </blockquote>
+      <h3>Hur kan det missförstås?</h3>
+      <blockquote>
+        <p>Ge två sätt som en elev kan missförstå ditt svar, och föreslå en formulering som minskar risken.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>Tre eller fler svar som liknar varandra i sak men skiljer sig i ordval, längd och hur försiktigt de uttrycker sig. Läget med mer tänketid kan ge ett längre eller mer nyanserat svar, men skillnaden kan också vara liten. Det du får kan se annorlunda ut.</p>
+      <p><strong>Mönstret är viktigast.</strong> Det är inte alltid det längsta svaret som är det bästa. Fråga eleverna vilket svar de skulle våga använda och varför.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Jag hittar ingen modellväljare</h3>
+      <p>Den ser olika ut beroende på plan och version. OpenAI skriver att Free och Go bara har lägena Instant och Think, och att äldre arbetsytor kan visa en äldre väljare. Titta i tjänstens hjälpsidor.</p>
+      <h3>Namnen på skärmen stämmer inte med det som står här</h3>
+      <p>Det är väntat. Modeller och funktioner byter namn ofta. Notera vad du ser och datum, och jämför med tjänstens hjälpsidor.</p>
+      <h3>Tjänsten byter modell mitt i</h3>
+      <p>OpenAI skriver att ChatGPT kan växla till en annan tillgänglig modell när du nått en gräns i ett läge. Notera om modellen ändrades och starta om jämförelsen i en ny chatt.</p>
+      <h3>Svaren blir olika varje gång</h3>
+      <p>Det är normalt. Kör samma prompt två gånger och jämför spridningen innan du jämför tjänsterna med varandra.</p>
+      <h3>Jag når en användningsgräns</h3>
+      <p>Vänta tills gränsen återställs eller fortsätt nästa dag. Ett avbrott gör jämförelsen mindre rättvis, så notera det.</p>
+      <h2>Egen övning</h2>
+      <p>Gör en egen karta över de tjänster du använder.</p>
+      <ol>
+        <li>Skriv upp tre tjänster du använder. Notera för varje tjänst en funktion och, om du kan se den, en modell.</li>
+        <li>Skriv datum bredvid. Kontrollera igen om tre månader och se vad som har ändrats.</li>
+        <li>Låt eleverna göra samma jämförelse och diskutera: varför är det bra att veta vilken modell ett svar kommer från?</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener">OpenAI Help: ChatGPT release notes<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://help.openai.com/en/articles/20001354-gpt-6-and-other-models-in-chatgpt" target="_blank" rel="noopener">OpenAI Help: GPT-6 and other models in ChatGPT<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://gemini.google/overview/canvas/?hl=en" target="_blank" rel="noopener">Google Gemini: Canvas<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.google.com/gemini/answer/15146780?hl=en&amp;amp;co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Gemini Apps Help: Use Gems in Gemini Apps<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="http://workspaceupdates.googleblog.com/2026/07/notebooklm-now-gemini-notebook.html" target="_blank" rel="noopener">Google Workspace Updates: NotebookLM är nu Gemini Notebook<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe" target="_blank" rel="noopener">Mistral Help Center: Le Chat is now Vibe<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.perplexity.ai/help-center/en/articles/10352895-how-does-perplexity-work" target="_blank" rel="noopener">Perplexity Help Center: How does Perplexity work?<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Claude och Microsoft Copilot finns med i andra guider men inte som exempel här, eftersom deras modellnamn inte kontrollerades vid det här tillfället. Modellnamn och planers innehåll ändras ofta. Resultatbeskrivningen är ett exempel, inte ett testat resultat.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

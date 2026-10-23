@@ -1,0 +1,187 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Mistral Vibe: en presentation i Canvas – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: skapa en presentation i Canvas i Mistral Vibe (tidigare Le Chat), förhandsvisa den och exportera till PowerPoint. Med tydliga osäkerheter om planer.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/mistral-vibe-canvas/">
+  <meta property="og:title" content="Mistral Vibe: en presentation i Canvas – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: skapa en presentation i Canvas i Mistral Vibe (tidigare Le Chat), förhandsvisa den och exportera till PowerPoint. Med tydliga osäkerheter om planer.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/mistral-vibe-canvas/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Mistral Vibe: en presentation i Canvas</h1>
+      <p class="ingress">Så provar du en tjänst från ett franskt AI-bolag. Du bygger en presentation på fem bilder om algoritmer och exporterar den till PowerPoint.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Mistral Vibe</strong> hette tidigare <strong>Le Chat</strong>. Enligt Mistrals hjälpcenter bytte tjänsten namn den 12 augusti 2026. Ditt konto, din plan och dina samtal följer med, och Mistral skriver att inget som du har skapat går förlorat.</p>
+      <p>Vibe har tre lägen: <strong>Vibe Work</strong> för att delegera flerstegsuppgifter, <strong>Vibe Code</strong> för utvecklare och <strong>Vibe Chat</strong>, den vanliga chattupplevelsen. <strong>Canvas</strong> är en funktion i Work: ett inbyggt redigeringsfönster där Work skapar och förfinar text, data, kod och presentationer.</p>
+      <p>Guiden är ett exempel på att en tjänst kan byta namn och uppbyggnad. Läs även <a href="/ai-skolan/tjanst-funktion-modell/">guiden om tjänst, funktion och modell</a>.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett Mistral-konto</strong> på chat.mistral.ai. Har du ett gammalt Le Chat-konto loggar du in med det.</li>
+        <li><strong>Gratisplanen finns.</strong> Enligt Mistrals prissida ingår bland annat begränsat antal meddelanden och webbsökningar samt grundläggande bildgenerering. Pro kostar 14,99 dollar i månaden, och det finns en särskild utbildningsplan för verifierade studenter.</li>
+        <li><strong>Canvas ska enligt dokumentationen finnas på alla planer</strong> utan särskild installation. Prissidan nämner dock generering av kalkylblad och bildspel under Pro. Det framgår alltså inte tydligt vad som ingår på gratisplanen. Prova med ett gratiskonto och se.</li>
+        <li><strong>Dataskydd:</strong> prissidan anger att träning på dina data är ett val du kan stänga av för Pro, Team och Enterprise, men säger inget om gratisplanen. Skriv därför inga personuppgifter och titta i inställningarna.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> En presentation på fem bilder om vad en algoritm är, för elever i årskurs 7. Du förhandsvisar den som bildspel och exporterar den som PowerPoint-fil.</p>
+      <p><strong>Ungefärlig tid:</strong> 20 till 30 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna chat.mistral.ai och logga in eller skapa ett konto.</li>
+        <li>Välj läget <strong>Work</strong> om flera lägen visas.</li>
+        <li>Klicka på plustecknet i chattfönstret, eller skriv ett snedstreck.</li>
+        <li>Välj <strong>Tools</strong> och slå på <strong>Canvas</strong>.</li>
+        <li>Klistra in startprompten nedan och skicka den.</li>
+        <li>Vänta tills Canvas öppnas med presentationen.</li>
+        <li>Klicka på ögonikonen för att förhandsvisa bildspelet.</li>
+        <li>Klicka direkt i texten för att ändra den för hand, eller ställ en fråga i chatten för att ändra en del.</li>
+        <li>Använd pilarna för att gå mellan versioner om en ändring blev sämre.</li>
+        <li>Klicka på exportknappen för att spara presentationen som en PowerPoint-fil.</li>
+      </ol>
+      <p><strong>Teknik bakom presentationen:</strong> enligt Mistrals dokumentation skrivs presentationer i Canvas med Marp-syntax, en enkel textbaserad form där bilder separeras med särskilda rader. Ögonikonen visar den färdiga bildspelsvyn. Du kan också öppna Canvas genom att skriva <code>/canvas</code> eller be Work att öppna i Canvas.</p>
+      <p><strong>Filer in:</strong> Work kan läsa bland annat PDF, Word, PowerPoint, Excel, CSV och bilder. Använd bara filer utan personuppgifter.</p>
+      <h2>Startprompt</h2>
+      <p>Prompten anger antal bilder, innehåll per bild och en gräns för textmängd. Det gör presentationen lätt att läsa i klassrummet.</p>
+      <blockquote>
+        <p>Skapa en presentation i Canvas på svenska om vad en algoritm är, för elever i årskurs 7. Använd 5 bilder och högst 40 ord per bild.</p>
+        <ul>
+          <li>Bild 1: titel och en fråga som väcker nyfikenhet.</li>
+          <li>Bild 2: förklara att en algoritm är en tydlig steg-för-steg-beskrivning, ungefär som ett recept.</li>
+          <li>Bild 3: ett vardagligt exempel, en algoritm för att göra en smörgås, i numrerade steg.</li>
+          <li>Bild 4: förklara med enkla ord att appar kan använda algoritmer för att välja vad man ser först. Nämn inga bestämda företag.</li>
+          <li>Bild 5: tre diskussionsfrågor för eleverna.</li>
+        </ul>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Skriv i chatten medan Canvas är öppet. Be om en förändring i taget.</p>
+      <h3>Lägg till en övning</h3>
+      <blockquote>
+        <p>Lägg till en sjätte bild med en övning: eleverna skriver en algoritm i fem steg för att knyta ett skosnöre. Behåll de andra bilderna oförändrade.</p>
+      </blockquote>
+      <h3>Gör den lättare att läsa</h3>
+      <blockquote>
+        <p>Gör texten på varje bild kortare och använd punktlistor där det går. Behåll innehållet och ordningen på bilderna.</p>
+      </blockquote>
+      <h3>Lägg till ett talarmanus</h3>
+      <blockquote>
+        <p>Skriv ett kort talarmanus för varje bild i en separat lista under presentationen. Jag vill kunna läsa det högt på två minuter totalt.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>Canvas öppnas bredvid chatten med presentationen som text med bildavgränsare. Efter ett klick på ögonikonen visas fem bilder med rubrik och kort text. När du exporterar får du en PowerPoint-fil, men utseendet blir enkelt eftersom Marp-presentationer är textbaserade.</p>
+      <p><strong>Kontrollera innehållet.</strong> Läs varje bild och bedöm om förklaringarna passar eleverna. Kontrollera även att exporten ser rätt ut i PowerPoint eller Keynote.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Jag hittar inte Le Chat</h3>
+      <p>Tjänsten heter numera Mistral Vibe och ligger kvar på chat.mistral.ai. Logga in med ditt gamla konto så följer samtalen med.</p>
+      <h3>Canvas öppnas inte</h3>
+      <p>Slå på det via plustecknet eller snedstrecket under Tools, skriv <code>/canvas</code>, eller be om att öppna i Canvas.</p>
+      <h3>Jag ser bara kod i stället för bilder</h3>
+      <p>Klicka på ögonikonen för att förhandsvisa bildspelet. Presentationen skrivs i Marp-syntax och ser ut som kod tills du förhandsvisar den.</p>
+      <h3>Exportknappen eller bildspelsfunktionen saknas på gratisplanen</h3>
+      <p>Prissidan listar spreadsheet- och slide-funktioner under Pro, medan dokumentationen säger att Canvas finns på alla planer. Uppgifterna går inte ihop, så kontrollera i ditt eget konto vad som finns.</p>
+      <h3>Jag når gränsen för antal meddelanden</h3>
+      <p>Mistral skriver att gratisplanen har begränsat antal meddelanden. Vänta tills gränsen återställs eller överväg en betalplan, men bara om skolan har bestämt att tjänsten ska användas.</p>
+      <h2>Egen övning</h2>
+      <p>Gör presentationen till din egen.</p>
+      <ol>
+        <li>Byt ämne och bildantal i prompten och skapa en ny presentation.</li>
+        <li>Redigera en bildtext direkt i Canvas och kontrollera att ändringen syns i förhandsvisningen.</li>
+        <li>Skapa samma presentation i en annan tjänst, till exempel <a href="/ai-skolan/gamma-presentation/">Gamma</a>, och jämför resultatet.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://help.mistral.ai/en/articles/682992-le-chat-is-now-vibe" target="_blank" rel="noopener">Mistral Help Center: Le Chat is now Vibe<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://docs.mistral.ai/le-chat/content-creation/canvas" target="_blank" rel="noopener">Mistral Docs: Work with Files and Canvas<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://mistral.ai/pricing/" target="_blank" rel="noopener">Mistral AI: Pricing<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Dokumentationen och prissidan säger olika om vilka planer som kan skapa presentationer, och prissidan anger inte hur gratisplanen hanterar träning på data. Menynamn kan ha ändrats sedan namnbytet i augusti 2026. Ingen presentation har skapats vid kontrollen.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

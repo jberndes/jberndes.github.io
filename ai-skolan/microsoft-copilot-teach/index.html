@@ -1,0 +1,178 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Microsoft Copilot Teach: ett källkritikquiz i Forms – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: skapa ett quiz i Microsoft Forms med funktionen Teach i Microsoft 365 Copilot-appen. Kräver licens för Microsoft 365 för utbildning.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/microsoft-copilot-teach/">
+  <meta property="og:title" content="Microsoft Copilot Teach: ett källkritikquiz i Forms – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: skapa ett quiz i Microsoft Forms med funktionen Teach i Microsoft 365 Copilot-appen. Kräver licens för Microsoft 365 för utbildning.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/microsoft-copilot-teach/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Microsoft Copilot Teach: ett källkritikquiz i Forms</h1>
+      <p class="ingress">Så skapar du ett färdigt quiz för eleverna med bara ett formulär och en kort beskrivning. Funktionen är gjord för lärare och bygger på Microsoft Forms.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Microsoft Copilot</strong> är Microsofts AI-assistent. <strong>Teach</strong> är en funktion i appen Microsoft 365 Copilot: ett nav för lärare där du planerar lektioner, tar fram material och anpassar befintligt innehåll.</p>
+      <p>Enligt Microsoft kan du skapa lektionsplan och bedömningsmatris som Word-dokument, quiz som Microsoft Forms som du delar med eleverna, samt flashcards. Du kan också ändra befintligt innehåll, till exempel anpassa instruktioner eller byta lässvårighet.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett skolkonto med licens för Microsoft 365 för utbildning.</strong> Enligt Microsoft är Teach bara tillgängligt för lärare och annan personal med den licensen. Ingen betald Copilot-licens krävs.</li>
+        <li><strong>Var funktionen finns:</strong> i appen Microsoft 365 Copilot, under <strong>Teach</strong>. Hittar du den inte ska du enligt Microsoft kontakta din IT-administratör.</li>
+        <li><strong>Tillgången kan variera</strong> mellan skolor, eftersom en administratör styr vilka funktioner som är på. Varje generativ funktion har dessutom en egen lista över språk som stöds. Kontrollera därför att svenska fungerar innan du lovar något till kollegor.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> Ett quiz på tio flervalsfrågor om källkritik för årskurs 8, skapat som Microsoft Forms. Du ska granska frågorna, ändra dem och kopiera en länk till eleverna.</p>
+      <p><strong>Ungefärlig tid:</strong> 15 till 25 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna appen Microsoft 365 Copilot och logga in med ditt skolkonto.</li>
+        <li>Välj <strong>Teach</strong>.</li>
+        <li>Välj <strong>Quiz</strong> under avsnittet för läxor och bedömning.</li>
+        <li>Fyll i ämnesområde, årskurs och språk.</li>
+        <li>Klistra in beskrivningen nedan i fältet där du beskriver quizet.</li>
+        <li>Hoppa över valet av standarder om det inte finns en standard som passar din kurs.</li>
+        <li>Välj antal frågor, tid och om du vill ha <strong>Practice mode</strong>.</li>
+        <li>Klicka på <strong>Generate</strong>.</li>
+        <li>Läs igenom alla frågor och svar och ändra det som är fel eller otydligt.</li>
+        <li>Kopiera länken eller publicera quizet i en klasskanal i Microsoft Teams.</li>
+      </ol>
+      <p><strong>Så sparas det:</strong> quizet skapas i Microsoft Forms. Du hittar det senare under <strong>History</strong> i Teach, i Forms-biblioteket eller bland uppgifter.</p>
+      <p><strong>Redigering:</strong> du kan ändra anvisningar, frågor och svar, sätta poäng per fråga (standard är totalt 100 poäng), slå på matematisk formatering och markera frågor som obligatoriska.</p>
+      <p><strong>Elevdata:</strong> Forms kan samla in svar. Kontrollera inställningarna för vem som får svara och vad som registreras innan eleverna använder quizet, och följ skolans regler för personuppgifter.</p>
+      <h2>Startprompt</h2>
+      <p>Teach använder ett formulär i stället för en chatt. Klistra in texten i fältet där du beskriver quizet. Fälten och deras namn kan se annorlunda ut i din skolas version.</p>
+      <blockquote>
+        <p>Källkritik för elever i årskurs 8. Fokus på fyra frågor man ställer till en källa: vem står bakom den, vad är syftet, hur aktuell är den och är det fakta eller åsikt. Gör flervalsfrågor med tre svarsalternativ och ett rätt svar. Använd vardagliga exempel som nyhetsrubriker och inlägg i sociala medier. Skriv en kort förklaring till varje rätt svar. Använd enkelt språk.</p>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>I Teach förbättrar du resultatet genom att ändra beskrivningen och generera igen, eller genom att redigera frågorna direkt. Här är tre beskrivningar att prova.</p>
+      <h3>Ett lättare quiz</h3>
+      <blockquote>
+        <p>Källkritik för elever i årskurs 8 som behöver extra stöd. Använd kortare frågor och enklare ord. Ge ett tydligt exempel i varje fråga.</p>
+      </blockquote>
+      <h3>Fokus på sociala medier</h3>
+      <blockquote>
+        <p>Källkritik för elever i årskurs 8 med fokus på inlägg i sociala medier. Varje fråga ska beskriva ett påhittat inlägg och fråga vad eleven bör kontrollera först. Använd inga riktiga personer eller företag.</p>
+      </blockquote>
+      <h3>Praktiskt läge</h3>
+      <blockquote>
+        <p>Källkritik för elever i årskurs 8. Gör frågorna som övning före ett prov och skriv en förklaring till varje svarsalternativ, även de felaktiga.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>Ett quiz i Microsoft Forms med tio frågor. Varje fråga har ett kort påhittat exempel, tre svarsalternativ och ett markerat rätt svar. Du kan klicka runt, ändra texter och se poängsättningen innan du delar länken.</p>
+      <p><strong>Granska frågorna.</strong> Kontrollera att varje fråga har ett enda rätt svar och att exemplen passar dina elever. Sätt den kritiska läsningen före delningen.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Jag ser inte Teach</h3>
+      <p>Enligt Microsoft krävs en licens för Microsoft 365 för utbildning för lärare och personal. Be din IT-administratör kontrollera att funktionen är på.</p>
+      <h3>Svenska finns inte som språk</h3>
+      <p>Microsoft skriver att varje generativ funktion har en egen lista över språk som stöds. Välj ett språk som finns och be om en översättning i beskrivningen, och kontrollera resultatet noga.</p>
+      <h3>Frågorna är för svåra eller för lätta</h3>
+      <p>Ändra beskrivningen och generera igen, eller använd redigeringen i Forms för att byta text direkt. Teach har också verktyg för att ändra lässvårighet på befintligt innehåll.</p>
+      <h3>Jag vet inte vilken standard jag ska välja</h3>
+      <p>Standardvalet är valfritt. Hoppa över det och skriv i stället mål från din kursplan i beskrivningen.</p>
+      <h3>Quizet visar sig inte i Forms</h3>
+      <p>Öppna <strong>History</strong> i Teach och leta där. Quizet finns också i Forms-biblioteket eller bland uppgifter.</p>
+      <h2>Egen övning</h2>
+      <p>Gör fler saker i Teach.</p>
+      <ol>
+        <li>Skapa en bedömningsmatris (Rubric) för en uppgift i din kurs. Matrisen sparas som ett Word-dokument.</li>
+        <li>Skapa flashcards med begrepp från ditt ämne.</li>
+        <li>Använd ett av verktygen för att ändra befintligt innehåll, till exempel att anpassa lässvårighet på ett arbetsblad som du själv skrivit.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://support.microsoft.com/en-US/education/teach-in-the-microsoft-365-copilot-app" target="_blank" rel="noopener">Microsoft Support: Teach in the Microsoft 365 Copilot app<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.microsoft.com/en-us/education/copilot/quiz-in-teach" target="_blank" rel="noopener">Microsoft Support: Quiz in Teach<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Microsofts sidor anger inte vilka standarduppsättningar som finns för Sverige, och det framgår inte om svenska stöds i just quiz-funktionen. Stegen följer Microsofts engelska beskrivning och kan se annorlunda ut hos din skola. Ett quiz har inte genererats vid kontrollen.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,190 @@
+---
+---
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>Claude med artefakter: en glosövning att vända och träna – AI Skolan – Joakim Berndes</title>
+  <meta name="description" content="Steg för steg: låt Claude bygga en interaktiv glosövning som artefakt, testa den direkt och förbättra den. Färdiga promptar och tydliga åldersregler.">
+  <link rel="canonical" href="https://joakimberndes.se/ai-skolan/claude-artefakter/">
+  <meta property="og:title" content="Claude med artefakter: en glosövning att vända och träna – AI Skolan – Joakim Berndes">
+  <meta property="og:description" content="Steg för steg: låt Claude bygga en interaktiv glosövning som artefakt, testa den direkt och förbättra den. Färdiga promptar och tydliga åldersregler.">
+  <meta property="og:url" content="https://joakimberndes.se/ai-skolan/claude-artefakter/">
+  <meta property="og:image" content="https://joakimberndes.se/portratt.jpg">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="sv_SE">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    ol.inlagg { list-style: none; border-top: 1px solid var(--line); }
+    ol.inlagg li { display: block; padding: 20px 0; border-bottom: 1px solid var(--line); }
+    ol.inlagg h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin-bottom: 4px; }
+    ol.inlagg h2 a { text-decoration: none; }
+    ol.inlagg h2 a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .datum { color: var(--muted); font-size: 0.875rem; margin-bottom: 8px; }
+    ol.inlagg p { max-width: 65ch; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    .datum { color: var(--muted); font-size: 0.875rem; }
+    .text { max-width: 65ch; }
+    .text > * + * { margin-top: 1em; }
+    .text h2 { font-family: var(--serif); font-size: 1.4rem; line-height: 1.3; margin-top: 1.6em; border: 0; padding: 0; text-transform: none; letter-spacing: 0; color: var(--text); }
+    .text h3 { font-size: 1.1rem; margin-top: 1.4em; }
+    .text ul, .text ol { padding-left: 1.4em; list-style: revert; }
+    .text li { display: list-item; border: 0; padding: 2px 0; }
+    .text a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    .text img { max-width: 100%; height: auto; }
+    .text blockquote { border-left: 3px solid var(--gron); padding-left: 1em; color: var(--muted); }
+    .text pre { overflow-x: auto; background: var(--panel); padding: 12px; border-radius: 3px; font-size: 0.9rem; }
+    .text code { font-size: 0.92em; }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    .kontakt { max-width: 65ch; }
+    .kontakt h2 { font-family: var(--serif); font-size: 1.25rem; line-height: 1.3; font-weight: 600; margin: 28px 0 8px; }
+    .kontakt h2:first-child { margin-top: 0; }
+    .kontakt p + p { margin-top: 8px; }
+    .kontakt a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+    @media (max-width: 480px) { .kontakt dl div { grid-template-columns: 1fr; gap: 0; } }
+  </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai-skolan/"><span aria-hidden="true">&larr;</span> AI Skolan</a>
+      <h1>Claude med artefakter: en glosövning att vända och träna</h1>
+      <p class="ingress">Så skapar du en liten övningsapp i Claude och delar den. Guiden är skriven för läraren, eftersom Claude kräver att användare är minst 18 år.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre text">
+      <p class="datum">Uppgifterna är kontrollerade mot officiell dokumentation 23 oktober 2026. Tjänster ändras ofta, så jämför alltid med det du ser på skärmen.</p>
+      <h2>Kort om tjänsten</h2>
+      <p><strong>Claude</strong> är Anthropics AI-assistent. <strong>Artefakter</strong> är en funktion i Claude: större färdiga resultat, till exempel dokument, små interaktiva verktyg, diagram eller enkla webbsidor, öppnas i en panel bredvid samtalet där du kan granska, ändra och dela dem.</p>
+      <p>Allt du skapar sparas på fliken <strong>Artifacts</strong> i sidomenyn, så du hittar det igen. Enligt Anthropic skapar Claude oftast en artefakt när innehållet är längre än ungefär 15 rader, är fristående och sannolikt ska redigeras eller användas igen.</p>
+      <h2>Det här behöver du</h2>
+      <ul>
+        <li><strong>Ett Claude-konto.</strong> Anthropic kräver att alla användare är minst 18 år. Elever under 18 kan alltså inte skapa konto själva. Därför är guiden till för läraren.</li>
+        <li><strong>Gratisplanen räcker.</strong> Enligt Anthropic går det att skapa artefakter i chatten på Free, Pro, Max, Team och Enterprise. Mallar, appkopplingar och datalagring kräver en betald plan.</li>
+        <li><strong>En inställning måste vara på:</strong> <strong>Code execution and file creation</strong> under <strong>Settings &gt; Capabilities</strong>. På vissa sidor heter den Cloud code execution and file creation. På Team och Enterprise ändras den under Organization settings.</li>
+        <li><strong>Var funktionen finns:</strong> i vanlig chatt på claude.ai. Du skriver bara vad du vill ha, och Claude bestämmer när en artefakt behövs.</li>
+        <li><strong>Skolans regler:</strong> enligt <a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverkets råd om AI-verktyg<span class="dold"> (öppnas i ny flik)</span></a> bör lärare inte lämna personuppgifter eller elevtexter till AI-tjänster utan tillåtelse, och allt som AI skapar ska granskas mot kursplanen innan det används.</li>
+      </ul>
+      <h2>Ditt första projekt</h2>
+      <p><strong>Mål:</strong> En glosövning med vändbara kort. Eleven ser ett spanskt djurord, vänder kortet för att se det svenska ordet och markerar om hen kunde det. Ord som blev fel kan övas igen.</p>
+      <p><strong>Ungefärlig tid:</strong> 20 till 30 minuter</p>
+      <h2>Steg för steg</h2>
+      <ol>
+        <li>Öppna claude.ai på en dator och logga in.</li>
+        <li>Öppna <strong>Settings &gt; Capabilities</strong> och kontrollera att <strong>Code execution and file creation</strong> är påslaget.</li>
+        <li>Starta en ny chatt.</li>
+        <li>Klistra in startprompten nedan och skicka den.</li>
+        <li>Vänta tills artefakten öppnas i panelen bredvid chatten.</li>
+        <li>Testa övningen: vänd ett kort och klicka på knapparna.</li>
+        <li>Klicka på <strong>Try fixing with Claude</strong> om ett felmeddelande visas.</li>
+        <li>Skriv en följdprompt i chatten för att förbättra övningen.</li>
+        <li>Öppna fliken <strong>Artifacts</strong> i sidomenyn när du vill hitta övningen igen.</li>
+        <li>Dela övningen med <strong>Share</strong> eller <strong>Publish</strong>, beroende på vilken version och plan du har.</li>
+      </ol>
+      <p><strong>Så delas resultatet:</strong> enligt Anthropic används <strong>Publish</strong> för artefakter i chatten på Free, Pro och Max i den tidigare upplevelsen, och en <strong>Share</strong>-dialog i den nya. I Share-dialogen kan du välja <strong>Only you</strong> eller <strong>Anyone with the link</strong>, men alla som öppnar länken behöver ett Claude-konto. Med Publish kan personer utan konto se och använda grundfunktionerna.</p>
+      <p><strong>Elever:</strong> eftersom elever under 18 inte kan ha konto är delning via länk inte säker som enda väg. Kopiera i stället koden till en HTML-fil och lägg den på skolans lagring, precis som i guiden om ChatGPT. Du kan också visa övningen på storbild.</p>
+      <p><strong>Avpublicering:</strong> om du väljer Unpublish går samma artefakt inte att publicera igen, och lagrade data raderas permanent.</p>
+      <h2>Startprompt</h2>
+      <p>Klistra in hela texten. Orden finns med så att Claude inte behöver hitta på några.</p>
+      <blockquote>
+        <p>Skapa en interaktiv glosövning som en artefakt. Allt ska vara på svenska utom glosorna.</p>
+        <p>Ämne: spanska djurord för nybörjare i årskurs 6. Använd exakt de här 12 glosorna, spanska = svenska: perro = hund, gato = katt, caballo = häst, pájaro = fågel, pez = fisk, vaca = ko, cerdo = gris, oveja = får, conejo = kanin, ratón = mus, tortuga = sköldpadda, elefante = elefant.</p>
+        <ul>
+          <li>Visa ett kort i taget med det spanska ordet. När eleven klickar på kortet vänds det och visar det svenska ordet.</li>
+          <li>Under kortet finns två knappar: Kunde det och Kunde inte.</li>
+          <li>Visa framsteg, till exempel kort 4 av 12.</li>
+          <li>När alla kort är genomgångna visas hur många eleven kunde och en knapp som heter Öva på de jag missade.</li>
+          <li>Lägg till en knapp som byter riktning så att eleven ser det svenska ordet först.</li>
+          <li>Stora, tydliga kort och knappar som fungerar på dator, surfplatta och mobil, med tillräcklig kontrast.</li>
+          <li>Ingen inloggning och inga personuppgifter. Ingen data ska skickas någonstans.</li>
+        </ul>
+      </blockquote>
+      <h2>Följdpromptar</h2>
+      <p>Skriv en följdprompt i taget. Claude ändrar artefakten på plats, och du kan testa efter varje ändring.</p>
+      <h3>Gör det tillgängligt</h3>
+      <blockquote>
+        <p>Gör övningen lättare att använda för fler elever. Allt ska gå att styra med tangentbordet. Färgerna ska ha god kontrast och rätt eller fel ska framgå av text och inte bara av färg.</p>
+      </blockquote>
+      <h3>Lägg till en lärarvy</h3>
+      <blockquote>
+        <p>Lägg till en flik som heter Lärarvy där alla 12 glosor visas i en tabell med spanska i vänstra kolumnen och svenska i högra. Tabellen ska se bra ut när den skrivs ut från webbläsaren.</p>
+      </blockquote>
+      <h3>Fler glosor i omgångar</h3>
+      <blockquote>
+        <p>Dela upp glosorna i två omgångar om 6 glosor var. Eleven väljer omgång innan start. Behåll knappen för att byta riktning.</p>
+      </blockquote>
+      <h2>Så här kan resultatet se ut</h2>
+      <p><strong>Exempel, inte ett testat resultat.</strong> Beskrivningen visar vad du ska leta efter. Det du får kan se annorlunda ut.</p>
+      <p>En övning i en panel bredvid chatten. Mitt på skärmen finns ett stort kort med ett spanskt ord. Ett klick vänder kortet och visar det svenska ordet, och under kortet finns två knappar. En framstegsrad visar hur långt eleven har kommit, och i slutet visas ett resultat med en knapp för de ord som blev fel.</p>
+      <p><strong>Kontrollera glosorna.</strong> Läs igenom alla ord och accenttecken i förhandsvisningen innan du ger övningen till elever.</p>
+      <h2>Vanliga problem och lösningar</h2>
+      <h3>Ingen artefakt visas, bara text</h3>
+      <p>Kontrollera att <strong>Code execution and file creation</strong> är på under Settings &gt; Capabilities. Skriv sedan: Gör detta som en interaktiv artefakt i stället för text.</p>
+      <h3>Ett felmeddelande syns i artefakten</h3>
+      <p>Klicka på <strong>Try fixing with Claude</strong>. Anthropic skriver att det inte alltid lyckas. Då kan du skriva: Det blev ett fel. Rätta det och behåll allt annat.</p>
+      <h3>Jag får inte ihop delningen för elever</h3>
+      <p>Alla som öppnar en länk via Share-dialogen behöver ett Claude-konto enligt Anthropic, och kontot kräver 18 år. Använd den HTML-fil du kan spara själv eller visa övningen på storbild.</p>
+      <h3>Jag når en gräns i gratisplanen</h3>
+      <p>Tjänsten visar ett meddelande när du nått din gräns. Anthropic anger inte någon fast siffra på artefaktsidan, så vänta tills gränsen återställs eller prova senare.</p>
+      <h3>Ett spanskt ord blev fel</h3>
+      <p>Skriv exakt vilket ord som är fel och vad det ska vara: Ändra glosan cerdo så att den svenska översättningen är gris. Ändra inget annat.</p>
+      <h2>Egen övning</h2>
+      <p>Gör övningen till din egen.</p>
+      <ol>
+        <li>Byt ämne till engelska glosor, franska glosor eller begrepp från din kurs.</li>
+        <li>Ändra antalet kort till 15 och be Claude behålla alla funktioner.</li>
+        <li>Be Claude lägga till en färg per omgång. Testa på mobilen.</li>
+      </ol>
+      <h2>Källor</h2>
+      <p>Kontrollerade 23 oktober 2026:</p>
+      <ul>
+        <li><a href="https://support.claude.com/en/articles/9487310-what-are-artifacts-and-how-do-i-use-them" target="_blank" rel="noopener">Claude Help Center: What are artifacts and how do I use them?<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.claude.com/en/articles/9547008-publish-and-share-artifacts" target="_blank" rel="noopener">Claude Help Center: Publish and share artifacts<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://support.claude.com/en/articles/13117299-minimum-age-requirement-access-restriction" target="_blank" rel="noopener">Claude Help Center: Minimum age requirement<span class="dold"> (öppnas i ny flik)</span></a></li>
+        <li><a href="https://www.skolverket.se/kompetensutveckling/stod-i-arbetet/rad-om-ai-chattbottar-och-liknande-verktyg" target="_blank" rel="noopener">Skolverket: Råd om AI, chattbottar och liknande verktyg<span class="dold"> (öppnas i ny flik)</span></a></li>
+      </ul>
+      <h2>Osäkerheter</h2>
+      <p>Claudes gränssnitt har två versioner (den tidigare och den nya), och menynamn kan därför skilja sig. Hjälpsidan om artefakter nämner inte om du får en förhandsvisning och kodvy på exakt det sättet, så guiden beskriver bara panelen bredvid chatten. Åldersgränsen 18 år kommer från Anthropics hjälpsida om minimiålder. Ingen körning har testats.</p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p><a href="/ai-skolan/">Alla guider</a> · <a href="/">Till startsidan</a></p>
+    </div>
+  </footer>
+</body>
+</html>

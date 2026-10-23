@@ -102,7 +102,13 @@ def main():
             if len(text) < 1500:
                 print(f'Hoppar över {url}: för lite text ({len(text)} tecken)')
                 continue
-            header = f'Källa: {url}\nNyhetsbrev: {name}\nDatum: {d.isoformat()}\nHämtad: {datetime.datetime.utcnow().isoformat(timespec="seconds")}Z\n\n'
+            # En riktig utgåva har rubriken "TLDR AI ÅÅÅÅ-MM-DD" eller "TLDR ÅÅÅÅ-MM-DD".
+            # Saknas den är sidan en tom startsida eller reservsida (utgåvan är inte
+            # publicerad än). Då sparas ingenting, så nästa körning försöker igen.
+            if not re.search(rf'(?m)^TLDR(?: AI| Tech)? {d.isoformat()}\s*$', text):
+                print(f'Hoppar över {url}: ingen utgåva publicerad för {d.isoformat()} än')
+                continue
+            header =f'Källa: {url}\nNyhetsbrev: {name}\nDatum: {d.isoformat()}\nHämtad: {datetime.datetime.utcnow().isoformat(timespec="seconds")}Z\n\n'
             with open(path, 'w', encoding='utf-8') as f:
                 f.write(header + text)
             saved.append(path)

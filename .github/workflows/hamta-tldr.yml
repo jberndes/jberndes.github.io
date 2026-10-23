@@ -1,0 +1,41 @@
+# Hämtar TLDR AI och TLDR Tech som råtext till _tools/tldr/raw/ varje vardagsmorgon.
+# Den schemalagda Claude-uppgiften läser filerna härifrån i stället för att
+# hämta tldr.tech själv, så ingen godkännande-ruta behövs.
+# Mappen _tools publiceras inte på sajten (börjar med understreck).
+name: Hämta TLDR
+
+on:
+  schedule:
+    - cron: '30 4 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hamta-tldr
+  cancel-in-progress: false
+
+jobs:
+  hamta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hämta repot
+        uses: actions/checkout@v4
+
+      - name: Hämta utgåvor
+        run: python3 -I _tools/hamta_tldr.py
+
+      - name: Spara i repot
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A _tools/tldr/raw
+          if git diff --cached --quiet; then
+            echo "Inga ändringar"
+            exit 0
+          fi
+          git commit -m "TLDR: hämtade utgåvor (råtext)"
+          git pull --rebase origin main
+          git push origin HEAD:main

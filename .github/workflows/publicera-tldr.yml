@@ -1,0 +1,60 @@
+# Publicerar automatiskt dagens TLDR-uppdatering.
+# Den schemalagda uppgiften pushar en gren som heter tldr-<datum>. Den här
+# workflowen kontrollerar att bara förväntade filer ändrats, slår ihop grenen
+# med main, ber GitHub Pages bygga om sajten och tar bort grenen.
+# Misslyckas något stannar körningen och main lämnas orörd.
+name: Publicera TLDR
+
+on:
+  push:
+    branches:
+      - 'tldr-**'
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: publicera-tldr
+  cancel-in-progress: false
+
+jobs:
+  publicera:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hämta repot
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Kontrollera att bara förväntade filer ändrats
+        run: |
+          git fetch origin main
+          BASE=$(git merge-base origin/main HEAD)
+          BAD=$(git diff --name-only "$BASE" HEAD | grep -Ev '^(_tools/tldr/[0-9]{4}-[0-9]{2}\.json|ai/.*|index\.html|sitemap\.xml)$' || true)
+          if [ -n "$BAD" ]; then
+            echo "::error::Grenen ändrar filer utanför tillåtna sökvägar. Ingenting publiceras."
+            echo "$BAD"
+            exit 1
+          fi
+          git diff --stat "$BASE" HEAD
+
+      - name: Slå ihop grenen med main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B main origin/main
+          if git merge --ff-only "origin/${GITHUB_REF_NAME}"; then
+            echo "Fast-forward"
+          else
+            git merge --no-edit -m "Slå ihop ${GITHUB_REF_NAME}" "origin/${GITHUB_REF_NAME}"
+          fi
+          git push origin main
+
+      - name: Be GitHub Pages bygga om sajten
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"
+
+      - name: Ta bort grenen
+        run: git push origin --delete "${GITHUB_REF_NAME}"

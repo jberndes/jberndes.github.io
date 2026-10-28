@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Dessa - the Conversation Model trained only on speech",
+  "url": "https://block.xyz/dessa",
+  "sv": "Dessa är en samtalsmodell som tränats från grunden enbart på mänskligt tal, utan någon text. Enligt nyhetsbrevet kan den skratta i rätt ögonblick, följa instruktioner och avsluta meningar, och inlägget har exempel på samtal.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Kimi K3.1 Pro",
+  "url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+  "sv": "Moonshot AI har släppt Kimi K3.1 Pro via sitt API, med öppna vikter utlovade till den 4 november. Modellen fick 55 poäng hos Artificial Analysis, före flera ledande slutna modeller.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Apple's 20B On-Device Model Uses Just 2GB of Memory",
+  "url": "https://www.airealist.ai/p/exploring-apple-on-device-model",
+  "sv": "Apples lokala modell håller det mesta av sina vikter i flashlagring och aktiverar bara 1-4 miljarder parametrar per fråga. Test på en M3 Max gav ungefär 2 GB minnesanvändning och lägre energiförbrukning än jämförbara öppna modeller, men svagare matematik.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Securing our frontier model training environment",
+  "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+  "sv": "OpenAI har förstärkt kontrollerna och övervakningen i sina träningsmiljöer, bland annat med red-teaming där agenter letar sårbarheter. Syftet är att hindra obehöriga handlingar som åtkomst till det öppna internet och hålla forskningsmiljöerna isolerade.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "SpaceX closes $40 billion debt deal for AI chips, Elon Musk says",
+  "url": "https://www.cnbc.com/2026/10/26/spacex-closes-40-billion-debt-deal-for-ai-chips-elon-musk-.html",
+  "sv": "SpaceX har enligt nyhetsbrevet slutfört en skuldfinansiering på 40 miljarder dollar för att köpa GPU:er, som väntas levereras under första och andra kvartalet 2027. Lånet läggs i ett särskilt bolag så att det inte hamnar i SpaceX balansräkning.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Review of iPhone Duo: A New Chapter That Redefines a Smartphone's Purpose",
+  "url": "https://www.nytimes.com/2026/10/23/technology/personaltech/iphone-duo-review-tablet-smartphone.html",
+  "sv": "Apples iPhone Duo beskrivs som en liten surfplatta som går att vika till en telefon. Enligt recensionen passar den pendlare och affärsresenärer bäst, medan andra kan tycka att den är en ganska vanlig smartphone.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "US military gives Elon Musk's SpaceX access to sensitive tracking data",
+  "url": "https://www.theguardian.com/science/2026/oct/25/spacex-access-sensitive-tracking-data",
+  "sv": "SpaceX har fått tillgång till begränsade data om rymdtrafik från den amerikanska militären. Enligt artikeln väcker det frågor om nationell säkerhet och om en privatisering av rymdtrafikledningen.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Neural chip decodes interactions between brain regions",
+  "url": "https://actu.epfl.ch/news/neural-chip-decodes-interactions-between-brain-r-2/",
+  "sv": "Forskare har tagit fram ett implanterbart chip som följer kommunikationen mellan olika delar av hjärnan och tar fram biomarkörer för hjärnvågor och synkronisering. Med maskininlärning kan signalerna skilja kognitiva från känslomässiga tillstånd.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "We should be more ambitious with the software we build",
+  "url": "https://danluu.com/ambitious/",
+  "sv": "AI kan numera skapa många projekt i ett svep, men har fortfarande svårt med svårare uppgifter. Texten menar att de som säger att mjukvara är löst inte jobbar med de svåra problemen, och att vi bör sikta högre när modellerna blir bättre.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-26",
+  "dag": "måndag 26 oktober 2026",
+  "dag_kort": "26 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The State of Context Engineering",
+  "url": "https://www.dbreunig.com/2026/10/24/the-state-of-context-engineering.html",
+  "sv": "Texten hävdar att context engineering är svårt på sitt eget sätt eftersom AI-modeller inte är människor. Hur modellerna byggs och tränas ger särskilda felsätt, så enligt författaren förblir det en utmaning oavsett hur bra modellerna blir.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-10-23",
   "dag": "fredag 23 oktober 2026",
   "dag_kort": "23 okt",

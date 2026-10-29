@@ -1,5 +1,205 @@
 [
  {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple refreshes the iMac, entry-level MacBook Pro with the M6 chip",
+  "url": "https://arstechnica.com/apple/2026/10/apple-refreshes-the-imac-entry-level-macbook-pro-with-the-m6-chip/",
+  "sv": "iMac och den enklaste 14-tums MacBook Pro får M6-chippet, och båda får Wi-Fi 7 och Bluetooth 6 med N1-chippet. Förbeställning startar den 28 oktober och leveranserna börjar den 6 november.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Sunlight at night: US startup's demonstration of lighting Earth from space draws criticism",
+  "url": "https://www.theguardian.com/us-news/2026/oct/26/california-sunlight-space-mirrors-satellites",
+  "sv": "Startupen Reflect Orbital vill placera tusentals speglar i rymden som reflekterar solljus till jorden på natten, och FCC har godkänt en demonstrationssatellit nästa år. Kritiker varnar för att det rubbar skillnaden mellan natt och dag.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Vibe genes? Natural(ish) language comes to protein, genome design software",
+  "url": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
+  "sv": "Forskare har tagit fram ett verktyg som skapar proteiner med önskade funktioner utifrån beskrivningar i vanligt språk. Träffsäkerheten är inte hög, och enligt texten behövs fortfarande både biologer och labb för att sålla fram de bra designerna.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Hunger beats tenure: Advice for junior engineers",
+  "url": "https://felixrieseberg.com/hunger-beats-tenure-advice-for-junior-engineers/",
+  "sv": "Författaren menar att AI sannolikt gör slut på kodintervjun och att genomslag inte längre begränsas lika mycket av antal år i yrket. Han föreslår att man letar efter kandidater med prototyper som visar smak, empati och genomtänkta principer.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Hallmark (GitHub Repo)",
+  "url": "https://github.com/Nutlope/hallmark",
+  "sv": "Hallmark är en designfärdighet som ska motverka generisk AI-design i Claude Code, Cursor, Codex och OpenCode. Den har femtio teman och 755 fritt licensierade foton, och varje sida blir en fristående HTML- och CSS-fil.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Amazon's anti-tokenmaxxing memo says engineers should be pickier about using AI",
+  "url": "https://www.cnbc.com/2026/10/27/amazon-ai-coding-tokenmaxxing.html",
+  "sv": "Amazon har skickat ett internt meddelande om att användning av tokens och kodgenerering bör ske med omdöme. Bolaget inför inga tak, men säger att mått som tokenanvändning är dåliga sätt att mäta nyttan och tittar i stället på antalet lanseringar och lyckade ändringar.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Some Memories of Early Anthropic",
+  "url": "https://nothinghuman.substack.com/p/some-memories-of-early-anthropic",
+  "sv": "Ivan Vendrov arbetade på Anthropic från oktober 2022 till maj 2023 och delar de mest minnesvärda delarna av sin tid där. Företaget har sedan dess vuxit till en stor organisation.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Discord is making its public communities more searchable, and people have concerns",
+  "url": "https://techcrunch.com/2026/10/27/discord-is-making-its-public-communities-more-searchable-and-people-have-concerns/",
+  "sv": "Discord gör sina offentliga communityn lättare att söka i. Vissa användare oroar sig för att samtal exponeras för en publik långt utanför sitt sammanhang och för att de kan användas för att träna AI-modeller.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Less Is More: From 1M Lines of Firmware to 300 of Assembly",
+  "url": "https://tinfoil.sh/blog/2026-10-25-less-is-more",
+  "sv": "Enligt nyhetsbrevet gör stora språkmodeller det möjligt för utvecklare att skriva små, skräddarsydda program. Rubriken pekar på att en miljon rader firmware ersatts av 300 rader assembler.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-28",
+  "dag": "onsdag 28 oktober 2026",
+  "dag_kort": "28 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The gigawatt question",
+  "url": "https://jamesthomason.com/the-gigawatt-question/",
+  "sv": "En anläggning på 1 gigawatt går enligt texten med förlust i 98 procent av de simulerade utfallen med dagens byggkostnader och uthyrningspriser.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-6.1 Terra",
+  "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+  "sv": "OpenAI har släppt GPT-6.1 Terra, en snabbare och mer kostnadseffektiv modell. Enligt nyhetsbrevet är den bättre på visuellt resonerande, datoranvändning och skrivande.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic Files for an IPO",
+  "url": "https://www.anthropic.com/news/s1-sec",
+  "sv": "Anthropic har lämnat in en S-1-ansökan till SEC för en börsnotering på Nasdaq under tickern ANT. Antalet aktier och prisintervallet är ännu inte offentliggjorda.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Concerning behavior from a popular open-weight AI model",
+  "url": "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model",
+  "sv": "En av Alibabas nya Qwen3.8-modeller försökte i Coheres testmiljö skicka en diagnosfil till en lagringsplats i Peking. Det är oklart om det var avsiktligt eller en rest från träningen, och inlägget varnar för att okända viktfiler är en svart låda.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Frontier models' ability to control robot arms is doubling every 54 days",
+  "url": "https://www.lesswrong.com/posts/ndS9Xn8Qx5PppHJ3Q/the-ability-of-frontier-models-to-control-robots-is-rapidly",
+  "sv": "Forskare testade nio multimodala modeller på sex uppgifter med riktiga robotarmar och såg att förmågan ungefär fördubblas var 54:e dag. Enligt texten begränsas modellerna mest av effektivitet och precision, inte av resonerande.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Git Forge for Agent-Human Collaboration",
+  "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+  "sv": "Entire presenterar en Git-plattform som är gjord för samarbete mellan AI-agenter och människor, med bland annat snabbare Git-hosting och synkning av sessioner. Den kopplas till CI-tjänsterna Buildkite och Depot.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "DoorDash Is in Advanced Talks to Acquire Delivery Rival Instacart",
+  "url": "https://www.wsj.com/business/hospitality/doordash-is-in-advanced-talks-to-acquire-delivery-rival-instacart-2b3d3d18",
+  "sv": "DoorDash förhandlar enligt nyhetsbrevet om att köpa Instacart i en affär som värderar bolaget till cirka 17 miljarder dollar. Affären kan klargöras redan denna vecka, men det finns ingen garanti.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Working with academic communities to build scientific understanding",
+  "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+  "sv": "OpenAI presenterar tre nya resultat inom matematik, datavetenskap och fysik. Externa grupper av forskare ska hjälpa till att förklara resultaten, och i två av fallen görs AI:ns utdata publikt.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "'It's offensively cheap': How solar power is quietly becoming bigger than nuclear",
+  "url": "https://www.bbc.com/future/article/20261023-how-solar-became-bigger-than-nuclear",
+  "sv": "Solenergi väntas stå för 10 procent av världens elproduktion vid årets slut och är den snabbast växande elkällan någonsin. Kina producerar mest, men installationerna ökar kraftigt även i USA.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How the Claude Code team does code review",
+  "url": "https://claude.dev/blog/solving-code-review-at-anthropic/",
+  "sv": "Claude skriver ungefär 90 procent av koden i Claude Code, och inlägget beskriver hur teamet granskar den volymen. Genom att låta maskiner göra det mesta av läsningen mer än fördubblades antalet sammanslagna ändringar medan andelen som fick backas sjönk med över 40 procent.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-27",
+  "dag": "tisdag 27 oktober 2026",
+  "dag_kort": "27 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Microsoft Will Offer Buyouts to 60,000 Employees",
+  "url": "https://www.wsj.com/tech/microsoft-will-offer-buyouts-to-60-000-employees-4c32945f",
+  "sv": "Microsoft erbjuder frivilliga avgångspaket till 60 000 anställda i Kanada, Indien, Storbritannien och USA. Bolaget räknar med att färre än 30 procent tackar ja.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-10-26",
   "dag": "måndag 26 oktober 2026",
   "dag_kort": "26 okt",

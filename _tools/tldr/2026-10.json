@@ -1,5 +1,205 @@
 [
  {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Making agents fast - what I've learnt over the last 12 months",
+  "url": "https://martinalderson.com/posts/making-agents-fast/",
+  "sv": "Texten tipsar om att veta vilken del av inferensen som styr hastigheten, att kontrollera tänkandebudgetar och läsa spår, och att ge agenter de verktyg de vill ha. Snabbare hårdvara och parallellisering hjälper, medan sandlådor och mikro-VM:ar ökar komplexiteten.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A Little Determinism",
+  "url": "https://cra.mr/a-little-determinism",
+  "sv": "Inlägget menar att begränsningar ofta gör AI-agenter mindre kapabla, och beskriver en lösning med en egress-proxy som nekar vissa handlingar och styr agenten med automatiska meddelanden. Målet är förutsägbart beteende utan att agenten förlorar friheten att välja verktyg.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Reddit is moving to “a logged-in-only experience,” CEO says",
+  "url": "https://arstechnica.com/gadgets/2026/10/reddit-will-require-you-to-log-in-eventually-ceo-confirms/",
+  "sv": "Reddit börjar under fjärde kvartalet testa att kräva inloggning i utvalda länder utanför USA. Vd:n säger att det ger fler signaler för annonser och skyddar webbplatsens data mot AI-skrapning.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+  "url": "https://www.nytimes.com/2026/10/29/technology/doordash-instacart-acquisition-delivery.html",
+  "sv": "DoorDash köper Instacart för 17 miljarder dollar, med 65 dollar per aktie till Instacarts ägare. Affären väntas stängas sent nästa år eller 2028.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A golden age of science is coming",
+  "url": "https://www.noahpinion.blog/p/a-golden-age-of-science-is-coming",
+  "sv": "Författaren menar att vetenskapen har accelererat de senaste två åren och att AI kan skicka ut mängder av snabba, välbelästa forskare. Han tror att vi är på väg in i en ny guldålder för vetenskapen.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Elon Says Blindsight Is Ready 2 Years After FDA Breakthrough",
+  "url": "https://teslanorth.com/2026/10/29/elon-blindsight-ready-2-years-after-fda-breakthrough/",
+  "sv": "Neuralinks implantat Blindsight, som ska hjälpa blinda att se, är enligt texten tekniskt klart. Det väntar nu på myndighetsgodkännande och har redan fått FDA:s Breakthrough Device Designation.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Binance Suspends Transactions After It Is Targeted in Biggest-Ever Cyber Heist",
+  "url": "https://www.wsj.com/finance/currencies/binance-founder-says-exchange-may-be-victim-of-biggest-ever-crypto-heist-24a82e5f",
+  "sv": "Binance har stoppat transaktioner efter ett intrång som börsen uppger rör omkring 6,3 miljarder dollar. Tether och Circle frös delar av tillgångarna, och grundaren säger att användarnas pengar är säkra.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Nvidia Chief Seen as Target of Chinese Spy Plot",
+  "url": "https://www.nytimes.com/2026/10/29/us/politics/nvidia-china-jensen-huang-trump.html",
+  "sv": "Enligt texten har amerikanska tjänstemän kommit fram till att en toppchef på ett Singapore-baserat datacenterbolag, misstänkt för att ha styrt Nvidia-chip till Kina, var kinesisk underrättelsetillgång.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "LLM Voice",
+  "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+  "sv": "Inlägget hävdar att den som vill nå fram till människor måste göra sin mänsklighet synlig i texten.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-30",
+  "dag": "fredag 30 oktober 2026",
+  "dag_kort": "30 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "We Won't “Just Hang Out”",
+  "url": "https://borretti.me/article/we-wont-just-hang-out",
+  "sv": "Författaren går emot svaret att människor efter singulariteten bara ska umgås. Han menar att AI förstör de processer som får människor att mötas och bygga relationer.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Gemini 4 Carbon",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+  "sv": "Google presenterar modellen Gemini 4 Carbon, som enligt nyhetsbrevet ger bättre energieffektivitet och bättre prestanda på språkuppgifter.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
+  "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary",
+  "sv": "Nemotron 3.5 Transcribe är en öppen modell för transkribering, översättning och talaridentifiering på upp till 40 språk. Granary v2 ger återanvändbara datapipelines för anpassning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Artificial Analysis v5 and the benchmarker's dilemma",
+  "url": "https://www.interconnects.ai/p/artificial-analysis-v5-and-the-benchmarkers",
+  "sv": "Texten beskriver hur svårt det är att göra oberoende utvärderingar av språkmodeller som både stämmer med känslan i communityt och håller över tid. Utvärderarna påverkar enligt författaren vilka modeller som vinner och hur utvecklingen styrs.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic just launched tools to show companies what their AI spending is buying",
+  "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying/",
+  "sv": "Anthropic har lanserat rapporteringsverktyg som visar företag produktivitet och kostnader för bland annat Claude Code. Verktygen svarar på en av företagskundernas största frågor.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Meta has a new AI pet app called Waddle World",
+  "url": "https://techcrunch.com/2026/10/28/meta-has-a-new-ai-pet-app-called-waddle-world/",
+  "sv": "Meta har lanserat Waddle World, ett virtuellt AI-husdjur i Tamagotchi-stil som också fungerar som dagbok, först i Filippinerna på iOS och Android.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple announces touchscreen MacBook Pro with OLED display",
+  "url": "https://arstechnica.com/apple/2026/10/apple-announces-touchscreen-macbook-pro-with-oled-display/",
+  "sv": "Den nya MacBook Pro har en OLED-pekskärm med upp till 2 000 nits och väger omkring 3 pund. Kameranotchen är ersatt av en Dynamic Island.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Unveiling The Grid: PCBs made in America, twice as fast as Shenzhen",
+  "url": "https://www.circuithub.com/post/unveiling-the-grid",
+  "sv": "The Grid är en robotfabrik som bygger kretskort på beställning, där varje kort tar sin egen väg genom fabriken. Enligt texten kan det ge många små serier och hjälpa till att flytta tillverkning till USA.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The October inflection point for vibe game development",
+  "url": "https://simonwillison.net/2026/Oct/28/vibe-game-development/",
+  "sv": "Enligt texten har de senaste modellerna blivit märkbart bättre på speldesign och kan skapa spel med nya, engagerande spelloopar. Utmaningen är nu att hitta idéer som inte skulle finnas utan AI.",
+  "kategori": "Spel"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing the Slack Code API: Your agents, your team, one code channel",
+  "url": "https://slack.com/blog/developers/slack-code-api",
+  "sv": "Slack Code API låter agenter starta kodkanaler, lägga till personer och filer, posta uppdateringar och arkivera kanalen när arbetet är klart. Man kan se vad agenterna gör och vem som godkänt det.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-10-29",
+  "dag": "torsdag 29 oktober 2026",
+  "dag_kort": "29 okt",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Shares Fall 10% as Growth in Search Revenue Slows",
+  "url": "https://www.wsj.com/tech/ai/alphabet-googl-q3-earnings-report-2026-stock-fa41392d",
+  "sv": "Googles annonsverksamhet nådde inte analytikernas förväntningar under tredje kvartalet, och aktien föll. Molnverksamheten överträffade förväntningarna med 30,7 miljarder dollar.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-10-28",
   "dag": "onsdag 28 oktober 2026",
   "dag_kort": "28 okt",

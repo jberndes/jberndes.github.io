@@ -359,6 +359,55 @@
       .ingress { font-size: 2.25rem; }
     }
 
+    /* ===== Finish: typografi, mikrointeraktioner och mjuk intoning =====
+       Ren CSS, inget JavaScript, inga nya filer. All rörelse stängs av av
+       prefers-reduced-motion-regeln längst ned. Utan stöd i webbläsaren visas
+       sidan precis som förut. */
+    html { scroll-padding-top: 16px; }
+    ::selection { background: var(--gron); color: #10120e; }
+
+    /* Jämnare radbrytningar: inga ensamma ord på sista raden */
+    .namn, .ingress, h3 { text-wrap: balance; }
+    .bio, .beskrivning, .projekt p, .cv .text { text-wrap: pretty; }
+
+    /* Mjukare färgbyten i sidopanelens länkar (understrykningen följer med) */
+    .sociala a { transition: color .15s, text-decoration-color .15s; }
+
+    /* Projektkort: hela kortet är klickbart (större träffyta på mobil) och lyfter lite vid hover/fokus.
+       Länktexten är oförändrad, så skärmläsare och tangentbord fungerar som förut. */
+    .projekt li {
+      position: relative;
+      transition: transform .2s ease, box-shadow .2s ease, border-right-color .2s ease, border-bottom-color .2s ease, border-left-color .2s ease;
+    }
+    .projekt h3 a { text-decoration: none; }
+    .projekt h3 a::after { content: ""; position: absolute; inset: 0; border-radius: 12px; }
+    .projekt li:hover { transform: translateY(-2px); border-right-color: var(--tag-border); border-bottom-color: var(--tag-border); border-left-color: var(--tag-border); box-shadow: 0 8px 20px rgba(0,0,0,.07); }
+    .projekt li:hover h3 a { color: var(--accent); }
+    .projekt li:has(a:focus-visible) { outline: 2px solid var(--accent); outline-offset: 3px; }
+    .projekt h3 a:focus-visible { outline: none; }
+    @media (prefers-color-scheme: dark) {
+      .projekt li:hover { box-shadow: 0 8px 20px rgba(0,0,0,.35); }
+    }
+
+    /* Mjuk intoning av sektionerna när de rullas fram (scroll-driven animation).
+       Bara under första skärmen, bara i webbläsare som stödjer det, aldrig vid reducerad rörelse. */
+    @media (prefers-reduced-motion: no-preference) {
+      @supports (animation-timeline: view()) {
+        @keyframes intoning {
+          from { opacity: 0; transform: translateY(14px); }
+          to   { opacity: 1; transform: none; }
+        }
+        main section {
+          animation: intoning linear both;
+          animation-timeline: view();
+          animation-range: entry 0% entry 30%;
+        }
+      }
+    }
+    @media print {
+      main section { animation: none !important; opacity: 1 !important; transform: none !important; }
+    }
+
     /* ===== Tillgänglighet ===== */
     .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
     .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
@@ -375,7 +424,7 @@
 
     <!-- ===== Sidopanel: porträtt, namn, sociala medier, Apple Teacher ===== -->
     <aside aria-label="Om Joakim Berndes">
-      <img class="portratt" src="portratt.jpg" alt="Svartvitt porträtt av Joakim Berndes, IT-pedagog och fotograf i Järvsö" width="132" height="132">
+      <img class="portratt" src="portratt.jpg" alt="Svartvitt porträtt av Joakim Berndes, IT-pedagog och fotograf i Järvsö" width="132" height="132" fetchpriority="high" decoding="async">
       <h1 class="namn">Joakim Berndes</h1>
       <p class="roll">Lärare · Fotograf · Kreatör</p>
       <p class="plats">Järvsö, Hälsingland</p>

@@ -1,0 +1,202 @@
+[
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Coming in 2027: Apple's $1,000 home robot for FaceTime and switching on lights",
+  "url": "https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/",
+  "sv": "Apple arbetar enligt uppgifter på en AI-driven hemrobot som kan heta HomeView Ultra och väntas komma 2027 till ett pris på omkring 1 000 dollar eller mer. Roboten ska kunna ta FaceTime-samtal och själv tända lampor när någon kommer in i rummet.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Scaling Git at OpenAI",
+  "url": "https://openai.com/index/scaling-git-at-openai/",
+  "sv": "OpenAI byggde Pando, ett nytt backend för Git som är optimerat för många samtidiga pushar och hög läshastighet. Enligt texten blev medianväntetiden för pushar nästan fem gånger kortare, och systemet levererar nästan en petabyte Git-data per dag.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Why Agents Are Soon Only Going to Have 1 Tool",
+  "url": "https://www.philschmid.de/code-mode",
+  "sv": "Texten beskriver hur AI-agenter slår ihop hela verktygskatalogen till ett enda exec-verktyg. Modellen skriver då korta skript i en isolerad miljö och kan kedja flera beroende handlingar i ett enda steg.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic warns that it's very close to RSI capability, aka self-building AI",
+  "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+  "sv": "Anthropic har uppdaterat sin S-1 med en varning om att bolaget snart kan uppfylla sin egen interna definition av rekursiv självförbättring.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The value of open source",
+  "url": "https://haydenbleasel.com/writing/open-source",
+  "sv": "Författaren menar att öppen källkod aldrig var gratis att kopiera och att koden aldrig var vallgraven. AI kan återskapa en produkt men inte allt annat värde ett företag skapar, och tekniken hjälper underhållare att fixa problem snabbare.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "SpaceX is reportedly looking at buying Boost Mobile or using its cell network",
+  "url": "https://www.engadget.com/2304301/spacex-is-reportedly-looking-at-buying-boost-mobile-or-using-its-cell-network/",
+  "sv": "SpaceX ska ha pratat med EchoStar om att köpa Boost Mobile eller få tillgång till nätet. Ett avtal kräver godkännande från AT&T och T-Mobile, som tidigare har sagt nej till SpaceX.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "China publicly discloses plan for a lunar landing within three years",
+  "url": "https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/",
+  "sv": "Kinesiska rymdtjänstemän har bekräftat planer på att landa astronauter på månen inom tre år, med en månbana-teknik som liknar Apollo. Både Kina och USA vill också bygga en långsiktig närvaro vid månens sydpol.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What Is Quantum Advantage Actually Worth?",
+  "url": "https://www.mackenziemorehead.com/what-is-quantum-advantage-actually-worth/",
+  "sv": "De flesta färdplaner pekar på en kvantdator i full skala omkring 2030, men det är oklart vad den ska användas till. Texten pekar på kodbrytning först och simuleringsdata till AI-labbens vetenskapsmodeller som nästa användning.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Our organizations are being DDoSed from the inside",
+  "url": "https://karrisaarinen.com/posts/our-organizations-are-being-ddosed-from-the-inside/",
+  "sv": "Inlägget menar att organisationer tappar uppmärksamhet när alla gör sådant de tycker är nyttigt, eftersom allt belastar samma begränsade förmåga att förstå, granska och besluta. Att något går att bygga betyder inte att det bör byggas.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-03",
+  "dag": "tisdag 3 november 2026",
+  "dag_kort": "3 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal",
+  "url": "https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6",
+  "sv": "Marvell, som tillverkar skräddarsydda AI-chip, köper Lumentum för 80 miljarder dollar i aktier. Lumentum har teknik som flyttar data mellan chip och servrar med hjälp av ljus.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-Rosalind-6 System Card Addendum",
+  "url": "https://deploymentsafety.openai.com/gpt-rosalind-6",
+  "sv": "GPT-Rosalind-6 är en resonemangsmodell för biologi, läkemedelsforskning och medicin som ges till godkända forskare och partner. Den använder samma vikter som GPT-6 Astra, vägrar förfrågningar om biologiska vapen och bedöms som High Capability inom biologi och kemi.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Anthropic prepares to release Claude Mythos 5.5 model",
+  "url": "https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/",
+  "sv": "En hänvisning till Claude Mythos 5.5 syns på Anthropics Mythos-sida, vilket tyder på en kommande lansering. Det finns inga nya specifikationer och inget tillkännagivande, men flera rapporter säger att modellen A/B-testas med utvalda användare.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Google's Project Suncatcher Generates First AI Response in Orbit",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+  "sv": "Googles prototyp Suncatcher körde Gemma 4 på ett datacenter-TPU i omloppsbana och skickade tillbaka en haiku via Svalbard. Nästa test gäller värme och strålning, med två sammankopplade satelliter planerade till 2027.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Poisoning 0.1% of pretraining data planted a remote-code backdoor in a coding agent",
+  "url": "https://arxiv.org/abs/2610.37741",
+  "sv": "Forskare från Anthropic, UC Berkeley och UIUC planterade en bakdörr genom att förgifta 0,1 procent av förträningsdatan. Den lilla 4B-agenten körde angriparens kommando i omkring 92 procent av de prompter som innehöll en vanlig sökväg, utan sämre vanlig förmåga.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "DoorDash said it's only received 'several hundred' orders from AI agents",
+  "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/",
+  "sv": "DoorDash har fått bara några hundra beställningar från AI-agenter, trots tre miljoner leveranser per dag. Vd:n säger att de flesta beställningar fortfarande kommer direkt från appen, men bolaget vill utforska användning med agenter.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months",
+  "url": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+  "sv": "Cisco har gett en 27-årig ingenjör obegränsat med AI-tokens och i uppdrag att skriva om 98 procent av bolagets gamla kod på 24 månader. Han har fyra veckor på sig att ta fram ett proof of concept.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round",
+  "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+  "sv": "OpenAIs senaste finansieringsrunda fick svalt intresse och värderar bolaget till 1,25 biljoner dollar, under de 1,4 biljoner man hoppats på. Investerarna beskrivs som mer kräsna efter en kraftig nedgång kopplad till svaga rapporter från flera jättar.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Postgres 19 is late, and it's AI's fault",
+  "url": "https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html",
+  "sv": "Postgres 19 kommer sannolikt först i november eller senare, eftersom flera stora funktioner drogs tillbaka sent. AI gör det lättare att hitta buggar, vilket ger fler felrapporter som utvecklarna måste hantera.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A proposal: how to hire junior engineers in the age of AI",
+  "url": "https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/",
+  "sv": "Inlägget föreslår en intervjumodell där en AI-modell spelar kund och kandidaten ska ta reda på kraven genom att prata med den. Metoden premierar den som tänker på kantfall och hela system, och kan kombineras med en vanlig intervju.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-02",
+  "dag": "måndag 2 november 2026",
+  "dag_kort": "2 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Meta Reportedly Built A Humanoid Robot Prototype That Can Do Household Chores",
+  "url": "https://www.engadget.com/2303434/meta-reportedly-built-a-humanoid-robot-prototype-that-can-do-household-chores/",
+  "sv": "Meta ska ha byggt en humanoid robotprototyp, Max, för hemmabruk, tillsammans med ett kinesiskt robotbolag på ungefär tre månader. Den drivs av Nvidias Jetson Thor och en andra prototyp med bättre bål och händer är på gång.",
+  "kategori": "Övrigt"
+ }
+]

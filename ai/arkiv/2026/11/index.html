@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fafaf8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#131512">
+  <title>November 2026 – AI-arkiv – Joakim Berndes</title>
+  <meta name="description" content="Arkiv över dagliga AI- och tekniknyheter från TLDR, november 2026.">
+  <link rel="canonical" href="https://joakimberndes.se/ai/arkiv/2026/11/">
+  <style>
+    :root {
+      --bg: #fafaf8; --panel: #eef1e8; --card: #ffffff; --text: #1d1d1f;
+      --muted: #6a6a6f; --line: #e1e4da; --accent: #5e6e4a; --gron: #899a72; --on-accent: #ffffff;
+      --serif: ui-serif, "New York", "Iowan Old Style", Georgia, serif;
+      --sans: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #131512; --panel: #1b1f19; --card: #1a1d18; --text: #ededeb;
+        --muted: #a6a8a1; --line: #2e332b; --accent: #b3c79a; --gron: #899a72; --on-accent: #10120e;
+      }
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: var(--sans); font-size: 1.0625rem; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+    a { color: inherit; }
+    header { background: var(--panel); padding: 28px 20px 26px; }
+    .inre { max-width: 760px; margin: 0 auto; }
+    .tillbaka { display: inline-block; padding: 8px 0; font-size: 0.95rem; color: var(--accent); text-decoration: none; }
+    .tillbaka:hover { text-decoration: underline; }
+    h1 { font-family: var(--serif); font-weight: 600; font-size: 32px; line-height: 1.2; margin: 14px 0 10px; }
+    .ingress { color: var(--muted); font-size: 16px; max-width: 60ch; }
+    main { padding: 24px 20px 48px; }
+    h2 { font-family: var(--serif); font-size: 1.35rem; line-height: 1.3; font-weight: 600; margin: 40px 0 6px; padding-bottom: 8px; border-bottom: 1px solid var(--line); }
+    ol.tldr { list-style: none; }
+    .tldr li { display: block; padding: 16px 0; border-bottom: 1px solid var(--line); }
+    .tldr li a { font-weight: 600; font-size: 1.05rem; text-decoration: none; }
+    .tldr li a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .tldr .meta { display: block; font-size: 13px; color: var(--accent); font-weight: 600; margin-top: 2px; }
+    .tldr .sv { display: block; margin-top: 4px; max-width: 65ch; font-size: 0.97rem; }
+    .dagar ul { list-style: none; display: flex; flex-wrap: wrap; gap: 6px; border: 0; margin: 4px 0 8px; }
+    .dagar li { display: block; padding: 0; border: 0; }
+    .dagar a { display: inline-block; padding: 10px 12px; min-height: 44px; border: 1px solid var(--line); border-radius: 3px; background: var(--card); text-decoration: none; font-size: 0.9rem; }
+    .dagar a:hover { border-color: var(--gron); }
+    .manadsnav { margin: 4px 0 16px; font-size: 0.95rem; }
+    .manadsnav a { color: var(--accent); }
+    ul.manader { list-style: none; border-top: 1px solid var(--line); }
+    ul.manader li { display: flex; justify-content: space-between; gap: 12px; padding: 16px 0; border-bottom: 1px solid var(--line); }
+    ul.manader a { font-weight: 600; font-size: 1.1rem; text-decoration: none; }
+    ul.manader a:hover { text-decoration: underline; text-decoration-color: var(--gron); text-underline-offset: 3px; }
+    .antal { color: var(--muted); font-size: 0.9rem; }
+    .dold { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0; }
+    .hoppa { position: absolute; left: 12px; top: -80px; z-index: 10; background: var(--text); color: var(--bg); padding: 12px 18px; border-radius: 3px; text-decoration: none; }
+    .hoppa:focus { top: 12px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    main:focus { outline: none; }
+    footer { border-top: 1px solid var(--line); padding: 22px 20px 40px; color: var(--muted); font-size: 14px; }
+    footer p + p { margin-top: 8px; }
+    footer a { color: var(--accent); }
+    @media (min-width: 700px) { header { padding: 44px 32px 36px; } main { padding: 32px 32px 56px; } footer { padding: 24px 32px 48px; } h1 { font-size: 40px; } }
+    </style>
+</head>
+<body>
+  <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
+  <header>
+    <div class="inre">
+      <a class="tillbaka" href="/ai/arkiv/"><span aria-hidden="true">&larr;</span> Arkiv</a>
+      <h1>November 2026</h1>
+      <p class="ingress">2 dagar och 20 länkar ur TLDR AI och TLDR Tech, med egna korta sammanfattningar på svenska. Senaste dagen överst.</p>
+    </div>
+  </header>
+  <main id="innehall" tabindex="-1">
+    <div class="inre">
+      <p class="manadsnav"><a href="/ai/arkiv/2026/10/">&larr; oktober 2026</a></p>
+      <nav aria-label="Hoppa till datum" class="dagar">
+        <ul>
+        <li><a href="#d-2026-11-03">3 nov</a></li>
+        <li><a href="#d-2026-11-02">2 nov</a></li>
+        </ul>
+      </nav>
+      <section id="d-2026-11-03" aria-labelledby="h-2026-11-03">
+        <h2 id="h-2026-11-03">tisdag 3 november 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://arstechnica.com/apple/2026/11/apples-roaming-home-robot-may-do-facetime-switch-lights-on-and-yell-at-your-cat/" target="_blank" rel="noopener">Coming in 2027: Apple&#x27;s $1,000 home robot for FaceTime and switching on lights<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Apple</span>
+            <span class="sv">Apple arbetar enligt uppgifter på en AI-driven hemrobot som kan heta HomeView Ultra och väntas komma 2027 till ett pris på omkring 1 000 dollar eller mer. Roboten ska kunna ta FaceTime-samtal och själv tända lampor när någon kommer in i rummet.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://openai.com/index/scaling-git-at-openai/" target="_blank" rel="noopener">Scaling Git at OpenAI<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">OpenAI byggde Pando, ett nytt backend för Git som är optimerat för många samtidiga pushar och hög läshastighet. Enligt texten blev medianväntetiden för pushar nästan fem gånger kortare, och systemet levererar nästan en petabyte Git-data per dag.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.philschmid.de/code-mode" target="_blank" rel="noopener">Why Agents Are Soon Only Going to Have 1 Tool<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Skola och AI</span>
+            <span class="sv">Texten beskriver hur AI-agenter slår ihop hela verktygskatalogen till ett enda exec-verktyg. Modellen skriver då korta skript i en isolerad miljö och kan kedja flera beroende handlingar i ett enda steg.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/" target="_blank" rel="noopener">Anthropic warns that it&#x27;s very close to RSI capability, aka self-building AI<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Skola och AI</span>
+            <span class="sv">Anthropic har uppdaterat sin S-1 med en varning om att bolaget snart kan uppfylla sin egen interna definition av rekursiv självförbättring.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://haydenbleasel.com/writing/open-source" target="_blank" rel="noopener">The value of open source<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Författaren menar att öppen källkod aldrig var gratis att kopiera och att koden aldrig var vallgraven. AI kan återskapa en produkt men inte allt annat värde ett företag skapar, och tekniken hjälper underhållare att fixa problem snabbare.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.engadget.com/2304301/spacex-is-reportedly-looking-at-buying-boost-mobile-or-using-its-cell-network/" target="_blank" rel="noopener">SpaceX is reportedly looking at buying Boost Mobile or using its cell network<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">SpaceX ska ha pratat med EchoStar om att köpa Boost Mobile eller få tillgång till nätet. Ett avtal kräver godkännande från AT&amp;T och T-Mobile, som tidigare har sagt nej till SpaceX.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arstechnica.com/space/2026/11/china-releases-timeline-for-lunar-landing-on-the-moon-targeting-before-2030/" target="_blank" rel="noopener">China publicly discloses plan for a lunar landing within three years<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">Kinesiska rymdtjänstemän har bekräftat planer på att landa astronauter på månen inom tre år, med en månbana-teknik som liknar Apollo. Både Kina och USA vill också bygga en långsiktig närvaro vid månens sydpol.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.mackenziemorehead.com/what-is-quantum-advantage-actually-worth/" target="_blank" rel="noopener">What Is Quantum Advantage Actually Worth?<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">De flesta färdplaner pekar på en kvantdator i full skala omkring 2030, men det är oklart vad den ska användas till. Texten pekar på kodbrytning först och simuleringsdata till AI-labbens vetenskapsmodeller som nästa användning.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://karrisaarinen.com/posts/our-organizations-are-being-ddosed-from-the-inside/" target="_blank" rel="noopener">Our organizations are being DDoSed from the inside<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">Inlägget menar att organisationer tappar uppmärksamhet när alla gör sådant de tycker är nyttigt, eftersom allt belastar samma begränsade förmåga att förstå, granska och besluta. Att något går att bygga betyder inte att det bör byggas.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.wsj.com/business/deals/marvell-to-buy-lumentum-for-80-billion-in-all-stock-ai-deal-c9fd43a6" target="_blank" rel="noopener">Chip Maker Marvell Agrees to Buy Lumentum in $80 Billion Deal<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">Marvell, som tillverkar skräddarsydda AI-chip, köper Lumentum för 80 miljarder dollar i aktier. Lumentum har teknik som flyttar data mellan chip och servrar med hjälp av ljus.</span>
+          </li>
+        </ol>
+      </section>
+      <section id="d-2026-11-02" aria-labelledby="h-2026-11-02">
+        <h2 id="h-2026-11-02">måndag 2 november 2026</h2>
+        <ol class="tldr">
+          <li>
+            <a lang="en" href="https://deploymentsafety.openai.com/gpt-rosalind-6" target="_blank" rel="noopener">GPT-Rosalind-6 System Card Addendum<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">GPT-Rosalind-6 är en resonemangsmodell för biologi, läkemedelsforskning och medicin som ges till godkända forskare och partner. Den använder samma vikter som GPT-6 Astra, vägrar förfrågningar om biologiska vapen och bedöms som High Capability inom biologi och kemi.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.testingcatalog.com/anthropic-prepares-to-release-claude-mythos-5-5-model/" target="_blank" rel="noopener">Anthropic prepares to release Claude Mythos 5.5 model<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">En hänvisning till Claude Mythos 5.5 syns på Anthropics Mythos-sida, vilket tyder på en kommande lansering. Det finns inga nya specifikationer och inget tillkännagivande, men flera rapporter säger att modellen A/B-testas med utvalda användare.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/" target="_blank" rel="noopener">Google&#x27;s Project Suncatcher Generates First AI Response in Orbit<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">Googles prototyp Suncatcher körde Gemma 4 på ett datacenter-TPU i omloppsbana och skickade tillbaka en haiku via Svalbard. Nästa test gäller värme och strålning, med två sammankopplade satelliter planerade till 2027.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://arxiv.org/abs/2610.37741" target="_blank" rel="noopener">Poisoning 0.1% of pretraining data planted a remote-code backdoor in a coding agent<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">Forskare från Anthropic, UC Berkeley och UIUC planterade en bakdörr genom att förgifta 0,1 procent av förträningsdatan. Den lilla 4B-agenten körde angriparens kommando i omkring 92 procent av de prompter som innehöll en vanlig sökväg, utan sämre vanlig förmåga.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents/" target="_blank" rel="noopener">DoorDash said it&#x27;s only received &#x27;several hundred&#x27; orders from AI agents<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR AI · Skola och AI</span>
+            <span class="sv">DoorDash har fått bara några hundra beställningar från AI-agenter, trots tre miljoner leveranser per dag. Vd:n säger att de flesta beställningar fortfarande kommer direkt från appen, men bolaget vill utforska användning med agenter.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts" target="_blank" rel="noopener">Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company&#x27;s legacy code in 24 months<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Cisco har gett en 27-årig ingenjör obegränsat med AI-tokens och i uppdrag att skriva om 98 procent av bolagets gamla kod på 24 månader. Han har fyra veckor på sig att ta fram ett proof of concept.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5" target="_blank" rel="noopener">OpenAI Raises Less Than Half of $30 Billion Target in Latest Round<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">OpenAIs senaste finansieringsrunda fick svalt intresse och värderar bolaget till 1,25 biljoner dollar, under de 1,4 biljoner man hoppats på. Investerarna beskrivs som mer kräsna efter en kraftig nedgång kopplad till svaga rapporter från flera jättar.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://rhaas.blogspot.com/2026/10/postgres-19-is-late-and-its-ais-fault.html" target="_blank" rel="noopener">Postgres 19 is late, and it&#x27;s AI&#x27;s fault<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Webb och appar</span>
+            <span class="sv">Postgres 19 kommer sannolikt först i november eller senare, eftersom flera stora funktioner drogs tillbaka sent. AI gör det lättare att hitta buggar, vilket ger fler felrapporter som utvecklarna måste hantera.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://seldo.com/posts/a-proposal-how-to-hire-junior-engineers-in-the-age-of-ai/" target="_blank" rel="noopener">A proposal: how to hire junior engineers in the age of AI<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Skola och AI</span>
+            <span class="sv">Inlägget föreslår en intervjumodell där en AI-modell spelar kund och kandidaten ska ta reda på kraven genom att prata med den. Metoden premierar den som tänker på kantfall och hela system, och kan kombineras med en vanlig intervju.</span>
+          </li>
+          <li>
+            <a lang="en" href="https://www.engadget.com/2303434/meta-reportedly-built-a-humanoid-robot-prototype-that-can-do-household-chores/" target="_blank" rel="noopener">Meta Reportedly Built A Humanoid Robot Prototype That Can Do Household Chores<span class="dold"> (öppnas i ny flik)</span></a>
+            <span class="meta">TLDR Tech · Övrigt</span>
+            <span class="sv">Meta ska ha byggt en humanoid robotprototyp, Max, för hemmabruk, tillsammans med ett kinesiskt robotbolag på ungefär tre månader. Den drivs av Nvidias Jetson Thor och en andra prototyp med bättre bål och händer är på gång.</span>
+          </li>
+        </ol>
+      </section>
+      <p class="manadsnav"><a href="/ai/arkiv/2026/10/">&larr; oktober 2026</a></p>
+    </div>
+  </main>
+  <footer>
+    <div class="inre">
+      <p>Källa: <a href="https://tldr.tech/" target="_blank" rel="noopener">TLDR<span class="dold"> (öppnas i ny flik)</span></a> (TLDR AI och TLDR Tech). Rubrikerna står på originalspråket och länkarna leder till originalet. Sammanfattningarna är gjorda på svenska med egna ord.</p>
+    </div>
+  </footer>
+</body>
+</html>

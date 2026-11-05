@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI: ChatGPT Search Is About 20% of Google's, 250 Million People Speak With ChatGPT, and Chat Is Merging With Work",
+  "url": "https://www.bigtechnology.com/p/openai-chatgpt-search-is-about-20",
+  "sv": "ChatGPT:s sökvolym är ungefär 20 procent av Googles, enligt en intervju med OpenAI:s konsumentproduktchef. OpenAI har fått 200 miljoner nya användare på två månader och planerar slå ihop chatt- och arbetslägena.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Siri AI is now open to all developers",
+  "url": "https://developer.apple.com/news/?id=gdk2umrf",
+  "sv": "Utvecklare kan nu låta sina appar leverera innehåll och handlingar till Siri AI via App Intents. Appar med de nya funktionerna kan skickas in till App Store från våren.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Neuralink's China Rival Targets Obesity With ‘Electronic' GLP-1",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-03/neuralink-china-brainco-obesity-with-electronic-glp-wearable-weight-loss",
+  "sv": "Det kinesiska bolaget BrainCo utvecklar en bärbar enhet som dämpar aptiten genom att stimulera hjärnan. Målet är att nå marknaden inom två till tre år, först i Kina.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The State of Longevity",
+  "url": "https://www.a16z.news/p/the-state-of-longevity",
+  "sv": "Texten beskriver hur biohackare och människor som tar hälsan i egna händer har gått från marginalen till mainstream, bland annat tack vare pandemin och AI-chattbotar. Störst möjligheter väntas för bolag som hjälper människor att agera på och följa upp sin hälsa.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How software engineering is changing: a tale of two eras",
+  "url": "https://newsletter.pragmaticengineer.com/p/how-software-engineering-is-changing",
+  "sv": "AI-native startups kan enligt texten ta fart snabbare än tidigare snabba startups, eftersom de riskerar lite. De nya begränsningarna är bland annat många kontextbyten, förlorad gemensam kontext och gränser i AI-abonnemang.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Interpolative Software",
+  "url": "https://benjamincongdon.me/blog/2026/11/02/Interpolative-Software/",
+  "sv": "Interpolativ programvara ligger väl inom modellernas träningsdata och kan ofta beskrivas med några meningar. Författaren menar att det mesta som byggs inte är nytt, och att det ändå finns stort värde i den sortens kod.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Will Turn Off Search for Schools That Reject AI",
+  "url": "https://www.nytimes.com/2026/11/03/us/google-search-schools-restrict-ai.html",
+  "sv": "Google stänger av AI-verktygen för elever i grundskola och gymnasium om inte skolans administratörer slår på dem. Skolor som väljer att helt begränsa AI förlorar dessutom tillgången till Googles sök.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing Adaptive Dark Mode",
+  "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+  "sv": "Adaptive Dark Mode i Safari anpassar ljusa webbplatser och visar dem som mörka.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How much do tokens really cost?",
+  "url": "https://substack.hadley.nz/p/how-much-do-tokens-really-cost",
+  "sv": "Texten kommer fram till att serverkostnaderna verkar vara betydligt lägre än vad leverantörerna tar betalt, om kapaciteten utnyttjas fullt ut.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-04",
+  "dag": "onsdag 4 november 2026",
+  "dag_kort": "4 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "British fintech Revolut slashes AI coding costs 10x by cutting out Claude and going self-hosted",
+  "url": "https://www.theregister.com/ai-and-ml/2026/11/03/british-fintech-revolut-slashes-ai-coding-costs-10x-by-cutting-out-claude-and-going-self-hosted/5307345",
+  "sv": "Revolut kör modellen GLM-5.3 på 56 Nvidia B200-grafikkort och har enligt rubriken sänkt kostnaden för AI-kodning tio gånger genom att sluta använda Claude.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-11-03",
   "dag": "tisdag 3 november 2026",
   "dag_kort": "3 nov",

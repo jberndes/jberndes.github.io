@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI launches Images 2.6 with GIFs and image reference",
+  "url": "https://www.testingcatalog.com/openai-launches-images-2-6-with-gifs-and-image-reference/",
+  "sv": "OpenAI rullar ut Images 2.6 i ChatGPT och Codex. Modellen skapar bilder 50 procent snabbare än förra versionen och kan också göra GIF-bilder.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple Cuts Internal AI Usage Budgets in Move to Reduce Spending",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-04/apple-cuts-internal-ai-usage-budgets-in-move-to-reduce-spending",
+  "sv": "Apple har sänkt den dagliga gränsen för hur mycket anställda får spendera på AI-modeller. För vissa ingenjörer har taket gått från 300 till 200 dollar, och ytterligare sänkningar planeras.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "SpaceX's Starfall just went from secret to storefront",
+  "url": "https://www.teslarati.com/spacexs-starfall-just-went-from-secret-to-storefront/",
+  "sv": "SpaceX har öppnat en kommersiell sida för Starfall, en skivformad kapsel som kan ta upp till 1 000 kg last och skicka data via Starlink medan den är i omloppsbana. Tidtabellen beror på Starship.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Why pharma firms are going to Earth's orbit in search of new cancer drugs",
+  "url": "https://www.theguardian.com/science/2026/nov/04/us-firm-varda-space-industries-manufacturing-drugs-in-space",
+  "sv": "Varda Space Industries har små laboratorier i autonoma rymdfabriker där material kan bearbetas i tyngdlöshet. Bolaget har tre farkoster i omloppsbana och planerar sju uppdrag 2027 och tio 2028.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Rebuilding the global town square from scratch",
+  "url": "https://blog.x.com/en/engineering/rebuilding-the-global-town-square-from-scratch",
+  "sv": "X.com:s nya webbapp byggdes av fem ingenjörer tillsammans med AI-kodagenter på under sex månader. Den laddar märkbart snabbare på långsamma uppkopplingar än den gamla.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Fortune Telling and Speculative Design",
+  "url": "https://maggieappleton.com/fortune-telling",
+  "sv": "Texten menar att designingenjörer, som både designar och arbetar i kod, är bra på att göra övertygande prototyper av framtida idéer.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Voice is Underutilized",
+  "url": "https://benjamincongdon.me/blog/2026/11/03/Voice-is-Underutilized/",
+  "sv": "Författaren menar att röst är ett naturligt gränssnitt som används för lite. Det passar bra för att prata med kodagenter och fånga sammanhang från samtal.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI on the Ballot",
+  "url": "https://stratechery.com/2026/ai-on-the-ballot/",
+  "sv": "Nästan alla viktiga lokala folkomröstningar mot datacenter har vunnits eller håller på att vinnas, enligt texten. Begränsningen för AI blir alltmer politisk.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Sequoia hits rewind, undoing 20 years of expansion",
+  "url": "https://techcrunch.com/2026/11/04/sequoia-hits-rewind-undoing-20-years-of-expansion/",
+  "sv": "Sequoia Capital stänger kontoret i London, lägger ned acceleratorn Arc och Scouts-programmet och slår ihop sina tidiga och sena team till ett.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-05",
+  "dag": "torsdag 5 november 2026",
+  "dag_kort": "5 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "YouTube is cooking up something new called 'Tamba,' and it looks pretty social",
+  "url": "https://www.androidauthority.com/youtube-tamba-sandbox-social-app-apk-teardown-3731409/",
+  "sv": "YouTube verkar testa något som heter Tamba. Enligt texten kan det vara en testplats för sociala funktioner snarare än en färdig produkt.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-11-04",
   "dag": "onsdag 4 november 2026",
   "dag_kort": "4 nov",

@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Major Investors Are Skeptical Anthropic IPO Can Achieve $1.5 Trillion Valuation",
+  "url": "https://www.wsj.com/finance/major-investors-are-skeptical-anthropic-ipo-can-achieve-1-5-trillion-valuation-ca965d8b",
+  "sv": "Investerare som vill delta i Anthropics börsnotering tror att värderingen på 1,5 biljoner dollar behöver sänkas. Bolaget väntas nu ta in ungefär 80 miljarder dollar i stället för upp till 100, vilket ger en värdering närmare en biljon.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Election Day Revolt That Threatens America's AI Boom",
+  "url": "https://www.wsj.com/tech/ai/the-election-day-revolt-that-threatens-americas-ai-boom-03a53b52",
+  "sv": "Enligt texten visar de senaste valresultaten att väljarna är starkt emot utbyggnaden av datorkapacitet. Det kan bromsa AI-bolagens tillväxt och påverka den amerikanska ekonomin i stort.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Blue Origin says it is building a higher-performing rocket engine at 1/4 the cost",
+  "url": "https://arstechnica.com/space/2026/11/blue-origin-announces-rocket-upgrades-aimed-at-lower-costs-more-performance/",
+  "sv": "Blue Origin har presenterat två uppgraderingar av raketen New Glenn som sänker tillverkningskostnaden och ökar lastkapaciteten. Bolaget testeldar en ny motor som ska ersätta BE-4 och utvecklar ett tredje steg med väte och syre.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Meet *sshole, the vulnerability that lets hackers SSH into Linux devices",
+  "url": "https://arstechnica.com/security/2026/11/vulnerability-allows-attackers-to-log-into-some-linux-devices-sans-password/",
+  "sv": "Sårbarheten *sshole gör att angripare kan logga in via SSH utan lösenord på system med OpenSSH och musl utan pluggbara autentiseringsmoduler. Det är fortfarande oklart var felet ligger och vilka andra paket som är drabbade.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Inside GitHub's new Git storage architecture",
+  "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+  "sv": "GitHubs nya lagringsarkitektur klarar tusentals skrivningar per sekund och kan hantera 5 000 samtidiga agenter i ett repo. Inlägget går igenom kraven bakom designen och två av delarna.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "They Created a Cell That's Almost Alive. What to Do With It Now?",
+  "url": "https://www.nytimes.com/2026/10/14/science/spudcell-adamala-biotic.html",
+  "sv": "SpudCell är en artificiell cell byggd av livlösa ingredienser som kan växa, kopiera sitt DNA och dela sig. Forskarna har gjort den beroende av kemikalier som inte finns i naturen för att minska risken för missbruk.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Making of Dario Amodei",
+  "url": "https://www.nytimes.com/2026/11/05/technology/dario-amodei-anthropic-ai.html",
+  "sv": "Artikeln beskriver hur rationalism och effektiv altruism format Dario Amodeis syn på AI och därmed grunden för Anthropic. Den följer hur hans åsikter fått större genomslag allt eftersom bolaget vuxit.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Hackintosh Reborn... with AI",
+  "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
+  "sv": "En Hackintosh är en icke-Apple-dator som kör macOS. Enligt inlägget har AI väckt intresset till liv igen, med bland annat macOS 27 på en Snapdragon-laptop och iOS 17 på en Nintendo Switch OLED.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Exploit Was the Bottleneck",
+  "url": "https://a16z.com/the-exploit-was-the-bottleneck/",
+  "sv": "Tiden från att en sårbarhet avslöjas till att den utnyttjas har länge minskat. Enligt texten har AI ändrat vem som kan agera i det fönstret och hur snabbt kända fel blir till attacker.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-06",
+  "dag": "fredag 6 november 2026",
+  "dag_kort": "6 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "100x more programmers",
+  "url": "https://tailscale.com/blog/100x-more-programmers",
+  "sv": "Texten menar att det blir hundra gånger fler programmerare inom några år, men att de flesta inte kommer att kalla sig programmerare.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-11-05",
   "dag": "torsdag 5 november 2026",
   "dag_kort": "5 nov",

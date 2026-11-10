@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What to Know About Nvidia's Investigation of Its CEO",
+  "url": "https://www.nytimes.com/2026/11/08/technology/nvidias-investigation-jensen-huang.html",
+  "sv": "Nvidia utreder vd:n Jensen Huang efter att det blivit känt att han haft en relation med en kinesisk affärskvinna som amerikanska underrättelsetjänster bedömt var spion för Kina. Styrelsen säger sig inte ha skäl att tro att nationell säkerhet eller bolagets hemligheter har äventyrats.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple CEO Presses Software Chief to Pursue More Ambitious AI Strategy",
+  "url": "https://www.bloomberg.com/news/newsletters/2026-11-08/apple-explores-turning-siri-ai-into-chatgpt-dots-like-agent-ios-28-shake-up",
+  "sv": "Apples vd pressar mjukvarachefen Craig Federighi att satsa mer ambitiöst på AI, med målet att göra Siri till en självständig agent. Enligt texten är Siri AI ännu långt från konkurrenternas mest avancerade verktyg.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Amazon's Astro home robot has fans but looks destined for the 'trash heap.' Why it's trying again",
+  "url": "https://www.cnbc.com/2026/11/08/amazon-home-robot-fauna-sprout.html",
+  "sv": "Amazon har satt ihop ett nytt team för en hemrobot som kan ta sig fram i föränderliga hemmiljöer. Bolaget köpte i mars startupen Fauna Robotics och bildade divisionen Personal Robotics Group.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Aaronson-Ambainis Conjecture proved! (By AI, of course)",
+  "url": "https://scottaaronson.blog/?p=10295",
+  "sv": "Enligt bloggaren bevisas långvariga öppna problem i matematik och vetenskap nu i snabb takt av AI. Många bevis är ännu inte kontrollerade av människor, men Lean-certifikat ger förtroende för att de stämmer.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "LLMs are terrible at designing AI systems",
+  "url": "https://www.seangoedecke.com/llms-are-terrible-at-designing-ai-systems/",
+  "sv": "Språkmodeller är enligt texten dåliga på att designa programvara som själv använder språkmodeller. Författaren menar att värdet blir stort om man kan förutse var de lyckas och var de misslyckas.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Programming and fatigue",
+  "url": "https://www.natemeyvis.com/programming-and-fatigue/",
+  "sv": "Programmering blir mer tröttande med AI. Det beror enligt texten på att AI tar de repetitiva delarna och lämnar de uppgifter som kräver mänskligt omdöme.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI Is Causing Signal Collapse Everywhere All at Once",
+  "url": "https://thelastsoftwareengineer.substack.com/p/ai-is-causing-signal-collapse-everywhere",
+  "sv": "AI gör det svårare att skilja bra arbete från dåligt och från förfalskningar, eftersom signalerna vi brukar lita på urholkas. Texten menar att kollapsen sker i en aldrig tidigare skådad takt och kan ge stora samhällsförändringar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Jevons paradox has a second half",
+  "url": "https://hrih.si/articles/the-jevons-paradox-has-a-second-half/",
+  "sv": "Mängden programvara väntas växa mycket snabbare än antalet människor som får betalt för att skapa den. Texten menar att efterfrågan kan vara bottenlös även om jobben flyttar någon annanstans.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Is AI Taking White-Collar Jobs? What the Latest Numbers Tell Us",
+  "url": "https://www.wsj.com/economy/jobs/is-ai-taking-white-collar-jobs-what-the-latest-numbers-tell-us-dd31b115",
+  "sv": "Enligt nyhetsbrevet skapade företags- och professionella tjänster i USA 70 000 nya jobb i oktober, den största månadsökningen sedan juli 2022.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-09",
+  "dag": "måndag 9 november 2026",
+  "dag_kort": "9 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI broke the cybersecurity world. What's next?",
+  "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+  "sv": "Alex Stamos, säkerhetschef på Cognition, pratar om läget inom cybersäkerhet, som han beskriver som en enda röra just nu. Det är ett poddavsnitt på 62 minuter.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-11-06",
   "dag": "fredag 6 november 2026",
   "dag_kort": "6 nov",

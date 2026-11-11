@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Escalates Nvidia Rivalry With Specialized Versions of AI Chips",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-09/google-escalates-nvidia-rivalry-with-new-versions-of-its-tpu-systems",
+  "sv": "Google lanserar två nya varianter av sina TPU-chip: 8tx för säkra och konfidentiella uppgifter hos till exempel myndigheter, och 8i Max för AI-tillämpningar med långa kontextfönster. Enligt texten har TPU-verksamheten visat sig lönsam och har kunder som Apple, Meta och Oracle.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Fable 5.2 and Jagged AGI",
+  "url": "https://www.oneusefulthing.org/p/fable-52-and-jagged-agi",
+  "sv": "Texten menar att AI-modeller snart kan passera gränsen till artificiell generell intelligens. Claude Fable 5.2 beskrivs som nästan lika bra som de flesta experter på de flesta datorbaserade intellektuella uppgifter, men har fortfarande svagheter och behöver mänsklig vägledning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters",
+  "url": "https://www.wsj.com/finance/stocks/anthropic-prepares-to-push-ahead-with-ipo-despite-market-jitters-843dd16c",
+  "sv": "Anthropic planerar enligt nyhetsbrevet att börja handlas på börsen i slutet av nästa vecka. Vissa stora investerare vill nu ha en lägre värdering än de cirka 1,5 biljoner dollar som väntades förra veckan.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Storybook 11 beta",
+  "url": "https://storybook.js.org/blog/storybook-11-beta/",
+  "sv": "Storybook är ett verktyg för att utveckla komponenter isolerat från resten av appen. Betan av version 11 ger officiella skills och headless CLI-verktyg så att AI-agenter kan arbeta självständigt i ett mindre paket.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Alphabet's Wing to Build New Texas Factory for Delivery Drones",
+  "url": "https://www.wsj.com/logistics-report/alphabets-wing-to-build-new-texas-factory-for-delivery-drones-57e8a143",
+  "sv": "Wings nya fabrik i Fort Worth, Texas, på 15 000 kvadratfot ska kunna bygga tiotusentals flygfarkoster per år.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Experimental mRNA therapy promotes repair after heart attack damage",
+  "url": "https://medicalxpress.com/news/2026-11-experimental-mrna-therapy-heart.html",
+  "sv": "Forskare har tagit fram en mRNA-behandling som får hjärtmuskelceller att börja dela sig och reparera skadad muskel. Hos möss gav den starkare hjärtslag efter en hjärtattack, men fler försök på större djur krävs innan tester på människor.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "chrome-capture (GitHub Repo)",
+  "url": "https://github.com/paulirish/chrome-capture",
+  "sv": "Chrome 153 och senare har en inbyggd MP4-inspelare för flikar. Verktyget chrome-capture spelar in flikar i 60 till 120 bilder per sekund och upp till 2160p, med ljud från fliken.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The race is on to sue Nvidia",
+  "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+  "sv": "Enligt nyhetsbrevet pågår nu utredningar av om Nvidia har vilselett investerare.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic vs Meta: Room to Be Wrong",
+  "url": "https://www.mbi-deepdives.com/ant-vs-meta/",
+  "sv": "Om Metas satsning på AI misslyckas har bolaget ändå sin annonsverksamhet att falla tillbaka på.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-10",
+  "dag": "tisdag 10 november 2026",
+  "dag_kort": "10 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How Product Hunt almost died",
+  "url": "https://www.ryanhoover.me/post/how-product-hunt-almost-died",
+  "sv": "Product Hunt behövde bli uppköpt för att överleva. Texten ger rådet att räkna med att varje ny finansieringsrunda blir tio gånger svårare än den förra och att bredda sin kontaktyta.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-11-09",
   "dag": "måndag 9 november 2026",
   "dag_kort": "9 nov",

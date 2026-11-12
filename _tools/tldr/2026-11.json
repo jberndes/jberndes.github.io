@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Apple's Claris Testing 'Harbor' App for Local AI on Macs",
+  "url": "https://www.macrumors.com/2026/11/10/apple-claris-harbor-app/",
+  "sv": "Apples dotterbolag Claris testar appen Harbor, som gör Mac-datorer med Apple Silicon till privata AI-servrar. Flera Mac kan kopplas ihop via Thunderbolt 5 för att dela minne och köra större modeller. Appen är i tidig åtkomst och inte öppen för allmänheten.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Amazon's Ring unveils flying drone and robot to patrol homes and businesses",
+  "url": "https://www.cnbc.com/2026/11/10/amazons-ring-unveils-flying-drone-robot-to-patrol-homes-businesses.html",
+  "sv": "Ring visar en flygande övervakningskamera för 250 dollar och en hjulburen robot med periskopkamera för 1 000 dollar. Drönaren flyger upp till åtta minuter och återvänder själv till laddstationen. Enligt texten levereras de i USA från 27 januari respektive 16 december.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Starlink Mini 2 Has a Swappable Battery, But It Costs Way More Than Expected",
+  "url": "https://www.pcmag.com/news/starlink-mini-2-has-a-swappable-battery-but-it-costs-way-more-than-expected",
+  "sv": "Starlink Mini 2 är den första parabolen med utbytbart batteri, som räcker upp till 4,5 timmar. Tidiga köpare betalar 999 dollar, vilket inkluderar ett års abonnemang. Leveranserna väntas börja i mitten av december.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Gemini 4 Carbon is now available",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+  "sv": "Googles nya modell Gemini 4 Carbon finns nu för utvecklare, företag och privatpersoner. Enligt texten är den stark på cybersäkerhet och långa agentarbeten inom bland annat programmering och vetenskapligt resonerande. Den rullas ut i bland annat Gemini-appen och AI Mode i Google Sök.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Modern Web Guidance 1.0: The web platform expertise your coding agent is missing",
+  "url": "https://developer.chrome.com/blog/modern-web-guidance-v1",
+  "sv": "Modern Web Guidance är en samling skills som ger kodande AI-agenter kunskap om webbplattformen, bästa praxis och webbläsarkompatibilitet. Den stabila versionen får ett nytt arbetsflöde för modernisering, och Firefox och Edge har gått med i projektet bredvid Chrome.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic to Seek $1.3 Trillion Valuation in IPO",
+  "url": "https://www.wsj.com/finance/stocks/anthropic-ipo-valuation-8337b669",
+  "sv": "Anthropic planerar enligt texten att sälja 825 miljoner aktier till 70 till 78 dollar per aktie i sin börsnotering. Handeln väntas starta på torsdag nästa vecka. Värderingen når ändå inte upp till SpaceX rekordnotering i juni.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "'Flying cars' could launch in China next summer, maker of two-seat model says",
+  "url": "https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
+  "sv": "XPengs flygande bil för två personer ska enligt texten vara redo för användning andra halvåret 2027 och kosta 300 000 dollar. Den flyger med sex drönarlika propellrar och kan styras med joystick eller flyga själv till en programmerad plats.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Reddit is turning user conversations into AI-powered product reviews",
+  "url": "https://techcrunch.com/2026/11/10/reddit-is-turning-user-conversations-into-ai-powered-product-reviews/",
+  "sv": "Reddit Reviews, som enligt nyhetsbrevet gör användarnas samtal till AI-drivna produktrecensioner, rullas ut till alla användare i USA på iOS, Android och webben.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Fi announces super network automatic carrier switching for improved speed and reception",
+  "url": "https://www.engadget.com/2312022/google-fi-super-network-automatic-carrier-switching/",
+  "sv": "Google Fis funktion för automatiskt byte av operatör rullas nu ut till Pixel 9 och nyare med eSIM.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-11",
+  "dag": "onsdag 11 november 2026",
+  "dag_kort": "11 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Q3.5 Timelines Update: Looks Like the Intelligence Explosion Will Happen in 2027 After All",
+  "url": "https://blog.aifutures.org/p/q35-timelines-update-looks-like-the",
+  "sv": "Texten förutspår att en superhuman AI-forskare kan komma under 2027 om utvecklingen inte bromsas medvetet. Enligt texten är företagen inte på väg att kunna styra en sådan modell, och Kina kan komma att stjäla träningsreceptet.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-11-10",
   "dag": "tisdag 10 november 2026",
   "dag_kort": "10 nov",

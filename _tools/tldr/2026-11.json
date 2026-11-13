@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+  "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+  "sv": "Gemini Decisions API kan enligt nyhetsbrevet utvärdera upp till 1 000 ja/nej-frågor, val och poängsättningar i ett enda svep, med text, bild, ljud, video och PDF som indata. Den drivs av modellen Gemini Decision 1 och finns i Google AI Studio. Priset anges till 0,10 dollar per 2 miljoner tokens, och utdata är gratis.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AWS Emulator and the engineer's job when agents write the code",
+  "url": "https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html",
+  "sv": "AWS Emulator ger kodande agenter en lokal kopia av AWS att testa mot. Agenterna kan då bygga och kontrollera det mesta av programvaran, medan ingenjörerna avgör vad som ska byggas och när arbetet är rätt. Koden till emulatorn är öppen.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Nvidia Working With Outside Firm to Identify CEO Candidates",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-11/nvidia-working-with-outside-firm-to-identify-ceo-candidates",
+  "sv": "Nvidia letar enligt Bloomberg efter en möjlig ersättare till vd:n Jensen Huang efter rapporter om flera otrohetsaffärer. Styrelsen överväger att utse en tillfällig chef medan en permanent söks.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI's 'shepherds' affirm blockbuster physics result",
+  "url": "https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/",
+  "sv": "Experter utsedda av OpenAI har bekräftat OpenAI:s bevis för kvant-Yang-Mills-teorin, en grund för partikelfysikens standardmodell. Enligt texten förstår de ännu inte beviset fullt ut, eftersom det är för långt och komplicerat. Upplägget med utsedda granskare har väckt irritation hos vissa matematiker.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Subagents considered harmful?",
+  "url": "https://nikvdp.com/notes/subagents-considered-harmful/",
+  "sv": "Inlägget går igenom olika sätt att delegera till subagenter och hur de misslyckas på olika vis. Att forka ett samtal slår ofta att sammanfatta det, men blir dyrt när kontexten växer. Författaren presenterar en lösning där en fork behåller de delar av samtalet den behöver och släpper resten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Handing over humanity",
+  "url": "https://www.writingruxandrabio.com/p/handing-over-humanity",
+  "sv": "Texten tar upp tanken att människor permanent förlorar makten när superintelligens uppnås. Författaren menar att ordningen sannolikt inte fungerar, eftersom maktbalans bygger på kontroller och återkoppling som utvecklats under århundraden. Människor kan fortfarande styra tekniken så att den inte ersätter allt mänskligt omdöme.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The fall of “what you can do” and the rise of “who you know”",
+  "url": "https://www.jasonwei.net/blog/the-fall-of-what-you-can-do-and-the-rise-of-who-you-know",
+  "sv": "Författaren menar att värdet av att vara social har ökat och att många välkopplade människor blandar arbete och privatliv. Sam Altman nämns som exempel. Rådet är att vara sitt bästa och sannaste jag.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Of Miracles and Moats",
+  "url": "https://www.notboring.co/p/of-miracles-and-moats",
+  "sv": "Enligt texten kan AI både påskynda imitation och öka fördelarna för dem som redan har dem. Om en teknik lönar sig för företag och investerare avgörs av hur varaktigt försprånget är och av inträdespriset. Författaren tror att vi går mot en tid med ett konsumentöverskott utan motstycke.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Welcome to the B2A Economy",
+  "url": "https://www.a16z.news/p/welcome-to-the-b2a-economy",
+  "sv": "Företag som behandlar AI-agenter som förstklassiga kunder har enligt nyhetsbrevet en chans till en våg av tillväxt.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-12",
+  "dag": "torsdag 12 november 2026",
+  "dag_kort": "12 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The levels of agentic engineering",
+  "url": "https://zachwills.net/levels-of-agentic-engineering/",
+  "sv": "Texten föreslår att man tittar på vad folk fortfarande gör för hand för att se var i utvecklingen ett team befinner sig när det gäller att arbeta med AI-agenter.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-11-11",
   "dag": "onsdag 11 november 2026",
   "dag_kort": "11 nov",

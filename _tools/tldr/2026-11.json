@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Jensen Huang Has Been Ousted as Nvidia CEO",
+  "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+  "sv": "Jensen Huang har enligt nyhetsbrevet avgått som vd för Nvidia efter uppgifter om två utomäktenskapliga affärer. Finanschefen Colette Kress blir tillfällig vd, och styrelsen överväger både interna och externa kandidater. Harvey C. Jones har utsetts till styrelsens första ordförande.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "SpaceX and Tesla Talks on Record Merger Are Said to Progress",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-12/spacex-and-tesla-talks-on-record-merger-are-said-to-progress",
+  "sv": "SpaceX och Tesla kan enligt nyhetsbrevet presentera en rekordstor fusion redan i december. Bolagens styrelser och rådgivare arbetar med villkor och styrning av det sammanslagna bolaget. Affären beskrivs som ett test av det politiska klimatet efter mellanvalen i USA.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Slop Is Moving Up the Stack",
+  "url": "https://gabeorlanski.github.io/posts/slop-moves-up/",
+  "sv": "Enligt texten skriver AI betydligt mindre slarvig kod, men slarvet har flyttat upp till designbesluten. Agenterna saknar framförhållning kring hur koden ska användas, designar svaga abstraktioner och återanvänder inte kod som biblioteken redan erbjuder.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AI Company Employees Should Unionize",
+  "url": "https://www.astralcodexten.com/p/ai-company-employees-should-unionize",
+  "sv": "Texten argumenterar för att säkerhetsmedvetna anställda på AI-bolag bör organisera sig i fack för att kunna hålla arbetsgivarna i schack. Eftersom det finns så få skickliga AI-forskare skulle bolagen behöva förhandla om några toppforskare hotar att gå. Författaren menar att deras förhandlingsstyrka kan försvinna om AI snart kan ersätta dem.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+  "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395/",
+  "sv": "Google har tillsammans med Samsung, Gentle Monster och Warby Parker tagit fram smarta glasögon med Gemini. Bågarna väger omkring 41 gram och har en kamera som Gemini kan använda. Google lyfter fram funktioner som ska skydda integriteten.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Bad ideas that aren't bad anymore",
+  "url": "https://devonestes.com/bad-ideas-that-arent-bad-anymore",
+  "sv": "Texten påminner om att erfarenhet ger intuition, men att en del av den kan ha spelat ut sin roll när förutsättningarna ändras. Det kan löna sig att då och då pröva idéer som tidigare avfärdades.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Announcing Rust 1.100.0",
+  "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+  "sv": "Enligt nyhetsbrevet innehåller stabila Rust 1.100.0 bland annat never-typen samt gränssnitten Allocator och DropGuard.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Details of incident.io's AI spend",
+  "url": "https://blog.pragmaticengineer.com/the-pulse-details-of-incident-ios-ai-spend/",
+  "sv": "incident.io använder begreppet effort point för att analysera sina utgifter för AI, enligt nyhetsbrevet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+  "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+  "sv": "Ett stort avbrott slog ut bland annat Outlook, Teams och Copilot över hela världen. Microsoft uppger att orsaken var att servrar oväntat blev otillgängliga.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-13",
+  "dag": "fredag 13 november 2026",
+  "dag_kort": "13 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A DeepSeek Moment for Biotech",
+  "url": "https://www.bloomberg.com/news/features/2026-11-13/chinese-drugmakers-like-akeso-have-their-deepseek-moment",
+  "sv": "Kinesiska läkemedelsbolag står för minst en tredjedel av världens pipeline av nya läkemedel, men få av deras behandlingar har nått utländska marknader i större skala. Samarbeten med västerländska bolag är den vanligaste vägen ut. Vissa amerikanska politiker vill begränsa dem, men analytiker tror att drivkraften är för stark.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-11-12",
   "dag": "torsdag 12 november 2026",
   "dag_kort": "12 nov",

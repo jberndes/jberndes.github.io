@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Trump Backs Huang Comeback While Nvidia Board Seeks New CEO",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/trump-backs-calls-for-huang-to-be-reinstated-as-nvidia-ceo",
+  "sv": "Trump säger enligt nyhetsbrevet att han inte har något emot att Jensen Huang återinsätts som vd för Nvidia, och han tonar ner oron kring Huangs relation till en kvinna som misstänks vara kinesisk spion. Nvidias styrelse ska enligt uppgifter inte överväga en återkomst utan söker en ny vd.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Meta is testing Direct, a standalone messaging app for Instagram",
+  "url": "https://www.engadget.com/2318452/meta-is-testing-direct-a-standalone-messaging-app-for-instagram/",
+  "sv": "Direct är en fristående app som flyttar Instagrams inkorg till en separat app, och den kräver inget Instagram-konto. Man kan registrera sig med e-post eller telefonnummer, och appen testas för tillfället bara i Thailand och Turkiet.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "iOS 27.3 Beta Adds Daily Siri AI Limits and iCloud+ Upgrades",
+  "url": "https://www.macrumors.com/2026/11/16/apple-icloud-paid-siri-ai-upgrade/",
+  "sv": "Enligt nyhetsbrevet får man mer användning från och med iCloud-planen på 200 GB, och de gratisgränser som finns gäller per enhet och inte per konto.",
+  "kategori": "Apple"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing spatial CSS: A developer preview",
+  "url": "https://webkit.org/blog/18621/introducing-spatial-css-a-developer-preview/",
+  "sv": "Antalet webbplatser med 3D-innehåll har ökat kraftigt, och webbstandarder för rumsliga gränssnitt ska fungera i alla webbläsare. Safari på visionOS 27.3 har en begränsad förhandsvisning av det föreslagna API:et, och artikeln visar de första komponenterna i en fallstudie.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "When will humans actually fly on Starship?",
+  "url": "https://arstechnica.com/space/2026/11/when-will-humans-actually-fly-on-starship/",
+  "sv": "Starship går enligt texten snabbt mot snabb återanvändning, men alla uppskattningar om bemannade flygningar bör tas med en stor nypa salt. De första som flyger är troligen NASA:s månastronauter, och landning på jorden med människor sker sannolikt inte före 2030.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Researchers track whole body movement with just a smartwatch",
+  "url": "https://news.cornell.edu/stories/2026/11/researchers-track-whole-body-movement-just-smartwatch",
+  "sv": "Tekniken EchoMotion använder klockans inbyggda högtalare och mikrofon samt en lätt AI-modell för att med ultraljud avgöra kroppens position. Den kan enligt texten användas för träning, vardagsaktiviteter och rehabilitering.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "US moves to cut China's remote access to AI chips",
+  "url": "https://arstechnica.com/tech-policy/2026/11/us-moves-to-cut-chinas-remote-access-to-ai-chips/",
+  "sv": "USA:s handelsdepartement stänger ett kryphål som lät utländska rivaler hyra åtkomst till avancerade chip i datacenter i bland annat Malaysia och Thailand. Företag från högriskländer måste enligt texten ansöka om licens, och regeln börjar gälla 90 dagar efter publicering.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Formal Verification is Not Verifiable",
+  "url": "https://alperenkeles.com/posts/formal-verification-is-not-verifiable/",
+  "sv": "Enligt texten har AI gjort formell verifiering vanligare, men begreppet används på många olika sätt. Formellt verifierade system kan fortfarande ha buggar, men metoden ger tydliga och granskningsbara objekt och är därför ganska bra på att hitta fel.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "What does it mean to understand what we built?",
+  "url": "https://brooker.co.za/blog/2026/11/16/understanding.html",
+  "sv": "Enligt nyhetsbrevet ger AI oss ett kraftfullt uppslagsverktyg, så att vi slipper hålla allt i ett system i huvudet.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-17",
+  "dag": "tisdag 17 november 2026",
+  "dag_kort": "17 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "China's Top AI Firms Limit Cyber Capabilities in Latest Models",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-16/china-s-top-ai-firms-limit-cyber-capabilities-in-latest-models",
+  "sv": "Kinas ledande AI-utvecklare begränsar enligt nyhetsbrevet modellernas förmåga att hjälpa till vid nätattacker, efter ett regeringsförslag om att förbjuda export av sådan teknik.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-11-16",
   "dag": "måndag 16 november 2026",
   "dag_kort": "16 nov",

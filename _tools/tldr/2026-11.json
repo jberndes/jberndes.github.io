@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "OpenAI launches GPT-6.2 Astra and Sol on ChatGPT and APIs",
+  "url": "https://www.testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis/",
+  "sv": "OpenAI har lanserat två nya modeller för yrkesarbete: GPT-6.2 Astra för de svåraste uppgifterna och GPT-6.2 Sol för vardagligare bruk. De rullas ut i ChatGPT, Codex och API:et och ger enligt nyhetsbrevet bra resultat med färre utdata-tokens.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Copilot is “the new OS for work,” and now Office runs inside of it",
+  "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+  "sv": "Microsofts vd Satya Nadella meddelade på tisdagen att Word, Excel och PowerPoint nu finns tillgängliga inuti Copilot.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Using a \"chaos loop\" to harden the Claude Docs launch: 60 server errors across billions of requests",
+  "url": "https://claude.dev/blog/chaos-loop-claude-docs-launch/",
+  "sv": "Enligt nyhetsbrevet skapades över 4,6 miljoner dokument i Claude Docs sex dagar efter lanseringen, med bara 60 serverfel på två miljarder anrop. Artikeln beskriver hur Anthropic använde en kaosloop för att göra tjänsten robust inför lanseringen.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Widespread outages hit banks, air travel, the NSA and Apple, disrupting seemingly everything",
+  "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+  "sv": "Strömmar av driftstörningar drabbade under fyra dagar bland annat Microsoft, flygtrafikmyndigheten FAA, JPMorgan Chase och Apple. Underrättelsechefen avfärdar misstankar om skadlig aktivitet, och säkerhetsforskare säger att AI påskyndar upptäckten av sårbarheter.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Jensen Huang Breaks Silence, Signals Willingness to Return as Nvidia CEO",
+  "url": "https://www.wsj.com/tech/jensen-huang-statement-nvidia-ceo-9dedca36",
+  "sv": "Jensen Huang säger att han kan återvända som vd för Nvidia om styrelsen ber honom. Han avgick efter att ha erkänt otrohet, och enligt nyhetsbrevet har anställda, investerare och kunder uppmanat honom att komma tillbaka.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Introducing eve 1.0",
+  "url": "https://vercel.com/blog/eve-is-now-generally-available",
+  "sv": "eve är ett öppen källkod-ramverk för att bygga produktionsklara agenter som kan göra om förfrågningar till testade pull requests och svara utifrån affärsdata.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Actual curl rewrites in rust",
+  "url": "https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/",
+  "sv": "Enligt nyhetsbrevet är curl så väldokumenterat att det bara var en tidsfråga innan någon använde AI för att skriva om projektet i Rust.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "How do you become known as a good engineer?",
+  "url": "https://www.approachwithalacrity.com/p/how-do-you-become-known-as-a-good",
+  "sv": "Enligt texten krävs det mer än att skriva kod för att bli en god ingenjör: de bästa ingår i ett nätverk av experter som de kan samarbeta med och fråga. Ett större nätverk ger bättre arbete, och att vara välkänd har andra fördelar, till exempel att slippa söka jobb.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Uber and Zipline's drone delivery service takes off in Texas, with dozens of cities to follow",
+  "url": "https://techcrunch.com/2026/11/17/uber-and-ziplines-drone-delivery-service-takes-off-in-texas-with-dozens-of-cities-to-follow/",
+  "sv": "Zipline och Uber Eats har startat kommersiell matleverans med drönare i Spring i Texas, till en början bara från deltagande restauranger. Drönarna bär upp till åtta pund, och tjänsten ska enligt planen byggas ut till dussintals städer i USA till slutet av 2029.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-18",
+  "dag": "onsdag 18 november 2026",
+  "dag_kort": "18 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Google Embraces Geothermal Technology to Vaporize Rock for Clean Power",
+  "url": "https://www.wsj.com/business/energy-oil/google-embraces-geothermal-technology-to-vaporize-rock-for-clean-power-dbd66d05",
+  "sv": "Geotermistartupen Quaise Energy vill förånga sten för att borra på mycket stora djup. Företaget har enligt nyhetsbrevet ett avtal med Google värt över 500 miljoner dollar för 50 megawatt, som ska driva Googles datacenter i Oregon.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-11-17",
   "dag": "tisdag 17 november 2026",
   "dag_kort": "17 nov",

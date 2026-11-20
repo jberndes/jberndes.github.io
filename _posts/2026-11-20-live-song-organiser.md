@@ -30,7 +30,7 @@ Det här är sådant jag vill kunna göra, men som inte finns i appen än:
 - **OCR.** Läsa in de skannade bladen så att texten blir skriven text, där appen själv styr typsnitt och storlek.
 - **Byta färg på texten.**
 - **Skriva med Apple Pencil.**
-- **Byta text**, alltså ändra texten i en låt i Organisera-läget.
+- **Byta typsnitt** på texten.
 - **Koppla musiktjänster till appen.**
 
 Det här är idéer och inga löften. Jag tittar på dem först när grunden fungerar.

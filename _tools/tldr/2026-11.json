@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic IPO raises over $81 billion in largest offering on record, topping SpaceX",
+  "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+  "sv": "Anthropic sålde omkring 980 miljoner aktier till 83 dollar styck och tog in 81,3 miljarder dollar, vilket enligt nyhetsbrevet är den största börsnoteringen någonsin. Aktien väntas handlas på Nasdaq under tickern ANT från torsdagen.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "A Tesla Model Y Without A Steering Wheel Is Coming",
+  "url": "https://insideevs.com/news/815960/tesla-model-y-steering-wheel-remove/",
+  "sv": "Tesla utvecklar en helt självkörande Model Y utan ratt och pedaler som ska rymma sex eller sju passagerare. Vanliga Model Y med ratt tillverkas enligt nyhetsbrevet vidare tills vidare.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Hardware Is Software",
+  "url": "https://unchartedterritories.tomaspueyo.com/p/hardware-is-software",
+  "sv": "Texten hävdar att det mesta av hårdvaruutvecklingen egentligen är mjukvaruutveckling, eftersom allt handlar om beräkningar. Hårdvaruingenjörer behöver enligt den utveckla algoritmer för att konstruera hårdvara, så att små team kan bygga stora saker.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Unblockable communication with gravity",
+  "url": "https://www.science.org/doi/10.1126/sciadv.aee0802",
+  "sv": "Trådlös kommunikation bygger i dag på elektromagnetism, som lätt kan skärmas av. Studien beskriver ett protokoll där en sändare kodar ett binärt meddelande genom att flytta en massa, och en mottagare läser av gravitationssignalen med en handhållen gravimeter.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "AWS announces ExtendDB 1.0",
+  "url": "https://aws.amazon.com/about-aws/whats-new/2026/11/aws-extenddb-1-0/",
+  "sv": "ExtendDB är en DynamoDB-kompatibel adapter som kan köras på PostgreSQL, SQLite, Cassandra och MongoDB. Den gör att DynamoDB-arbetslaster kan köras lokalt, i andra moln eller vid nätverkets kant utan att koden skrivs om, och är öppen källkod under Apache 2.0.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Foundation Software",
+  "url": "https://jacobtomlinson.dev/posts/2026/foundation-software/",
+  "sv": "Öppen källkod-projekt översvämmas av AI-genererade pull requests. Texten föreslår att utvecklare i stället publicerar forkar utan förväntan om att de ska slås ihop, så att underhållare kan söka bland dem och välja vad som ska föras in.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Nvidia interim CEO Kress tells employees 'let's move forward' at first all-hands meeting since Jensen Huang exit",
+  "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+  "sv": "På Nvidias första personalmöte sedan Jensen Huang avgick flyttades löneökningar och årlig utvärdering fram från mars till december. Enligt nyhetsbrevet är bolaget delat i frågan om han ska tas tillbaka, men styrelsen har sagt att den inte tänker göra det.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "On Waymos and their safety record",
+  "url": "https://azhdarchid.com/notes/waymo-safety-2026-11-18/",
+  "sv": "Skribenten menar att Waymo saknar incitament att förbättra trafiksäkerheten bortom en självvald nivå. Frågan om vad som är en acceptabel dödlighet flyttas enligt texten från staten till ett företag som ingen kan ställa till svars.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Agents are here to stay. How can companies really go faster?",
+  "url": "https://www.clemsau.com/posts/agents-are-here-to-stay-what-does-that-means-for-tech-companies/",
+  "sv": "Enligt texten ökar agenter hur mycket varje person kan åstadkomma, men inte förmågan att samordna sig med alla andra.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-19",
+  "dag": "torsdag 19 november 2026",
+  "dag_kort": "19 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Fewer slides, more dragons",
+  "url": "https://www.breakingchange.blog/p/fewer-slides-more-dragons",
+  "sv": "Texten beskriver hur AI gör det möjligt att skapa intressanta presentationer med mycket mindre arbete.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-11-18",
   "dag": "onsdag 18 november 2026",
   "dag_kort": "18 nov",

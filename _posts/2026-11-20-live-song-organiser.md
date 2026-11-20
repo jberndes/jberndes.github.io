@@ -23,4 +23,14 @@ Startskärmen har tre knappar, och de visar hur appen är tänkt att användas.
 
 Jag har delat upp appen i två lägen. I Live-läget går det inte att ändra något och ingenting kan öppnas av misstag. I Organisera sköter man ordningen i lugn och ro, innan det är dags att gå upp på scen.
 
-Om appen blir riktigt bra kan det bli aktuellt att också kunna visa skriven text, där appen själv styr typsnitt och storlek. Det är något jag tittar på senare.
+## Idéer längre fram
+
+Det här är sådant jag vill kunna göra, men som inte finns i appen än:
+
+- **OCR.** Läsa in de skannade bladen så att texten blir skriven text, där appen själv styr typsnitt och storlek.
+- **Byta färg på texten.**
+- **Skriva med Apple Pencil.**
+- **Byta text**, alltså ändra texten i en låt i Organisera-läget.
+- **Koppla musiktjänster till appen.**
+
+Det här är idéer och inga löften. Jag tittar på dem först när grunden fungerar.

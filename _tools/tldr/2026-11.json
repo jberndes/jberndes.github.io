@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tesla launches FSD v15, targets its biggest weaknesses, from signs to potholes",
+  "url": "https://electrek.co/2026/11/21/tesla-fsd-v15-rollout-25x-safety-reality-view/",
+  "sv": "Teslas nya FSD v15 förbättrar enligt nyhetsbrevet igenkänning av skyltar, hantering av potthål och hastighet i skolzoner. Bilen kan nu också sakta in för fartkameror, och uppdateringen rullas ut just nu.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Anthropic Mathematician Says AI Has Solved the Most Famous Problem in Math",
+  "url": "https://www.wsj.com/tech/ai/anthropic-mathematician-says-claude-has-solved-the-most-famous-problem-in-math-9361920b",
+  "sv": "En forskare på Anthropic uppger att han tillsammans med AI har hittat ett bevis för Riemannhypotesen, som matematiker försökt lösa i 167 år. Beviset ska enligt nyhetsbrevet ha klarat kontroll i bevisgranskningsprogram.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Merge",
+  "url": "https://new.life.com/stories-details/neuralink-noland-arbaugh-cover-story",
+  "sv": "Neuralink har ökat takten på operationer och utvidgat sina studier till Kanada och Storbritannien. De första deltagarna coachar nu nya deltagare, men villkoren i studierna ger ingen rätt till uppgraderingar.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Vibecoding an inference chip",
+  "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+  "sv": "En utvecklare har med hjälp av AI byggt en FPGA som kan köra en språkmodell. Texten beskriver hur det gick till och visar vad som blir möjligt med många tokens och intressanta problem.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Why China Won AI Video",
+  "url": "https://manassaloi.com/2026/11/21/why-china-won-ai-video.html",
+  "sv": "Enligt nyhetsbrevet görs över 95 procent av de nya mikrodramerna i Kina numera med AI.",
+  "kategori": "Kreativt"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Inkling 2 Mini",
+  "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+  "sv": "Thinking Machines har släppt Inkling 2 Mini, en öppen modell med 26,4 miljarder parametrar som gör extra intern beräkning för att resonera mer innan den svarar. Den leder bland öppna modeller under 100 miljarder parametrar på kodtestet DeepSWE.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "AI R&D-Relevant Model Capabilities Are Improving Rapidly",
+  "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update/",
+  "sv": "METR skriver att frontmodeller ofta matchar eller slår skickliga människor på väldefinierade kodnings- och optimeringsuppgifter. Längden på uppgifter de klarar fördubblas ungefär var 3,6:e månad.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Tencent Releases Hy4 With Multimodal Input and Million-Token Context",
+  "url": "https://huggingface.co/tencent/Hy4",
+  "sv": "Tencents öppna modell Hy4 förstår text, bild och video och har en miljon tokens kontext. Av 770 miljarder parametrar används 49 miljarder per token, och den riktar sig bland annat mot kodning, dataanvändning och forskning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Lean verification of the Riemann Hypothesis",
+  "url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+  "sv": "Levent Alpöge har publicerat ett bevis för Riemannhypotesen som ett Lean-bibliotek på 17 miljoner rader kod. Lean- och Mathlib-communityn uppger att de har full tillit till att beviset stämmer.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-23",
+  "dag": "måndag 23 november 2026",
+  "dag_kort": "23 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "The Brother-Sister Duo Who Want to Keep Anthropic Weird",
+  "url": "https://www.wsj.com/tech/ai/anthropic-dario-daniela-amodei-siblings-ipo-be84ad11",
+  "sv": "Artikeln porträtterar Dario och Daniela Amodei och hur de format Anthropics företagskultur. Företaget gör enligt texten ovanliga val, till exempel kulturintervjuer vid nyanställning.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-11-20",
   "dag": "fredag 20 november 2026",
   "dag_kort": "20 nov",

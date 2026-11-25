@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Trump sealed deal for Nvidia to rehire Jensen Huang as CEO",
+  "url": "https://www.cnbc.com/2026/11/23/trump-nvidia-jensen-huang.html",
+  "sv": "Enligt nyhetsbrevet gav president Trump ett personligt löfte om att Jensen Huang inte brutit mot lagar om nationell säkerhet. Aktiekursfallet efter avgången och frågor om den tillfälliga vd:n bidrog också till att styrelsen återinsatte honom.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Ship",
+  "url": "https://code.claude.com/docs/en/claude-ship",
+  "sv": "Claude Ship är en uppsättning agenter från Anthropic som hjälper till att göra pull requests på GitHub redo att slås ihop. Code Review hittar problem, PR Steward pushar rättningar och Claude Approvals kontrollerar ändringarna mot teamets godkännandepolicy.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GLM-5.4",
+  "url": "https://z.ai/blog/glm-5.4",
+  "sv": "Z.ai har släppt GLM-5.4, sin första flaggskeppsmodell byggd på en Loop Transformer som återanvänder ett gemensamt lagerblock för att resonera djupare utan fler parametrar. Z.ai uppger att den når samma nivå som modeller med 2 till 3 biljoner parametrar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Ladybird Web Browser/Engine Reaches Alpha",
+  "url": "https://www.phoronix.com/news/Ladybird-Browser-Alpha",
+  "sv": "Den öppna webbläsaren Ladybird, byggd från grunden med egen webbmotor, har efter fyra års arbete nått alfafasen. Enligt nyhetsbrevet fungerar den men är ännu begränsad, och vissa sajter kraschar. Alfaversionen finns för macOS och Linux.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "OpenAI and Cisco introduce Shirudo",
+  "url": "https://openai.com/index/introducing-shirudo/",
+  "sv": "Shirudo är en öppen körmiljö från OpenAI och Cisco som skyddar Linuxsystem medan patchar rullas ut. Team kan sätta in tillfälliga sköldar som blockerar angrepp utan att starta om tjänsten.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tesla FSD v15 is AI4's last shot as Musk reveals how little compute is left",
+  "url": "https://electrek.co/2026/11/23/tesla-fsd-v15-ai4-last-shot-compute-limit/",
+  "sv": "Enligt nyhetsbrevet är FSD v15 Teslas sista riktiga chans att nå självkörning utan övervakning på datorn AI4. Nästa generations chip A15 kommer inte till bilarna, och AI4.5 har fått sitt RAM-minne sänkt från 32 till 24 GB.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Faster Quantum Algorithms with Agents and Formal Verification",
+  "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+  "sv": "Google DeepMind har låtit team av Gemini 4-agenter hitta billigare versioner av kända kvantalgoritmer, där varje resultat bevisats i teorembevisaren Lean. En krets för fusionsforskning fick 11,8 gånger lägre beräkningskostnad.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Watching users is how you make products better",
+  "url": "https://jan.miksovsky.com/posts/2026/11-23-observing-users.html",
+  "sv": "Texten hävdar att man genom att se en riktig användare lösa realistiska uppgifter upptäcker problem man aldrig hade gissat, hur mycket man än tänkt igenom produkten. Rädsla för återkoppling är enligt skribenten ett säkert sätt att göra dåliga produkter.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+  "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+  "sv": "Amazon har förvärvat tekniken bakom Decarts optimeringsstack, samt grundarteamet och forskarna, för 7,5 miljarder dollar. Programvaran hjälper AI-modeller att köra effektivt på hårdvara från Nvidia, Amazon och Google.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-24",
+  "dag": "tisdag 24 november 2026",
+  "dag_kort": "24 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "My AI coding agents spend most of their time waiting",
+  "url": "https://jurajb.dev/coding-agents-mostly-waiting/",
+  "sv": "En utvecklare upptäckte att hens Claude Code-agenter bara var igång cirka 26 procent av tiden. Resten gick åt till väntan.",
+  "kategori": "Skola och AI"
+ },
+ {
   "datum": "2026-11-23",
   "dag": "måndag 23 november 2026",
   "dag_kort": "23 nov",

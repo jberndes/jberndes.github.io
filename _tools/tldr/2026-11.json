@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Huang Apologizes to Nvidia Staff, Says He's in Daily Therapy",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-24/nvidia-s-huang-to-host-all-hands-meeting-a-day-after-his-return",
+  "sv": "Jensen Huang sa på ett allmänt personalmöte att han går i daglig terapi för att hantera beteendet som ledde till att han tillfälligt avsattes som vd för Nvidia. Enligt nyhetsbrevet erkänner han att han brutit mot bolagets uppförandekod och säger att styrelsen kommer att hålla honom ansvarig.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Cognition's SWE-2.1",
+  "url": "https://cognition.com/blog/swe-2-1",
+  "sv": "Cognition har släppt SWE-2.1, en uppgraderad kodnings- och agentmodell som tränats med förstärkningsinlärning ovanpå Kimi K3. Enligt nyhetsbrevet ungefär dubblar den föregångarens resultat i testet Terminal-Bench 4.1 till 50,0 och har bättre säkerhetskunskaper.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Most Famous Problem in Math Was Just Solved by AI—and This Human",
+  "url": "https://www.wsj.com/tech/ai/riemann-hypothesis-anthropic-math-levent-alpoge-75351bcb",
+  "sv": "Matematikern Levent Alpöge, som arbetar på Anthropic, säger sig ha löst Riemannhypotesen med hjälp av AI. Enligt nyhetsbrevet har hans 17 miljoner rader långa bevis redan kontrollerats av två oberoende grupper, men det återstår att se om det håller för fortsatt granskning.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Claude Artifacts Become Mac and Windows Apps",
+  "url": "https://claude.com/resources/articles/install-as-app",
+  "sv": "Claude-artefakter kan nu installeras som appar för Mac och Windows, i beta för alla planer. Varje app får egen ikon och eget fönster, uppdateras när artefakten ändras och kan delas.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Agentic coding on an open-source project",
+  "url": "https://blog.frankrousseau.fr/agentic-coding-on-an-open-source-project/",
+  "sv": "Artikeln beskriver hur utvecklare nu lämnar över allt kodande till LLM-agenter och går igenom prompter, kontexthantering, skills, granskning och orkestrering. Den visar också en arbetsprocess för stora QA-körningar, datamigreringar och helt ny programvara.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Swarms do not yet raise the roof",
+  "url": "https://www.paradigm3.org/research/swarms",
+  "sv": "Enligt nyhetsbrevet ger svärmar av språkmodeller snabbare men mindre effektiva resultat än en enskild agent med lika stor tokenbudget, och prestandan försämras ju fler agenter som läggs till. Tidigare fördelar förklaras av att enskilda agenter blir förslitna, och med nystartad kontext presterar de bättre än svärmar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Tech predictions for 2027 and beyond",
+  "url": "https://www.allthingsdistributed.com/2026/11/tech-predictions-for-2027-and-beyond.html",
+  "sv": "Artikeln spår att neurovetenskap får större inflytande på hur system designas, att adversariell testning kommer in i alla faser av programvaruutveckling och att suveränitet blir ett icke-funktionellt krav. Samarbete mellan forskare och agenter väntas ge nya läkemedel och diagnostik.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+  "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+  "sv": "OpenAI säger att GPT-6-modellerna kan designa nya proteiner med enbart resonemang och kod, utan att anropa specialiserade biologimodeller. Labbtester med en forskningspartner visade att vissa designer fungerade, men arbetet byggde ändå på specialverktyg för att sålla bland kandidaterna.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "xAI Founders Unveil New AI Startup to Predict Future Events",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-24/xai-founders-unveil-new-ai-startup-to-predict-future-events",
+  "sv": "Startupen Epochal, grundad av tre tidigare xAI-grundare, har en första produkt där AI-agenter kan surfa i en arkiverad version av internet som det såg ut ett visst datum. Idén är att simulera det förflutna för att lära AI att förutse framtiden.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-25",
+  "dag": "onsdag 25 november 2026",
+  "dag_kort": "25 nov",
+  "nyhetsbrev": "TLDR AI",
+  "rubrik": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+  "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+  "sv": "Amazon säger att AI-agenter i ramverket Cairn hittade och utnyttjade en nolldagarssårbarhet i en medicinsk bildapp på en universitetsserver utan mänsklig styrning utöver en målprompt. Palo Alto Networks spårade dessutom en Cairn-kampanj mot minst 19 organisationer. Amazon varnar för att offensiva agentoperationer redan förekommer.",
+  "kategori": "Övrigt"
+ },
+ {
   "datum": "2026-11-24",
   "dag": "tisdag 24 november 2026",
   "dag_kort": "24 nov",

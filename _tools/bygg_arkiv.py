@@ -26,6 +26,9 @@ def shell(title, desc, canon, body, back_href, back_txt):
 <body>
   <a class="hoppa" href="#innehall">Hoppa till innehållet</a>
 {body}
+  <!-- Cloudflare Web Analytics -->
+  <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "39d318935ad046c09995bc8d55e382f3"}}'></script>
+  <!-- End Cloudflare Web Analytics -->
 </body>
 </html>
 '''

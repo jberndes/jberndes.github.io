@@ -1,5 +1,105 @@
 [
  {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Neuralink receives FDA approval for 'pivotal' brain implant trial in ALS patients",
+  "url": "https://www.engadget.com/2329008/neuralink-receives-fda-approval-for-brain-implant-trial-in-als-patients/",
+  "sv": "Neuralink har fått tillstånd av FDA att starta en studie av sitt hjärn-datorgränssnitt LINK på ett begränsat antal patienter med ALS i USA. Enligt nyhetsbrevet ska studien utvärdera hur väl patienterna kan styra digitala enheter med tanken och hur säkert och pålitligt systemet är på lång sikt.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "SpaceX Gets Approval to Launch One Million Satellites for Orbital Data Centers",
+  "url": "https://www.wsj.com/business/fcc-authorizes-spacex-to-build-1-million-data-centers-in-space-0eb20ee7",
+  "sv": "Enligt nyhetsbrevet har FCC godkänt att SpaceX skjuter upp en miljon datacenter i omloppsbana, och Anthropic och Google har redan lovat betala miljarder för kapacitet. SpaceX har till 2033 på sig att skicka upp den första satelliten och till 2040 för hela konstellationen.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The short age of dragon riders",
+  "url": "https://atilloy.com/2026/11/16/the-short-age-of-dragon-riders/",
+  "sv": "Texten hävdar att AI-modeller som är tillgängliga för allmänheten i augusti i år passerade en gräns och nu är starkare än de flesta teoretiska fysiker på de flesta tekniska uppgifter. Enligt nyhetsbrevet kan modellerna göra komplicerade analytiska beräkningar och långa bevis med minimal vägledning.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "SpaceX is not a monopoly, tech incumbents obviously lack urgency, and other Harsh Truths",
+  "url": "https://blog.caseyhandmer.com/2026/11/25/spacex-is-not-a-monopoly-tech-incumbents-obviously-lack-urgency-and-other-harsh-truths/",
+  "sv": "Enligt nyhetsbrevet menar skribenten att den amerikanska rymdindustrin är ohälsosam och att SpaceX plan att avveckla Falcon om tre år väcker oro bland branschfolk som saknar alternativ. Han skriver att SpaceX har bäst förutsättningar att placera datorkraft i rymden.",
+  "kategori": "Övrigt"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Late Mid-Game Software Engineering",
+  "url": "https://benjamincongdon.me/blog/2026/11/25/Late-Mid-Game-Software-Engineering/",
+  "sv": "Texten beskriver en växande del av arbetet som kan automatiseras helt så snart det finns ett kontrollerbart mål, och att agenter blir bättre på att välja problem och bedöma avsikt och smak. Enligt nyhetsbrevet måste man därför hela tiden pröva vad som kräver människor och vad som kan lämnas över.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Smart People Who Give a Shit Use Tools",
+  "url": "https://www.iankduncan.com/engineering/2026-11-19-smart-people-who-give-a-shit-use-tools",
+  "sv": "Skribenten menar att det skadar att likställa ingenjörer som använder AI med chefer som urholkar sina företag. Enligt nyhetsbrevet förlorar företag kloka medarbetare när de tar bort ansvar och straffar invändningar, och med verkligt ansvar och en bra modell bygger samma människor skyddsräcken och rättningar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The Business of Anthropic",
+  "url": "https://mhdempsey.substack.com/p/the-business-of-anthropic",
+  "sv": "Enligt nyhetsbrevet riktar Anthropic tiotals miljarder dollar i datorkraft mot ständigt flyttade mål för att sälja försprång i frontlinjen. Texten beskriver företaget som ett belånat verk med en FoU-avdelning som kan behålla marginalerna eftersom efterfrågan på frontintelligens ökar.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "HOLY SHIT HOLY SHIT HOLY SHIT HOLY SHIT",
+  "url": "https://scottaaronson.blog/?p=10379",
+  "sv": "Scott Aaronson skriver att OpenAI påstår sig ha bevisat att ω, exponenten för matrismultiplikation, är exakt 9/4. Enligt nyhetsbrevet är inlägget kort.",
+  "kategori": "Skola och AI"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "Ladybird browser's first downloadable alpha is surprisingly capable",
+  "url": "https://arstechnica.com/gadgets/2026/11/ladybirds-new-alpha-shows-theres-life-beyond-chromium/",
+  "sv": "Ladybird har släppt en första nedladdningsbar alfaversion. Enligt nyhetsbrevet är både renderingsmotorn och JavaScript-motorn LibJS skrivna från grunden.",
+  "kategori": "Webb och appar"
+ },
+ {
+  "datum": "2026-11-26",
+  "dag": "torsdag 26 november 2026",
+  "dag_kort": "26 nov",
+  "nyhetsbrev": "TLDR Tech",
+  "rubrik": "The beauty of CSS mixins",
+  "url": "https://patrickbrosset.com/articles/2026-11-25-the-beauty-of-css-mixins/",
+  "sv": "Artikeln förklarar att en CSS-mixin är en namngiven bit CSS-kod som man definierar en gång och kan återanvända på andra ställen i en stilmall.",
+  "kategori": "Webb och appar"
+ },
+ {
   "datum": "2026-11-25",
   "dag": "onsdag 25 november 2026",
   "dag_kort": "25 nov",
